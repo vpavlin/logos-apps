@@ -1,11 +1,11 @@
 {
   "repo": {
-    "timestamp": 1786102186000,
+    "timestamp": 1786103052000,
     "version": 20002,
     "name": "Logos Apps (vpavlin)",
     "icon": "icon.png",
     "address": "https://vpavlin.github.io/logos-apps/fdroid/repo",
-    "description": "Public F-Droid repo for vpavlin Logos apps (QAKU + more)."
+    "description": "Public repo for vpavlin Logos apps (QAKU + more)."
   },
   "requests": {
     "install": [],
@@ -23,15 +23,15 @@
       "name": "QAKU",
       "sourceCode": "https://github.com/vpavlin/qaku-logos",
       "summary": "Local-first p2p Q&A on Logos (questions, upvotes, answers, polls)",
-      "added": 1786102186000,
+      "added": 1786103052000,
       "packageName": "co.logos.qaku",
-      "lastUpdated": 1786102186000
+      "lastUpdated": 1786103052000
     }
   ],
   "packages": {
     "co.logos.qaku": [
       {
-        "added": 1786102186000,
+        "added": 1786103052000,
         "apkName": "qaku-0.1.48-arm64.apk",
         "hash": "61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969",
         "hashType": "sha256",

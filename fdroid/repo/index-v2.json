@@ -4,7 +4,7 @@
       "en-US": "Logos Apps (vpavlin)"
     },
     "description": {
-      "en-US": "Public F-Droid repo for vpavlin Logos apps (QAKU + more)."
+      "en-US": "Public repo for vpavlin Logos apps (QAKU + more)."
     },
     "icon": {
       "en-US": {
@@ -14,7 +14,7 @@
       }
     },
     "address": "https://vpavlin.github.io/logos-apps/fdroid/repo",
-    "timestamp": 1786102186000,
+    "timestamp": 1786103052000,
     "categories": {
       "Internet": {
         "name": {
@@ -26,11 +26,11 @@
   "packages": {
     "co.logos.qaku": {
       "metadata": {
-        "added": 1786102186000,
+        "added": 1786103052000,
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1786102186000,
+        "lastUpdated": 1786103052000,
         "sourceCode": "https://github.com/vpavlin/qaku-logos",
         "authorName": "vpavlin",
         "name": {
@@ -46,7 +46,7 @@
       },
       "versions": {
         "61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969": {
-          "added": 1786102186000,
+          "added": 1786103052000,
           "file": {
             "name": "/qaku-0.1.48-arm64.apk",
             "sha256": "61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969",
