@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-07T12:02:00Z",
+  "generatedAt": "2026-08-07T12:58:44Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-07T12:02:00Z",
+          "releasedAt": "2026-08-07T12:58:43Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -39,12 +39,12 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-07T12:02:00Z",
-          "publisherRef": "qaku-v0.1.16",
+          "releasedAt": "2026-08-07T12:58:44Z",
+          "publisherRef": "qaku-v0.1.17",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
-          "size": 29281,
-          "sha256": "447f978a9f1e065c8386344b1b63cb0ce0d941a84b4b0f9a230c2f37f6418d04",
-          "rootHash": "862b59520ee55e39cc0dc763c1ece83c5e88299cb5ce2a8d28c6660f984c314a",
+          "size": 29500,
+          "sha256": "2b8c89269c7d8152e3127f5b612ed73ebcaefab83028243e45db673f1ba11c8b",
+          "rootHash": "056a35039fc0363e51ee38d16f82c87b29ed07efb80c8d711fc082fb749675c9",
           "manifest": {
             "author": "",
             "category": "social",
@@ -54,16 +54,16 @@
             "description": "Local-first, multi-writer Q&A. Sessions, questions, per-voter upvotes, owner answers and moderation, and polls - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and hub fold). Pure-QML view over the qaku_core module.",
             "display_name": "QAKU - Q&A",
             "hashes": {
-              "root": "862b59520ee55e39cc0dc763c1ece83c5e88299cb5ce2a8d28c6660f984c314a",
-              "variants": "df7562103e3f05e9760994ffa0a2ad90d024e37b8fc812309889eb33140a4fe0",
-              "variants/linux-amd64": "2a8bb065365e4f58c168c784a064c9e9221bdc2a51c411bbf849a705ae447d28"
+              "root": "056a35039fc0363e51ee38d16f82c87b29ed07efb80c8d711fc082fb749675c9",
+              "variants": "af6499f4ea7594cdfd9b1002e74ab7d852e851cceb5115a235ceeeb17f5396b3",
+              "variants/linux-amd64": "819e432f526403bd296e1d0b0b2ba40b0a2648b00cf0ce596165c1482a3635c6"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "qaku",
             "type": "ui_qml",
-            "version": "0.1.16",
+            "version": "0.1.17",
             "view": "Main.qml"
           }
         }
@@ -73,12 +73,12 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-07T12:02:00Z",
-          "publisherRef": "qaku_core-v0.1.13",
+          "releasedAt": "2026-08-07T12:58:44Z",
+          "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
-          "size": 4152674,
-          "sha256": "b263d1f2c1c080b8561f3f5188ceaf7fac3221285637858aa12fb72823e78e38",
-          "rootHash": "c5b6600b4980a7ab631b527b0668222df1819d006d381a2b2d7c83e1cb5dc47c",
+          "size": 4155555,
+          "sha256": "6bb03ea9a6491f31e072dcefa44c032a9162b8e8c67a3f0fab785891d22782c5",
+          "rootHash": "f5dc6a0b1c156e41e4eb595810a752d9be858240773edbe222c1ee5259ac601f",
           "manifest": {
             "author": "",
             "category": "social",
@@ -87,9 +87,9 @@
             ],
             "description": "QAKU engine and sync core: the append-only event-log Q&A engine (questions, upvotes, answers, moderation, polls), session crypto, and Delivery sync over SDS Reliable Channels. Runs headless as the always-on hub and behind the qaku ui_qml view.",
             "hashes": {
-              "root": "c5b6600b4980a7ab631b527b0668222df1819d006d381a2b2d7c83e1cb5dc47c",
-              "variants": "5b21bc0de35512ca68bea2f075a3fa801a4830131fb50207e7565fc1bab0615e",
-              "variants/linux-amd64": "d122e63e76ad70f7c7e63e5760f556274f68ef5f2bfa3193feb56c270a963bd2"
+              "root": "f5dc6a0b1c156e41e4eb595810a752d9be858240773edbe222c1ee5259ac601f",
+              "variants": "ddc66ec439153a7a16d4aa4cd54740527299ef11b34ca36d9563f8673b1a89ff",
+              "variants/linux-amd64": "562ec264aadaceeb34cc0796ee8c0c11efb2110200bf37391f3bb006bed29267"
             },
             "icon": "",
             "main": {
@@ -98,7 +98,7 @@
             "manifestVersion": "0.3.0",
             "name": "qaku_core",
             "type": "core",
-            "version": "0.1.13"
+            "version": "0.1.14"
           }
         }
       ]
