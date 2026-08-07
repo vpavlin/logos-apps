@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "name": "logos-apps",
+  "displayName": "Logos Apps — vpavlin",
+  "description": "Public Basecamp package repo for vpavlin's Logos apps (QAKU Q&A, KYM budget, Perun) and the shared delivery module.",
+  "homepage": "https://github.com/vpavlin/logos-apps",
+  "indexUrl": "https://vpavlin.github.io/logos-apps/basecamp/index.json",
+  "trustedSigners": []
+}

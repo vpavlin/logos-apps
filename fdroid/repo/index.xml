@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="Logos Apps (vpavlin)" pubkey="308204f3308202dba00302010202084347d62789c4ab46300d06092a864886f70d01010b050030273110300e060355040b1307462d44726f6964311330110603550403130a6a696d6d792d637269623020170d3236303731343137303834395a180f32303533313132393137303834395a30273110300e060355040b1307462d44726f6964311330110603550403130a6a696d6d792d6372696230820222300d06092a864886f70d01010105000382020f003082020a0282020100a8477ccd54a8e15a9cbd60c14b558dde8191f93b341a0b1bb06e8ea34ff1733364eb98fc9dfb2188bf2e4970f8e22e0adbf06400f99c2b11d86b202bdfdb719bc3ccd2bef7450d9053b33496a8c7c64f89c49d8843c36303cab50762e8a98231d2fbfc10ae283c553c7ff1b087a1b10522d2a80ec23078f7971f4bd4e2c42e7564aa1a55ed212f32f3b065f9aa719040afeef7ae9ada52b305926eac939de9d754854a95b8fdb099961799c635067e3f24ece8c1329f689aa49643d9c91338f6b7d32d2421fbf334ea65295fff2879e85c275c5fe8c1e699ed1291728947fb75fb7722b4f2fc72879283a462d427e918893cc3b23abe1ab487cfc969c9aecc7ae71302828c0128234e6e1b06a7bbaf5119c3268a251d011915a02610aee7c9892001caf6210f7b4216338a99678622b0f86c4ad0b45efa5c32dcc1d5734d153794407dd00eaf8b0283de5c00d585f78b91ef3e7d718586c5d5a5ce9046418a210454ee1844496bae3783d0b1f07b07997e21a0141127ff80e1f66374f3339dd5ab33fe348d620ee04e8fd856c5012f322e5ecb73ee13a7b5b0054e0bcb080aa0dd65d68daf9960990fc0a82167f1a2ddd1d6e45b1a469499f97c2432b65c59d629b781630f0a55cb92faa3350d3621af56c18763eac852873ffc6feae22cb1ea48c6109622ee97568507be537545b40dc3c854a6f8aff2c3a3b7f5714834b4070203010001a321301f301d0603551d0e0416041472220c152461a351f9cf654712b82ea494de50dd300d06092a864886f70d01010b050003820201000e81f7ff1788488d13e299a786a40487bb3787f62b13d5276d5e66bdef1ea78a320da223902000c8bccb256c5fd6f3b0526b8320b51959bd1a30f25e2cb575ea97a3931aa441ef10d398b4e05852db6493fb15f3f3594c76e5643253e02def74be6024c4b294210386c4aee7cb6c245afd07d3b7ea5cbbc7faff2c75875e9781eed5e6bfedf2c3464af05b9b71ee7fac4578e0b036a903ffac0831f95fc3c12d1b756c8129a1c30130d4d122a9022d6fec20caae8ad571e1c03b167d063feb36a8d371f7f86cae5ce0a64bb5a4d62d23bb9cd9d61df151f8bf822b2e71b526a05440874ebdec63a83f6c91203c33e0232de59aa7018fc07e77ed42112b8a541a6ae6adb0762186ae1cd284045ed23c8fd35c3015c3a819c352f67179362044fa85ec51bb7ce9dc563469c03842ae35d1378f133503de3d842fbcc4784276690a2b25d8d284e79d4158a40751719daa7c3916344b959e825b066b04e9a75c2f0c7342f91c52030a4d8117ee12b9578fa570555b70933e6d519b1559436d0875bb138060800c6cac183eeb81b4c0b19f325fe34e29621abe577cac268441c0cc6406fae57fa23329d2991ca4ec1a416ebae719e40be8f4d8a9b6404a506b971dc73f661bb7d3cb133f010e760db0461efb11a25a13d653c2eaba9053bc3faff8fff15cc8b1cfe93393b836f19a45c5db3eadf4073d45f973fc86a3b548ebcffba1" timestamp="1786102186" url="https://vpavlin.github.io/logos-apps/fdroid/repo" version="20002">
+		<description>Public F-Droid repo for vpavlin Logos apps (QAKU + more).</description>
+	</repo>
+	<application id="co.logos.qaku">
+		<id>co.logos.qaku</id>
+		<added>2026-08-07</added>
+		<lastupdated>2026-08-07</lastupdated>
+		<name>QAKU</name>
+		<summary>Local-first p2p Q&amp;A on Logos (questions, upvotes, answers, polls)</summary>
+		<desc>Local-first p2p Q&amp;A on Logos (questions, upvotes, answers, polls)</desc>
+		<license>Unknown</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web></web>
+		<source>https://github.com/vpavlin/qaku-logos</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>2147483647</marketvercode>
+		<package>
+			<version>0.1.48</version>
+			<versioncode>47</versioncode>
+			<apkname>qaku-0.1.48-arm64.apk</apkname>
+			<hash type="sha256">61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969</hash>
+			<size>50928156</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-08-07</added>
+			<sig>b004a2470b0626b25683441508275712</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.qaku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>
