@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786108209000,
+    "timestamp": 1786108825000,
     "version": 20002,
     "name": "Logos Apps (vpavlin)",
     "icon": "icon.png",
@@ -23,17 +23,17 @@
       "name": "QAKU",
       "sourceCode": "https://github.com/vpavlin/qaku-logos",
       "summary": "Local-first p2p Q&A on Logos (questions, upvotes, answers, polls)",
-      "added": 1786108209000,
+      "added": 1786108825000,
       "packageName": "co.logos.qaku",
-      "lastUpdated": 1786108209000
+      "lastUpdated": 1786108825000
     }
   ],
   "packages": {
     "co.logos.qaku": [
       {
-        "added": 1786108209000,
-        "apkName": "qaku-0.1.49-arm64.apk",
-        "hash": "a1bc072271a244ef8568dcfe8cb79985ba0dbd90ee53835ae4caae6948cc4af1",
+        "added": 1786108825000,
+        "apkName": "qaku-0.1.50-arm64.apk",
+        "hash": "54501d525936bbb87ead24e36bf1efc07ca7b3fbe3901203a2430e1b0457f739",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "nativecode": [
@@ -45,7 +45,7 @@
         "packageName": "co.logos.qaku",
         "sig": "b004a2470b0626b25683441508275712",
         "signer": "eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f",
-        "size": 50928164,
+        "size": 50928472,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -185,8 +185,8 @@
             null
           ]
         ],
-        "versionCode": 48,
-        "versionName": "0.1.49"
+        "versionCode": 49,
+        "versionName": "0.1.50"
       }
     ]
   }
