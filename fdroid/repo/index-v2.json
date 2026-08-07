@@ -14,7 +14,7 @@
       }
     },
     "address": "https://vpavlin.github.io/logos-apps/fdroid/repo",
-    "timestamp": 1786103052000,
+    "timestamp": 1786108209000,
     "categories": {
       "Internet": {
         "name": {
@@ -26,11 +26,11 @@
   "packages": {
     "co.logos.qaku": {
       "metadata": {
-        "added": 1786103052000,
+        "added": 1786108209000,
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1786103052000,
+        "lastUpdated": 1786108209000,
         "sourceCode": "https://github.com/vpavlin/qaku-logos",
         "authorName": "vpavlin",
         "name": {
@@ -45,12 +45,12 @@
         "preferredSigner": "eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f"
       },
       "versions": {
-        "61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969": {
-          "added": 1786103052000,
+        "a1bc072271a244ef8568dcfe8cb79985ba0dbd90ee53835ae4caae6948cc4af1": {
+          "added": 1786108209000,
           "file": {
-            "name": "/qaku-0.1.48-arm64.apk",
-            "sha256": "61e08da10cecb061a4f19ae22e18218313fe86743faa052992af888031270969",
-            "size": 50928156
+            "name": "/qaku-0.1.49-arm64.apk",
+            "sha256": "a1bc072271a244ef8568dcfe8cb79985ba0dbd90ee53835ae4caae6948cc4af1",
+            "size": 50928164
           },
           "manifest": {
             "nativecode": [
@@ -59,8 +59,8 @@
               "x86",
               "x86_64"
             ],
-            "versionName": "0.1.48",
-            "versionCode": 47,
+            "versionName": "0.1.49",
+            "versionCode": 48,
             "usesSdk": {
               "minSdkVersion": 23,
               "targetSdkVersion": 34
