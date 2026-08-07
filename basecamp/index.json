@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-07T11:30:13Z",
+  "generatedAt": "2026-08-07T11:53:13Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "delivery_module-v0.2.3",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/logos-delivery_module-module-v0.2.3.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
           "sha256": "df672718b974dccb061845716f643095d3dd01649be0a53ac6e26117c8c4f5cf",
           "rootHash": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
@@ -39,9 +39,9 @@
       "name": "kym",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "kym-v0.6.8",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/logos-kym-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
           "size": 83254,
           "sha256": "1d4786464255401936088228280e35e38b7ffbe0656ac21f229eb8726026621d",
           "rootHash": "63f8611baacb9f1a56eb4b0971f93a10f8dd8ddf73528998dc845749e6d5468c",
@@ -72,9 +72,9 @@
       "name": "kym_core",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "kym_core-v0.7.4",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/logos-kym_core-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
           "size": 4194968,
           "sha256": "f4334d4f2286ba800727939dd1c2c69fa6c7937469b28a7b7c54767e2e08a90f",
           "rootHash": "72e2b9b5da3f8b8739200509936ec7678d48b14f3ce65d6efd26424d3e26a20a",
@@ -106,9 +106,9 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "qaku-v0.1.16",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/logos-qaku-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29281,
           "sha256": "447f978a9f1e065c8386344b1b63cb0ce0d941a84b4b0f9a230c2f37f6418d04",
           "rootHash": "862b59520ee55e39cc0dc763c1ece83c5e88299cb5ce2a8d28c6660f984c314a",
@@ -140,9 +140,9 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "qaku_core-v0.1.13",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/logos-qaku_core-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4152674,
           "sha256": "b263d1f2c1c080b8561f3f5188ceaf7fac3221285637858aa12fb72823e78e38",
           "rootHash": "c5b6600b4980a7ab631b527b0668222df1819d006d381a2b2d7c83e1cb5dc47c",
@@ -174,9 +174,9 @@
       "name": "perun_analytics",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:30:13Z",
+          "releasedAt": "2026-08-07T11:53:13Z",
           "publisherRef": "perun_analytics-v0.6.0",
-          "url": "https://vpavlin.github.io/logos-apps/basecamp/perun_analytics.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/perun_analytics.lgx",
           "size": 4907368,
           "sha256": "f5e5047b1c73a028afd0a18682790478adf12f66929ff040ce2f9145ac4dcaaa",
           "rootHash": "81625ec08a0dedf6c9711aebe04664cece20260433ec79b0d857a0771c5d9c9d",
