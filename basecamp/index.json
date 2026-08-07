@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-07T11:53:13Z",
+  "generatedAt": "2026-08-07T12:02:00Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:53:13Z",
+          "releasedAt": "2026-08-07T12:02:00Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -36,77 +36,10 @@
       ]
     },
     {
-      "name": "kym",
-      "versions": [
-        {
-          "releasedAt": "2026-08-07T11:53:13Z",
-          "publisherRef": "kym-v0.6.8",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
-          "size": 83254,
-          "sha256": "1d4786464255401936088228280e35e38b7ffbe0656ac21f229eb8726026621d",
-          "rootHash": "63f8611baacb9f1a56eb4b0971f93a10f8dd8ddf73528998dc845749e6d5468c",
-          "manifest": {
-            "author": "",
-            "category": "finance",
-            "dependencies": [
-              "kym_core"
-            ],
-            "description": "Local-first zero-based budget. Envelope categories, a monthly grid, accounts and credit-card handling - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and peers fold). Pure-QML view over the kym_core module.",
-            "hashes": {
-              "root": "63f8611baacb9f1a56eb4b0971f93a10f8dd8ddf73528998dc845749e6d5468c",
-              "variants": "37094646331e992d1a7cec0245f5f793fdb419980b451e6632a4770b8969fe13",
-              "variants/linux-amd64": "89901b7929c356eb95bdd987c7c9a9fe78a00b29aa9f636bd0bd1720083b6356"
-            },
-            "icon": "icon.png",
-            "main": {},
-            "manifestVersion": "0.2.0",
-            "name": "kym",
-            "type": "ui_qml",
-            "version": "0.6.8",
-            "view": "Main.qml"
-          }
-        }
-      ]
-    },
-    {
-      "name": "kym_core",
-      "versions": [
-        {
-          "releasedAt": "2026-08-07T11:53:13Z",
-          "publisherRef": "kym_core-v0.7.4",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
-          "size": 4194968,
-          "sha256": "f4334d4f2286ba800727939dd1c2c69fa6c7937469b28a7b7c54767e2e08a90f",
-          "rootHash": "72e2b9b5da3f8b8739200509936ec7678d48b14f3ce65d6efd26424d3e26a20a",
-          "manifest": {
-            "author": "",
-            "category": "finance",
-            "dependencies": [
-              "delivery_module"
-            ],
-            "description": "KYM engine and sync core: the append-only event-log budget engine, household crypto, and Delivery sync. Runs headless (the always-on hub) and behind the kym ui_qml view.",
-            "hashes": {
-              "root": "72e2b9b5da3f8b8739200509936ec7678d48b14f3ce65d6efd26424d3e26a20a",
-              "variants": "04f89f40ca865a4364bc31388b54b97088047507dcfef8e5d683ffbadbe01b0d",
-              "variants/linux-amd64": "12cad5975ebd57f594933756d2a6ff48e5ad8ea67d37f7a813ac3432f2e1a2e1"
-            },
-            "icon": "",
-            "main": {
-              "linux-amd64": "kym_core_plugin.so"
-            },
-            "manifestVersion": "0.3.0",
-            "name": "kym_core",
-            "type": "core",
-            "version": "0.7.4"
-          }
-        }
-      ]
-    },
-    {
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:53:13Z",
+          "releasedAt": "2026-08-07T12:02:00Z",
           "publisherRef": "qaku-v0.1.16",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29281,
@@ -140,7 +73,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-07T11:53:13Z",
+          "releasedAt": "2026-08-07T12:02:00Z",
           "publisherRef": "qaku_core-v0.1.13",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4152674,
@@ -166,41 +99,6 @@
             "name": "qaku_core",
             "type": "core",
             "version": "0.1.13"
-          }
-        }
-      ]
-    },
-    {
-      "name": "perun_analytics",
-      "versions": [
-        {
-          "releasedAt": "2026-08-07T11:53:13Z",
-          "publisherRef": "perun_analytics-v0.6.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/perun_analytics.lgx",
-          "size": 4907368,
-          "sha256": "f5e5047b1c73a028afd0a18682790478adf12f66929ff040ce2f9145ac4dcaaa",
-          "rootHash": "81625ec08a0dedf6c9711aebe04664cece20260433ec79b0d857a0771c5d9c9d",
-          "manifest": {
-            "author": "",
-            "category": "fitness",
-            "dependencies": [
-              "delivery_module"
-            ],
-            "description": "Detailed running analytics for Perun \u2014 ingests runs synced over Logos Delivery and shows splits, elevation, pace and trends.",
-            "hashes": {
-              "root": "81625ec08a0dedf6c9711aebe04664cece20260433ec79b0d857a0771c5d9c9d",
-              "variants": "08d74183b2699f1c5c9e7dc2b70e110daaba93ac3e0224a9b1a008d0c05cb58f",
-              "variants/linux-amd64": "0691d681cab82340ac575d944d0b6082502b5469862825d9dd8cb5cdb57b61d1"
-            },
-            "icon": "icon.png",
-            "main": {
-              "linux-amd64": "perun_analytics_plugin.so"
-            },
-            "manifestVersion": "0.2.0",
-            "name": "perun_analytics",
-            "type": "ui_qml",
-            "version": "0.6.0",
-            "view": "qml/Main.qml"
           }
         }
       ]
