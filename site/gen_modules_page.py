@@ -145,6 +145,8 @@ def build_module_cards(index, overrides, offline):
             continue
         m = v.get("manifest", {}) or {}
         name = pkg.get("name", m.get("name", "?"))
+        if m.get("type") == "core" or name == "delivery_module":
+            continue   # dependency-only: kept in index.json for resolution, hidden on the page
         ov = overrides.get(name, {})
         title = m.get("display_name") or name
         icon = None
