@@ -18,7 +18,26 @@ and push. The storefront rebuilds automatically and the app appears in the
 The APK is signed with the **app's** release key; the **index** is signed with
 the **repo** keystore (`logosapps`) — two different keys. That's expected.
 
-## Steps — publishing Shrooms (formerly Logos VPN)
+## One command (recommended — for you or an agent)
+
+From a checkout of this repo (`vpavlin/logos-apps`):
+
+```sh
+scripts/publish-app.sh \
+  --apk     path/to/shrooms-release.apk \
+  --name    "Shrooms" \
+  --summary "Mesh VPN on Logos" \
+  --source  "https://github.com/<owner>/<repo>" \
+  [--description "..."] [--category Internet] [--icon path/to/icon.png]
+```
+
+It reads the `applicationId` + `versionCode` + `versionName` straight from the
+APK, writes the metadata, runs `fdroid update`, syncs the built repo into this
+repo and pushes — the storefront rebuilds and the app appears in the **Android**
+tab in ~2–3 min. Add `--no-push` to stage without publishing. It verifies the
+app actually landed in `index-v2.json` and fails loudly if the metadata is wrong.
+
+## Manual steps (what the script does under the hood)
 
 ```sh
 export ANDROID_HOME=$HOME/Android/Sdk
