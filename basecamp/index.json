@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-10T06:56:55Z",
+  "generatedAt": "2026-08-10T13:18:00Z",
   "packages": [
     {
       "name": "delivery_module",
@@ -31,38 +31,6 @@
             "name": "delivery_module",
             "type": "core",
             "version": "0.2.3"
-          }
-        }
-      ]
-    },
-    {
-      "name": "logos_vpn",
-      "versions": [
-        {
-          "releasedAt": "2026-08-10T06:56:55Z",
-          "publisherRef": "logos_vpn-v0.1.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-logos_vpn-module.lgx",
-          "size": 14542,
-          "sha256": "97c0d303056affe1659ebe3512dd7b951376a3ecf99721b7ff59badf406c04cf",
-          "rootHash": "72e8718533da2043c885637a6fa800709c72c3005f2024dd6ec2fc8dd84afd34",
-          "manifest": {
-            "author": "",
-            "category": "network",
-            "dependencies": [],
-            "description": "Monitor an overlay mesh between your own devices. Shows which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only: the daemon does the work, this watches it.",
-            "display_name": "logos-vpn",
-            "hashes": {
-              "root": "72e8718533da2043c885637a6fa800709c72c3005f2024dd6ec2fc8dd84afd34",
-              "variants": "7d9ee54fb5397f96966642a5b9d01f78bc0a79877a0593aa5a7c09ec8754c54c",
-              "variants/linux-amd64": "4ae8ea4fac59702c2fcea97f1b5e79f6b0834e8f128c832cc76c9f5cb728c535"
-            },
-            "icon": "icon.png",
-            "main": {},
-            "manifestVersion": "0.3.0",
-            "name": "logos_vpn",
-            "type": "ui_qml",
-            "version": "0.1.0",
-            "view": "Main.qml"
           }
         }
       ]
@@ -131,6 +99,38 @@
             "name": "qaku_core",
             "type": "core",
             "version": "0.1.14"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shrooms",
+      "versions": [
+        {
+          "releasedAt": "2026-08-10T13:18:00Z",
+          "publisherRef": "shrooms-v0.2.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module.lgx",
+          "size": 15120,
+          "sha256": "c10201daddeec7d1d86c85372ceb5cc727996885762af903a46a7e56dcfc2578",
+          "rootHash": "a2d9dca87e9de98a543f6dc694f3edeb6df095a3538110d6bc20f7f127bdbad3",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [],
+            "description": "Watch a Shrooms mesh: which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only \u2014 the daemon does the work, this watches it.",
+            "display_name": "Shrooms",
+            "hashes": {
+              "root": "a2d9dca87e9de98a543f6dc694f3edeb6df095a3538110d6bc20f7f127bdbad3",
+              "variants": "551d9e6b94d37ef5c0b6415903d95d40c104dd554ea96073ae4887ad21023266",
+              "variants/linux-amd64": "cd54d61d4704bcbeabc3ebdb2d5dc3f1b680936e6a5b5441aa11a400f2847564"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "shrooms",
+            "type": "ui_qml",
+            "version": "0.2.0",
+            "view": "Main.qml"
           }
         }
       ]
