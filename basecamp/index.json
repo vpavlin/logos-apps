@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-10T13:18:00Z",
+  "generatedAt": "2026-08-10T15:27:06Z",
   "packages": [
     {
       "name": "delivery_module",
@@ -131,6 +131,68 @@
             "type": "ui_qml",
             "version": "0.2.0",
             "view": "Main.qml"
+          }
+        },
+        {
+          "releasedAt": "2026-08-10T15:27:06Z",
+          "publisherRef": "shrooms-v0.3.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module.lgx",
+          "size": 117657,
+          "sha256": "4b4e91de694f5131773932a7ec1d74a6bb427af5a1a75a7cb4efc43fd9c88e25",
+          "rootHash": "51c13f51e5d41a1e63df327d0a3a18f03fd3784e1b28d6cb88c6272d3618c79d",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [
+              "shrooms_core"
+            ],
+            "description": "Watch a Shrooms mesh: which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only \u2014 the daemon does the work, this watches it.",
+            "display_name": "Shrooms",
+            "hashes": {
+              "root": "51c13f51e5d41a1e63df327d0a3a18f03fd3784e1b28d6cb88c6272d3618c79d",
+              "variants": "4f743442816071ee5a426ea8acd35a53ea5ad1cce4c856de13b6f6d305866b42",
+              "variants/linux-amd64": "77fd98e6b7382bed915d9bc633b9dbfb391abde974ca07bd1817c4c2edbce36b"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "shrooms",
+            "type": "ui_qml",
+            "version": "0.3.0",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shrooms_core",
+      "versions": [
+        {
+          "releasedAt": "2026-08-10T15:27:06Z",
+          "publisherRef": "shrooms_core-v0.1.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module.lgx",
+          "size": 3975758,
+          "sha256": "515ca83aeb9cd2ff45852aee9b3f37ffe99317bdfa43e4dfae4ace0ffbd54ac6",
+          "rootHash": "a6d07a9a4a2c509878c39a27dd409381256b0958bfe2b2a9d5f7b40cace7ba3d",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [],
+            "description": "Reads a Shrooms daemon's status and hands it to the view. Exists because a ui_qml app is sandboxed and may not open a socket or read outside its own directory; this runs in its own process and can.",
+            "display_name": "Shrooms Core",
+            "hashes": {
+              "root": "a6d07a9a4a2c509878c39a27dd409381256b0958bfe2b2a9d5f7b40cace7ba3d",
+              "variants": "2aba20f2c86a422c4bc8be8884e9fcd5119adfc141d9cd3f79ef362f0f26ae44",
+              "variants/linux-amd64": "55b5d8fed486737ba5e4bc94070a100f302c95966b85974324da494d78776f5f"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "shrooms_core_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "shrooms_core",
+            "type": "core",
+            "version": "0.1.0"
           }
         }
       ]
