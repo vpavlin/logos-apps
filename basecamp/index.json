@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-09T14:23:18Z",
+  "generatedAt": "2026-08-10T06:56:55Z",
   "packages": [
     {
       "name": "delivery_module",
@@ -31,6 +31,38 @@
             "name": "delivery_module",
             "type": "core",
             "version": "0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "logos_vpn",
+      "versions": [
+        {
+          "releasedAt": "2026-08-10T06:56:55Z",
+          "publisherRef": "logos_vpn-v0.1.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-logos_vpn-module.lgx",
+          "size": 14542,
+          "sha256": "97c0d303056affe1659ebe3512dd7b951376a3ecf99721b7ff59badf406c04cf",
+          "rootHash": "72e8718533da2043c885637a6fa800709c72c3005f2024dd6ec2fc8dd84afd34",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [],
+            "description": "Monitor an overlay mesh between your own devices. Shows which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only: the daemon does the work, this watches it.",
+            "display_name": "logos-vpn",
+            "hashes": {
+              "root": "72e8718533da2043c885637a6fa800709c72c3005f2024dd6ec2fc8dd84afd34",
+              "variants": "7d9ee54fb5397f96966642a5b9d01f78bc0a79877a0593aa5a7c09ec8754c54c",
+              "variants/linux-amd64": "4ae8ea4fac59702c2fcea97f1b5e79f6b0834e8f128c832cc76c9f5cb728c535"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "logos_vpn",
+            "type": "ui_qml",
+            "version": "0.1.0",
+            "view": "Main.qml"
           }
         }
       ]
