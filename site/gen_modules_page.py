@@ -226,6 +226,12 @@ def build_app_cards(fdroid_index, base_url, repo_dir, overrides, offline):
 
 # --------------------------------------------------------------- rendering
 
+def copyable(url):
+    """A URL in a <code> with a one-click Copy button."""
+    u = html.escape(url)
+    return f'<code>{u}</code><button class="copy" type="button" data-copy="{u}">Copy</button>'
+
+
 def render_card(c):
     e = html.escape
     deps = ""
@@ -285,7 +291,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
         '<details class="help"><summary>How to install</summary><ol>'
         f'<li>Install <a href="{e(BASECAMP_INSTALL_URL)}">Basecamp</a>, the Logos desktop app.</li>'
         f'<li>Open <b>Package Manager &rarr; Add repository</b> and paste '
-        f'<code>{e(BASECAMP_REPO_URL)}</code>.</li>'
+        f'{copyable(BASECAMP_REPO_URL)}</li>'
         '<li>Pick a module from the catalog and click <b>Install</b>.</li>'
         '</ol></details>') if modules else ''
     fp = fdroid_repo_url.split("fingerprint=", 1)[1].split("&")[0] \
@@ -294,7 +300,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     add_line = ""
     if fdroid_repo_url:
         add_line = ('<li>Tap <b>+ Add F-Droid repo</b> above'
-                    + (f' (or add <code>{e(fbase)}</code>, fingerprint <code>{e(fp)}</code>)'
+                    + (f' (or add {copyable(fbase)} fingerprint <code>{e(fp)}</code>)'
                        if fp else '') + '.</li>')
     apps_help = (
         '<details class="help"><summary>How to install</summary><ol>'
@@ -341,6 +347,10 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   .help li {{ margin:3px 0; }}
   .help code {{ background:var(--chip); padding:1px 6px; border-radius:5px; word-break:break-all; }}
   .help a {{ color:var(--accent); }}
+  .copy {{ margin-left:6px; font-size:11px; padding:1px 8px; border:1px solid var(--line);
+    border-radius:6px; background:var(--chip); color:var(--mut); cursor:pointer;
+    vertical-align:middle; }}
+  .copy:hover {{ color:var(--fg); border-color:var(--accent); }}
   .panel {{ display:none; max-width:1080px; margin:0 auto; }}
   .panel.on {{ display:block; }}
   .ptop {{ display:flex; align-items:center; justify-content:space-between; gap:12px;
@@ -419,6 +429,12 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     document.documentElement.dataset.theme = next;
     try {{ localStorage.setItem('theme', next); }} catch (e) {{}}
   }};
+  document.querySelectorAll('.copy').forEach(b => b.onclick = () => {{
+    navigator.clipboard.writeText(b.dataset.copy).then(() => {{
+      var prev = b.textContent; b.textContent = 'Copied!';
+      setTimeout(() => {{ b.textContent = prev; }}, 1200);
+    }});
+  }});
 </script>
 </body>
 </html>"""
