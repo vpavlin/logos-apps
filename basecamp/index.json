@@ -107,36 +107,9 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-10T13:18:00Z",
-          "publisherRef": "shrooms-v0.2.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module.lgx",
-          "size": 15120,
-          "sha256": "c10201daddeec7d1d86c85372ceb5cc727996885762af903a46a7e56dcfc2578",
-          "rootHash": "a2d9dca87e9de98a543f6dc694f3edeb6df095a3538110d6bc20f7f127bdbad3",
-          "manifest": {
-            "author": "",
-            "category": "network",
-            "dependencies": [],
-            "description": "Watch a Shrooms mesh: which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only \u2014 the daemon does the work, this watches it.",
-            "display_name": "Shrooms",
-            "hashes": {
-              "root": "a2d9dca87e9de98a543f6dc694f3edeb6df095a3538110d6bc20f7f127bdbad3",
-              "variants": "551d9e6b94d37ef5c0b6415903d95d40c104dd554ea96073ae4887ad21023266",
-              "variants/linux-amd64": "cd54d61d4704bcbeabc3ebdb2d5dc3f1b680936e6a5b5441aa11a400f2847564"
-            },
-            "icon": "icon.png",
-            "main": {},
-            "manifestVersion": "0.3.0",
-            "name": "shrooms",
-            "type": "ui_qml",
-            "version": "0.2.0",
-            "view": "Main.qml"
-          }
-        },
-        {
           "releasedAt": "2026-08-10T15:27:06Z",
           "publisherRef": "shrooms-v0.3.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.3.0.lgx",
           "size": 117657,
           "sha256": "4b4e91de694f5131773932a7ec1d74a6bb427af5a1a75a7cb4efc43fd9c88e25",
           "rootHash": "51c13f51e5d41a1e63df327d0a3a18f03fd3784e1b28d6cb88c6272d3618c79d",
@@ -170,7 +143,7 @@
         {
           "releasedAt": "2026-08-10T15:27:06Z",
           "publisherRef": "shrooms_core-v0.1.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module.lgx",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.1.0.lgx",
           "size": 3975758,
           "sha256": "515ca83aeb9cd2ff45852aee9b3f37ffe99317bdfa43e4dfae4ace0ffbd54ac6",
           "rootHash": "a6d07a9a4a2c509878c39a27dd409381256b0958bfe2b2a9d5f7b40cace7ba3d",
