@@ -1,0 +1,78 @@
+name: Build storefront
+
+# apps.vpavlin.xyz is the single storefront: the tabbed landing page + the
+# F-Droid repo, deployed together. The page auto-loads the Android apps from
+# this repo's F-Droid index and the Basecamp modules from the catalog engine's
+# published index.json (vpavlin/logos-basecamp-modules releases).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "fdroid/repo/index-v2.json"
+      - "site/**"
+      - "logos-repo.json"
+      - ".github/workflows/site.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */6 * * *"   # pick up newly published Basecamp modules
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Basecamp catalog index (from the build engine's releases)
+        run: |
+          URL=$(python3 -c "import json;print(json.load(open('logos-repo.json'))['indexUrl'])")
+          echo "indexUrl=$URL"
+          curl -fsSL "$URL" -o /tmp/lgpd-index.json \
+            || echo '{"schemaVersion":2,"repositoryName":"vpavlin-modules","packages":[]}' > /tmp/lgpd-index.json
+
+      - name: Cache extracted module icons
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/logos-catalog-icons
+          key: lgx-icons-${{ hashFiles('/tmp/lgpd-index.json') }}
+          restore-keys: lgx-icons-
+
+      - name: Assemble the site (page + F-Droid repo + catalog card)
+        run: |
+          FP=2373710A76ACB09F287F053E99E533F9D3685529C44E9027CDBC79B1DC0C9105
+          mkdir -p dist
+          cp -r fdroid dist/fdroid                       # the F-Droid repo (add-repo URL + APKs)
+          [ -d basecamp ] && cp -r basecamp dist/basecamp || true
+          [ -f fdroid-qr.png ] && cp fdroid-qr.png dist/ || true
+          cp logos-repo.json dist/logos-repo.json        # Basecamp "Add repository" URL
+          python3 site/gen_modules_page.py \
+            --index /tmp/lgpd-index.json \
+            --fdroid-index fdroid/repo/index-v2.json \
+            --fdroid-base  https://apps.vpavlin.xyz/fdroid/repo \
+            --fdroid-repo-url "https://apps.vpavlin.xyz/fdroid/repo?fingerprint=$FP" \
+            --overrides site/overrides.json \
+            --out dist/index.html
+          echo "apps.vpavlin.xyz" > dist/CNAME
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
