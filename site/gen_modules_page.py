@@ -175,8 +175,10 @@ def build_module_cards(index, overrides, offline):
             continue
         m = v.get("manifest", {}) or {}
         name = pkg.get("name", m.get("name", "?"))
-        if m.get("type") == "core" or name == "delivery_module":
-            continue   # dependency-only: kept in index.json for resolution, hidden on the page
+        # Dependency-only modules (a core/backend or the delivery node) — hidden by
+        # default behind the "Show core modules" toggle, not dropped, so power users
+        # can install e.g. our channels-enabled delivery fork directly.
+        is_core = m.get("type") == "core" or name == "delivery_module"
         ov = overrides.get(name, {})
         title = m.get("display_name") or name
         icon = None
@@ -201,7 +203,10 @@ def build_module_cards(index, overrides, offline):
             # Modules carry no repo/homepage in their manifest → override-driven.
             "links": collect_links(ov, source_url=m.get("repository") or m.get("homepage") or ""),
             "icon": icon or placeholder_icon(name, title), "featured": bool(ov.get("featured")),
+            "is_core": is_core,
         })
+    # User-facing modules first; core/dependency modules after (revealed by toggle).
+    cards.sort(key=lambda c: (c["is_core"], not c["featured"], c["title"].lower()))
     return cards
 
 
@@ -306,10 +311,12 @@ def render_card(c):
     title_href = c["homepage"] or (c["links"][0][1] if c.get("links") else "")
     if title_href:
         title = f'<a href="{e(title_href)}">{title}</a>'
-    return f"""      <article class="card" data-cat="{e(c['category'].lower())}">
+    core_cls = " core" if c.get("is_core") else ""
+    core_tag = '<span class="cat coretag" title="dependency / backend module">core</span>' if c.get("is_core") else ""
+    return f"""      <article class="card{core_cls}" data-cat="{e(c['category'].lower())}">
         <img class="icon" src="{c['icon']}" alt="" loading="lazy"/>
         <div class="body">
-          <h3>{title}<span class="cat">{e(c['category'])}</span></h3>
+          <h3>{title}<span class="cat">{e(c['category'])}</span>{core_tag}</h3>
           <p class="desc">{e(c['desc'])}</p>
           {deps}
           {links_html}
@@ -334,8 +341,14 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     apps_sub = (f'{len(apps)} Android app' + ("s" if len(apps) != 1 else "") +
                 (" · add the repo in F-Droid for auto-updates" if fdroid_repo_url
                  else " · download the APK"))
-    mods_sub = (f'{len(modules)} Basecamp app' + ("s" if len(modules) != 1 else "") +
+    core_n = sum(1 for m in modules if m.get("is_core"))
+    vis_n = len(modules) - core_n
+    mods_sub = (f'{vis_n} Basecamp app' + ("s" if vis_n != 1 else "") +
                 " · install with lgpd or the package manager")
+    # Toggle to reveal dependency/backend ("core") modules (hidden by default).
+    core_toggle = (
+        f'<label class="coretoggle"><input type="checkbox" id="coreToggle"/> '
+        f'Show core modules <span>{core_n}</span></label>') if core_n else ""
 
     # install help (native <details>, no JS)
     mods_help = (
@@ -429,6 +442,13 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     border-radius:999px; padding:3px 10px; text-decoration:none; }}
   .lnk:hover {{ color:var(--accent); border-color:var(--accent); }}
   .lnk svg {{ opacity:.8; }}
+  .coretag {{ text-transform:none; color:var(--accent); background:var(--chip); }}
+  .coretoggle {{ display:inline-flex; align-items:center; gap:7px; font-size:13px;
+    color:var(--mut); cursor:pointer; user-select:none; }}
+  .coretoggle input {{ cursor:pointer; }}
+  .coretoggle span {{ font-size:11px; background:var(--chip); border-radius:999px; padding:1px 8px; }}
+  #panel-modules .card.core {{ display:none; }}
+  #panel-modules.show-core .card.core {{ display:flex; }}
   .foot {{ display:flex; justify-content:flex-start; align-items:center; gap:10px;
     font-size:12px; color:var(--mut); flex-wrap:wrap; }}
   .sig {{ color:#059669; white-space:nowrap; }}
@@ -454,7 +474,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   <button class="theme" id="themeToggle" title="Light / dark" aria-label="Toggle theme">&#9680;</button>
 </div>
 <div class="panel {m_on}" id="panel-modules">
-  <div class="ptop"><span class="sub">{mods_sub}</span></div>
+  <div class="ptop"><span class="sub">{mods_sub}</span>{core_toggle}</div>
   {mods_help}
   <main>
 {render_grid(modules)}
@@ -486,6 +506,9 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     document.documentElement.dataset.theme = next;
     try {{ localStorage.setItem('theme', next); }} catch (e) {{}}
   }};
+  var ct = document.getElementById('coreToggle');
+  if (ct) ct.onchange = () => document.getElementById('panel-modules')
+    .classList.toggle('show-core', ct.checked);
   document.querySelectorAll('.copy').forEach(b => b.onclick = () => {{
     navigator.clipboard.writeText(b.dataset.copy).then(() => {{
       var prev = b.textContent; b.textContent = 'Copied!';
