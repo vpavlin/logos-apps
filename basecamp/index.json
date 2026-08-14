@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-14T10:01:25Z",
+  "generatedAt": "2026-08-14T11:46:13Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
+          "releasedAt": "2026-08-14T11:46:13Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -39,7 +39,7 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
+          "releasedAt": "2026-08-14T11:46:13Z",
           "publisherRef": "qaku-v0.1.18",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29671,
@@ -73,7 +73,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
+          "releasedAt": "2026-08-14T11:46:13Z",
           "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4155555,
@@ -107,7 +107,7 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
+          "releasedAt": "2026-08-14T11:46:13Z",
           "publisherRef": "scala-v0.8.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
           "size": 4206565,
@@ -142,7 +142,7 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
+          "releasedAt": "2026-08-14T11:46:13Z",
           "publisherRef": "scala_ui-v0.7.12",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
           "size": 32446,
@@ -176,31 +176,31 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
-          "publisherRef": "shrooms-v0.3.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.3.0.lgx",
-          "size": 117657,
-          "sha256": "4b4e91de694f5131773932a7ec1d74a6bb427af5a1a75a7cb4efc43fd9c88e25",
-          "rootHash": "51c13f51e5d41a1e63df327d0a3a18f03fd3784e1b28d6cb88c6272d3618c79d",
+          "releasedAt": "2026-08-14T11:46:13Z",
+          "publisherRef": "shrooms-v0.9.2",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.9.2.lgx",
+          "size": 85793,
+          "sha256": "37e1874224c2e6479a0607f0701d965a892d0c8b422ac5abc987d8205e51bd55",
+          "rootHash": "4aa9d13f893c61f34a9c4bd5c7614e6e608713249567c8fc33a5485fe7dc3c04",
           "manifest": {
             "author": "",
             "category": "network",
             "dependencies": [
               "shrooms_core"
             ],
-            "description": "Watch a Shrooms mesh: which peers are reachable, whether each is direct or relayed, throughput, and how long each took to connect. Read-only \u2014 the daemon does the work, this watches it.",
+            "description": "Watch and run a Shrooms mesh: which peers are reachable, direct or relayed, throughput, what every device offers, when each credential expires, and the daemon's own log. Changes what the daemon can change by itself \u2014 name, node mode, services, meshes on and off, joining and leaving one \u2014 and restarts it to apply them. Never who is admitted: that needs an admin key the daemon has never held.",
             "display_name": "Shrooms",
             "hashes": {
-              "root": "51c13f51e5d41a1e63df327d0a3a18f03fd3784e1b28d6cb88c6272d3618c79d",
-              "variants": "4f743442816071ee5a426ea8acd35a53ea5ad1cce4c856de13b6f6d305866b42",
-              "variants/linux-amd64": "77fd98e6b7382bed915d9bc633b9dbfb391abde974ca07bd1817c4c2edbce36b"
+              "root": "4aa9d13f893c61f34a9c4bd5c7614e6e608713249567c8fc33a5485fe7dc3c04",
+              "variants": "92674275af7487b4881c7274d9d9c981bd6347bb8529262b3bc25b33859b9f7a",
+              "variants/linux-amd64": "7152c54596403c9a030c89f78b48c2c5a479159cc63b2cb150fa10cf3b254086"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "shrooms",
             "type": "ui_qml",
-            "version": "0.3.0",
+            "version": "0.9.2",
             "view": "Main.qml"
           }
         }
@@ -210,31 +210,31 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-14T10:01:25Z",
-          "publisherRef": "shrooms_core-v0.1.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.1.0.lgx",
-          "size": 3975758,
-          "sha256": "515ca83aeb9cd2ff45852aee9b3f37ffe99317bdfa43e4dfae4ace0ffbd54ac6",
-          "rootHash": "a6d07a9a4a2c509878c39a27dd409381256b0958bfe2b2a9d5f7b40cace7ba3d",
+          "releasedAt": "2026-08-14T11:46:13Z",
+          "publisherRef": "shrooms_core-v0.4.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.4.0.lgx",
+          "size": 4076671,
+          "sha256": "4fa83f61aa55acba7f64fcd80a94bbdfa221e47eef5faba846aa5f438119226e",
+          "rootHash": "aa64a5b122e3338d4e76b579279219a72a39ddabce4ae7ba35e5ea42d34c1753",
           "manifest": {
             "author": "",
             "category": "network",
             "dependencies": [],
-            "description": "Reads a Shrooms daemon's status and hands it to the view. Exists because a ui_qml app is sandboxed and may not open a socket or read outside its own directory; this runs in its own process and can.",
+            "description": "Talks to a Shrooms daemon over its unix control socket: reads status and the recent log, and changes what the daemon can change on its own \u2014 name, node mode, published services, announcing them, meshes on and off, joining a mesh with an invite, leaving one, and restarting to apply the settings that need it. Never who is admitted, which needs an admin key the daemon has never held (ADR-025). Exists because a ui_qml app is sandboxed and may not open a socket; this runs in its own process and can.",
             "display_name": "Shrooms Core",
             "hashes": {
-              "root": "a6d07a9a4a2c509878c39a27dd409381256b0958bfe2b2a9d5f7b40cace7ba3d",
-              "variants": "2aba20f2c86a422c4bc8be8884e9fcd5119adfc141d9cd3f79ef362f0f26ae44",
-              "variants/linux-amd64": "55b5d8fed486737ba5e4bc94070a100f302c95966b85974324da494d78776f5f"
+              "root": "aa64a5b122e3338d4e76b579279219a72a39ddabce4ae7ba35e5ea42d34c1753",
+              "variants": "0eaad1cef5b1ecde03dc88044d7750f9780fd87efe8ff358f0ab2fd0a996bfa3",
+              "variants/linux-amd64": "f971f5465ea405a343ae77ee2db566b3c99cfeb56c76ea606ae989365953d290"
             },
             "icon": "",
             "main": {
               "linux-amd64": "shrooms_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.4.0",
             "name": "shrooms_core",
             "type": "core",
-            "version": "0.1.0"
+            "version": "0.4.0"
           }
         }
       ]
