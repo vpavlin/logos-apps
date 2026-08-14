@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-14T09:54:34Z",
+  "generatedAt": "2026-08-14T10:01:25Z",
   "packages": [
     {
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -39,7 +39,7 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "qaku-v0.1.18",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29671,
@@ -73,7 +73,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4155555,
@@ -107,12 +107,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
-          "publisherRef": "scala-v0.8.3",
+          "releasedAt": "2026-08-14T10:01:25Z",
+          "publisherRef": "scala-v0.8.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4205788,
-          "sha256": "f7425d117dd0c6f42f023e802897148a9eadc46a009d97879ab0b380c3e82fa8",
-          "rootHash": "9b9fa0989784fed1f971368d5164e7677ab52a2e82367ee0cdb446ead2b96f77",
+          "size": 4206565,
+          "sha256": "dc50ec56a458aa41ee13bae7d2c38dce6957f882bef0f4633580708fcb9738e8",
+          "rootHash": "391566500ace54c4912ce399a758146630b6c169b335856acdbcd730ddf692cd",
           "manifest": {
             "author": "",
             "category": "general",
@@ -122,9 +122,9 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "9b9fa0989784fed1f971368d5164e7677ab52a2e82367ee0cdb446ead2b96f77",
-              "variants": "a946582c25c690d4d275903b3940105625a19f86492e759ff5bcef40bde87327",
-              "variants/linux-amd64": "0174548a9782d842ab201d3fa75a047b7aaae15b5526773a5396374d12680d9d"
+              "root": "391566500ace54c4912ce399a758146630b6c169b335856acdbcd730ddf692cd",
+              "variants": "4eb0472ef69e804c50f1481a518f19e50e35c2904239d95145fa10f735dc54aa",
+              "variants/linux-amd64": "20e455a07af5539fd7eb5a518b48071d6adc1910ea5c7326fb3be9c9bb060621"
             },
             "icon": "icon.png",
             "main": {
@@ -133,7 +133,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.8.3"
+            "version": "0.8.4"
           }
         }
       ]
@@ -142,7 +142,7 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "scala_ui-v0.7.12",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
           "size": 32446,
@@ -176,7 +176,7 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "shrooms-v0.3.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.3.0.lgx",
           "size": 117657,
@@ -210,7 +210,7 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-14T09:54:34Z",
+          "releasedAt": "2026-08-14T10:01:25Z",
           "publisherRef": "shrooms_core-v0.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.1.0.lgx",
           "size": 3975758,
