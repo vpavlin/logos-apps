@@ -36,5 +36,16 @@
     },
     "xyz.vpavlin.scala": {
         "featured": true
+    },
+    "shrooms": {
+        "featured": true,
+        "repo": "https://github.com/vpavlin/shrooms",
+        "website": "https://shrooms.vpavlin.xyz"
+    },
+    "shrooms_core": {
+        "repo": "https://github.com/vpavlin/shrooms"
+    },
+    "xyz.vpavlin.shrooms": {
+        "featured": true
     }
 }
