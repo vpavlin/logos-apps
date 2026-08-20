@@ -1,0 +1,69 @@
+{
+  "repo": {
+    "timestamp": 1787224601000
+  },
+  "packages": {
+    "xyz.vpavlin.shrooms": {
+      "metadata": {
+        "added": 1787173711000,
+        "lastUpdated": 1787224601000
+      },
+      "versions": {
+        "ee80c8545d6ff749fc47209f53fc9483114a5bb5e75424f9cbdbedcf43019a42": null,
+        "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372": {
+          "added": 1787224601000,
+          "file": {
+            "name": "/shrooms-35.apk",
+            "sha256": "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372",
+            "size": 53728774
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-305-g34d0d50",
+            "versionCode": 35,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

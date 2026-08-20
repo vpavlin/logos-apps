@@ -1,1 +1,746 @@
-{"repo": {"timestamp": 1787170600000, "categories": {"Security": {"name": {"en-US": "Security"}}}}, "packages": {"co.logos.delivery": null, "xyz.vpavlin.loam": {"metadata": {"added": 1787150855000, "categories": ["System"], "lastUpdated": 1787150855000, "sourceCode": "https://github.com/vpavlin/loam", "authorName": "vpavlin", "name": {"en-US": "Loam"}, "summary": {"en-US": "The shared node your local-first apps grow in — one Waku node per phone"}, "description": {"en-US": "Loam is the soil your Logos apps grow in: one shared liblogosdelivery (Waku) node per\nphone, shared by every app over IPC — so ten apps don't each run ten radios. Per-app\nconsent, end-to-end encrypted (the service only ever moves sealed bytes), and an opt-in\noffline cache that holds a closed app's messages so it reopens without re-syncing. It also\nhosts a Bluetooth-LE mesh, so nearby phones can sync with no internet at all."}, "icon": {"en-US": {"name": "/xyz.vpavlin.loam/en-US/icon_SdidZ-XV5g3OSqZ3Z-47JHxuMxapRVVb2gAghQkTJjc=.png", "sha256": "49d89d67e5d5e60dce4aa67767ee3b247c6e3316a945555bda00208509132637", "size": 49909}}, "preferredSigner": "eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f"}, "versions": {"e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827": {"added": 1787150855000, "file": {"name": "/loam-0.0.34.apk", "sha256": "e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827", "size": 51369038}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "0.0.34", "versionCode": 34, "usesSdk": {"minSdkVersion": 23, "targetSdkVersion": 34}, "signer": {"sha256": ["eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f"]}, "usesPermission": [{"name": "android.permission.ACCESS_FINE_LOCATION", "maxSdkVersion": 30}, {"name": "android.permission.BLUETOOTH", "maxSdkVersion": 30}, {"name": "android.permission.BLUETOOTH_ADMIN", "maxSdkVersion": 30}, {"name": "android.permission.BLUETOOTH_ADVERTISE"}, {"name": "android.permission.BLUETOOTH_CONNECT"}, {"name": "android.permission.BLUETOOTH_SCAN"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE"}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "com.google.android.c2dm.permission.RECEIVE"}, {"name": "xyz.vpavlin.loam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}, {"name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"}, {"name": "com.sec.android.provider.badge.permission.READ"}, {"name": "com.sec.android.provider.badge.permission.WRITE"}, {"name": "com.htc.launcher.permission.READ_SETTINGS"}, {"name": "com.htc.launcher.permission.UPDATE_SHORTCUT"}, {"name": "com.sonyericsson.home.permission.BROADCAST_BADGE"}, {"name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"}, {"name": "com.anddoes.launcher.permission.UPDATE_COUNT"}, {"name": "com.majeur.launcher.permission.UPDATE_BADGE"}, {"name": "com.huawei.android.launcher.permission.CHANGE_BADGE"}, {"name": "com.huawei.android.launcher.permission.READ_SETTINGS"}, {"name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"}, {"name": "android.permission.READ_APP_BADGE"}, {"name": "com.oppo.launcher.permission.READ_SETTINGS"}, {"name": "com.oppo.launcher.permission.WRITE_SETTINGS"}, {"name": "me.everything.badger.permission.BADGE_COUNT_READ"}, {"name": "me.everything.badger.permission.BADGE_COUNT_WRITE"}]}}}}, "xyz.vpavlin.scala": {"metadata": {"lastUpdated": 1787170600000, "icon": {"en-US": {"name": "/xyz.vpavlin.scala/en-US/icon_daWTbIfADRdwjYnKhC22ZOF5nTnebBG8uRtIssaURUQ=.png", "sha256": "75a5936c87c00d17708d89ca842db664e1799d39de6c11bcb91b48b2c6944544", "size": 27779}}}, "versions": {"0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9": {"added": 1787170600000, "file": {"name": "/scala-0.9.45.apk", "sha256": "0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9", "size": 66990939}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "0.9.45", "versionCode": 66, "features": [{"name": "android.hardware.nfc.hce"}], "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"]}, "usesPermission": [{"name": "android.permission.CAMERA"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.NFC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "com.google.android.c2dm.permission.RECEIVE"}, {"name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}, {"name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"}, {"name": "com.sec.android.provider.badge.permission.READ"}, {"name": "com.sec.android.provider.badge.permission.WRITE"}, {"name": "com.htc.launcher.permission.READ_SETTINGS"}, {"name": "com.htc.launcher.permission.UPDATE_SHORTCUT"}, {"name": "com.sonyericsson.home.permission.BROADCAST_BADGE"}, {"name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"}, {"name": "com.anddoes.launcher.permission.UPDATE_COUNT"}, {"name": "com.majeur.launcher.permission.UPDATE_BADGE"}, {"name": "com.huawei.android.launcher.permission.CHANGE_BADGE"}, {"name": "com.huawei.android.launcher.permission.READ_SETTINGS"}, {"name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"}, {"name": "android.permission.READ_APP_BADGE"}, {"name": "com.oppo.launcher.permission.READ_SETTINGS"}, {"name": "com.oppo.launcher.permission.WRITE_SETTINGS"}, {"name": "me.everything.badger.permission.BADGE_COUNT_READ"}, {"name": "me.everything.badger.permission.BADGE_COUNT_WRITE"}]}}, "5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a": {"added": 1787155017000, "file": {"name": "/scala-0.9.44.apk", "sha256": "5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a", "size": 41267946}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "0.9.44", "versionCode": 65, "features": [{"name": "android.hardware.nfc.hce"}], "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"]}, "usesPermission": [{"name": "android.permission.CAMERA"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.NFC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "com.google.android.c2dm.permission.RECEIVE"}, {"name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}, {"name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"}, {"name": "com.sec.android.provider.badge.permission.READ"}, {"name": "com.sec.android.provider.badge.permission.WRITE"}, {"name": "com.htc.launcher.permission.READ_SETTINGS"}, {"name": "com.htc.launcher.permission.UPDATE_SHORTCUT"}, {"name": "com.sonyericsson.home.permission.BROADCAST_BADGE"}, {"name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"}, {"name": "com.anddoes.launcher.permission.UPDATE_COUNT"}, {"name": "com.majeur.launcher.permission.UPDATE_BADGE"}, {"name": "com.huawei.android.launcher.permission.CHANGE_BADGE"}, {"name": "com.huawei.android.launcher.permission.READ_SETTINGS"}, {"name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"}, {"name": "android.permission.READ_APP_BADGE"}, {"name": "com.oppo.launcher.permission.READ_SETTINGS"}, {"name": "com.oppo.launcher.permission.WRITE_SETTINGS"}, {"name": "me.everything.badger.permission.BADGE_COUNT_READ"}, {"name": "me.everything.badger.permission.BADGE_COUNT_WRITE"}]}}, "60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560": {"added": 1787143412000, "file": {"name": "/scala-0.9.43.apk", "sha256": "60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560", "size": 41267264}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "0.9.43", "versionCode": 64, "features": [{"name": "android.hardware.nfc.hce"}], "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"]}, "usesPermission": [{"name": "android.permission.CAMERA"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.NFC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "com.google.android.c2dm.permission.RECEIVE"}, {"name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}, {"name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"}, {"name": "com.sec.android.provider.badge.permission.READ"}, {"name": "com.sec.android.provider.badge.permission.WRITE"}, {"name": "com.htc.launcher.permission.READ_SETTINGS"}, {"name": "com.htc.launcher.permission.UPDATE_SHORTCUT"}, {"name": "com.sonyericsson.home.permission.BROADCAST_BADGE"}, {"name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"}, {"name": "com.anddoes.launcher.permission.UPDATE_COUNT"}, {"name": "com.majeur.launcher.permission.UPDATE_BADGE"}, {"name": "com.huawei.android.launcher.permission.CHANGE_BADGE"}, {"name": "com.huawei.android.launcher.permission.READ_SETTINGS"}, {"name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"}, {"name": "android.permission.READ_APP_BADGE"}, {"name": "com.oppo.launcher.permission.READ_SETTINGS"}, {"name": "com.oppo.launcher.permission.WRITE_SETTINGS"}, {"name": "me.everything.badger.permission.BADGE_COUNT_READ"}, {"name": "me.everything.badger.permission.BADGE_COUNT_WRITE"}]}}}}, "xyz.vpavlin.shrooms": {"metadata": {"added": 1787153946000, "categories": ["Internet", "Security"], "issueTracker": "https://github.com/vpavlin/shrooms/issues", "lastUpdated": 1787155084000, "license": "Apache-2.0 OR MIT", "summary": {"en-US": "The mycelial mesh VPN — your devices, no coordinator"}, "description": {"en-US": "An encrypted overlay network between your own machines, with no coordination\nserver to trust or run. Nodes find each other through the network's own\ngossip and move data directly between one another.\n\nWireGuard carries the traffic. Peers find each other over Logos Messaging,\nwhich is used only for rendezvous — once a tunnel exists it keeps working\nwhether or not the messaging network is reachable.\n\nAddresses are derived from device keys, so there is nothing to allocate and\nno address collisions. Peers that cannot reach each other directly fall back\nto a relay, discovered from its own announcement rather than configured.\n\nTo join, scan the code that \"shrooms invite\" prints on a machine already on\nthe mesh. The invite is good for one device and fifteen minutes, and brings\nback a membership credential signed for this phone's own keys. A network key\nstill works where there is no invite to scan.\n\nPrototype.\n"}}, "versions": {"bf47ce0cd65688f1f9b84755ceceb4bfb2dc0bcb65374ae29eb2a15294bfc054": null, "ee80c8545d6ff749fc47209f53fc9483114a5bb5e75424f9cbdbedcf43019a42": {"added": 1787155084000, "file": {"name": "/shrooms-33.apk", "sha256": "ee80c8545d6ff749fc47209f53fc9483114a5bb5e75424f9cbdbedcf43019a42", "size": 52106758}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "deps-v1-273-g51df1e4", "versionCode": 33, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}, "8f3a06eb92473800081d0c23f810b101850d55293cede3c09756fb7d4d53538e": {"added": 1787153946000, "file": {"name": "/shrooms-32.apk", "sha256": "8f3a06eb92473800081d0c23f810b101850d55293cede3c09756fb7d4d53538e", "size": 52106758}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "deps-v1-272-geb375b5", "versionCode": 32, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}}}
+{
+  "repo": {
+    "timestamp": 1787224601000,
+    "categories": {
+      "Security": {
+        "name": {
+          "en-US": "Security"
+        }
+      }
+    }
+  },
+  "packages": {
+    "co.logos.delivery": null,
+    "xyz.vpavlin.loam": {
+      "metadata": {
+        "added": 1787150855000,
+        "categories": [
+          "System"
+        ],
+        "lastUpdated": 1787150855000,
+        "sourceCode": "https://github.com/vpavlin/loam",
+        "authorName": "vpavlin",
+        "name": {
+          "en-US": "Loam"
+        },
+        "summary": {
+          "en-US": "The shared node your local-first apps grow in — one Waku node per phone"
+        },
+        "description": {
+          "en-US": "Loam is the soil your Logos apps grow in: one shared liblogosdelivery (Waku) node per\nphone, shared by every app over IPC — so ten apps don't each run ten radios. Per-app\nconsent, end-to-end encrypted (the service only ever moves sealed bytes), and an opt-in\noffline cache that holds a closed app's messages so it reopens without re-syncing. It also\nhosts a Bluetooth-LE mesh, so nearby phones can sync with no internet at all."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/xyz.vpavlin.loam/en-US/icon_SdidZ-XV5g3OSqZ3Z-47JHxuMxapRVVb2gAghQkTJjc=.png",
+            "sha256": "49d89d67e5d5e60dce4aa67767ee3b247c6e3316a945555bda00208509132637",
+            "size": 49909
+          }
+        },
+        "preferredSigner": "eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f"
+      },
+      "versions": {
+        "e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827": {
+          "added": 1787150855000,
+          "file": {
+            "name": "/loam-0.0.34.apk",
+            "sha256": "e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827",
+            "size": 51369038
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.34",
+            "versionCode": 34,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eb57a553a5e24b5906debfdcf143e243996b9d4149649e9a1aac7674b02b5e2f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION",
+                "maxSdkVersion": 30
+              },
+              {
+                "name": "android.permission.BLUETOOTH",
+                "maxSdkVersion": 30
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN",
+                "maxSdkVersion": 30
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADVERTISE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_SCAN"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "xyz.vpavlin.loam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "xyz.vpavlin.scala": {
+      "metadata": {
+        "lastUpdated": 1787170600000,
+        "icon": {
+          "en-US": {
+            "name": "/xyz.vpavlin.scala/en-US/icon_daWTbIfADRdwjYnKhC22ZOF5nTnebBG8uRtIssaURUQ=.png",
+            "sha256": "75a5936c87c00d17708d89ca842db664e1799d39de6c11bcb91b48b2c6944544",
+            "size": 27779
+          }
+        }
+      },
+      "versions": {
+        "0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9": {
+          "added": 1787170600000,
+          "file": {
+            "name": "/scala-0.9.45.apk",
+            "sha256": "0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9",
+            "size": 66990939
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.9.45",
+            "versionCode": 66,
+            "features": [
+              {
+                "name": "android.hardware.nfc.hce"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          }
+        },
+        "5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a": {
+          "added": 1787155017000,
+          "file": {
+            "name": "/scala-0.9.44.apk",
+            "sha256": "5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a",
+            "size": 41267946
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.9.44",
+            "versionCode": 65,
+            "features": [
+              {
+                "name": "android.hardware.nfc.hce"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          }
+        },
+        "60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560": {
+          "added": 1787143412000,
+          "file": {
+            "name": "/scala-0.9.43.apk",
+            "sha256": "60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560",
+            "size": 41267264
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.9.43",
+            "versionCode": 64,
+            "features": [
+              {
+                "name": "android.hardware.nfc.hce"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "xyz.vpavlin.shrooms": {
+      "metadata": {
+        "added": 1787173711000,
+        "categories": [
+          "Internet",
+          "Security"
+        ],
+        "issueTracker": "https://github.com/vpavlin/shrooms/issues",
+        "lastUpdated": 1787224601000,
+        "license": "Apache-2.0 OR MIT",
+        "summary": {
+          "en-US": "The mycelial mesh VPN — your devices, no coordinator"
+        },
+        "description": {
+          "en-US": "An encrypted overlay network between your own machines, with no coordination\nserver to trust or run. Nodes find each other through the network's own\ngossip and move data directly between one another.\n\nWireGuard carries the traffic. Peers find each other over Logos Messaging,\nwhich is used only for rendezvous — once a tunnel exists it keeps working\nwhether or not the messaging network is reachable.\n\nAddresses are derived from device keys, so there is nothing to allocate and\nno address collisions. Peers that cannot reach each other directly fall back\nto a relay, discovered from its own announcement rather than configured.\n\nTo join, scan the code that \"shrooms invite\" prints on a machine already on\nthe mesh. The invite is good for one device and fifteen minutes, and brings\nback a membership credential signed for this phone's own keys. A network key\nstill works where there is no invite to scan.\n\nPrototype.\n"
+        }
+      },
+      "versions": {
+        "bf47ce0cd65688f1f9b84755ceceb4bfb2dc0bcb65374ae29eb2a15294bfc054": null,
+        "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372": {
+          "added": 1787224601000,
+          "file": {
+            "name": "/shrooms-35.apk",
+            "sha256": "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372",
+            "size": 53728774
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-305-g34d0d50",
+            "versionCode": 35,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "8f3551acae2e9d4ccccd1b00781f0a193ffa7c89895a6d9084fe1178f2308276": {
+          "added": 1787173711000,
+          "file": {
+            "name": "/shrooms-34.apk",
+            "sha256": "8f3551acae2e9d4ccccd1b00781f0a193ffa7c89895a6d9084fe1178f2308276",
+            "size": 53712390
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-279-g2be9af5",
+            "versionCode": 34,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
