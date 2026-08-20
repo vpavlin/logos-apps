@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-20T11:50:54Z",
+  "generatedAt": "2026-08-20T12:19:27Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:26Z",
           "publisherRef": "ble_mesh-v0.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
           "size": 3946145,
@@ -39,7 +39,7 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:26Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -71,7 +71,7 @@
       "name": "keycard",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:26Z",
           "publisherRef": "keycard-v1.0.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-module.lgx",
           "size": 4594116,
@@ -103,7 +103,7 @@
       "name": "keycard-ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:26Z",
           "publisherRef": "keycard-ui-v1.0.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-ui-module.lgx",
           "size": 19875,
@@ -136,12 +136,12 @@
       "name": "kith",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
-          "publisherRef": "kith-v0.2.1",
+          "releasedAt": "2026-08-20T12:19:27Z",
+          "publisherRef": "kith-v0.2.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith-module.lgx",
-          "size": 4179103,
-          "sha256": "92b23b74ea8be6a373a3723496d0d76b5957ca907f1cbdf217f38b6fdf9fa827",
-          "rootHash": "48c23c83f957d5f4a85d13f6810be35227c8dfb093a1323aefe9e940c8962ba0",
+          "size": 4212299,
+          "sha256": "9eea73b37fda3e3ff4fda9c49d7615edb9bda792566f9b936c7cfddae4916ac2",
+          "rootHash": "99845178d708d24e422f0ed7c5ddb88e2570e29f5efc2c397618a705da2a6d28",
           "manifest": {
             "author": "",
             "category": "general",
@@ -151,9 +151,9 @@
             "description": "Contacts and address book module for Logos Core",
             "display_name": "Kith Core",
             "hashes": {
-              "root": "48c23c83f957d5f4a85d13f6810be35227c8dfb093a1323aefe9e940c8962ba0",
-              "variants": "e9852fea2a56feee258e60e9d2b076d8ce10ef658bd86e8cc31a5d15e5deb34c",
-              "variants/linux-amd64": "7cad23a6341c792537698ccea07bf9d2a2c7fe057a1da287b183c8f77312adce"
+              "root": "99845178d708d24e422f0ed7c5ddb88e2570e29f5efc2c397618a705da2a6d28",
+              "variants": "fbcbd2a9a68414a615a5cf1cec3063305f26f815471832755a3b91b9d6eb376f",
+              "variants/linux-amd64": "11eafd54951d531f1ca92ada578984aadb9d0ae1d73ada5168ef984957714549"
             },
             "icon": "icon.png",
             "main": {
@@ -162,7 +162,7 @@
             "manifestVersion": "0.3.0",
             "name": "kith",
             "type": "core",
-            "version": "0.2.1"
+            "version": "0.2.2"
           }
         }
       ]
@@ -171,7 +171,7 @@
       "name": "kith_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "kith_ui-v0.2.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith_ui-module.lgx",
           "size": 23946,
@@ -205,12 +205,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
-          "publisherRef": "loam_core-v0.4.3",
+          "releasedAt": "2026-08-20T12:19:27Z",
+          "publisherRef": "loam_core-v0.4.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 4125404,
-          "sha256": "9a5e9f2092e79585dcbcef442435ca28567ee0dd635e73f01a1450bb0a1b1ebd",
-          "rootHash": "04d2579f18805f9aa79b83a2aafb17ea4296b736db0be1c325d2a1579175f41c",
+          "size": 4127061,
+          "sha256": "3922aec577f883aad472b51f226249753b1ccbe359f8646e3bb5c8f7b9cfbeb9",
+          "rootHash": "97e4b1762039e6b6e36ecf2b83e21d2fc9c5acf4cd03b8abf6bd305667e27b93",
           "manifest": {
             "author": "",
             "category": "system",
@@ -221,9 +221,9 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "root": "04d2579f18805f9aa79b83a2aafb17ea4296b736db0be1c325d2a1579175f41c",
-              "variants": "3b9a8cc1b9a14bba3363fcb5d6ff7f4b13ecc2770a29a8562cfa54dddb417a7d",
-              "variants/linux-amd64": "6d606771c449308c0d9d819d78315e758b8c5199c145fff287d109cf323796fa"
+              "root": "97e4b1762039e6b6e36ecf2b83e21d2fc9c5acf4cd03b8abf6bd305667e27b93",
+              "variants": "a4e5a37991b9f909245c9e347c50b4149a6e37adb8e8a829bf942c0bbb12d147",
+              "variants/linux-amd64": "dc4f5a4b51248d14bed4fd8e100f58b8581c59b03ddaae4bc85825f620b5c97c"
             },
             "icon": "",
             "main": {
@@ -232,7 +232,7 @@
             "manifestVersion": "0.3.0",
             "name": "loam_core",
             "type": "core",
-            "version": "0.4.3"
+            "version": "0.4.4"
           }
         }
       ]
@@ -241,7 +241,7 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "qaku-v0.1.18",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29671,
@@ -275,7 +275,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:53Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4155555,
@@ -309,7 +309,7 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:54Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "scala-v0.9.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
           "size": 4221402,
@@ -344,7 +344,7 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:54Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "scala_ui-v0.8.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
           "size": 36571,
@@ -378,7 +378,7 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:54Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "shrooms-v0.9.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.9.2.lgx",
           "size": 85793,
@@ -412,7 +412,7 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T11:50:54Z",
+          "releasedAt": "2026-08-20T12:19:27Z",
           "publisherRef": "shrooms_core-v0.4.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.4.0.lgx",
           "size": 4076671,
