@@ -1,10 +1,382 @@
-<?xml version="1.0" encoding="utf-8"?><fdroid><repo icon="icon.png" name="Logos Apps (vpavlin)" pubkey="308204f4308202dca003020102020900da1f6f19cca3adeb300d06092a864886f70d01010c050030273110300e060355040b1307767061766c696e311330110603550403130a4c6f676f7320417070733020170d3236303830373131343430395a180f32303533313232333131343430395a30273110300e060355040b1307767061766c696e311330110603550403130a4c6f676f73204170707330820222300d06092a864886f70d01010105000382020f003082020a02820201009bb6c194f0bf3acf61c998ba9367f127648b5fb456fd9ba878b8b4884b821b6a85dd0dde70bed8afb392389caa6e66990bc073dc544739371b6e3b0f15860898648749d5ec5129806591e9b2ec5ef133a528d36cebd9b4c5047ef4dfc4e9ca6c9d729169c5a6871c1417c8974f9e6b151b84e33da838cf9f9e9124d2d86ac4008cbafafa3032bd7441eee32ec26f9dfe78df50baa7f43d324cba77c04db19771867c813d4992764f6cee49ea366bbb11f9c37fcff8643d833a296c8bde3abc03b12c39dd927a928f25019d2398d71c0dda4d922c09215946f7477e7eb72ec9dd80cb90b7bd3c336f223dfec08c75a9c3f9663d277f93bde87fbf32a28383a2d21a6a5d763d733981a58a55db79c85b0392cdf0e60885b34c0aa5ee0b40c3b7a5f0f2d9340985b074a5a516fc024ab44b7a102c1f803878d10f405009afce7416a278a67ef042a6f9ff83034b57403ba9c27434b4df40b2607a50621675b72d16c0a4e98e1a4956e3ed9a7756980485b184c068f78047e8b79af55f3ea0c3eddcc62d46f26d81f634ab94086a7310a4cbb3cc091e014ddb4acf14ad1b76d98079347df1212ba1b9771e70e3798942f1db24852b7611bf22bc40570a002e809adcf1147190c56d14d5471df42691ceb810e7391068f7607ec2e57b0a5ecc5f38ed84d622bce8f8b50812aa47b6f34569e35bade555fd8fb50c6696fe211abb8f610203010001a321301f301d0603551d0e04160414ee50847ac7767750736c8e1b233914bd8fd2287f300d06092a864886f70d01010c050003820201004609f0a3a9acfdb9783ab8a2ecf4ff02c7b13d8bc2789ebf54edcf8c20e49dbb26f84dbe41859723d96c2dd4022af555ce53cfc51c791351cb80bdddfe58e1b592e258d7b03df588d48b04ceb76349248e67a1c78fecd7b3d8f4a4439f1fb08bc3b005b5be92a23b71299a310d002042dd737c930abd934424c3d74ea7605680c092714c34e6673de2186a59e83ce37331444f54eecc77ce1487db45b4c4560b313f870ccc46f1280e13665355d85eb434880f4cb0f450db78ef8edbc96548c5c4006a13291b36b5dba5a791c6d4dbaac1d8a974b637f92775029431035644b204c4efe3c7e1ef534b5402fafd2ba76598d27eb0980a6e387206a9bd17e6f8b9fb399c198efdc212426260113217a7f6e06896fb7f830aec2ca753c8290b96b3aac4341841ab19075ae8865618fbe23facc2bfc5496fdee7c665d594eaed0b5c8203c0042b881f5473729195ba906adf73f65a009b409dc9dfe1a42d3a037de8ee14f6004fcd104d7bbebe43cdd97f1ae5b9c8ed48c2807399e05e154b38084e1e23f9faffd2b91d952589915d7437b342e592df3b62668d225287e40caf8c8e23015c8a769c6c34967b8eed8aff13b48c0477f6d137829e049dc0cb2d0adeb46cbcddf53d2364014836a537fbd8553411d870e6e1224afc2f4d1191d72ad277b0b6d34f3650ad1b1da1430b14be19b34bf7c16f685f96045381c798290946c3" timestamp="1787225430" url="https://apps.vpavlin.xyz/fdroid/repo" version="20002"><description>Public repo for vpavlin Logos apps (QAKU + more).</description></repo><application id="xyz.vpavlin.kith"><id>xyz.vpavlin.kith</id><added>2026-08-20</added><lastupdated>2026-08-20</lastupdated><name>Kith</name><summary>Your people — a local-first, p2p address book on Loam</summary><desc>Kith is the contacts app of the Loam ecosystem: a local-first, peer-to-peer address book. A contact can carry a Loam identity, turning it into a grantable principal for other apps (Scala editors, Qaku admins). Books sync across your devices; import/export vCards.</desc><license>Unknown</license><categories>Internet</categories><category>Internet</category><web></web><source>https://github.com/vpavlin/kith</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>1</marketvercode><package><version>0.1.0</version><versioncode>1</versioncode><apkname>kith-0.1.0.apk</apkname><hash type="sha256">8ce6b1915723afc77b2796b426f4b5240433eca6d488bf4d66614fa5d0bf37e8</hash><size>63129208</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-20</added><sig>4a8a26923dd843178c856a9fde2a827e</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application><application id="xyz.vpavlin.kym"><id>xyz.vpavlin.kym</id><added>2026-08-10</added><lastupdated>2026-08-10</lastupdated><name>KYM — Know Your Money</name><summary>Local-first p2p zero-based budgeting on Logos</summary><desc>KYM (Know Your Money) is a local-first, peer-to-peer zero-based budget you
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="Logos Apps (vpavlin)" pubkey="308204f4308202dca003020102020900da1f6f19cca3adeb300d06092a864886f70d01010c050030273110300e060355040b1307767061766c696e311330110603550403130a4c6f676f7320417070733020170d3236303830373131343430395a180f32303533313232333131343430395a30273110300e060355040b1307767061766c696e311330110603550403130a4c6f676f73204170707330820222300d06092a864886f70d01010105000382020f003082020a02820201009bb6c194f0bf3acf61c998ba9367f127648b5fb456fd9ba878b8b4884b821b6a85dd0dde70bed8afb392389caa6e66990bc073dc544739371b6e3b0f15860898648749d5ec5129806591e9b2ec5ef133a528d36cebd9b4c5047ef4dfc4e9ca6c9d729169c5a6871c1417c8974f9e6b151b84e33da838cf9f9e9124d2d86ac4008cbafafa3032bd7441eee32ec26f9dfe78df50baa7f43d324cba77c04db19771867c813d4992764f6cee49ea366bbb11f9c37fcff8643d833a296c8bde3abc03b12c39dd927a928f25019d2398d71c0dda4d922c09215946f7477e7eb72ec9dd80cb90b7bd3c336f223dfec08c75a9c3f9663d277f93bde87fbf32a28383a2d21a6a5d763d733981a58a55db79c85b0392cdf0e60885b34c0aa5ee0b40c3b7a5f0f2d9340985b074a5a516fc024ab44b7a102c1f803878d10f405009afce7416a278a67ef042a6f9ff83034b57403ba9c27434b4df40b2607a50621675b72d16c0a4e98e1a4956e3ed9a7756980485b184c068f78047e8b79af55f3ea0c3eddcc62d46f26d81f634ab94086a7310a4cbb3cc091e014ddb4acf14ad1b76d98079347df1212ba1b9771e70e3798942f1db24852b7611bf22bc40570a002e809adcf1147190c56d14d5471df42691ceb810e7391068f7607ec2e57b0a5ecc5f38ed84d622bce8f8b50812aa47b6f34569e35bade555fd8fb50c6696fe211abb8f610203010001a321301f301d0603551d0e04160414ee50847ac7767750736c8e1b233914bd8fd2287f300d06092a864886f70d01010c050003820201004609f0a3a9acfdb9783ab8a2ecf4ff02c7b13d8bc2789ebf54edcf8c20e49dbb26f84dbe41859723d96c2dd4022af555ce53cfc51c791351cb80bdddfe58e1b592e258d7b03df588d48b04ceb76349248e67a1c78fecd7b3d8f4a4439f1fb08bc3b005b5be92a23b71299a310d002042dd737c930abd934424c3d74ea7605680c092714c34e6673de2186a59e83ce37331444f54eecc77ce1487db45b4c4560b313f870ccc46f1280e13665355d85eb434880f4cb0f450db78ef8edbc96548c5c4006a13291b36b5dba5a791c6d4dbaac1d8a974b637f92775029431035644b204c4efe3c7e1ef534b5402fafd2ba76598d27eb0980a6e387206a9bd17e6f8b9fb399c198efdc212426260113217a7f6e06896fb7f830aec2ca753c8290b96b3aac4341841ab19075ae8865618fbe23facc2bfc5496fdee7c665d594eaed0b5c8203c0042b881f5473729195ba906adf73f65a009b409dc9dfe1a42d3a037de8ee14f6004fcd104d7bbebe43cdd97f1ae5b9c8ed48c2807399e05e154b38084e1e23f9faffd2b91d952589915d7437b342e592df3b62668d225287e40caf8c8e23015c8a769c6c34967b8eed8aff13b48c0477f6d137829e049dc0cb2d0adeb46cbcddf53d2364014836a537fbd8553411d870e6e1224afc2f4d1191d72ad277b0b6d34f3650ad1b1da1430b14be19b34bf7c16f685f96045381c798290946c3" timestamp="1787226448" url="https://apps.vpavlin.xyz/fdroid/repo" version="20002">
+		<description>Public repo for vpavlin Logos apps (QAKU + more).</description>
+	</repo>
+	<application id="xyz.vpavlin.kith">
+		<id>xyz.vpavlin.kith</id>
+		<added>2026-08-20</added>
+		<lastupdated>2026-08-20</lastupdated>
+		<name>Kith</name>
+		<summary>Your people — a local-first, p2p address book on Loam</summary>
+		<desc>Kith is the contacts app of the Loam ecosystem: a local-first, peer-to-peer address book. A contact can carry a Loam identity, turning it into a grantable principal for other apps (Scala editors, Qaku admins). Books sync across your devices; import/export vCards.</desc>
+		<license>Unknown</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web></web>
+		<source>https://github.com/vpavlin/kith</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>0.1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>kith-0.1.0.apk</apkname>
+			<hash type="sha256">8ce6b1915723afc77b2796b426f4b5240433eca6d488bf4d66614fa5d0bf37e8</hash>
+			<size>63129208</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-20</added>
+			<sig>4a8a26923dd843178c856a9fde2a827e</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="xyz.vpavlin.kym">
+		<id>xyz.vpavlin.kym</id>
+		<added>2026-08-10</added>
+		<lastupdated>2026-08-10</lastupdated>
+		<name>KYM — Know Your Money</name>
+		<summary>Local-first p2p zero-based budgeting on Logos</summary>
+		<desc>KYM (Know Your Money) is a local-first, peer-to-peer zero-based budget you
 own. Shared household budgets sync directly between devices over Waku — no
-bank login, no server.</desc><license>Unknown</license><categories>Money</categories><category>Money</category><web></web><source>https://github.com/vpavlin/kym</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>48</marketvercode><package><version>0.14.22</version><versioncode>48</versioncode><apkname>kym-0.14.22.apk</apkname><hash type="sha256">b718db10d939ee35372d5c25932c609d12ef508bde34fb7259d218a573596efb</hash><size>84352484</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-10</added><sig>1bf9fdd500d65b49793d770a021f7905</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,xyz.vpavlin.kym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application><application id="xyz.vpavlin.loam"><id>xyz.vpavlin.loam</id><added>2026-08-19</added><lastupdated>2026-08-19</lastupdated><name>Loam</name><summary>The shared node your local-first apps grow in — one Waku node per phone</summary><desc>Loam is the soil your Logos apps grow in: one shared liblogosdelivery (Waku) node per
+bank login, no server.</desc>
+		<license>Unknown</license>
+		<categories>Money</categories>
+		<category>Money</category>
+		<web></web>
+		<source>https://github.com/vpavlin/kym</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>48</marketvercode>
+		<package>
+			<version>0.14.22</version>
+			<versioncode>48</versioncode>
+			<apkname>kym-0.14.22.apk</apkname>
+			<hash type="sha256">b718db10d939ee35372d5c25932c609d12ef508bde34fb7259d218a573596efb</hash>
+			<size>84352484</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-10</added>
+			<sig>1bf9fdd500d65b49793d770a021f7905</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,xyz.vpavlin.kym.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="xyz.vpavlin.loam">
+		<id>xyz.vpavlin.loam</id>
+		<added>2026-08-19</added>
+		<lastupdated>2026-08-19</lastupdated>
+		<name>Loam</name>
+		<summary>The shared node your local-first apps grow in — one Waku node per phone</summary>
+		<desc>Loam is the soil your Logos apps grow in: one shared liblogosdelivery (Waku) node per
 phone, shared by every app over IPC — so ten apps don't each run ten radios. Per-app
 consent, end-to-end encrypted (the service only ever moves sealed bytes), and an opt-in
 offline cache that holds a closed app's messages so it reopens without re-syncing. It also
-hosts a Bluetooth-LE mesh, so nearby phones can sync with no internet at all.</desc><license>Unknown</license><categories>System</categories><category>System</category><web></web><source>https://github.com/vpavlin/loam</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>34</marketvercode><package><version>0.0.34</version><versioncode>34</versioncode><apkname>loam-0.0.34.apk</apkname><hash type="sha256">e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827</hash><size>51369038</size><sdkver>23</sdkver><targetSdkVersion>34</targetSdkVersion><added>2026-08-19</added><sig>b004a2470b0626b25683441508275712</sig><permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_ADVERTISE,BLUETOOTH_CONNECT,BLUETOOTH_SCAN,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.loam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="30" name="android.permission.ACCESS_FINE_LOCATION"/><uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/><uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application><application id="co.logos.perun"><id>co.logos.perun</id><added>2026-08-10</added><lastupdated>2026-08-10</lastupdated><name>Perun</name><summary>Local-first run tracker that syncs to your Basecamp over Logos</summary><desc>Perun records your runs (GPS route, pace, distance) on your phone and delivers them privately to the Perun Analytics module in your Logos Basecamp over Waku — no account, no server. Records with the screen off, and can run on the shared Logos Delivery node (toggle in Pairing).</desc><license>Unknown</license><categories>Sports &amp; Health</categories><category>Sports &amp; Health</category><web></web><source>https://github.com/vpavlin/perun</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>17</marketvercode><package><version>1.15.0</version><versioncode>17</versioncode><apkname>perun-1.15.0.apk</apkname><hash type="sha256">62d081fc4862b6c82425ba3aae163106705c00cb6a52804be59294790ca2805f</hash><size>62698972</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-10</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_LOCATION,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package><package><version>1.14.0</version><versioncode>16</versioncode><apkname>perun-1.14.0.apk</apkname><hash type="sha256">384e0ba018134ee19631f399fe65fcdc6b379196e737683fcaddc3a3f7efbc47</hash><size>62697180</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-10</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_LOCATION,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package><package><version>1.13.0</version><versioncode>15</versioncode><apkname>perun-1.13.0.apk</apkname><hash type="sha256">659637ec170b8c5f00ebc2db885e888f2b3e6d4da1db5fb54e3f9d75cc2e38e6</hash><size>62683796</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-10</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application><application id="xyz.vpavlin.qaku"><id>xyz.vpavlin.qaku</id><added>2026-08-10</added><lastupdated>2026-08-16</lastupdated><name>QAKU</name><summary>Anonymous Q&amp;A on Logos</summary><desc>Anonymous Q&amp;A on Logos</desc><license>Unknown</license><categories>Internet</categories><category>Internet</category><web></web><source>https://github.com/vpavlin/qaku-logos</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>66</marketvercode><package><version>0.1.66</version><versioncode>66</versioncode><apkname>qaku-0.1.66.apk</apkname><hash type="sha256">2fcee20d4cf593425777ce09382cc213f41e6a50e5864807863f2739cda63d3e</hash><size>51716284</size><sdkver>23</sdkver><targetSdkVersion>34</targetSdkVersion><added>2026-08-16</added><sig>b004a2470b0626b25683441508275712</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.qaku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package><package><version>0.1.60</version><versioncode>60</versioncode><apkname>qaku-0.1.60.apk</apkname><hash type="sha256">1689d69b95b8238c327063ed9fc302ee2dba9de34f39e1745a57b2ba7544c78e</hash><size>51702470</size><sdkver>23</sdkver><targetSdkVersion>34</targetSdkVersion><added>2026-08-10</added><sig>b004a2470b0626b25683441508275712</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.qaku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode></package></application><application id="xyz.vpavlin.scala"><id>xyz.vpavlin.scala</id><added>2026-08-14</added><lastupdated>2026-08-19</lastupdated><name>Scala</name><summary>Local-first shared calendar, p2p over Logos</summary><desc>Local-first shared calendar, p2p over Logos</desc><license>Unknown</license><categories>Internet</categories><category>Internet</category><web></web><source>https://github.com/vpavlin/scala</source><tracker></tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>66</marketvercode><package><version>0.9.45</version><versioncode>66</versioncode><apkname>scala-0.9.45.apk</apkname><hash type="sha256">0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9</hash><size>66990939</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.44</version><versioncode>65</versioncode><apkname>scala-0.9.44.apk</apkname><hash type="sha256">5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a</hash><size>41267946</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.43</version><versioncode>64</versioncode><apkname>scala-0.9.43.apk</apkname><hash type="sha256">60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560</hash><size>41267264</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.42</version><versioncode>63</versioncode><apkname>scala-0.9.42.apk</apkname><hash type="sha256">c2f7c97d5a1a9526a934c135f36aaacb29c4777541c4effbda2f389cc3da1d2a</hash><size>41267276</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.41</version><versioncode>62</versioncode><apkname>scala-0.9.41.apk</apkname><hash type="sha256">e24a4c8a29097787ba28ca82270621cffcc4cc93e2ddeaa395007e4654b6f8e3</hash><size>41265563</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.40</version><versioncode>61</versioncode><apkname>scala-0.9.40.apk</apkname><hash type="sha256">4e6c3cd3e8433897bbeeea37711a4e5a3af98a1ea95ecc832e344e93adb60220</hash><size>41256423</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.39</version><versioncode>60</versioncode><apkname>scala-0.9.39.apk</apkname><hash type="sha256">0cab5330e4a5055dc9d792870760ec7899b6e5f79b5cabcdf06a1b5201834100</hash><size>41256531</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-19</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode><features>android.hardware.nfc.hce</features></package><package><version>0.9.8</version><versioncode>29</versioncode><apkname>scala-0.9.8.apk</apkname><hash type="sha256">11eb081f8256d31ea32610f9cdf95d8d64579363f9baa05cd39fe8bb3673486e</hash><size>40136044</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-14</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode></package><package><version>0.9.7</version><versioncode>28</versioncode><apkname>scala-0.9.7.apk</apkname><hash type="sha256">1ab12692452578d0cf9c657ab4b36d36b3a3d7e4c48fa2865734079bcec6e557</hash><size>40146231</size><sdkver>24</sdkver><targetSdkVersion>36</targetSdkVersion><added>2026-08-14</added><sig>1ee1819ea6ade503e6f45714b01a1f98</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/><uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/><nativecode>arm64-v8a</nativecode></package></application><application id="xyz.vpavlin.shrooms"><id>xyz.vpavlin.shrooms</id><added>2026-08-19</added><lastupdated>2026-08-20</lastupdated><name>Shrooms</name><summary>The mycelial mesh VPN — your devices, no coordinator</summary><desc>An encrypted overlay network between your own machines, with no coordination
+hosts a Bluetooth-LE mesh, so nearby phones can sync with no internet at all.</desc>
+		<license>Unknown</license>
+		<categories>System</categories>
+		<category>System</category>
+		<web></web>
+		<source>https://github.com/vpavlin/loam</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>34</marketvercode>
+		<package>
+			<version>0.0.34</version>
+			<versioncode>34</versioncode>
+			<apkname>loam-0.0.34.apk</apkname>
+			<hash type="sha256">e81a487e086b4d67bd18f51f6590a5e486791089d7d5317ea921ad7710465827</hash>
+			<size>51369038</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>b004a2470b0626b25683441508275712</sig>
+			<permissions>ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_ADVERTISE,BLUETOOTH_CONNECT,BLUETOOTH_SCAN,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.loam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.ACCESS_FINE_LOCATION"/>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="co.logos.perun">
+		<id>co.logos.perun</id>
+		<added>2026-08-10</added>
+		<lastupdated>2026-08-10</lastupdated>
+		<name>Perun</name>
+		<summary>Local-first run tracker that syncs to your Basecamp over Logos</summary>
+		<desc>Perun records your runs (GPS route, pace, distance) on your phone and delivers them privately to the Perun Analytics module in your Logos Basecamp over Waku — no account, no server. Records with the screen off, and can run on the shared Logos Delivery node (toggle in Pairing).</desc>
+		<license>Unknown</license>
+		<categories>Sports &amp; Health</categories>
+		<category>Sports &amp; Health</category>
+		<web></web>
+		<source>https://github.com/vpavlin/perun</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>17</marketvercode>
+		<package>
+			<version>1.15.0</version>
+			<versioncode>17</versioncode>
+			<apkname>perun-1.15.0.apk</apkname>
+			<hash type="sha256">62d081fc4862b6c82425ba3aae163106705c00cb6a52804be59294790ca2805f</hash>
+			<size>62698972</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-10</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_LOCATION,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.14.0</version>
+			<versioncode>16</versioncode>
+			<apkname>perun-1.14.0.apk</apkname>
+			<hash type="sha256">384e0ba018134ee19631f399fe65fcdc6b379196e737683fcaddc3a3f7efbc47</hash>
+			<size>62697180</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-10</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_LOCATION,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.13.0</version>
+			<versioncode>15</versioncode>
+			<apkname>perun-1.13.0.apk</apkname>
+			<hash type="sha256">659637ec170b8c5f00ebc2db885e888f2b3e6d4da1db5fb54e3f9d75cc2e38e6</hash>
+			<size>62683796</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-10</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,co.logos.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="xyz.vpavlin.qaku">
+		<id>xyz.vpavlin.qaku</id>
+		<added>2026-08-10</added>
+		<lastupdated>2026-08-16</lastupdated>
+		<name>QAKU</name>
+		<summary>Anonymous Q&amp;A on Logos</summary>
+		<desc>Anonymous Q&amp;A on Logos</desc>
+		<license>Unknown</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web></web>
+		<source>https://github.com/vpavlin/qaku-logos</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>66</marketvercode>
+		<package>
+			<version>0.1.66</version>
+			<versioncode>66</versioncode>
+			<apkname>qaku-0.1.66.apk</apkname>
+			<hash type="sha256">2fcee20d4cf593425777ce09382cc213f41e6a50e5864807863f2739cda63d3e</hash>
+			<size>51716284</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-08-16</added>
+			<sig>b004a2470b0626b25683441508275712</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.qaku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>0.1.60</version>
+			<versioncode>60</versioncode>
+			<apkname>qaku-0.1.60.apk</apkname>
+			<hash type="sha256">1689d69b95b8238c327063ed9fc302ee2dba9de34f39e1745a57b2ba7544c78e</hash>
+			<size>51702470</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-08-10</added>
+			<sig>b004a2470b0626b25683441508275712</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.qaku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="xyz.vpavlin.scala">
+		<id>xyz.vpavlin.scala</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-19</lastupdated>
+		<name>Scala</name>
+		<summary>Local-first shared calendar, p2p over Logos</summary>
+		<desc>Local-first shared calendar, p2p over Logos</desc>
+		<license>Unknown</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web></web>
+		<source>https://github.com/vpavlin/scala</source>
+		<tracker></tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>66</marketvercode>
+		<package>
+			<version>0.9.45</version>
+			<versioncode>66</versioncode>
+			<apkname>scala-0.9.45.apk</apkname>
+			<hash type="sha256">0a396d3eda7ecce6fb791d0b183822f199db38fc6b7fd171d48d4e27561280b9</hash>
+			<size>66990939</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.44</version>
+			<versioncode>65</versioncode>
+			<apkname>scala-0.9.44.apk</apkname>
+			<hash type="sha256">5ffa8e299c396751a781345840ccec4982aa225e38a4305c31e8bb8f4b6ab11a</hash>
+			<size>41267946</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.43</version>
+			<versioncode>64</versioncode>
+			<apkname>scala-0.9.43.apk</apkname>
+			<hash type="sha256">60a41be768c1eb7e036926948ef0e4d9a1b5fa9fbff524b05dca7a66cfd47560</hash>
+			<size>41267264</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.42</version>
+			<versioncode>63</versioncode>
+			<apkname>scala-0.9.42.apk</apkname>
+			<hash type="sha256">c2f7c97d5a1a9526a934c135f36aaacb29c4777541c4effbda2f389cc3da1d2a</hash>
+			<size>41267276</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.41</version>
+			<versioncode>62</versioncode>
+			<apkname>scala-0.9.41.apk</apkname>
+			<hash type="sha256">e24a4c8a29097787ba28ca82270621cffcc4cc93e2ddeaa395007e4654b6f8e3</hash>
+			<size>41265563</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.40</version>
+			<versioncode>61</versioncode>
+			<apkname>scala-0.9.40.apk</apkname>
+			<hash type="sha256">4e6c3cd3e8433897bbeeea37711a4e5a3af98a1ea95ecc832e344e93adb60220</hash>
+			<size>41256423</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.39</version>
+			<versioncode>60</versioncode>
+			<apkname>scala-0.9.39.apk</apkname>
+			<hash type="sha256">0cab5330e4a5055dc9d792870760ec7899b6e5f79b5cabcdf06a1b5201834100</hash>
+			<size>41256531</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-19</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,NFC,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.nfc.hce</features>
+		</package>
+		<package>
+			<version>0.9.8</version>
+			<versioncode>29</versioncode>
+			<apkname>scala-0.9.8.apk</apkname>
+			<hash type="sha256">11eb081f8256d31ea32610f9cdf95d8d64579363f9baa05cd39fe8bb3673486e</hash>
+			<size>40136044</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+		<package>
+			<version>0.9.7</version>
+			<versioncode>28</versioncode>
+			<apkname>scala-0.9.7.apk</apkname>
+			<hash type="sha256">1ab12692452578d0cf9c657ab4b36d36b3a3d7e4c48fa2865734079bcec6e557</hash>
+			<size>40146231</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>1ee1819ea6ade503e6f45714b01a1f98</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,SYSTEM_ALERT_WINDOW,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,co.logos.delivery.permission.BIND,com.anddoes.launcher.permission.UPDATE_COUNT,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE,xyz.vpavlin.scala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+	</application>
+	<application id="xyz.vpavlin.shrooms">
+		<id>xyz.vpavlin.shrooms</id>
+		<added>2026-08-20</added>
+		<lastupdated>2026-08-20</lastupdated>
+		<name>Shrooms</name>
+		<summary>The mycelial mesh VPN — your devices, no coordinator</summary>
+		<desc>An encrypted overlay network between your own machines, with no coordination
 server to trust or run. Nodes find each other through the network's own
 gossip and move data directly between one another.
 
@@ -22,4 +394,41 @@ back a membership credential signed for this phone's own keys. A network key
 still works where there is no invite to scan.
 
 Prototype.
-</desc><license>Apache-2.0 OR MIT</license><categories>Internet,Security</categories><category>Internet</category><web></web><source>https://github.com/vpavlin/shrooms</source><tracker>https://github.com/vpavlin/shrooms/issues</tracker><author>vpavlin</author><marketversion></marketversion><marketvercode>35</marketvercode><package><version>deps-v1-305-g34d0d50</version><versioncode>35</versioncode><apkname>shrooms-35.apk</apkname><hash type="sha256">3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372</hash><size>53728774</size><sdkver>26</sdkver><targetSdkVersion>35</targetSdkVersion><added>2026-08-20</added><sig>44388ef3b4fe929d15b6f06dd82feefe</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,NFC,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><nativecode>arm64-v8a</nativecode></package><package><version>deps-v1-279-g2be9af5</version><versioncode>34</versioncode><apkname>shrooms-34.apk</apkname><hash type="sha256">8f3551acae2e9d4ccccd1b00781f0a193ffa7c89895a6d9084fe1178f2308276</hash><size>53712390</size><sdkver>26</sdkver><targetSdkVersion>35</targetSdkVersion><added>2026-08-19</added><sig>44388ef3b4fe929d15b6f06dd82feefe</sig><permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,NFC,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions><nativecode>arm64-v8a</nativecode></package></application></fdroid>
+</desc>
+		<license>Apache-2.0 OR MIT</license>
+		<categories>Internet,Security</categories>
+		<category>Internet</category>
+		<web></web>
+		<source>https://github.com/vpavlin/shrooms</source>
+		<tracker>https://github.com/vpavlin/shrooms/issues</tracker>
+		<author>vpavlin</author>
+		<marketversion></marketversion>
+		<marketvercode>36</marketvercode>
+		<package>
+			<version>deps-v1-306-g0baa53c-dirty</version>
+			<versioncode>36</versioncode>
+			<apkname>shrooms-36.apk</apkname>
+			<hash type="sha256">1935da847dd3008bf36c58d87701ca81b91f6fdfab0e51c93d45773d046ba30b</hash>
+			<size>53745158</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-20</added>
+			<sig>44388ef3b4fe929d15b6f06dd82feefe</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,NFC,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+		<package>
+			<version>deps-v1-305-g34d0d50</version>
+			<versioncode>35</versioncode>
+			<apkname>shrooms-35.apk</apkname>
+			<hash type="sha256">3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372</hash>
+			<size>53728774</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-20</added>
+			<sig>44388ef3b4fe929d15b6f06dd82feefe</sig>
+			<permissions>ACCESS_NETWORK_STATE,CAMERA,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,NFC,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+	</application>
+</fdroid>
