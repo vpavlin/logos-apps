@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-20T10:32:25Z",
+  "generatedAt": "2026-08-20T10:46:07Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "ble_mesh-v0.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
           "size": 3946145,
@@ -39,7 +39,7 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -71,7 +71,7 @@
       "name": "keycard",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "keycard-v1.0.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-module.lgx",
           "size": 4594116,
@@ -103,7 +103,7 @@
       "name": "keycard-ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "keycard-ui-v1.0.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-ui-module.lgx",
           "size": 19875,
@@ -136,12 +136,12 @@
       "name": "kith",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
-          "publisherRef": "kith-v0.1.0",
+          "releasedAt": "2026-08-20T10:46:06Z",
+          "publisherRef": "kith-v0.2.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith-module.lgx",
-          "size": 4084551,
-          "sha256": "4742fac555c4f3363b19393bfec4192adc92b0f22af055011b3cfa717b6ed7fe",
-          "rootHash": "7bd253e560daf5d0f6c43d14ec7465c6e6deb55000176b4064ba260a6ecae553",
+          "size": 4155540,
+          "sha256": "aa259f2f5cad8950ea19ba7de528acc9ed22bd15e335c3a3d2326477c1389d9d",
+          "rootHash": "5581e4d7061752c52e544f5d291b5ac8c40ab250ee3c36e0b149f26aea5a561d",
           "manifest": {
             "author": "",
             "category": "general",
@@ -151,9 +151,9 @@
             "description": "Contacts and address book module for Logos Core",
             "display_name": "Kith Core",
             "hashes": {
-              "root": "7bd253e560daf5d0f6c43d14ec7465c6e6deb55000176b4064ba260a6ecae553",
-              "variants": "8fa1bd313927b6562c5b5f4e1c9f1bb4939a67f3897565591d51ac9e90bf28bd",
-              "variants/linux-amd64": "dc9a73c9cdb3aeeb5092748724b3135861ab1ec42ff9d2d349208ab83605a0f0"
+              "root": "5581e4d7061752c52e544f5d291b5ac8c40ab250ee3c36e0b149f26aea5a561d",
+              "variants": "f4c9c6269834261bf953fc9a1fdd99e56365267cc4b84112de4b6d1d8dac606c",
+              "variants/linux-amd64": "e6d076513a98f232962316413345e5fc0c95eb9ed621f2a5a3e488f51f451d81"
             },
             "icon": "icon.png",
             "main": {
@@ -162,7 +162,7 @@
             "manifestVersion": "0.3.0",
             "name": "kith",
             "type": "core",
-            "version": "0.1.0"
+            "version": "0.2.0"
           }
         }
       ]
@@ -171,12 +171,12 @@
       "name": "kith_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
-          "publisherRef": "kith_ui-v0.1.0",
+          "releasedAt": "2026-08-20T10:46:06Z",
+          "publisherRef": "kith_ui-v0.2.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith_ui-module.lgx",
-          "size": 22939,
-          "sha256": "652ec332bccd16bd81b90068ebb071e7751ca72c60511ced1e51d00a780fbcf1",
-          "rootHash": "2463384a35cf5a3ee3ee60e5943e4b1b7823d9d475217e4caa72141d300c8491",
+          "size": 23423,
+          "sha256": "ef7e4a301c9c9fec1c221777aa03b0fe708e70db91187ef4b64ced66796e2d53",
+          "rootHash": "ac52f22146071c06a81001ba30463afd5474a77ebb789bc58ff63df30cb9014e",
           "manifest": {
             "author": "",
             "category": "general",
@@ -186,16 +186,16 @@
             "description": "Kith address book UI - pure-QML view over the kith core module",
             "display_name": "Kith",
             "hashes": {
-              "root": "2463384a35cf5a3ee3ee60e5943e4b1b7823d9d475217e4caa72141d300c8491",
-              "variants": "de8105bc5bdecfd74ba35a17d55316219b53b9c6296026d7a3ee6597f935d27b",
-              "variants/linux-amd64": "25f269fd9c5e1c902dbcfb0d568987aa451eb2f0adbfffa6cd03a90b71e1b389"
+              "root": "ac52f22146071c06a81001ba30463afd5474a77ebb789bc58ff63df30cb9014e",
+              "variants": "d4b718cd40768bcf3b71b329bc30ff1fc37cde27ad7be0aa1e6afcdabc5a5e46",
+              "variants/linux-amd64": "743428a1bbdec509e6bd7cdbd8b06219dbb468d28ff8cfe6c757495928cb3a5b"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "kith_ui",
             "type": "ui_qml",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "view": "qml/Main.qml"
           }
         }
@@ -205,7 +205,7 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "loam_core-v0.4.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
           "size": 4125404,
@@ -241,7 +241,7 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:24Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "qaku-v0.1.18",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29671,
@@ -275,7 +275,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:25Z",
+          "releasedAt": "2026-08-20T10:46:06Z",
           "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4155555,
@@ -309,7 +309,7 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:25Z",
+          "releasedAt": "2026-08-20T10:46:07Z",
           "publisherRef": "scala-v0.9.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
           "size": 4221402,
@@ -344,7 +344,7 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:25Z",
+          "releasedAt": "2026-08-20T10:46:07Z",
           "publisherRef": "scala_ui-v0.8.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
           "size": 36571,
@@ -378,7 +378,7 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:25Z",
+          "releasedAt": "2026-08-20T10:46:07Z",
           "publisherRef": "shrooms-v0.9.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.9.2.lgx",
           "size": 85793,
@@ -412,7 +412,7 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T10:32:25Z",
+          "releasedAt": "2026-08-20T10:46:07Z",
           "publisherRef": "shrooms_core-v0.4.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.4.0.lgx",
           "size": 4076671,
