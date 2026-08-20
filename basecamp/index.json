@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-08-20T07:00:58Z",
+  "generatedAt": "2026-08-20T07:26:25Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:24Z",
           "publisherRef": "ble_mesh-v0.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
           "size": 3946145,
@@ -39,7 +39,7 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "delivery_module-v0.2.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
           "size": 21803223,
@@ -71,7 +71,7 @@
       "name": "keycard",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "keycard-v1.0.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-module.lgx",
           "size": 4594116,
@@ -103,7 +103,7 @@
       "name": "keycard-ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "keycard-ui-v1.0.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-ui-module.lgx",
           "size": 19875,
@@ -136,7 +136,7 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "loam_core-v0.4.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
           "size": 4125404,
@@ -172,7 +172,7 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "qaku-v0.1.18",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
           "size": 29671,
@@ -206,7 +206,7 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:57Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "qaku_core-v0.1.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
           "size": 4155555,
@@ -240,12 +240,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:58Z",
-          "publisherRef": "scala-v0.9.2",
+          "releasedAt": "2026-08-20T07:26:25Z",
+          "publisherRef": "scala-v0.9.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4220880,
-          "sha256": "1c4f294664f379f156e502e13fb18c8947cf43bcdbf459ea090b8e423ccc044e",
-          "rootHash": "6eb344b8ee1c6949e3e4c87b53dc12587ab0cd71a357167d79c85141269752c2",
+          "size": 4220986,
+          "sha256": "63df3c737263ace4342a3949f14bbfdf3422a42a02542e6452daee220ec093bf",
+          "rootHash": "91ff9b4b63e4e8fd4a40b5efbcf0e3ee09dfc451b56b7c84700b5dc94c8f3f29",
           "manifest": {
             "author": "",
             "category": "general",
@@ -255,9 +255,9 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "6eb344b8ee1c6949e3e4c87b53dc12587ab0cd71a357167d79c85141269752c2",
-              "variants": "58da73c36038169641466e3485a0307e5a62cd15eafa4c87d49c1ed314fdd90e",
-              "variants/linux-amd64": "96a4869931130432537aa9820909925b2534a49757efc601f5f5e1e462d3175b"
+              "root": "91ff9b4b63e4e8fd4a40b5efbcf0e3ee09dfc451b56b7c84700b5dc94c8f3f29",
+              "variants": "3f08d7794576108f9a76c3ae459a44f9b950116d9ad1e624bbe74a7d4928064b",
+              "variants/linux-amd64": "6ae083e5676e4859afdace4572b3ca1bd376da08d5afa96d01cb2de8f0e36cc4"
             },
             "icon": "icon.png",
             "main": {
@@ -266,7 +266,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.2"
+            "version": "0.9.3"
           }
         }
       ]
@@ -275,12 +275,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:58Z",
-          "publisherRef": "scala_ui-v0.8.1",
+          "releasedAt": "2026-08-20T07:26:25Z",
+          "publisherRef": "scala_ui-v0.8.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 36385,
-          "sha256": "e829cf586a6b207044fd940c02b8f2aba686795e135023512cd35bf4b1e9b31e",
-          "rootHash": "bf74dde06e26b11606c6a513f7fd68afb1d218e4821d2b6b48b5846b69109b50",
+          "size": 36524,
+          "sha256": "0bc02831546dbf4cb8e35be96ec7a7f19890d26cd488e3aa8553150d683ab41b",
+          "rootHash": "8ac95dd971bd4249ba806de5175aad71d3c42eb7503665b19ed3f9a5deee92a4",
           "manifest": {
             "author": "",
             "category": "general",
@@ -290,16 +290,16 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "bf74dde06e26b11606c6a513f7fd68afb1d218e4821d2b6b48b5846b69109b50",
-              "variants": "68d75d10d27bb88bec4e5092b9d106ce88b3e751d58e278847cd6d90d3375ccd",
-              "variants/linux-amd64": "aaa035784ef08206f0c162ef466cc848f30e1f6459f20f338b6cb314433b6514"
+              "root": "8ac95dd971bd4249ba806de5175aad71d3c42eb7503665b19ed3f9a5deee92a4",
+              "variants": "ef1d8a35413b21c994f1d9671e739a3ab93f2276a231b57f1827f6708000a8c3",
+              "variants/linux-amd64": "9ed5d14c6eb8df56e3c4153ec1703aa1968a314cb6c8472a124d870e792cbd64"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "scala_ui",
             "type": "ui_qml",
-            "version": "0.8.1",
+            "version": "0.8.2",
             "view": "qml/CalendarView.qml"
           }
         }
@@ -309,7 +309,7 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:58Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "shrooms-v0.9.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.9.2.lgx",
           "size": 85793,
@@ -343,7 +343,7 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T07:00:58Z",
+          "releasedAt": "2026-08-20T07:26:25Z",
           "publisherRef": "shrooms_core-v0.4.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.4.0.lgx",
           "size": 4076671,
