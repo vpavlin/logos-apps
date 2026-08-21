@@ -1,1 +1,47 @@
-{"/etc/issue.net":"Ubuntu 24.04.4 LTS","antiFeatures":{},"apksigner":"/home/vpavlin/android-tools/apksigner","archivePolicy0":[],"commandLine":["/home/vpavlin/fdroid-venv/bin/fdroid update"],"disabled":[],"endTimestamp":1787228416769,"failedBuilds":{},"jarsigner":"/usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner","keytool":"/usr/lib/jvm/java-17-openjdk-amd64/bin/keytool","needsUpdate":["xyz.vpavlin.shrooms"],"noPackages":["co.logos.perun","xyz.vpavlin.kith","xyz.vpavlin.kym","xyz.vpavlin.loam","xyz.vpavlin.qaku","xyz.vpavlin.scala","xyz.vpavlin.shrooms"],"noUpdateCheck":["co.logos.perun","xyz.vpavlin.kith","xyz.vpavlin.kym","xyz.vpavlin.loam","xyz.vpavlin.qaku","xyz.vpavlin.scala","xyz.vpavlin.shrooms"],"stages":{"delete_disabled_builds":1787228410987,"index.make repo":1787228412855,"prepare_apps repo":1787228412478,"process_apks":1787228410988,"read_added_date_from_all_apks":1787228412477,"remove_apks":1787228412473,"scan_repo_files":1787228412472},"startTimestamp":1787228410000,"subcommand":"update"}
+{
+  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
+  "antiFeatures": {},
+  "apksigner": "/home/vpavlin/android-tools/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/home/vpavlin/fdroid-venv/bin/fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1787306205227,
+  "failedBuilds": {},
+  "jarsigner": "/usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner",
+  "keytool": "/usr/lib/jvm/java-17-openjdk-amd64/bin/keytool",
+  "needsUpdate": [
+    "xyz.vpavlin.shrooms"
+  ],
+  "noPackages": [
+    "co.logos.perun",
+    "xyz.vpavlin.kith",
+    "xyz.vpavlin.kym",
+    "xyz.vpavlin.loam",
+    "xyz.vpavlin.qaku",
+    "xyz.vpavlin.scala",
+    "xyz.vpavlin.shrooms"
+  ],
+  "noUpdateCheck": [
+    "co.logos.perun",
+    "xyz.vpavlin.kith",
+    "xyz.vpavlin.kym",
+    "xyz.vpavlin.loam",
+    "xyz.vpavlin.qaku",
+    "xyz.vpavlin.scala",
+    "xyz.vpavlin.shrooms"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1787306200197,
+    "index.make repo": 1787306201382,
+    "prepare_apps repo": 1787306201330,
+    "process_apks": 1787306200198,
+    "read_added_date_from_all_apks": 1787306201330,
+    "remove_apks": 1787306201326,
+    "scan_repo_files": 1787306201325
+  },
+  "startTimestamp": 1787306200000,
+  "subcommand": "update"
+}
