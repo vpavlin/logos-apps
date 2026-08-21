@@ -493,11 +493,30 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   versions, descriptions and signers all straight from each published manifest.
 </footer>
 <script>
-  document.querySelectorAll('.tab').forEach(t => t.onclick = () => {{
-    document.querySelectorAll('.tab,.panel').forEach(x => x.classList.remove('on'));
-    t.classList.add('on');
-    document.getElementById('panel-' + t.dataset.panel).classList.add('on');
+  // Addressable tabs: the panel is reflected in the URL hash (#basecamp / #android)
+  // so a tab stays selected on reload and can be shared as a direct link.
+  var PANEL_HASH = {{ modules: '#basecamp', apps: '#android' }};
+  var HASH_PANEL = {{ '#basecamp': 'modules', '#android': 'apps' }};
+  function activate(panel, updateHash) {{
+    var pan = document.getElementById('panel-' + panel);
+    var tab = document.querySelector('.tab[data-panel="' + panel + '"]');
+    if (!pan || !tab) return false;
+    document.querySelectorAll('.tab,.panel').forEach(function (x) {{ x.classList.remove('on'); }});
+    tab.classList.add('on');
+    pan.classList.add('on');
+    if (updateHash) {{
+      try {{ history.replaceState(null, '', PANEL_HASH[panel]); }}
+      catch (e) {{ location.hash = PANEL_HASH[panel]; }}
+    }}
+    return true;
+  }}
+  document.querySelectorAll('.tab').forEach(function (t) {{
+    t.onclick = function () {{ activate(t.dataset.panel, true); }};
   }});
+  // On load, honour the hash (default stays the server-rendered Basecamp tab).
+  function fromHash() {{ var p = HASH_PANEL[location.hash]; if (p) activate(p, false); }}
+  fromHash();
+  window.addEventListener('hashchange', fromHash);
   var tg = document.getElementById('themeToggle');
   if (tg) tg.onclick = () => {{
     var cur = document.documentElement.dataset.theme
