@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787306201000,
+    "timestamp": 1787307969000,
     "version": 20002,
     "name": "Logos Apps (vpavlin)",
     "icon": "icon.png",
@@ -17,7 +17,7 @@
       "categories": [
         "Internet"
       ],
-      "suggestedVersionCode": "2",
+      "suggestedVersionCode": "2147483647",
       "description": "Kith is the contacts app of the Loam ecosystem: a local-first, peer-to-peer address book. A contact can carry a Loam identity, turning it into a grantable principal for other apps (Scala editors, Qaku admins). Books sync across your devices; import/export vCards.",
       "license": "Unknown",
       "name": "Kith",
@@ -25,7 +25,7 @@
       "summary": "Your people \u2014 a local-first, p2p address book on Loam",
       "added": 1787225297000,
       "packageName": "xyz.vpavlin.kith",
-      "lastUpdated": 1787228412000,
+      "lastUpdated": 1787307969000,
       "localized": {
         "en-US": {
           "icon": "icon_c-vLSS7SPcmnpQhgSTGJNDMzm0DtZvSib5_sHE8N1XQ=.png"
@@ -417,6 +417,73 @@
       }
     ],
     "xyz.vpavlin.kith": [
+      {
+        "added": 1787307969000,
+        "apkName": "kith-0.1.2.apk",
+        "hash": "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "xyz.vpavlin.kith",
+        "sig": "4a8a26923dd843178c856a9fde2a827e",
+        "signer": "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8",
+        "size": 39227214,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "co.logos.delivery.permission.BIND",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "0.1.2"
+      },
       {
         "added": 1787228412000,
         "apkName": "kith-0.1.1.apk",

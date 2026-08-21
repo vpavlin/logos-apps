@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787306201000
+    "timestamp": 1787307969000
   },
   "packages": {
     "xyz.vpavlin.kith": {
@@ -9,7 +9,7 @@
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1787228412000,
+        "lastUpdated": 1787307969000,
         "sourceCode": "https://github.com/vpavlin/kith",
         "authorName": "vpavlin",
         "name": {
@@ -31,6 +31,70 @@
         "preferredSigner": "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"
       },
       "versions": {
+        "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065": {
+          "added": 1787307969000,
+          "file": {
+            "name": "/kith-0.1.2.apk",
+            "sha256": "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065",
+            "size": 39227214
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "c25d7e7d5624a7540e3fb3bf22bbdc7e3df665bc0b01dbacf44ffc7fc8616979": {
           "added": 1787228412000,
           "file": {
