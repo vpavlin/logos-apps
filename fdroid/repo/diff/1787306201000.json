@@ -1,11 +1,18 @@
 {
   "repo": {
-    "timestamp": 1787307969000
+    "timestamp": 1787314495000
   },
   "packages": {
     "xyz.vpavlin.kith": {
       "metadata": {
-        "lastUpdated": 1787307969000
+        "lastUpdated": 1787307969000,
+        "icon": {
+          "en-US": {
+            "name": "/xyz.vpavlin.kith/en-US/icon_LUl-_zRXwLtE5bygHgHZak7ZpkSj1x3astkyenMOxp8=.png",
+            "sha256": "2d497eff3457c0bb44e5bca01e01d96a4ed9a644a3d71ddab2d9327a730ec69f",
+            "size": 99738
+          }
+        }
       },
       "versions": {
         "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065": {

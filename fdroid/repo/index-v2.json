@@ -14,7 +14,7 @@
       }
     },
     "address": "https://apps.vpavlin.xyz/fdroid/repo",
-    "timestamp": 1787307969000,
+    "timestamp": 1787314495000,
     "categories": {
       "Internet": {
         "name": {
@@ -331,9 +331,9 @@
         },
         "icon": {
           "en-US": {
-            "name": "/xyz.vpavlin.kith/en-US/icon_c-vLSS7SPcmnpQhgSTGJNDMzm0DtZvSib5_sHE8N1XQ=.png",
-            "sha256": "73ebcb492ed23dc9a7a508604931893433339b40ed66f4a26f9fec1c4f0dd574",
-            "size": 91856
+            "name": "/xyz.vpavlin.kith/en-US/icon_LUl-_zRXwLtE5bygHgHZak7ZpkSj1x3astkyenMOxp8=.png",
+            "sha256": "2d497eff3457c0bb44e5bca01e01d96a4ed9a644a3d71ddab2d9327a730ec69f",
+            "size": 99738
           }
         },
         "preferredSigner": "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"
