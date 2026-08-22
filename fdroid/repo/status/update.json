@@ -8,7 +8,7 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1787314499651,
+  "endTimestamp": 1787385445947,
   "failedBuilds": {},
   "jarsigner": "/usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner",
   "keytool": "/usr/lib/jvm/java-17-openjdk-amd64/bin/keytool",
@@ -35,14 +35,14 @@
     "xyz.vpavlin.shrooms"
   ],
   "stages": {
-    "delete_disabled_builds": 1787314495489,
-    "index.make repo": 1787314495850,
-    "prepare_apps repo": 1787314495491,
-    "process_apks": 1787314495489,
-    "read_added_date_from_all_apks": 1787314495491,
-    "remove_apks": 1787314495491,
-    "scan_repo_files": 1787314495490
+    "delete_disabled_builds": 1787385441263,
+    "index.make repo": 1787385442272,
+    "prepare_apps repo": 1787385442232,
+    "process_apks": 1787385441264,
+    "read_added_date_from_all_apks": 1787385442232,
+    "remove_apks": 1787385442229,
+    "scan_repo_files": 1787385442227
   },
-  "startTimestamp": 1787314495000,
+  "startTimestamp": 1787385441000,
   "subcommand": "update"
 }

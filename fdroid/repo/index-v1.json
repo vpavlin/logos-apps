@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787314495000,
+    "timestamp": 1787385442000,
     "version": 20002,
     "name": "Logos Apps (vpavlin)",
     "icon": "icon.png",
@@ -138,16 +138,16 @@
         "Internet",
         "Security"
       ],
-      "suggestedVersionCode": "37",
+      "suggestedVersionCode": "42",
       "description": "An encrypted overlay network between your own machines, with no coordination\nserver to trust or run. Nodes find each other through the network's own\ngossip and move data directly between one another.\n\nWireGuard carries the traffic. Peers find each other over Logos Messaging,\nwhich is used only for rendezvous \u2014 once a tunnel exists it keeps working\nwhether or not the messaging network is reachable.\n\nAddresses are derived from device keys, so there is nothing to allocate and\nno address collisions. Peers that cannot reach each other directly fall back\nto a relay, discovered from its own announcement rather than configured.\n\nTo join, scan the code that \"shrooms invite\" prints on a machine already on\nthe mesh. The invite is good for one device and fifteen minutes, and brings\nback a membership credential signed for this phone's own keys. A network key\nstill works where there is no invite to scan.\n\nPrototype.\n",
       "issueTracker": "https://github.com/vpavlin/shrooms/issues",
       "license": "Apache-2.0 OR MIT",
       "name": "Shrooms",
       "sourceCode": "https://github.com/vpavlin/shrooms",
       "summary": "The mycelial mesh VPN \u2014 your devices, no coordinator",
-      "added": 1787226448000,
+      "added": 1787306201000,
       "packageName": "xyz.vpavlin.shrooms",
-      "lastUpdated": 1787306201000,
+      "lastUpdated": 1787385442000,
       "localized": {
         "en-US": {
           "icon": "icon_CPn4UeaEZIiRBtK3fEpzdUsUgZyQn0PxGNO1G2nfWCY=.png"
@@ -2622,6 +2622,61 @@
     ],
     "xyz.vpavlin.shrooms": [
       {
+        "added": 1787385442000,
+        "apkName": "shrooms-42.apk",
+        "hash": "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "xyz.vpavlin.shrooms",
+        "sig": "44388ef3b4fe929d15b6f06dd82feefe",
+        "signer": "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da",
+        "size": 53892614,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 42,
+        "versionName": "deps-v1-381-gd81305d"
+      },
+      {
         "added": 1787306201000,
         "apkName": "shrooms-37.apk",
         "hash": "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e",
@@ -2675,61 +2730,6 @@
         ],
         "versionCode": 37,
         "versionName": "deps-v1-322-g51ba95a"
-      },
-      {
-        "added": 1787226448000,
-        "apkName": "shrooms-36.apk",
-        "hash": "1935da847dd3008bf36c58d87701ca81b91f6fdfab0e51c93d45773d046ba30b",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "xyz.vpavlin.shrooms",
-        "sig": "44388ef3b4fe929d15b6f06dd82feefe",
-        "signer": "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da",
-        "size": 53745158,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.NFC",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 36,
-        "versionName": "deps-v1-306-g0baa53c-dirty"
       }
     ]
   }
