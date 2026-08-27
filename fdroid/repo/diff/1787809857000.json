@@ -1,8 +1,1 @@
-{
-  "repo": {
-    "timestamp": 1787812055000
-  },
-  "packages": {
-    "co.logos.perun": null
-  }
-}
+{"repo": {"timestamp": 1787812267000}, "packages": {"co.logos.perun": null, "xyz.vpavlin.perun": {"metadata": {"icon": {"en-US": {"name": "/xyz.vpavlin.perun/en-US/icon__TmX5RMI12ih0LBn3TjEQHhJpjyLERHAnixwpWtE6Vk=.png", "sha256": "fd3997e51308d768a1d0b067dd38c4407849a63c8b1111c09e2c70a56b44e959", "size": 336477}}}}}}
