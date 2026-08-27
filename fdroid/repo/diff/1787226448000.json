@@ -1,1 +1,380 @@
-{"repo": {"timestamp": 1787809857000}, "packages": {"xyz.vpavlin.kith": {"metadata": {"lastUpdated": 1787307969000, "icon": {"en-US": {"name": "/xyz.vpavlin.kith/en-US/icon_LUl-_zRXwLtE5bygHgHZak7ZpkSj1x3astkyenMOxp8=.png", "sha256": "2d497eff3457c0bb44e5bca01e01d96a4ed9a644a3d71ddab2d9327a730ec69f", "size": 99738}}}, "versions": {"42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065": {"added": 1787307969000, "file": {"name": "/kith-0.1.2.apk", "sha256": "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065", "size": 39227214}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "0.1.2", "versionCode": 3, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"]}, "usesPermission": [{"name": "android.permission.CAMERA"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}, "c25d7e7d5624a7540e3fb3bf22bbdc7e3df665bc0b01dbacf44ffc7fc8616979": {"added": 1787228412000, "file": {"name": "/kith-0.1.1.apk", "sha256": "c25d7e7d5624a7540e3fb3bf22bbdc7e3df665bc0b01dbacf44ffc7fc8616979", "size": 63201854}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "0.1.1", "versionCode": 2, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"]}, "usesPermission": [{"name": "android.permission.CAMERA"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}, "xyz.vpavlin.perun": {"metadata": {"added": 1787809857000, "categories": ["Sports & Health"], "lastUpdated": 1787809857000, "sourceCode": "https://github.com/vpavlin/perun", "authorName": "vpavlin", "name": {"en-US": "Perun"}, "summary": {"en-US": "Local-first GPS ride & run tracker that syncs to your Basecamp over Logos"}, "description": {"en-US": "Record GPS rides and runs offline, annotate them with photos, and export a shareable cinematic route video. Local-first and peer-to-peer to Basecamp desktop over Logos — no account, no server."}, "preferredSigner": "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"}, "versions": {"9f0beaee83de14a854de7934ca0167b10d3f0ccabc91e915e9f22224380f9c73": {"added": 1787809857000, "file": {"name": "/perun-1.15.41.apk", "sha256": "9f0beaee83de14a854de7934ca0167b10d3f0ccabc91e915e9f22224380f9c73", "size": 42334552}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "1.15.41", "versionCode": 58, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"]}, "usesPermission": [{"name": "android.permission.ACCESS_COARSE_LOCATION"}, {"name": "android.permission.ACCESS_FINE_LOCATION"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_LOCATION"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.INTERNET"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.RECORD_AUDIO"}, {"name": "android.permission.SYSTEM_ALERT_WINDOW"}, {"name": "android.permission.VIBRATE"}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "co.logos.delivery.permission.BIND"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "xyz.vpavlin.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}, "xyz.vpavlin.shrooms": {"metadata": {"added": 1787306201000, "lastUpdated": 1787385442000}, "versions": {"1935da847dd3008bf36c58d87701ca81b91f6fdfab0e51c93d45773d046ba30b": null, "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372": null, "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c": {"added": 1787385442000, "file": {"name": "/shrooms-42.apk", "sha256": "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c", "size": 53892614}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "deps-v1-381-gd81305d", "versionCode": 42, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.NFC"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}, "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e": {"added": 1787306201000, "file": {"name": "/shrooms-37.apk", "sha256": "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e", "size": 53745158}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "deps-v1-322-g51ba95a", "versionCode": 37, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.CAMERA"}, {"name": "android.permission.NFC"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}}}
+{
+  "repo": {
+    "timestamp": 1787812055000
+  },
+  "packages": {
+    "co.logos.perun": null,
+    "xyz.vpavlin.kith": {
+      "metadata": {
+        "lastUpdated": 1787307969000,
+        "icon": {
+          "en-US": {
+            "name": "/xyz.vpavlin.kith/en-US/icon_LUl-_zRXwLtE5bygHgHZak7ZpkSj1x3astkyenMOxp8=.png",
+            "sha256": "2d497eff3457c0bb44e5bca01e01d96a4ed9a644a3d71ddab2d9327a730ec69f",
+            "size": 99738
+          }
+        }
+      },
+      "versions": {
+        "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065": {
+          "added": 1787307969000,
+          "file": {
+            "name": "/kith-0.1.2.apk",
+            "sha256": "42ab4ff6c2fd529ee3153a1fee413236de891b73e9ff634afd547641a7e1c065",
+            "size": 39227214
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "c25d7e7d5624a7540e3fb3bf22bbdc7e3df665bc0b01dbacf44ffc7fc8616979": {
+          "added": 1787228412000,
+          "file": {
+            "name": "/kith-0.1.1.apk",
+            "sha256": "c25d7e7d5624a7540e3fb3bf22bbdc7e3df665bc0b01dbacf44ffc7fc8616979",
+            "size": 63201854
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "b375d795a12fb87b6cf8042512119ad8771d163b66e9ef0526dbe01aa077d7a8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "xyz.vpavlin.kith.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "xyz.vpavlin.perun": {
+      "metadata": {
+        "added": 1787809857000,
+        "categories": [
+          "Sports & Health"
+        ],
+        "lastUpdated": 1787809857000,
+        "sourceCode": "https://github.com/vpavlin/perun",
+        "authorName": "vpavlin",
+        "name": {
+          "en-US": "Perun"
+        },
+        "summary": {
+          "en-US": "Local-first GPS ride & run tracker that syncs to your Basecamp over Logos"
+        },
+        "description": {
+          "en-US": "Record GPS rides and runs offline, annotate them with photos, and export a shareable cinematic route video. Local-first and peer-to-peer to Basecamp desktop over Logos — no account, no server."
+        },
+        "preferredSigner": "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"
+      },
+      "versions": {
+        "9f0beaee83de14a854de7934ca0167b10d3f0ccabc91e915e9f22224380f9c73": {
+          "added": 1787809857000,
+          "file": {
+            "name": "/perun-1.15.41.apk",
+            "sha256": "9f0beaee83de14a854de7934ca0167b10d3f0ccabc91e915e9f22224380f9c73",
+            "size": 42334552
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.15.41",
+            "versionCode": 58,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "4def2e719add448d02adcab6b79bfc2bf6bc07f8ce6fe22c5627ed309ced0a6c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "co.logos.delivery.permission.BIND"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "xyz.vpavlin.perun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "xyz.vpavlin.shrooms": {
+      "metadata": {
+        "added": 1787306201000,
+        "lastUpdated": 1787385442000
+      },
+      "versions": {
+        "1935da847dd3008bf36c58d87701ca81b91f6fdfab0e51c93d45773d046ba30b": null,
+        "3f53de5973e604393cabc645e69899abc2425fbac7b9df6811fee69d0c52f372": null,
+        "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c": {
+          "added": 1787385442000,
+          "file": {
+            "name": "/shrooms-42.apk",
+            "sha256": "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c",
+            "size": 53892614
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-381-gd81305d",
+            "versionCode": 42,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e": {
+          "added": 1787306201000,
+          "file": {
+            "name": "/shrooms-37.apk",
+            "sha256": "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e",
+            "size": 53745158
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-322-g51ba95a",
+            "versionCode": 37,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
