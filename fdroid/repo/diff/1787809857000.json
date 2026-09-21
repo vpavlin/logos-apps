@@ -1,1 +1,81 @@
-{"repo": {"timestamp": 1787812267000}, "packages": {"co.logos.perun": null, "xyz.vpavlin.perun": {"metadata": {"icon": {"en-US": {"name": "/xyz.vpavlin.perun/en-US/icon__TmX5RMI12ih0LBn3TjEQHhJpjyLERHAnixwpWtE6Vk=.png", "sha256": "fd3997e51308d768a1d0b067dd38c4407849a63c8b1111c09e2c70a56b44e959", "size": 336477}}}}}}
+{
+  "repo": {
+    "timestamp": 1789978960000
+  },
+  "packages": {
+    "co.logos.perun": null,
+    "xyz.vpavlin.perun": {
+      "metadata": {
+        "icon": {
+          "en-US": {
+            "name": "/xyz.vpavlin.perun/en-US/icon__TmX5RMI12ih0LBn3TjEQHhJpjyLERHAnixwpWtE6Vk=.png",
+            "sha256": "fd3997e51308d768a1d0b067dd38c4407849a63c8b1111c09e2c70a56b44e959",
+            "size": 336477
+          }
+        }
+      }
+    },
+    "xyz.vpavlin.shrooms": {
+      "metadata": {
+        "added": 1787385442000,
+        "lastUpdated": 1789978959000
+      },
+      "versions": {
+        "5ab9be82e21bb7b1153c516729e8838da5a2f614ffee0925574cc4084c3ac83e": null,
+        "436caae0c5ccb6d6d0ebd83c9d1c867697ab73d9f9dbdd1b5a098a0e6500bd4d": {
+          "added": 1789978959000,
+          "file": {
+            "name": "/shrooms-69.apk",
+            "sha256": "436caae0c5ccb6d6d0ebd83c9d1c867697ab73d9f9dbdd1b5a098a0e6500bd4d",
+            "size": 54187526
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "deps-v1-592-g20e303d",
+            "versionCode": 69,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
