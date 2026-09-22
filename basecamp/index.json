@@ -345,24 +345,25 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "scala-v0.9.6",
+          "releasedAt": "2026-09-22T12:00:17Z",
+          "publisherRef": "scala-v0.9.21",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4221402,
-          "sha256": "4c7da3652b850ffec768da833f6d44c5c2806d0e76899f71fe28f065714e101a",
-          "rootHash": "a42519ac6d79247834039c77d156407ea8923e92c74fe1d6544bea39928374d3",
+          "size": 4311584,
+          "sha256": "a91fdcc89f7d8c1fb0c78812101b1ca12c5a7610299aa11c65571902ebbc1224",
+          "rootHash": "513048470230bf10dec183236957d2999695df3980ff555de7720d26572a7d15",
           "manifest": {
             "author": "",
             "category": "general",
             "dependencies": [
-              "loam_core"
+              "loam_core",
+              "storage_module"
             ],
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "a42519ac6d79247834039c77d156407ea8923e92c74fe1d6544bea39928374d3",
-              "variants": "425649955306e301ed517be0921d5ee00c89db28c5e578b6c65cee04fc1499a4",
-              "variants/linux-amd64": "5feeec599092c0df4e4e0cd9f80d402a6689f56b33495948569e02c9a3da3adb"
+              "root": "513048470230bf10dec183236957d2999695df3980ff555de7720d26572a7d15",
+              "variants": "7b32d4d70c34dc97b68f93f7a1ec36dbd81bb49692508873ce2f8ae93a699af0",
+              "variants/linux-amd64": "c7ea32ba16bf3ec84baca0fadd6d97cf3f77b4e49ca0c9e5622ccd175a42fa1a"
             },
             "icon": "icon.png",
             "main": {
@@ -371,7 +372,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.6"
+            "version": "0.9.21"
           }
         }
       ]
@@ -380,12 +381,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "scala_ui-v0.8.3",
+          "releasedAt": "2026-09-22T12:00:17Z",
+          "publisherRef": "scala_ui-v0.8.14",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 36571,
-          "sha256": "8b0f67ad49d30b1b5f83fe1a489df8ce76417a8b2fa5d4f2915668ab8f258e60",
-          "rootHash": "7bde4ca81e333f03ed199bb47f45d44229173c54e4716a2be6d20b6afb20d474",
+          "size": 42485,
+          "sha256": "413da82991fa9cc229421b64ab44350d4b5e20cde3c5fffc1a75afc397d5a779",
+          "rootHash": "ebc5f9e6feb5f269e386876bb480208973554b285173de6e018e43341fa710b0",
           "manifest": {
             "author": "",
             "category": "general",
@@ -395,16 +396,16 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "7bde4ca81e333f03ed199bb47f45d44229173c54e4716a2be6d20b6afb20d474",
-              "variants": "4d4242e5f4d66c311c68e9326a0401884f1f2fea29b59998978a00a4af17a35c",
-              "variants/linux-amd64": "4644dd45b5a9b68b71575da1890f989c010905e4195a9a89a035faf55db2f00f"
+              "root": "ebc5f9e6feb5f269e386876bb480208973554b285173de6e018e43341fa710b0",
+              "variants": "8bfa7514671c4e9ea1501ac5cb2d40e22c7f3bb5dd11ad9582afcb5b7517605f",
+              "variants/linux-amd64": "9bc2e3d103fb493dfb31a506929fcf442c003abc5bb9858845349ffe0f4f2878"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "scala_ui",
             "type": "ui_qml",
-            "version": "0.8.3",
+            "version": "0.8.14",
             "view": "qml/CalendarView.qml"
           }
         }
