@@ -338,6 +338,12 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     add_repo = ""
     if fdroid_repo_url and apps:
         add_repo = f'<a class="addrepo" href="{e(fdroid_repo_url)}">+ Add F-Droid repo</a>'
+    # Basecamp has no "add repo" URL scheme (you paste it into the package manager), so the
+    # main-page affordance is a one-click copy of the repo URL — mirroring the F-Droid pill.
+    copy_repo = ""
+    if modules:
+        copy_repo = (f'<button class="addrepo" type="button" '
+                     f'data-copy="{e(BASECAMP_REPO_URL)}">&#128203; Copy repo URL</button>')
     apps_sub = (f'{len(apps)} Android app' + ("s" if len(apps) != 1 else "") +
                 (" · add the repo in F-Droid for auto-updates" if fdroid_repo_url
                  else " · download the APK"))
@@ -456,7 +462,10 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   .get {{ margin-left:auto; color:var(--accent); font-weight:600; text-decoration:none;
     white-space:nowrap; }}
   .addrepo {{ padding:6px 13px; font-size:13px; border:1px solid var(--accent);
-    border-radius:999px; color:var(--accent); text-decoration:none; white-space:nowrap; }}
+    border-radius:999px; color:var(--accent); text-decoration:none; white-space:nowrap;
+    background:none; font-family:inherit; cursor:pointer; }}
+  .addrepo:hover {{ background:var(--accent); color:#fff; }}
+  .ptop-actions {{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }}
   footer {{ max-width:1080px; margin:0 auto; padding:36px 24px 50px; color:var(--mut);
     font-size:12.5px; }}
   footer code {{ background:var(--chip); padding:1px 6px; border-radius:5px; }}
@@ -474,7 +483,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   <button class="theme" id="themeToggle" title="Light / dark" aria-label="Toggle theme">&#9680;</button>
 </div>
 <div class="panel {m_on}" id="panel-modules">
-  <div class="ptop"><span class="sub">{mods_sub}</span>{core_toggle}</div>
+  <div class="ptop"><span class="sub">{mods_sub}</span><span class="ptop-actions">{core_toggle}{copy_repo}</span></div>
   {mods_help}
   <main>
 {render_grid(modules)}
@@ -528,7 +537,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   var ct = document.getElementById('coreToggle');
   if (ct) ct.onchange = () => document.getElementById('panel-modules')
     .classList.toggle('show-core', ct.checked);
-  document.querySelectorAll('.copy').forEach(b => b.onclick = () => {{
+  document.querySelectorAll('[data-copy]').forEach(b => b.onclick = () => {{
     navigator.clipboard.writeText(b.dataset.copy).then(() => {{
       var prev = b.textContent; b.textContent = 'Copied!';
       setTimeout(() => {{ b.textContent = prev; }}, 1200);
