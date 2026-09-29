@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1790336475000
+    "timestamp": 1790664846000
   },
   "packages": {
     "xyz.vpavlin.scala": {
@@ -294,11 +294,65 @@
     },
     "xyz.vpavlin.shrooms": {
       "metadata": {
-        "added": 1789978959000,
-        "lastUpdated": 1790336475000
+        "added": 1790336475000,
+        "lastUpdated": 1790664846000
       },
       "versions": {
+        "436caae0c5ccb6d6d0ebd83c9d1c867697ab73d9f9dbdd1b5a098a0e6500bd4d": null,
         "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c": null,
+        "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9": {
+          "added": 1790664846000,
+          "file": {
+            "name": "/shrooms-71.apk",
+            "sha256": "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9",
+            "size": 54203910
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v0.9.0-6-g96a021b",
+            "versionCode": 71,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "977c5e5065adad8e24055e70cedd44b4d7b940ff2f32919e7cf348450abb25da"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "xyz.vpavlin.shrooms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "69061da6449b75321cb29664f3e20982b2301ae47f4a9d526bed9cd7174b8f9a": {
           "added": 1790336475000,
           "file": {
