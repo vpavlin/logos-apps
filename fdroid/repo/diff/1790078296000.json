@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1790664846000,
+    "timestamp": 1790668426000,
     "categories": {
       "Productivity": null
     }
@@ -162,25 +162,25 @@
     },
     "xyz.vpavlin.shrooms": {
       "metadata": {
-        "added": 1790336475000,
-        "lastUpdated": 1790664846000
+        "added": 1790664846000,
+        "lastUpdated": 1790668426000
       },
       "versions": {
         "436caae0c5ccb6d6d0ebd83c9d1c867697ab73d9f9dbdd1b5a098a0e6500bd4d": null,
         "e8280e78d329ba6fbf28e1ea730cdc5546be50ff0d7c9b4a09834299da114f5c": null,
-        "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9": {
-          "added": 1790664846000,
+        "5315acbdf66253f2ce686555770d8b46c1836d80ca882497cf3094a72748c825": {
+          "added": 1790668426000,
           "file": {
-            "name": "/shrooms-71.apk",
-            "sha256": "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9",
-            "size": 54203910
+            "name": "/shrooms-72.apk",
+            "sha256": "5315acbdf66253f2ce686555770d8b46c1836d80ca882497cf3094a72748c825",
+            "size": 54220294
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "v0.9.0-6-g96a021b",
-            "versionCode": 71,
+            "versionName": "v0.9.0-8-g03b26b2",
+            "versionCode": 72,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 35
@@ -221,19 +221,19 @@
             ]
           }
         },
-        "69061da6449b75321cb29664f3e20982b2301ae47f4a9d526bed9cd7174b8f9a": {
-          "added": 1790336475000,
+        "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9": {
+          "added": 1790664846000,
           "file": {
-            "name": "/shrooms-70.apk",
-            "sha256": "69061da6449b75321cb29664f3e20982b2301ae47f4a9d526bed9cd7174b8f9a",
-            "size": 54187526
+            "name": "/shrooms-71.apk",
+            "sha256": "2a9cbf27572d9ff3a2ea5052a3844d6c2eb27ac12d7ef7211441d4173bea23a9",
+            "size": 54203910
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "v0.9.0-4-ge383a8e",
-            "versionCode": 70,
+            "versionName": "v0.9.0-6-g96a021b",
+            "versionCode": 71,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 35
