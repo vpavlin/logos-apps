@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-09-23T12:24:14Z",
+  "generatedAt": "2026-09-30T08:32:35Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -39,21 +39,21 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:26Z",
-          "publisherRef": "delivery_module-v0.2.3",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module-v0.2.3.lgx",
-          "size": 21803223,
-          "sha256": "df672718b974dccb061845716f643095d3dd01649be0a53ac6e26117c8c4f5cf",
-          "rootHash": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "delivery_module-v0.1.4",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module.lgx",
+          "size": 21760003,
+          "sha256": "1f99f89ce84762e677eefb82f33f1fd801cd03968b1cfe7f25f6c0f27431fc06",
+          "rootHash": "415b568f181be63650a644d61d563758b6dc998d24f5a2c00981387ea34cbb3f",
           "manifest": {
             "author": "Logos Core Team",
             "category": "protocol",
             "dependencies": [],
             "description": "Logos Delivery Module - High-level message-delivery API",
             "hashes": {
-              "root": "c3637b41461e3984bb0b4873277800dcd7b5aac9b8e59868ab62c7c8133a0854",
-              "variants": "0059d6e31619b71b7a08c7ea9bed77b5ffe7c4705b71871068f12e297d14a0d8",
-              "variants/linux-amd64": "b007d5da29540e5cd6d4e7168851c52686025b3352a8ac6c6b00846e1d01dc20"
+              "root": "415b568f181be63650a644d61d563758b6dc998d24f5a2c00981387ea34cbb3f",
+              "variants": "bdda1d109811e13f72d1b44ba71a602c73288008ccf74b89c7cd8b07b8f65f68",
+              "variants/linux-amd64": "afe8f1e607d52a39da26ffae8f47c789fe80005c23b872730292d58f6fbfffc4"
             },
             "icon": "",
             "main": {
@@ -62,7 +62,7 @@
             "manifestVersion": "0.3.0",
             "name": "delivery_module",
             "type": "core",
-            "version": "0.2.3"
+            "version": "0.1.4"
           }
         }
       ]
@@ -136,12 +136,12 @@
       "name": "kith",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "kith-v0.2.2",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "kith-v0.2.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith-module.lgx",
-          "size": 4212299,
-          "sha256": "9eea73b37fda3e3ff4fda9c49d7615edb9bda792566f9b936c7cfddae4916ac2",
-          "rootHash": "99845178d708d24e422f0ed7c5ddb88e2570e29f5efc2c397618a705da2a6d28",
+          "size": 4227195,
+          "sha256": "8366fb1a503f2c980be3dd0e8925492fe80bb9c774b1cf5e99f2ba15e7bd43c8",
+          "rootHash": "a956bbda9f10e76a2339e67dda627502f3a24df3ce63d09a059ddac33fe301d0",
           "manifest": {
             "author": "",
             "category": "general",
@@ -151,9 +151,9 @@
             "description": "Contacts and address book module for Logos Core",
             "display_name": "Kith Core",
             "hashes": {
-              "root": "99845178d708d24e422f0ed7c5ddb88e2570e29f5efc2c397618a705da2a6d28",
-              "variants": "fbcbd2a9a68414a615a5cf1cec3063305f26f815471832755a3b91b9d6eb376f",
-              "variants/linux-amd64": "11eafd54951d531f1ca92ada578984aadb9d0ae1d73ada5168ef984957714549"
+              "root": "a956bbda9f10e76a2339e67dda627502f3a24df3ce63d09a059ddac33fe301d0",
+              "variants": "f8e686a8b51d57bc83fcbb6071f0e15a7757ab4419e6db99fe5d05b48bb6711c",
+              "variants/linux-amd64": "111e78ea96dd770ca0ab77100307b11e07057997d31579f7749960950e81708c"
             },
             "icon": "icon.png",
             "main": {
@@ -162,7 +162,7 @@
             "manifestVersion": "0.3.0",
             "name": "kith",
             "type": "core",
-            "version": "0.2.2"
+            "version": "0.2.4"
           }
         }
       ]
@@ -171,12 +171,12 @@
       "name": "kith_ui",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "kith_ui-v0.2.1",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "kith_ui-v0.2.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith_ui-module.lgx",
-          "size": 23946,
-          "sha256": "2f955bcc9ceff6865c296893c03f2aa1f4f22c7f1d931f3b16487fbbd8f76fce",
-          "rootHash": "3016e3e52718b1522100eaa18503a065b249fcc351644ee73585e7870fa1b531",
+          "size": 61959,
+          "sha256": "9e59d586d339d5b883fd566c413329e0e4929499ce52ddad3503ec31791cf55d",
+          "rootHash": "4c51a034f54d737a789c549412e53f4c0595e6c85fda0b51607958df2a44f434",
           "manifest": {
             "author": "",
             "category": "general",
@@ -186,17 +186,84 @@
             "description": "Kith address book UI - pure-QML view over the kith core module",
             "display_name": "Kith",
             "hashes": {
-              "root": "3016e3e52718b1522100eaa18503a065b249fcc351644ee73585e7870fa1b531",
-              "variants": "91a9e845f1861f4762d28df602d5c1fa45538664d56fc4983f61335a72268843",
-              "variants/linux-amd64": "4daab465c9485473571711065f009e137a82057156f66a8c9a4b9933c5c8bc80"
+              "root": "4c51a034f54d737a789c549412e53f4c0595e6c85fda0b51607958df2a44f434",
+              "variants": "0240aecc10f54d025ed9766b416cf417ee107e93407cc00786d24837a372f4e3",
+              "variants/linux-amd64": "e55a51bcddacfa482f9efec433a5393aeac8b69fbeb7823cc479f108ec42cd20"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "kith_ui",
             "type": "ui_qml",
-            "version": "0.2.1",
+            "version": "0.2.4",
             "view": "qml/Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "kym",
+      "versions": [
+        {
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "kym-v0.6.9",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
+          "size": 83594,
+          "sha256": "8de972564858ecd076c1b6b63134c61f8ad02d015abc1d951f0c54f8802f4e06",
+          "rootHash": "5b71c77e69eea316f7b3e0586c45b0ea2f9373e9c5827b3fa6de059edd26af6e",
+          "manifest": {
+            "author": "",
+            "category": "finance",
+            "dependencies": [
+              "kym_core"
+            ],
+            "description": "Local-first zero-based budget. Envelope categories, a monthly grid, accounts and credit-card handling - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and peers fold). Pure-QML view over the kym_core module.",
+            "hashes": {
+              "root": "5b71c77e69eea316f7b3e0586c45b0ea2f9373e9c5827b3fa6de059edd26af6e",
+              "variants": "2961bb45c690934f88ebfadb273fab9177d09f34c4de569052917cf690875a18",
+              "variants/linux-amd64": "8ebf808e024443d977e9e18dcffeaaeb372580010107686bab0c5b311bc459cb"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.2.0",
+            "name": "kym",
+            "type": "ui_qml",
+            "version": "0.6.9",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "kym_core",
+      "versions": [
+        {
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "kym_core-v0.7.9",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
+          "size": 4210826,
+          "sha256": "fc804fd459d87fe3c5ef49b33180ab9667ec394311c8f8c8e61cbe5796f6edaf",
+          "rootHash": "a850d06994f4b43582ca28878129616e83c37df3b2335c4b357fc701da6525ee",
+          "manifest": {
+            "author": "",
+            "category": "finance",
+            "dependencies": [
+              "loam_core"
+            ],
+            "description": "KYM engine and sync core: the append-only event-log budget engine, household crypto, and Delivery sync. Runs headless (the always-on hub) and behind the kym ui_qml view.",
+            "hashes": {
+              "root": "a850d06994f4b43582ca28878129616e83c37df3b2335c4b357fc701da6525ee",
+              "variants": "05e2d28eb32c5a5607d2f7f6fd137d5637a1c9b808eb7d357a46c9b3ac56500e",
+              "variants/linux-amd64": "315e2532134bf12dc76a2c768234c8c28c728cdd37eb5b6fb0bf83afc38e5f84"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "kym_core_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "kym_core",
+            "type": "core",
+            "version": "0.7.9"
           }
         }
       ]
@@ -205,12 +272,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "loam_core-v0.4.4",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "loam_core-v0.4.17",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 4127061,
-          "sha256": "3922aec577f883aad472b51f226249753b1ccbe359f8646e3bb5c8f7b9cfbeb9",
-          "rootHash": "97e4b1762039e6b6e36ecf2b83e21d2fc9c5acf4cd03b8abf6bd305667e27b93",
+          "size": 4127279,
+          "sha256": "d92adbcbb1fe8d0933e88ba1804ee64af2f27519d0e578c630dcc872f6d78b20",
+          "rootHash": "ebc12a2dfe6d2053ccd4d44910c018b14ac46514270d05d197c49693fcd837dd",
           "manifest": {
             "author": "",
             "category": "system",
@@ -221,9 +288,9 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "root": "97e4b1762039e6b6e36ecf2b83e21d2fc9c5acf4cd03b8abf6bd305667e27b93",
-              "variants": "a4e5a37991b9f909245c9e347c50b4149a6e37adb8e8a829bf942c0bbb12d147",
-              "variants/linux-amd64": "dc4f5a4b51248d14bed4fd8e100f58b8581c59b03ddaae4bc85825f620b5c97c"
+              "root": "ebc12a2dfe6d2053ccd4d44910c018b14ac46514270d05d197c49693fcd837dd",
+              "variants": "e3383003cf06578e654d52ab32e4686c7c3be60f8451242eb5d19a02740159ff",
+              "variants/linux-amd64": "53caa87a9b608219068b6da2d4775fa78f859dd5f6694ca05fbc0d19e20db452"
             },
             "icon": "",
             "main": {
@@ -232,7 +299,7 @@
             "manifestVersion": "0.3.0",
             "name": "loam_core",
             "type": "core",
-            "version": "0.4.4"
+            "version": "0.4.17"
           }
         }
       ]
@@ -241,34 +308,69 @@
       "name": "perun_analytics",
       "versions": [
         {
-          "releasedAt": "2026-08-27T07:36:40Z",
-          "publisherRef": "perun_analytics-v0.1.0",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "perun_analytics-v0.8.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_analytics-module.lgx",
-          "size": 4760682,
-          "sha256": "6669bfec2b10feab7a2129a76d3b2f93327a1f34e36c22fcd82cba33749080ff",
-          "rootHash": "d0cf1b75ef658000c4743cf4b0b8cb6f89f64436c1166c2d796aceb1ab65e7fd",
+          "size": 4044704,
+          "sha256": "265c03eac53ce5545b608c01a1801869da0deaecf0b40720cf6cea3c9aa8e583",
+          "rootHash": "18ef7e62f24463211fd5c9b9d0a7ac04768156b08844016c8f442196b87d9df0",
           "manifest": {
             "author": "",
             "category": "fitness",
             "dependencies": [
-              "delivery_module"
+              "perun_core"
             ],
-            "description": "Detailed running analytics for Perun \u2014 ingests runs synced over Logos Delivery and shows splits, elevation, pace and trends.",
+            "description": "Detailed running analytics for Perun \u2014 the view over perun_core: splits, elevation, pace, trends, route map, journey annotations and replay.",
             "display_name": "Perun Analytics",
             "hashes": {
-              "root": "d0cf1b75ef658000c4743cf4b0b8cb6f89f64436c1166c2d796aceb1ab65e7fd",
-              "variants": "d93a4d70e564e685e1adf817fba96e062aeb4848ee0ec9df8aec39d1ade193d5",
-              "variants/linux-amd64": "c4d8653edfc9dd4957cd212a73af77d4296aa28617f98d1eb6aaceffd6894b30"
+              "root": "18ef7e62f24463211fd5c9b9d0a7ac04768156b08844016c8f442196b87d9df0",
+              "variants": "763bd474925ac5796a1812a75385c899934114aaf74630a6aaf98e5296286af9",
+              "variants/linux-amd64": "365dfc2038e04ae916a642077b3c954fb6b3f71a16dcba8800c190ccedeec542"
             },
-            "icon": "",
+            "icon": "icon.png",
             "main": {
               "linux-amd64": "perun_analytics_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "perun_analytics",
             "type": "ui_qml",
-            "version": "0.1.0",
+            "version": "0.8.1",
             "view": "qml/Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "perun_core",
+      "versions": [
+        {
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "perun_core-v0.9.6",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_core-module.lgx",
+          "size": 5009321,
+          "sha256": "279ca106a976a88857fa98978c17208f645858426cd8cca81ec825ed4d128b97",
+          "rootHash": "6f1d52d44ca950f709b3d5262af3f695e3d5e62bf5227aeb91bc25f9e8e9bb16",
+          "manifest": {
+            "author": "",
+            "category": "fitness",
+            "dependencies": [
+              "loam_core"
+            ],
+            "description": "Perun engine + sync core: pairing/identity, the loam_core Delivery transport, the run + annotation event-log fold, the SQLite store and the embedded content-addressed media hub. Runs headless (the always-on hub) and behind the perun_analytics view.",
+            "display_name": "Perun Core",
+            "hashes": {
+              "root": "6f1d52d44ca950f709b3d5262af3f695e3d5e62bf5227aeb91bc25f9e8e9bb16",
+              "variants": "ebaa5001f0e68716b73907eca9d90d790cda8c2e4379c43f3ea7c2cd9ae4207c",
+              "variants/linux-amd64": "965be74a4b70ff977b1d66afd8832bf3426508ec76aee7e93d212d7a2aedb311"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "perun_core_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "perun_core",
+            "type": "core",
+            "version": "0.9.6"
           }
         }
       ]
@@ -277,12 +379,12 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "qaku-v0.1.18",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "qaku-v0.1.27",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
-          "size": 29671,
-          "sha256": "84974091a55e395fbb2acb2a34c1a58486f5a7bf667adbbf8a0a6a39c7448d42",
-          "rootHash": "5652961843ed7c3893cdc794e230d435c637422be0da1ea6fc33c386928f95cf",
+          "size": 38673,
+          "sha256": "283f79e81edde6c9d3487f4c9beafc801d60934c442c3db0b5ff1c65b0d4afb0",
+          "rootHash": "5d11e1dad86288495edd76f54f1b3373c737c5a017cd892237bbf2ca246a5e69",
           "manifest": {
             "author": "",
             "category": "social",
@@ -292,16 +394,16 @@
             "description": "Local-first, multi-writer Q&A. Sessions, questions, per-voter upvotes, owner answers and moderation, and polls - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and hub fold). Pure-QML view over the qaku_core module.",
             "display_name": "QAKU - Q&A",
             "hashes": {
-              "root": "5652961843ed7c3893cdc794e230d435c637422be0da1ea6fc33c386928f95cf",
-              "variants": "98ad16970b8421f2df6f16d0cf287c942c3c4f7a99ba6d8e8e9ffb223a9d4104",
-              "variants/linux-amd64": "90126b810dd2eb315ac888ce4310a026d91b7751dd398f86fd896da56d0b2766"
+              "root": "5d11e1dad86288495edd76f54f1b3373c737c5a017cd892237bbf2ca246a5e69",
+              "variants": "747b3c88768c9854e7201ba2d1c8865e78b85e8757d337bc84a0d4cb7da9c171",
+              "variants/linux-amd64": "f8f4f82be369c574f667d9642bebe31d62724f0e7d1982081a4a37e24883597d"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "qaku",
             "type": "ui_qml",
-            "version": "0.1.18",
+            "version": "0.1.27",
             "view": "Main.qml"
           }
         }
@@ -311,32 +413,32 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "qaku_core-v0.1.14",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "qaku_core-v0.1.22",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
-          "size": 4155555,
-          "sha256": "6bb03ea9a6491f31e072dcefa44c032a9162b8e8c67a3f0fab785891d22782c5",
-          "rootHash": "f5dc6a0b1c156e41e4eb595810a752d9be858240773edbe222c1ee5259ac601f",
+          "size": 4414898,
+          "sha256": "37544fa8962a688d0a0e8b36a853a216f52ff76fe1b1a5f866f3e64703e14818",
+          "rootHash": "d6196d959c1a171ed4c655f69fc2c2bd5d50ef60a5f0f153f80bd1260a274a9c",
           "manifest": {
             "author": "",
             "category": "social",
             "dependencies": [
-              "delivery_module"
+              "loam_core"
             ],
             "description": "QAKU engine and sync core: the append-only event-log Q&A engine (questions, upvotes, answers, moderation, polls), session crypto, and Delivery sync over SDS Reliable Channels. Runs headless as the always-on hub and behind the qaku ui_qml view.",
             "hashes": {
-              "root": "f5dc6a0b1c156e41e4eb595810a752d9be858240773edbe222c1ee5259ac601f",
-              "variants": "ddc66ec439153a7a16d4aa4cd54740527299ef11b34ca36d9563f8673b1a89ff",
-              "variants/linux-amd64": "562ec264aadaceeb34cc0796ee8c0c11efb2110200bf37391f3bb006bed29267"
+              "root": "d6196d959c1a171ed4c655f69fc2c2bd5d50ef60a5f0f153f80bd1260a274a9c",
+              "variants": "2e9aa971e0257ad00a507d8cbb52a16367bb0f2491d841b17a8c2e519c4c7613",
+              "variants/linux-amd64": "2d39c57a907fad65c751004f4717f4b9d06367026e3ecd6ecc0ccda774da43f3"
             },
             "icon": "",
             "main": {
               "linux-amd64": "qaku_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.4.0",
             "name": "qaku_core",
             "type": "core",
-            "version": "0.1.14"
+            "version": "0.1.22"
           }
         }
       ]
@@ -345,12 +447,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-09-23T12:24:14Z",
-          "publisherRef": "scala-v0.9.23",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "scala-v0.9.35",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4315942,
-          "sha256": "97645607bd860055c638b0c613634f56dd3ea8094e04553b781cba072bf3e026",
-          "rootHash": "1e0b6cc1cfd05f9549a3a0c7ba0e4cd23497f5e85617ef5c78f115c485f6e3e8",
+          "size": 4341161,
+          "sha256": "dadcd1f08357bac94457a0c1d4b093be072ff7175f9090a04ac24753cc3b71c5",
+          "rootHash": "f08ae01de2185ed1eb00656464448a7809077ed53ab32575b0cbcd38690990b8",
           "manifest": {
             "author": "",
             "category": "general",
@@ -361,9 +463,9 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "1e0b6cc1cfd05f9549a3a0c7ba0e4cd23497f5e85617ef5c78f115c485f6e3e8",
-              "variants": "5368cb93d5e9ac030b0739ffdb3b52ed2e384dbc536309a3ea3b29003244a727",
-              "variants/linux-amd64": "5d03cce7205e95630d10d97fa3e8a69d10fcf00fe71fc4dd9ff4c337b46c4396"
+              "root": "f08ae01de2185ed1eb00656464448a7809077ed53ab32575b0cbcd38690990b8",
+              "variants": "d1abd1cace0462b2107e059816f44d01b8b3b8351bfeb7c506d50dad6410e64c",
+              "variants/linux-amd64": "e0c5ace8e4a26305dd28586fcfc3f7bed7a471eda20dbcd023fd64744d308a4d"
             },
             "icon": "icon.png",
             "main": {
@@ -372,7 +474,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.23"
+            "version": "0.9.35"
           }
         }
       ]
@@ -381,12 +483,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-09-23T12:24:14Z",
-          "publisherRef": "scala_ui-v0.8.29",
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "scala_ui-v0.8.33",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 48061,
-          "sha256": "35160efe01c86c1528d7a8a216703c7bfce4abbe8221e1f7741e7224fe27eddb",
-          "rootHash": "01e7a850235c78cbf9015a74b18e0820373839d00ec9e2fb362752879555c998",
+          "size": 48812,
+          "sha256": "d770b2336d13eb8fe383d9fea9c82716718345ff48fa3e68bf97ed2cb02f2391",
+          "rootHash": "414709e515171402150d0f5d536ecdee24143e359240f09363aca22c60b8ff5f",
           "manifest": {
             "author": "",
             "category": "general",
@@ -396,16 +498,16 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "01e7a850235c78cbf9015a74b18e0820373839d00ec9e2fb362752879555c998",
-              "variants": "4a98d104ac1be13e4667c7a0f603352be1f62d5ec10f2092e1eeaa521b445222",
-              "variants/linux-amd64": "7086d853f6330bca104461813945d7a396f0d2663b08e20d082c8d9c4fbd407f"
+              "root": "414709e515171402150d0f5d536ecdee24143e359240f09363aca22c60b8ff5f",
+              "variants": "56c55fd52c425cb6212de31ae8142f2ecd24cb3469ef43d03fe8f123516c9dd4",
+              "variants/linux-amd64": "e4d33906dcff4d22193aa3f448ac6200a775c4528513f5fa39697b48bfa2a401"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "scala_ui",
             "type": "ui_qml",
-            "version": "0.8.29",
+            "version": "0.8.33",
             "view": "qml/CalendarView.qml"
           }
         }
@@ -474,6 +576,39 @@
             "name": "shrooms_core",
             "type": "core",
             "version": "0.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "storage_module",
+      "versions": [
+        {
+          "releasedAt": "2026-09-30T08:32:35Z",
+          "publisherRef": "storage_module-v2.1.3",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-storage_module-module.lgx",
+          "size": 12948457,
+          "sha256": "88b7cb1397dee3eebee17b01ee0aab005601d9e1f1a37d26210044ab034c990c",
+          "rootHash": "57d67502c784356147072ae0c8c9230b4c8f4842714627a4427b841b5d63bcfc",
+          "manifest": {
+            "author": "Logos Core Team",
+            "category": "protocol",
+            "dependencies": [],
+            "description": "Storage module",
+            "display_name": "Storage Module",
+            "hashes": {
+              "root": "57d67502c784356147072ae0c8c9230b4c8f4842714627a4427b841b5d63bcfc",
+              "variants": "1ff332a0e4e657a24c923c8b0726cc228754327fc42ad17dffc87499f0b3377e",
+              "variants/linux-amd64": "199bf8b8932e997d9c7d619d3f22c60b8176f7f8d10efe4f18878fc6ea5120d4"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "storage_module_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "storage_module",
+            "type": "core",
+            "version": "2.1.3"
           }
         }
       ]
