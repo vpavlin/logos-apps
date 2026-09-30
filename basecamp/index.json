@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-09-30T12:43:36Z",
+  "generatedAt": "2026-09-30T13:09:25Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -447,12 +447,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-09-30T12:43:36Z",
-          "publisherRef": "scala-v0.9.41",
+          "releasedAt": "2026-09-30T13:09:25Z",
+          "publisherRef": "scala-v0.9.42",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4356299,
-          "sha256": "09277ba9b8159ca298335da4b8d3c7065c66f272fa84ad108829dd39fc4821d2",
-          "rootHash": "0dfa65967a297464d11241f75fc89ad0b3196819a39ef0e2d721d962e3c5264f",
+          "size": 4356344,
+          "sha256": "63c8b2ef020c9963fd591d407f7f2d3b3c231ed4f2ee2c1c2a28aae98d7b9d5c",
+          "rootHash": "351f8cd95ddf96cef86794d45ed0ceb587d3012b4073d1796ba73c59096fbf4b",
           "manifest": {
             "author": "",
             "category": "general",
@@ -463,9 +463,9 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "0dfa65967a297464d11241f75fc89ad0b3196819a39ef0e2d721d962e3c5264f",
-              "variants": "125b925895b1ed4283b7cf1ca57ac7c5973e7c1ac856a8422e552a64eb8f67b2",
-              "variants/linux-amd64": "d466ce38094b720238230dcc74b6862678c140dd152a2b7f6a1689913bdf575b"
+              "root": "351f8cd95ddf96cef86794d45ed0ceb587d3012b4073d1796ba73c59096fbf4b",
+              "variants": "c4d405cc351eacbdc3be24d369d9b06a85d77ffa8b6b9258de9f44390c7078fe",
+              "variants/linux-amd64": "1182d8bac2d6e933b90da3e560b8250696868785bad20c225e2f0c0738e83ef1"
             },
             "icon": "icon.png",
             "main": {
@@ -474,7 +474,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.41"
+            "version": "0.9.42"
           }
         }
       ]
