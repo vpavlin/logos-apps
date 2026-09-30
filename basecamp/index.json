@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-09-30T08:32:35Z",
+  "generatedAt": "2026-09-30T12:43:36Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -447,12 +447,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "scala-v0.9.35",
+          "releasedAt": "2026-09-30T12:43:36Z",
+          "publisherRef": "scala-v0.9.41",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 4341161,
-          "sha256": "dadcd1f08357bac94457a0c1d4b093be072ff7175f9090a04ac24753cc3b71c5",
-          "rootHash": "f08ae01de2185ed1eb00656464448a7809077ed53ab32575b0cbcd38690990b8",
+          "size": 4356299,
+          "sha256": "09277ba9b8159ca298335da4b8d3c7065c66f272fa84ad108829dd39fc4821d2",
+          "rootHash": "0dfa65967a297464d11241f75fc89ad0b3196819a39ef0e2d721d962e3c5264f",
           "manifest": {
             "author": "",
             "category": "general",
@@ -463,9 +463,9 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "f08ae01de2185ed1eb00656464448a7809077ed53ab32575b0cbcd38690990b8",
-              "variants": "d1abd1cace0462b2107e059816f44d01b8b3b8351bfeb7c506d50dad6410e64c",
-              "variants/linux-amd64": "e0c5ace8e4a26305dd28586fcfc3f7bed7a471eda20dbcd023fd64744d308a4d"
+              "root": "0dfa65967a297464d11241f75fc89ad0b3196819a39ef0e2d721d962e3c5264f",
+              "variants": "125b925895b1ed4283b7cf1ca57ac7c5973e7c1ac856a8422e552a64eb8f67b2",
+              "variants/linux-amd64": "d466ce38094b720238230dcc74b6862678c140dd152a2b7f6a1689913bdf575b"
             },
             "icon": "icon.png",
             "main": {
@@ -474,7 +474,7 @@
             "manifestVersion": "0.3.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.35"
+            "version": "0.9.41"
           }
         }
       ]
@@ -483,12 +483,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "scala_ui-v0.8.33",
+          "releasedAt": "2026-09-30T12:43:36Z",
+          "publisherRef": "scala_ui-v0.8.35",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 48812,
-          "sha256": "d770b2336d13eb8fe383d9fea9c82716718345ff48fa3e68bf97ed2cb02f2391",
-          "rootHash": "414709e515171402150d0f5d536ecdee24143e359240f09363aca22c60b8ff5f",
+          "size": 49251,
+          "sha256": "1985a4a3b34ea9eeeaf25da2a5cf8877e5455e2c0d9d94e8c07ea824120b7604",
+          "rootHash": "b29ea888353cb418d7f9520593e48235ae548af17186443afecaef1010ebf52a",
           "manifest": {
             "author": "",
             "category": "general",
@@ -498,16 +498,16 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "414709e515171402150d0f5d536ecdee24143e359240f09363aca22c60b8ff5f",
-              "variants": "56c55fd52c425cb6212de31ae8142f2ecd24cb3469ef43d03fe8f123516c9dd4",
-              "variants/linux-amd64": "e4d33906dcff4d22193aa3f448ac6200a775c4528513f5fa39697b48bfa2a401"
+              "root": "b29ea888353cb418d7f9520593e48235ae548af17186443afecaef1010ebf52a",
+              "variants": "6878bfd91e4c5adf7f7e8b27fe832de6dc3ff4c84e35a4d6e52a378d64d21fd4",
+              "variants/linux-amd64": "3b9382f0b8b1714ed9494ada124069c8ba34f1b4caa22a536063e9b54277ba15"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "scala_ui",
             "type": "ui_qml",
-            "version": "0.8.33",
+            "version": "0.8.35",
             "view": "qml/CalendarView.qml"
           }
         }
