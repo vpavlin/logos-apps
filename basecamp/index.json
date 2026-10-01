@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-09-30T13:09:25Z",
+  "generatedAt": "2026-10-01T06:18:05Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -171,12 +171,12 @@
       "name": "kith_ui",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "kith_ui-v0.2.4",
+          "releasedAt": "2026-10-01T06:18:05Z",
+          "publisherRef": "kith_ui-v0.2.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith_ui-module.lgx",
-          "size": 61959,
-          "sha256": "9e59d586d339d5b883fd566c413329e0e4929499ce52ddad3503ec31791cf55d",
-          "rootHash": "4c51a034f54d737a789c549412e53f4c0595e6c85fda0b51607958df2a44f434",
+          "size": 62006,
+          "sha256": "0a559d928b9d722c2a22199c9fab2a805934d4031b6dd8ccdfd82a28498f899d",
+          "rootHash": "a01a72be667326ab3f0127c8daf5df594a4323e7a46622c1b1ae72e1913fd768",
           "manifest": {
             "author": "",
             "category": "general",
@@ -186,16 +186,16 @@
             "description": "Kith address book UI - pure-QML view over the kith core module",
             "display_name": "Kith",
             "hashes": {
-              "root": "4c51a034f54d737a789c549412e53f4c0595e6c85fda0b51607958df2a44f434",
-              "variants": "0240aecc10f54d025ed9766b416cf417ee107e93407cc00786d24837a372f4e3",
-              "variants/linux-amd64": "e55a51bcddacfa482f9efec433a5393aeac8b69fbeb7823cc479f108ec42cd20"
+              "root": "a01a72be667326ab3f0127c8daf5df594a4323e7a46622c1b1ae72e1913fd768",
+              "variants": "8b3bcc35b601e81d371ef9f5d221fa57599a4d4ed8d178e849564c44e637bdee",
+              "variants/linux-amd64": "f717a3168d9eccdd1da292302f004fe9cd8242e2d76a77badc0db93b342980d7"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "kith_ui",
             "type": "ui_qml",
-            "version": "0.2.4",
+            "version": "0.2.5",
             "view": "qml/Main.qml"
           }
         }
@@ -205,12 +205,12 @@
       "name": "kym",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "kym-v0.6.9",
+          "releasedAt": "2026-10-01T06:18:05Z",
+          "publisherRef": "kym-v0.6.10",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
-          "size": 83594,
-          "sha256": "8de972564858ecd076c1b6b63134c61f8ad02d015abc1d951f0c54f8802f4e06",
-          "rootHash": "5b71c77e69eea316f7b3e0586c45b0ea2f9373e9c5827b3fa6de059edd26af6e",
+          "size": 83862,
+          "sha256": "9b9bdc54412817ba52317a05a30dc6ad94e8202a3b0b0858d451b803a22d9ef5",
+          "rootHash": "3498aab8763dc04df5537e9d480898791d5507ef9ac6e0ab4ecf1a70f795f83d",
           "manifest": {
             "author": "",
             "category": "finance",
@@ -219,16 +219,16 @@
             ],
             "description": "Local-first zero-based budget. Envelope categories, a monthly grid, accounts and credit-card handling - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and peers fold). Pure-QML view over the kym_core module.",
             "hashes": {
-              "root": "5b71c77e69eea316f7b3e0586c45b0ea2f9373e9c5827b3fa6de059edd26af6e",
-              "variants": "2961bb45c690934f88ebfadb273fab9177d09f34c4de569052917cf690875a18",
-              "variants/linux-amd64": "8ebf808e024443d977e9e18dcffeaaeb372580010107686bab0c5b311bc459cb"
+              "root": "3498aab8763dc04df5537e9d480898791d5507ef9ac6e0ab4ecf1a70f795f83d",
+              "variants": "f4ecb23a2b61083940a51920f93e65e5706f703181c5c2fb08ef55ff9f177cc6",
+              "variants/linux-amd64": "378f530fe7e976d97262eabc70cd786369c70ad31fc0c62993924b3f6792e0b1"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.2.0",
             "name": "kym",
             "type": "ui_qml",
-            "version": "0.6.9",
+            "version": "0.6.10",
             "view": "Main.qml"
           }
         }
@@ -308,12 +308,12 @@
       "name": "perun_analytics",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "perun_analytics-v0.8.1",
+          "releasedAt": "2026-10-01T06:18:05Z",
+          "publisherRef": "perun_analytics-v0.8.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_analytics-module.lgx",
-          "size": 4044704,
-          "sha256": "265c03eac53ce5545b608c01a1801869da0deaecf0b40720cf6cea3c9aa8e583",
-          "rootHash": "18ef7e62f24463211fd5c9b9d0a7ac04768156b08844016c8f442196b87d9df0",
+          "size": 4044748,
+          "sha256": "4bc6fe37f5cd945cefb71bfec9ec445298620042204cbcf76ee32c13c82546b7",
+          "rootHash": "45327d4d62a3166c16e3c73e55b2296346af5d46edde27a7513a4f6352a25709",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -323,9 +323,9 @@
             "description": "Detailed running analytics for Perun \u2014 the view over perun_core: splits, elevation, pace, trends, route map, journey annotations and replay.",
             "display_name": "Perun Analytics",
             "hashes": {
-              "root": "18ef7e62f24463211fd5c9b9d0a7ac04768156b08844016c8f442196b87d9df0",
-              "variants": "763bd474925ac5796a1812a75385c899934114aaf74630a6aaf98e5296286af9",
-              "variants/linux-amd64": "365dfc2038e04ae916a642077b3c954fb6b3f71a16dcba8800c190ccedeec542"
+              "root": "45327d4d62a3166c16e3c73e55b2296346af5d46edde27a7513a4f6352a25709",
+              "variants": "aac9d4876cb9325a82a085c227eed7eee1694719c9b0980e92734675b8a815fe",
+              "variants/linux-amd64": "b228f52a80ada21f85841870798ae6e2dc865c79c56c50c7a0f6751946c3ac25"
             },
             "icon": "icon.png",
             "main": {
@@ -334,7 +334,7 @@
             "manifestVersion": "0.3.0",
             "name": "perun_analytics",
             "type": "ui_qml",
-            "version": "0.8.1",
+            "version": "0.8.2",
             "view": "qml/Main.qml"
           }
         }
@@ -379,12 +379,12 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "qaku-v0.1.27",
+          "releasedAt": "2026-10-01T06:18:05Z",
+          "publisherRef": "qaku-v0.1.28",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
-          "size": 38673,
-          "sha256": "283f79e81edde6c9d3487f4c9beafc801d60934c442c3db0b5ff1c65b0d4afb0",
-          "rootHash": "5d11e1dad86288495edd76f54f1b3373c737c5a017cd892237bbf2ca246a5e69",
+          "size": 38736,
+          "sha256": "269b873de7f17787fc053c7cb19f76c4c8ea8eb520c473bcbbc3b4809db8aa90",
+          "rootHash": "b6d546d76cd48593ef9684be73bef82261c9ad958c86b8c50c3b5d4cf4f9e314",
           "manifest": {
             "author": "",
             "category": "social",
@@ -394,16 +394,16 @@
             "description": "Local-first, multi-writer Q&A. Sessions, questions, per-voter upvotes, owner answers and moderation, and polls - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and hub fold). Pure-QML view over the qaku_core module.",
             "display_name": "QAKU - Q&A",
             "hashes": {
-              "root": "5d11e1dad86288495edd76f54f1b3373c737c5a017cd892237bbf2ca246a5e69",
-              "variants": "747b3c88768c9854e7201ba2d1c8865e78b85e8757d337bc84a0d4cb7da9c171",
-              "variants/linux-amd64": "f8f4f82be369c574f667d9642bebe31d62724f0e7d1982081a4a37e24883597d"
+              "root": "b6d546d76cd48593ef9684be73bef82261c9ad958c86b8c50c3b5d4cf4f9e314",
+              "variants": "e47520420c236405773092b0861c8aed1765daa9118f1653614ceca64333129b",
+              "variants/linux-amd64": "aee33b07ceddd92bd03f4b49963f38f33ea82607640a1f88b706c400ee5718fa"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "qaku",
             "type": "ui_qml",
-            "version": "0.1.27",
+            "version": "0.1.28",
             "view": "Main.qml"
           }
         }
@@ -483,12 +483,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-09-30T12:43:36Z",
-          "publisherRef": "scala_ui-v0.8.35",
+          "releasedAt": "2026-10-01T06:18:05Z",
+          "publisherRef": "scala_ui-v0.8.36",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 49251,
-          "sha256": "1985a4a3b34ea9eeeaf25da2a5cf8877e5455e2c0d9d94e8c07ea824120b7604",
-          "rootHash": "b29ea888353cb418d7f9520593e48235ae548af17186443afecaef1010ebf52a",
+          "size": 49372,
+          "sha256": "22a71dacf9eef0bb7265b0dd9bb1e5a7b294b498a93d09315ada2494f3c600e2",
+          "rootHash": "2d8ba8daa154b6d7ef2dd8617d38f378fb6b58cb36fea84cadfce7d19a42d1f2",
           "manifest": {
             "author": "",
             "category": "general",
@@ -498,16 +498,16 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "b29ea888353cb418d7f9520593e48235ae548af17186443afecaef1010ebf52a",
-              "variants": "6878bfd91e4c5adf7f7e8b27fe832de6dc3ff4c84e35a4d6e52a378d64d21fd4",
-              "variants/linux-amd64": "3b9382f0b8b1714ed9494ada124069c8ba34f1b4caa22a536063e9b54277ba15"
+              "root": "2d8ba8daa154b6d7ef2dd8617d38f378fb6b58cb36fea84cadfce7d19a42d1f2",
+              "variants": "f2c0fbb1d683c8988ba2bbfc7ec2f2abdf334bc47f2059e04f3bb655212faafa",
+              "variants/linux-amd64": "8c0f35256d18eba3bd5b7c27a003815a84825d5ebfd7e9b50dcf9479365c8681"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "scala_ui",
             "type": "ui_qml",
-            "version": "0.8.35",
+            "version": "0.8.36",
             "view": "qml/CalendarView.qml"
           }
         }
