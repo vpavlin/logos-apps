@@ -1,33 +1,35 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-01T09:04:28Z",
+  "generatedAt": "2026-10-01T09:48:09Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "ble_mesh-v0.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
-          "size": 7349046,
-          "sha256": "9cdd3f22a8b516a5543061a5a487c909ae3a8b1cea0f865d2f2b5e60969440f7",
-          "rootHash": "ede649c65df736255fd5a3813cdc7562f292a779b7a8b1bb845096200875d7d1",
+          "size": 11548338,
+          "sha256": "9f2e8e8e0e58829104c0560f00f691571e7c3288a762ec1b561e45aa602a5667",
+          "rootHash": "adef3672572a540764738c36e2c98448bd260164faf022b0a1263795ff0d5ea0",
           "manifest": {
             "author": "",
             "category": "system",
             "dependencies": [],
             "description": "Loam BLE offline-mesh bearer: flood-gossip over Bluetooth, wire-compatible with the Android Loam mesh and loam-transport bearer.ts (same frame format and frameId). Depended on by loam_core (and any app) as a second bearer beside delivery. Portable gossip today, Qt Bluetooth radio in Phase 3. See ADR 0015.",
             "hashes": {
-              "root": "ede649c65df736255fd5a3813cdc7562f292a779b7a8b1bb845096200875d7d1",
-              "variants": "69a48407a6f5ce2998eb5b2031e2dbd0c63c1b6987ec1393795e83987e47c0fa",
+              "root": "adef3672572a540764738c36e2c98448bd260164faf022b0a1263795ff0d5ea0",
+              "variants": "3a560604304dd1377a8e609ca2d58ac0c9aa2eaa0233814d15864e793d263d96",
               "variants/darwin-arm64": "b1ee41e5df224d572d6bd0f8b5f891d68b5646818ecba3f0a6ef18f8253d4cc6",
-              "variants/linux-amd64": "52ef81d2171ae0b910b610815a62162d8dc04f30c964899ec43cefe8f46b43d1"
+              "variants/linux-amd64": "52ef81d2171ae0b910b610815a62162d8dc04f30c964899ec43cefe8f46b43d1",
+              "variants/linux-arm64": "fdf94637ab469ab80d69a5c5f1a1a2711fb099104698e1654699c5f1133594b1"
             },
             "icon": "",
             "main": {
               "darwin-arm64": "ble_mesh_plugin.dylib",
-              "linux-amd64": "ble_mesh_plugin.so"
+              "linux-amd64": "ble_mesh_plugin.so",
+              "linux-arm64": "ble_mesh_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "ble_mesh",
@@ -41,27 +43,29 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "delivery_module-v0.1.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module.lgx",
-          "size": 41106097,
-          "sha256": "659ce7aacdba37194d8b3a81b839f3947b5d22ab88df2f7781bb773a3ef6761e",
-          "rootHash": "579d58f09f724a968704064ec9db309a7a39219ecd927cd6418f0ecb2e04be6a",
+          "size": 62596959,
+          "sha256": "fd50c1b8f6465aadde0ef23531ae08118b23fd7955c6736bbdaacf9ba9e9d41e",
+          "rootHash": "9f5387e592569f90f8d8e33afba3e4c04539a2321ca57bcdbd58cd9c58d24e2f",
           "manifest": {
             "author": "Logos Core Team",
             "category": "protocol",
             "dependencies": [],
             "description": "Logos Delivery Module - High-level message-delivery API",
             "hashes": {
-              "root": "579d58f09f724a968704064ec9db309a7a39219ecd927cd6418f0ecb2e04be6a",
-              "variants": "9c951040ea1de87841883f5dac3ec4774fadbfbf43a103dfb11cc7ced277db63",
+              "root": "9f5387e592569f90f8d8e33afba3e4c04539a2321ca57bcdbd58cd9c58d24e2f",
+              "variants": "2e344a659a1e6ceae2904238b2b6d0c08a37efa6ed354302957945b10c149dc3",
               "variants/darwin-arm64": "ed33eea8eaf3525dea2078c529eb4a0e7bf76545603332f886402a82902ecfd4",
-              "variants/linux-amd64": "afe8f1e607d52a39da26ffae8f47c789fe80005c23b872730292d58f6fbfffc4"
+              "variants/linux-amd64": "afe8f1e607d52a39da26ffae8f47c789fe80005c23b872730292d58f6fbfffc4",
+              "variants/linux-arm64": "efb1fdb9d5b94e640270651c0849ceb6e1e4a0bb9d9913c6f124e71b9ac1686a"
             },
             "icon": "",
             "main": {
               "darwin-arm64": "delivery_module_plugin.dylib",
-              "linux-amd64": "delivery_module_plugin.so"
+              "linux-amd64": "delivery_module_plugin.so",
+              "linux-arm64": "delivery_module_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "delivery_module",
@@ -75,27 +79,29 @@
       "name": "keycard",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "keycard-v1.0.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-module.lgx",
-          "size": 8273949,
-          "sha256": "5486c955984848e580aa0f66481ea79c8e45b4e80cccd26279431fdcce52939c",
-          "rootHash": "20dd0bf4d20b523b46b7cc35c235df7cf929a48d3d4141e92cbe35d41c1973b3",
+          "size": 12920795,
+          "sha256": "1e7a0c287afb543a75718c51d6c122d5a18f64ccb549a6b82cbacaa9d824f890",
+          "rootHash": "716306acc5915dad8aa3f11333edf3b4a220d79230588eab6eb9b404b57e4bfa",
           "manifest": {
             "author": "",
             "category": "security",
             "dependencies": [],
             "description": "Keycard smartcard authentication module for Logos Basecamp",
             "hashes": {
-              "root": "20dd0bf4d20b523b46b7cc35c235df7cf929a48d3d4141e92cbe35d41c1973b3",
-              "variants": "58bf8dd7ea2451a4271360c25910735e5d68a555abc699e656a7f935b42c5827",
+              "root": "716306acc5915dad8aa3f11333edf3b4a220d79230588eab6eb9b404b57e4bfa",
+              "variants": "5790534311846e1b874e18d371a9d2ec0c3c6a25ba68364a826843ffe0540b02",
               "variants/darwin-arm64": "2cd11f12594c0426c5c55eb328f40a7070303b22703d4753aa02fddedf4c9efc",
-              "variants/linux-amd64": "6c11c9f294aa601050382e017e7fc98876b34dfe0146e03e71d4d614325f498c"
+              "variants/linux-amd64": "6c11c9f294aa601050382e017e7fc98876b34dfe0146e03e71d4d614325f498c",
+              "variants/linux-arm64": "f5eb7085cad77ca2b743e700013c7dd5e3bc520111ef3e7d9fa96e9535a211ee"
             },
             "icon": "",
             "main": {
               "darwin-arm64": "keycard_plugin.dylib",
-              "linux-amd64": "keycard_plugin.so"
+              "linux-amd64": "keycard_plugin.so",
+              "linux-arm64": "keycard_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "keycard",
@@ -109,12 +115,12 @@
       "name": "keycard-ui",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "keycard-ui-v1.0.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-ui-module.lgx",
-          "size": 38422,
-          "sha256": "e552712565ea77b284fca1addf1b614ccd8acc4089f13b5fdb99e43430d935fc",
-          "rootHash": "fdb0665bbfd06479abeceefa269831f6cff21b4724789fe22af023e81b9c1de7",
+          "size": 57170,
+          "sha256": "96d20b80fdc5ab69aeedb4e666c5124fcfb5ef359a157d617265b6070892c11c",
+          "rootHash": "18fd71dda5a51d1a93e58d98878303c7c1cae45cb1353c17438497811e629e65",
           "manifest": {
             "author": "",
             "category": "security",
@@ -123,10 +129,11 @@
             ],
             "description": "Keycard debug UI and test harness",
             "hashes": {
-              "root": "fdb0665bbfd06479abeceefa269831f6cff21b4724789fe22af023e81b9c1de7",
-              "variants": "63ac37bd529f29810afe4f46d7a66b270e05abb8f101b89189ada4a25a99e99a",
+              "root": "18fd71dda5a51d1a93e58d98878303c7c1cae45cb1353c17438497811e629e65",
+              "variants": "5e9911e55a4b3ad465acdb15e85b22bdcd2244872349f5cb8924055f7b30d2bc",
               "variants/darwin-arm64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91",
-              "variants/linux-amd64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91"
+              "variants/linux-amd64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91",
+              "variants/linux-arm64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91"
             },
             "icon": "keycard.png",
             "main": {},
@@ -279,12 +286,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "loam_core-v0.4.17",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 7689567,
-          "sha256": "896e304788bdc3502654de5d9201d369b6958cedbf1a3995b81fae240e44077a",
-          "rootHash": "487d6926a78187a7c1fd89d2cb31c32e52101607d6dc4fbecf43a022fac4f9b2",
+          "size": 12042070,
+          "sha256": "22bdf496b3a706d55dcab5c14611a4bd014960e4a73e496363a19454349fd30e",
+          "rootHash": "a7506101c340ae00ad491e28d9d21c05730c8573022930cc1949bd82d272edc9",
           "manifest": {
             "author": "",
             "category": "system",
@@ -295,15 +302,17 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "root": "487d6926a78187a7c1fd89d2cb31c32e52101607d6dc4fbecf43a022fac4f9b2",
-              "variants": "c34499d251c72a0ff290ac49d594ea2ff24b295fb09d1e6b91cc873d75df1808",
+              "root": "a7506101c340ae00ad491e28d9d21c05730c8573022930cc1949bd82d272edc9",
+              "variants": "69f5a9e6ea1fdc7eeffa3c641c8afa0bc42719554d52173b54b8e75f4d78f084",
               "variants/darwin-arm64": "398c66d31e1481458cba2735e6c03af794347b56c704b51053cb6c9fc2bfcc73",
-              "variants/linux-amd64": "53caa87a9b608219068b6da2d4775fa78f859dd5f6694ca05fbc0d19e20db452"
+              "variants/linux-amd64": "53caa87a9b608219068b6da2d4775fa78f859dd5f6694ca05fbc0d19e20db452",
+              "variants/linux-arm64": "8bec823009f5a16b0c2e84e33c633b0ff5421c7be6baab9c3a0409ea6318bf8c"
             },
             "icon": "",
             "main": {
               "darwin-arm64": "loam_core_plugin.dylib",
-              "linux-amd64": "loam_core_plugin.so"
+              "linux-amd64": "loam_core_plugin.so",
+              "linux-arm64": "loam_core_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "loam_core",
@@ -456,12 +465,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "scala-v0.9.42",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 8085156,
-          "sha256": "b0ff4220f973fb591e2e38941fe37b7ce6fb5aa9ff84565d72cf2c47cb1f997a",
-          "rootHash": "794fca81f7b52c43e0ea51f6d54f3e49d0b5770fee8c89c23098226f73a8b908",
+          "size": 12639421,
+          "sha256": "a79007f649754b0668d8a049bfb43455e1077671a7475a4d4de17458adbbe904",
+          "rootHash": "ba5495440c19abdbe5fc126b931be9111d6e781a1b865368cf1cd1bc3495fb87",
           "manifest": {
             "author": "",
             "category": "general",
@@ -472,15 +481,17 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "794fca81f7b52c43e0ea51f6d54f3e49d0b5770fee8c89c23098226f73a8b908",
-              "variants": "7846b675a7d6c0e6569adbcd52ad4fe41d756736c9ae036d09547b130e20f058",
+              "root": "ba5495440c19abdbe5fc126b931be9111d6e781a1b865368cf1cd1bc3495fb87",
+              "variants": "44137cd4b785cd8981a12b90ddcc37a3a4806faaa44ca49eba040d950ef3563a",
               "variants/darwin-arm64": "91f337c24c51171df610a72110cbc139598b568b64d44503cbeff83e58f8a3be",
-              "variants/linux-amd64": "1182d8bac2d6e933b90da3e560b8250696868785bad20c225e2f0c0738e83ef1"
+              "variants/linux-amd64": "1182d8bac2d6e933b90da3e560b8250696868785bad20c225e2f0c0738e83ef1",
+              "variants/linux-arm64": "08e5fad08c98973abb95b2d4f80142fe19c1fe438a3c60e33f6f77065de1b9d0"
             },
             "icon": "icon.png",
             "main": {
               "darwin-arm64": "scala_plugin.dylib",
-              "linux-amd64": "scala_plugin.so"
+              "linux-amd64": "scala_plugin.so",
+              "linux-arm64": "scala_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "scala",
@@ -494,12 +505,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "scala_ui-v0.8.37",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 100436,
-          "sha256": "586c9bc01df6c7bed1c121f320a047ce41b4d35fb3c58fcd3ecc2ca1761c3468",
-          "rootHash": "185b624383d2fd8edd7b1d0f191dec1e08216cd767de43d539e5db9ae074a0f0",
+          "size": 150334,
+          "sha256": "6aef6c84dbecdbfc504f7face917d7304f49fc8c22e92f5c20146def2fa747d2",
+          "rootHash": "be53117412e72235c8053d26d1fb57e8097e2270709d39c865b77dc1cfd026ff",
           "manifest": {
             "author": "",
             "category": "general",
@@ -509,10 +520,11 @@
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "185b624383d2fd8edd7b1d0f191dec1e08216cd767de43d539e5db9ae074a0f0",
-              "variants": "118a66240dccad1b1d715bc2ae593043f96b493de33000d21edab36214788cb7",
+              "root": "be53117412e72235c8053d26d1fb57e8097e2270709d39c865b77dc1cfd026ff",
+              "variants": "12a0326c0c148bfa5d7baa56798ba071aca7879682f575bc54297c162df4a76b",
               "variants/darwin-arm64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906",
-              "variants/linux-amd64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906"
+              "variants/linux-amd64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906",
+              "variants/linux-arm64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906"
             },
             "icon": "icon.png",
             "main": {},
@@ -596,12 +608,12 @@
       "name": "storage_module",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:04:28Z",
+          "releasedAt": "2026-10-01T09:48:09Z",
           "publisherRef": "storage_module-v2.1.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-storage_module-module.lgx",
-          "size": 24568178,
-          "sha256": "6096c4f3adb087665010ce191a04aad24a6421872980a3a2629e81616b95363a",
-          "rootHash": "b4ddf3c9951bb79472ead6b0c8d2cc1acbe6dd646baefce18372de5bea191815",
+          "size": 37764035,
+          "sha256": "7996d8b140dcd940e8c8325e99697a01fa26566d75a39e1d54fd60c7fe7053c0",
+          "rootHash": "8fde7220b8f26c57a28539317fe902a3769782b83cdde484cc5b0f89fb29e85e",
           "manifest": {
             "author": "Logos Core Team",
             "category": "protocol",
@@ -610,15 +622,17 @@
             "display_name": "Storage Module",
             "hashes": {
               "assets": "e6efad4da67fc9264634c61f13357c6d1e468b1e02006685bfe83fda3dbc6478",
-              "root": "b4ddf3c9951bb79472ead6b0c8d2cc1acbe6dd646baefce18372de5bea191815",
-              "variants": "173731f71b58ea18da46b03848e89d04c09d1fb45dbd087634ed32b8d0f4d45c",
+              "root": "8fde7220b8f26c57a28539317fe902a3769782b83cdde484cc5b0f89fb29e85e",
+              "variants": "30a5942ce13c58a83cd44d3fd9dd1ede24041e92b799070820c69d882cfa860c",
               "variants/darwin-arm64": "c5ded019339c40e75faf7a4df249e462d3a6bcbcbd63beadfafd7fa2a0c62c89",
-              "variants/linux-amd64": "199bf8b8932e997d9c7d619d3f22c60b8176f7f8d10efe4f18878fc6ea5120d4"
+              "variants/linux-amd64": "199bf8b8932e997d9c7d619d3f22c60b8176f7f8d10efe4f18878fc6ea5120d4",
+              "variants/linux-arm64": "10d3a1aa2558ed531b8aa9b22a29ac86f43460fd226baffd2796b61c9d3e6e71"
             },
             "icon": "",
             "main": {
               "darwin-arm64": "storage_module_plugin.dylib",
-              "linux-amd64": "storage_module_plugin.so"
+              "linux-amd64": "storage_module_plugin.so",
+              "linux-arm64": "storage_module_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "storage_module",
