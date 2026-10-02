@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-02T07:13:33Z",
+  "generatedAt": "2026-10-02T15:48:00Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -43,23 +43,23 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "delivery_module-v0.1.4",
+          "releasedAt": "2026-10-02T15:48:00Z",
+          "publisherRef": "delivery_module-v0.9.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module.lgx",
-          "size": 62596959,
-          "sha256": "fd50c1b8f6465aadde0ef23531ae08118b23fd7955c6736bbdaacf9ba9e9d41e",
-          "rootHash": "9f5387e592569f90f8d8e33afba3e4c04539a2321ca57bcdbd58cd9c58d24e2f",
+          "size": 62596984,
+          "sha256": "6e22529243d337c582eb1fc07619b2642056dabea235dcf0c694e2551eaec4d2",
+          "rootHash": "befddfc677b696c7f72063c2aaeee9d1691ad2a7a9ab74625c5ed89eeea43ca3",
           "manifest": {
             "author": "Logos Core Team",
             "category": "protocol",
             "dependencies": [],
             "description": "Logos Delivery Module - High-level message-delivery API",
             "hashes": {
-              "root": "9f5387e592569f90f8d8e33afba3e4c04539a2321ca57bcdbd58cd9c58d24e2f",
-              "variants": "2e344a659a1e6ceae2904238b2b6d0c08a37efa6ed354302957945b10c149dc3",
-              "variants/darwin-arm64": "ed33eea8eaf3525dea2078c529eb4a0e7bf76545603332f886402a82902ecfd4",
-              "variants/linux-amd64": "afe8f1e607d52a39da26ffae8f47c789fe80005c23b872730292d58f6fbfffc4",
-              "variants/linux-arm64": "efb1fdb9d5b94e640270651c0849ceb6e1e4a0bb9d9913c6f124e71b9ac1686a"
+              "root": "befddfc677b696c7f72063c2aaeee9d1691ad2a7a9ab74625c5ed89eeea43ca3",
+              "variants": "3fcf0f876ef7ef0cb1f71ed06bbbe2ab13bbcb3bc6ea006f3ba1988e7fe1d854",
+              "variants/darwin-arm64": "9e5b3887d920ee89a77cf38ce4fff9392352fbc369a75f8ab199874806f3dafb",
+              "variants/linux-amd64": "ae389c1fc5ae2ca45e2bbf329d969e9cd46b5b739e5710bc372e614a58074f40",
+              "variants/linux-arm64": "0868c5316c52ec3a77ebd5e2c7cf3da3f9ef662d3762994c0183a852e8d64341"
             },
             "icon": "",
             "main": {
@@ -70,7 +70,7 @@
             "manifestVersion": "0.3.0",
             "name": "delivery_module",
             "type": "core",
-            "version": "0.1.4"
+            "version": "0.9.0"
           }
         }
       ]
