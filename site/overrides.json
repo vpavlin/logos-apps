@@ -7,7 +7,7 @@
         "blurb": "Bluetooth mesh bearer for Loam, wire-compatible with the Android Loam mesh. Experimental: Bluetooth sync currently works on Android only. Installed automatically with loam_core."
     },
     "delivery_module": {
-        "repo": "https://github.com/vpavlin/logos-shared-delivery",
+        "repo": "https://github.com/vpavlin/logos-delivery-module",
         "blurb": "Logos Delivery (Waku) node that loam_core and the apps send and receive over. A backend dependency with no UI of its own; installed automatically."
     },
     "keycard": {
