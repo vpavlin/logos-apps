@@ -2,55 +2,58 @@
     "_comment": "OPTIONAL editorial layer, keyed by module/app name or package, merged OVER the autoloaded manifest. Every fact (title, version, icon, description, signer) is read from index.json automatically — this file only exists for things a manifest can't know. All keys optional; delete this file entirely and the catalog still renders. Supported keys per entry: featured (bool, floats to top), bucket (string, overrides the category grouping), blurb (string, longer copy than the manifest description), homepage (string, links the title), repo/source (string, → a 'Source' link), docs (string, → a 'Docs' link), website (string, → a 'Website' link), title (string, replaces the manifest display_name / F-Droid name), core (bool, true = infrastructure/dependency: hidden behind 'Show core modules' and not counted among apps; false = force-show). Basecamp module manifests carry NO repo URL, so add repo here to expose source; F-Droid apps already expose sourceCode/webSite and get Source/Website links automatically.",
     "_comment_domains": "WEBSITE LINKS: sites that exist use https://vpavlin.github.io/<repo>/ for now; KYM and WhisperBox have no site yet and point at https://github.com/vpavlin/<repo>. When the <app>.vpavlin.xyz domains are live, run `python3 scripts/switch-domains.py --write` to rewrite every one of them to https://<app>.vpavlin.xyz/ in one go (dry-run without --write).",
     "ble_mesh": {
+        "blurb": "Bluetooth mesh bearer for Loam, wire-compatible with the Android Loam mesh. Experimental: Bluetooth sync currently works on Android only. Installed automatically with loam_core.",
         "repo": "https://github.com/vpavlin/loam-basecamp",
-        "website": "https://vpavlin.github.io/loam/",
-        "blurb": "Bluetooth mesh bearer for Loam, wire-compatible with the Android Loam mesh. Experimental: Bluetooth sync currently works on Android only. Installed automatically with loam_core."
+        "website": "https://vpavlin.github.io/loam/"
     },
     "delivery_module": {
-        "repo": "https://github.com/vpavlin/logos-delivery-module",
-        "blurb": "Logos Delivery (Waku) node that loam_core and the apps send and receive over. A backend dependency with no UI of its own; installed automatically."
+        "blurb": "Logos Delivery (Waku) node that loam_core and the apps send and receive over. A backend dependency with no UI of its own; installed automatically.",
+        "repo": "https://github.com/vpavlin/logos-delivery-module"
     },
     "keycard": {
-        "core": true,
-        "blurb": "Status Keycard smartcard module (PC/SC reader). Infrastructure for hardware identity; Keycard support in the apps is experimental."
+        "blurb": "Status Keycard smartcard module (PC/SC reader). Infrastructure for hardware identity; Keycard support in the apps is experimental.",
+        "core": true
     },
     "keycard-ui": {
-        "core": true,
-        "blurb": "Keycard debug UI and test harness for the keycard module. A developer tool, not an app."
+        "blurb": "Keycard debug UI and test harness for the keycard module. A developer tool, not an app.",
+        "core": true
     },
     "kith": {
+        "blurb": "Kith's engine: the contact event log and sync over loam_core. Installed automatically with Kith.",
         "repo": "https://github.com/vpavlin/kith",
-        "website": "https://vpavlin.github.io/kith/",
         "title": "Kith Core",
-        "blurb": "Kith's engine: the contact event log and sync over loam_core. Installed automatically with Kith."
+        "website": "https://vpavlin.github.io/kith/"
     },
     "kith_ui": {
+        "blurb": "Your people: a local-first, peer-to-peer address book. Rich contacts (phones, emails, messaging handles, notes) that can carry a Loam identity, synced across your devices with no server; vCard import/export. Install this; it pulls in the kith core and loam_core.",
         "featured": true,
         "repo": "https://github.com/vpavlin/kith",
-        "website": "https://vpavlin.github.io/kith/",
-        "blurb": "Your people: a local-first, peer-to-peer address book. Rich contacts (phones, emails, messaging handles, notes) that can carry a Loam identity, synced across your devices with no server; vCard import/export. Install this; it pulls in the kith core and loam_core."
+        "website": "https://vpavlin.github.io/kith/"
     },
     "kym": {
         "featured": true,
         "repo": "https://github.com/vpavlin/kym",
-        "website": "https://github.com/vpavlin/kym",
-        "title": "KYM"
+        "title": "KYM",
+        "website": "https://github.com/vpavlin/kym"
     },
     "kym_core": {
+        "blurb": "KYM's engine: the append-only budget event log, household encryption and sync over loam_core. Installed automatically with KYM. Can also run headless if you want your own always-on copy of a budget.",
         "repo": "https://github.com/vpavlin/kym",
-        "website": "https://github.com/vpavlin/kym",
-        "title": "KYM Core"
+        "title": "KYM Core",
+        "website": "https://github.com/vpavlin/kym"
     },
     "loam_core": {
+        "blurb": "Loam on the desktop: one shared Logos Delivery node and a single transport API for every app, plus local signing identities. Installed automatically by the apps that need it.",
         "repo": "https://github.com/vpavlin/loam-basecamp",
         "website": "https://vpavlin.github.io/loam/"
     },
     "perun_analytics": {
-        "repo": "https://github.com/vpavlin/perun",
         "featured": true,
+        "repo": "https://github.com/vpavlin/perun",
         "website": "https://vpavlin.github.io/perun/"
     },
     "perun_core": {
+        "blurb": "Perun's engine: pairing, the run and annotation log, local storage and sync with your phone over loam_core. Installed automatically with Perun Analytics. Can also run headless as your own always-on receiver.",
         "repo": "https://github.com/vpavlin/perun",
         "website": "https://vpavlin.github.io/perun/"
     },
@@ -60,20 +63,21 @@
         "website": "https://vpavlin.github.io/qaku-logos/"
     },
     "qaku_core": {
+        "blurb": "QAKU's engine: rooms, questions, upvotes, answers, polls and moderation as a signed event log, synced over loam_core. Installed automatically with QAKU.",
         "repo": "https://github.com/vpavlin/qaku-logos",
         "website": "https://vpavlin.github.io/qaku-logos/"
     },
     "scala": {
+        "blurb": "Scala's engine: the signed, end-to-end-encrypted calendar event log, roles (closed, open, collaborative) and sync over loam_core, with attachments on Logos Storage. Installed automatically with Scala.",
         "repo": "https://github.com/vpavlin/scala",
-        "website": "https://vpavlin.github.io/scala/",
         "title": "Scala Core",
-        "blurb": "Scala's engine: the signed, end-to-end-encrypted calendar event log, roles (closed, open, collaborative) and sync over loam_core, with attachments on Logos Storage. Installed automatically with Scala."
+        "website": "https://vpavlin.github.io/scala/"
     },
     "scala_ui": {
+        "blurb": "Shared calendar, end-to-end encrypted and serverless. Several people edit the same calendar offline and converge with no write lost: recurring events, RSVP, custom fields, attachments, .ics import/export, multiple identities, Keycard support (experimental). Install this; it pulls in the scala core and loam_core.",
         "featured": true,
         "repo": "https://github.com/vpavlin/scala",
-        "website": "https://vpavlin.github.io/scala/",
-        "blurb": "Shared calendar, end-to-end encrypted and serverless. Several people edit the same calendar offline and converge with no write lost: recurring events, RSVP, custom fields, attachments, .ics import/export, multiple identities, Keycard support (experimental). Install this; it pulls in the scala core and loam_core."
+        "website": "https://vpavlin.github.io/scala/"
     },
     "shrooms": {
         "featured": true,
@@ -81,13 +85,14 @@
         "website": "https://shrooms.vpavlin.xyz"
     },
     "shrooms_core": {
+        "blurb": "Bridge to a local Shrooms daemon: reads status and logs and changes its settings over the daemon's control socket. Installed automatically with Shrooms.",
         "repo": "https://github.com/vpavlin/shrooms",
         "website": "https://shrooms.vpavlin.xyz"
     },
     "storage_module": {
+        "blurb": "Logos Storage node: content-addressed, peer-to-peer file storage. Scala keeps sealed event attachments here. A backend dependency with no UI of its own; installed automatically.",
         "repo": "https://github.com/logos-co/logos-storage-module",
-        "title": "Logos Storage",
-        "blurb": "Logos Storage node: content-addressed, peer-to-peer file storage. Scala keeps sealed event attachments here. A backend dependency with no UI of its own; installed automatically."
+        "title": "Logos Storage"
     },
     "whisperbox": {
         "featured": true,
@@ -95,6 +100,7 @@
         "website": "https://github.com/vpavlin/whisperbox-logos"
     },
     "whisperbox_core": {
+        "blurb": "WhisperBox's engine: forms, answers sealed to the form's key, and sync over Logos Delivery. Installed automatically with WhisperBox.",
         "repo": "https://github.com/vpavlin/whisperbox-logos",
         "website": "https://github.com/vpavlin/whisperbox-logos"
     },
