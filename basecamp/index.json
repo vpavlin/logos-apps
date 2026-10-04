@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-02T15:48:00Z",
+  "generatedAt": "2026-10-04T16:31:55Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -219,12 +219,12 @@
       "name": "kym",
       "versions": [
         {
-          "releasedAt": "2026-10-01T06:18:05Z",
-          "publisherRef": "kym-v0.6.10",
+          "releasedAt": "2026-10-04T16:31:55Z",
+          "publisherRef": "kym-v0.6.11",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
-          "size": 83862,
-          "sha256": "9b9bdc54412817ba52317a05a30dc6ad94e8202a3b0b0858d451b803a22d9ef5",
-          "rootHash": "3498aab8763dc04df5537e9d480898791d5507ef9ac6e0ab4ecf1a70f795f83d",
+          "size": 84299,
+          "sha256": "3e724fab63b522918ca30d33df0df1f2262fc1882deaa8de505e35fd11deea44",
+          "rootHash": "1494e2e622d770d1e5488c025d770f3e93aa23754a5eb0f1bf64f85e81145562",
           "manifest": {
             "author": "",
             "category": "finance",
@@ -233,16 +233,16 @@
             ],
             "description": "Local-first zero-based budget. Envelope categories, a monthly grid, accounts and credit-card handling - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and peers fold). Pure-QML view over the kym_core module.",
             "hashes": {
-              "root": "3498aab8763dc04df5537e9d480898791d5507ef9ac6e0ab4ecf1a70f795f83d",
-              "variants": "f4ecb23a2b61083940a51920f93e65e5706f703181c5c2fb08ef55ff9f177cc6",
-              "variants/linux-amd64": "378f530fe7e976d97262eabc70cd786369c70ad31fc0c62993924b3f6792e0b1"
+              "root": "1494e2e622d770d1e5488c025d770f3e93aa23754a5eb0f1bf64f85e81145562",
+              "variants": "4cd0841561e4cee99c92057e09f34a42991dea1fdf19840778a0ac20d345b39c",
+              "variants/linux-amd64": "a456c73774a4a10cd6ac5e5aef6ead4e646f8d29d39b6814bbb5401ac935c19b"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.2.0",
             "name": "kym",
             "type": "ui_qml",
-            "version": "0.6.10",
+            "version": "0.6.11",
             "view": "Main.qml"
           }
         }
@@ -252,7 +252,7 @@
       "name": "kym_core",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
+          "releasedAt": "2026-10-04T16:31:55Z",
           "publisherRef": "kym_core-v0.7.9",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
           "size": 4210826,
@@ -326,12 +326,12 @@
       "name": "perun_analytics",
       "versions": [
         {
-          "releasedAt": "2026-10-01T06:18:05Z",
-          "publisherRef": "perun_analytics-v0.8.2",
+          "releasedAt": "2026-10-04T16:31:55Z",
+          "publisherRef": "perun_analytics-v0.8.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_analytics-module.lgx",
-          "size": 4044748,
-          "sha256": "4bc6fe37f5cd945cefb71bfec9ec445298620042204cbcf76ee32c13c82546b7",
-          "rootHash": "45327d4d62a3166c16e3c73e55b2296346af5d46edde27a7513a4f6352a25709",
+          "size": 4044966,
+          "sha256": "4a7250b60510e027784751da121383ed081210da3ecce16c765c4c1ef2a88813",
+          "rootHash": "7073c01b65315c01cc70e2285c6a289a35e5d0d559e994525f934db1261ad23c",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -341,9 +341,9 @@
             "description": "Detailed running analytics for Perun \u2014 the view over perun_core: splits, elevation, pace, trends, route map, journey annotations and replay.",
             "display_name": "Perun Analytics",
             "hashes": {
-              "root": "45327d4d62a3166c16e3c73e55b2296346af5d46edde27a7513a4f6352a25709",
-              "variants": "aac9d4876cb9325a82a085c227eed7eee1694719c9b0980e92734675b8a815fe",
-              "variants/linux-amd64": "b228f52a80ada21f85841870798ae6e2dc865c79c56c50c7a0f6751946c3ac25"
+              "root": "7073c01b65315c01cc70e2285c6a289a35e5d0d559e994525f934db1261ad23c",
+              "variants": "56e7b8d0bf5a8ac7fadc5315248bb371868213a0964b1fa3439a745a3eb8b701",
+              "variants/linux-amd64": "bf7f3757a16f322219169d64d8102657ecbd3f0de77ba29f39b067223c22b52c"
             },
             "icon": "icon.png",
             "main": {
@@ -352,7 +352,7 @@
             "manifestVersion": "0.3.0",
             "name": "perun_analytics",
             "type": "ui_qml",
-            "version": "0.8.2",
+            "version": "0.8.3",
             "view": "qml/Main.qml"
           }
         }
@@ -362,12 +362,12 @@
       "name": "perun_core",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "perun_core-v0.9.6",
+          "releasedAt": "2026-10-04T16:31:55Z",
+          "publisherRef": "perun_core-v0.9.7",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_core-module.lgx",
-          "size": 5009321,
-          "sha256": "279ca106a976a88857fa98978c17208f645858426cd8cca81ec825ed4d128b97",
-          "rootHash": "6f1d52d44ca950f709b3d5262af3f695e3d5e62bf5227aeb91bc25f9e8e9bb16",
+          "size": 5011841,
+          "sha256": "b4cd352c0f7d9a9a10d134d72122eeec3d54ab6ac3e2448d79e39fbdc4d1f8f4",
+          "rootHash": "3da55a70d97d24de2257e303e1f75810d67e0d11d4fb02221f1570fe90977c46",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -377,9 +377,9 @@
             "description": "Perun engine + sync core: pairing/identity, the loam_core Delivery transport, the run + annotation event-log fold, the SQLite store and the embedded content-addressed media hub. Runs headless (the always-on hub) and behind the perun_analytics view.",
             "display_name": "Perun Core",
             "hashes": {
-              "root": "6f1d52d44ca950f709b3d5262af3f695e3d5e62bf5227aeb91bc25f9e8e9bb16",
-              "variants": "ebaa5001f0e68716b73907eca9d90d790cda8c2e4379c43f3ea7c2cd9ae4207c",
-              "variants/linux-amd64": "965be74a4b70ff977b1d66afd8832bf3426508ec76aee7e93d212d7a2aedb311"
+              "root": "3da55a70d97d24de2257e303e1f75810d67e0d11d4fb02221f1570fe90977c46",
+              "variants": "c3dd03ac5c8c6f624fe86eab95e5e6f1538af55b624c3820a7c51620ef91a69a",
+              "variants/linux-amd64": "201706c913fb4beacfb1dfbdde0f9e7f4020e498dd60f87ec8d646dbae924343"
             },
             "icon": "",
             "main": {
@@ -388,7 +388,7 @@
             "manifestVersion": "0.3.0",
             "name": "perun_core",
             "type": "core",
-            "version": "0.9.6"
+            "version": "0.9.7"
           }
         }
       ]
@@ -644,6 +644,74 @@
             "name": "storage_module",
             "type": "core",
             "version": "2.1.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "whisperbox",
+      "versions": [
+        {
+          "releasedAt": "2026-10-04T16:31:55Z",
+          "publisherRef": "whisperbox-v0.3.8",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox-module.lgx",
+          "size": 39142,
+          "sha256": "2b9b1d20a69f8eaeb5e335bc0cf2f8659667bec20dbf9a0edf54b43e28202255",
+          "rootHash": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "whisperbox_core"
+            ],
+            "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
+            "display_name": "WhisperBox - Encrypted Forms",
+            "hashes": {
+              "root": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
+              "variants": "e667fdcd65e9abd7dab6fccf064f5809096c8bbc43b678cf4821aa3f5eadae3e",
+              "variants/linux-amd64": "b4292d86fd3ded4a642b6ba901fa9da906ed4f20b5e908239c3427688fdb325b"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "whisperbox",
+            "type": "ui_qml",
+            "version": "0.3.8",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "whisperbox_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-04T16:31:55Z",
+          "publisherRef": "whisperbox_core-v0.3.8",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
+          "size": 4384310,
+          "sha256": "10abeace9ac12ec2a41d85799fedbc0a31b3fb75fd2b0acdb3537650c6f32942",
+          "rootHash": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "delivery_module"
+            ],
+            "description": "WhisperBox privacy-first forms core: append-only event log over one shared delivery topic, secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logoscore and behind the whisperbox ui_qml view.",
+            "hashes": {
+              "root": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
+              "variants": "6c273d581f391e40aa1e78df50c4fed60c84d8dcee49101b66af7925cc767ebf",
+              "variants/linux-amd64": "1b0e008fc124d47212f9733f37df44883564366a86620031fcc9bc90a565c7da"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "whisperbox_core_plugin.so"
+            },
+            "manifestVersion": "0.3.0",
+            "name": "whisperbox_core",
+            "type": "core",
+            "version": "0.3.8"
           }
         }
       ]
