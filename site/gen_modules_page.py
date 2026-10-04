@@ -16,7 +16,7 @@ module or publish an app → it appears on the next rebuild. No edits.
 
 An optional `overrides.json` (keyed by module/app name or package) supplies the
 few purely editorial bits a manifest can't know (featured / bucket / blurb /
-homepage), merged over the auto-loaded data.
+homepage / title / core), merged over the auto-loaded data.
 
 Usage:
     gen_modules_page.py --index index.json \
@@ -178,9 +178,12 @@ def build_module_cards(index, overrides, offline):
         # Dependency-only modules (a core/backend or the delivery node) — hidden by
         # default behind the "Show core modules" toggle, not dropped, so power users
         # can install e.g. our channels-enabled delivery fork directly.
-        is_core = m.get("type") == "core" or name == "delivery_module"
         ov = overrides.get(name, {})
-        title = m.get("display_name") or name
+        # `core` in overrides wins either way, e.g. keycard-ui is a ui_qml debug
+        # harness, but it's infrastructure, not an app, so it hides with the cores.
+        is_core = ov["core"] if "core" in ov else \
+            (m.get("type") == "core" or name == "delivery_module")
+        title = ov.get("title") or m.get("display_name") or name
         icon = None
         if not offline:
             try:
@@ -229,7 +232,7 @@ def build_app_cards(fdroid_index, base_url, repo_dir, overrides, offline):
         v = vers[0] if vers else {}
         mani = v.get("manifest", {}) or {}
         apk_rel = (v.get("file", {}) or {}).get("name", "")
-        title = loc(meta.get("name"), pkgname)
+        title = ov.get("title") or loc(meta.get("name"), pkgname)
 
         icon = None
         icon_ref = fdroid_file(meta.get("icon"))
@@ -275,6 +278,15 @@ def copyable(url):
     return f'<code>{u}</code><button class="copy" type="button" data-copy="{u}">Copy</button>'
 
 
+def display_version(v):
+    """'0.9.0' → 'v0.9.0'; a version that already starts with v (e.g. a git-describe
+    versionName like 'v0.9.0-14-g7d3a3f6') isn't prefixed twice."""
+    v = (v or "").strip()
+    if not v:
+        return ""
+    return v if v[:1] in ("v", "V") and v[1:2].isdigit() else "v" + v
+
+
 def render_card(c):
     e = html.escape
     deps = ""
@@ -289,7 +301,7 @@ def render_card(c):
     elif c["kind"] == "app" and c["signer"]:
         badge = f'<span class="sig">{e(c["signer"])}</span>'
     meta = " · ".join(x for x in [
-        f'v{e(c["version"])}' if c["version"] else "",
+        e(display_version(c["version"])),
         human_size(c["size"]) if c["size"] else "",
     ] if x)
     action = ""
@@ -312,7 +324,9 @@ def render_card(c):
     if title_href:
         title = f'<a href="{e(title_href)}">{title}</a>'
     core_cls = " core" if c.get("is_core") else ""
-    core_tag = '<span class="cat coretag" title="dependency / backend module">core</span>' if c.get("is_core") else ""
+    core_tag = ('<span class="cat coretag" title="dependency / infrastructure module, '
+                'installed automatically by the apps that need it">core</span>'
+                if c.get("is_core") else "")
     return f"""      <article class="card{core_cls}" data-cat="{e(c['category'].lower())}">
         <img class="icon" src="{c['icon']}" alt="" loading="lazy"/>
         <div class="body">
@@ -350,7 +364,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     core_n = sum(1 for m in modules if m.get("is_core"))
     vis_n = len(modules) - core_n
     mods_sub = (f'{vis_n} Basecamp app' + ("s" if vis_n != 1 else "") +
-                " · install with lgpd or the package manager")
+                " · for Basecamp 0.2.x · install from the package manager")
     # Toggle to reveal dependency/backend ("core") modules (hidden by default).
     core_toggle = (
         f'<label class="coretoggle"><input type="checkbox" id="coreToggle"/> '
@@ -359,10 +373,14 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     # install help (native <details>, no JS)
     mods_help = (
         '<details class="help"><summary>How to install</summary><ol>'
-        f'<li>Install <a href="{e(BASECAMP_INSTALL_URL)}">Basecamp</a>, the Logos desktop app.</li>'
+        f'<li>Install <a href="{e(BASECAMP_INSTALL_URL)}">Basecamp</a>, the Logos desktop app. '
+        'These modules support <b>Basecamp 0.2.x</b>; Basecamp 0.3 support is coming.</li>'
         f'<li>Open <b>Package Manager &rarr; Add repository</b> and paste '
         f'{copyable(BASECAMP_REPO_URL)}</li>'
-        '<li>Pick a module from the catalog and click <b>Install</b>.</li>'
+        '<li>Install the <b>app</b> (the view, e.g. <code>scala_ui</code>, <code>kym</code>, '
+        '<code>qaku</code>). It pulls in its dependencies automatically (its core module, '
+        'plus <code>loam_core</code> for the Loam apps), so you never install core '
+        'modules by hand.</li>'
         '</ol></details>') if modules else ''
     fp = fdroid_repo_url.split("fingerprint=", 1)[1].split("&")[0] \
         if fdroid_repo_url and "fingerprint=" in fdroid_repo_url else ""
@@ -377,7 +395,9 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
         f'<li>Install the <a href="{e(FDROID_INSTALL_URL)}">F-Droid</a> app.</li>'
         f'{add_line}'
         '<li>Open the app in F-Droid and tap <b>Install</b>.</li>'
-        '</ol></details>') if apps else ''
+        '</ol><p>Android builds are <b>arm64</b> only. Install <b>Loam</b> too '
+        '(recommended): one shared node for all the apps, plus experimental Bluetooth sync. '
+        'Without it each app runs its own node.</p></details>') if apps else ''
     gen = e(generated_at or "")
     return f"""<!doctype html>
 <html lang="en">
@@ -415,6 +435,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   .help summary {{ cursor:pointer; color:var(--accent); font-weight:600; width:max-content; }}
   .help ol {{ margin:8px 0 0; padding-left:20px; }}
   .help li {{ margin:3px 0; }}
+  .help p {{ margin:8px 0 0; }}
   .help code {{ background:var(--chip); padding:1px 6px; border-radius:5px; word-break:break-all; }}
   .help a {{ color:var(--accent); }}
   .copy {{ margin-left:6px; font-size:11px; padding:1px 8px; border:1px solid var(--line);
@@ -478,7 +499,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   <p>Local-first apps for Android and Basecamp, on Logos.</p>
 </header>
 <div class="tabs">
-  <button class="tab {m_on}" data-panel="modules">Basecamp <span>{len(modules)}</span></button>
+  <button class="tab {m_on}" data-panel="modules">Basecamp <span>{vis_n}</span></button>
   <button class="tab {a_on}" data-panel="apps">Android <span>{len(apps)}</span></button>
   <button class="theme" id="themeToggle" title="Light / dark" aria-label="Toggle theme">&#9680;</button>
 </div>

@@ -32,10 +32,24 @@ scripts/publish-app.sh \
 ```
 
 It reads the `applicationId` + `versionCode` + `versionName` straight from the
-APK, writes the metadata, runs `fdroid update`, syncs the built repo into this
-repo and pushes — the storefront rebuilds and the app appears in the **Android**
+APK, creates the metadata if it doesn't exist yet, runs `fdroid update`, syncs
+the built repo into this repo and pushes — the storefront rebuilds and the app appears in the **Android**
 tab in ~2–3 min. Add `--no-push` to stage without publishing. It verifies the
-app actually landed in `index-v2.json` and fails loudly if the metadata is wrong.
+new versionCode actually landed in `index-v2.json` (and is the newest) and fails
+loudly if the metadata is wrong.
+
+**Updating an app that's already published** needs only the APK:
+
+```sh
+scripts/publish-app.sh --apk path/to/app-release.apk
+```
+
+An existing `metadata/<pkg>.yml` is kept as is (hand-written description,
+License, IssueTracker…). Only fields you pass a flag for are changed
+(`--name`, `--summary`, `--description`, `--category`, `--source`, `--website`).
+`--name` and `--summary` are required only when the yml doesn't exist yet.
+The script never writes `CurrentVersionCode` and removes one if it finds it
+(see Gotchas).
 
 ## Manual steps (what the script does under the hood)
 
@@ -50,7 +64,7 @@ VER=<versionName>            # e.g. 0.3.0
 cp path/to/shrooms-release.apk "$FD/repo/shrooms-$VER.apk"
 
 # 2. Metadata — REQUIRED, or `fdroid update` silently drops the APK and the app never shows.
-cat > "$FD/metadata/$PKG.yml" <<YML
+[ -f "$FD/metadata/$PKG.yml" ] || cat > "$FD/metadata/$PKG.yml" <<YML
 AuthorName: vpavlin
 Categories:
   - Internet
@@ -59,8 +73,10 @@ Summary: Mesh VPN on Logos
 Description: |-
   Shrooms (formerly Logos VPN) — a peer-to-peer mesh VPN on Logos.
 SourceCode: https://github.com/<owner>/<repo>
-CurrentVersionCode: <versionCode>
+WebSite: https://<app>.vpavlin.xyz/
 YML
+#    Do NOT add CurrentVersionCode (see Gotchas). For an app that already has a
+#    yml, skip this step: an update needs no metadata change.
 
 # 3. (Optional) real icon — F-Droid can't extract Expo/adaptive icons, so add one:
 mkdir -p "$FD/metadata/$PKG/en-US"
@@ -73,7 +89,7 @@ python3 -c "import json;d=json.load(open('$FD/repo/index-v2.json'));print(list(d
 
 # 5. Publish to GitHub (this repo serves apps.vpavlin.xyz):
 git clone https://github.com/vpavlin/logos-apps ~/tmp-logos-apps   # or reuse a clone
-rsync -a --delete "$FD/repo/" ~/tmp-logos-apps/fdroid/repo/
+rsync -a --checksum --delete "$FD/repo/" ~/tmp-logos-apps/fdroid/repo/
 cd ~/tmp-logos-apps
 git add -A && git commit -m "F-Droid: publish Shrooms $VER" && git push
 ```
@@ -84,7 +100,14 @@ minutes (the deploy re-bundles the whole F-Droid repo, so give it ~2–3 min).
 
 ## Gotchas
 
-- **No `metadata/<pkg>.yml` → empty/incomplete index.** Always write it.
+- **No `metadata/<pkg>.yml` → empty/incomplete index.** Always have one.
+- **Never set `CurrentVersionCode`.** Any pin (even the current version) makes
+  F-Droid treat that version as "current" and it then never offers newer
+  versions: the app shows in the repo but phones get no update. Leave it unset
+  and F-Droid suggests the highest versionCode in the repo.
+- **Don't overwrite an existing yml** for a version bump. It carries
+  hand-written fields (descriptions, License, IssueTracker) that a regenerated
+  file would lose.
 - **Publish to _this_ repo's `fdroid/repo/`**, not a stray copy — this is what
   `apps.vpavlin.xyz` serves.
 - **In-place update** (same app, new version) needs the **same app signing key**

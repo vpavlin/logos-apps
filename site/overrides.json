@@ -1,32 +1,58 @@
 {
-    "_comment": "OPTIONAL editorial layer, keyed by module/app name or package, merged OVER the autoloaded manifest. Every fact (title, version, icon, description, signer) is read from index.json automatically — this file only exists for things a manifest can't know. All keys optional; delete this file entirely and the catalog still renders. Supported keys per entry: featured (bool, floats to top), bucket (string, overrides the category grouping), blurb (string, longer copy than the manifest description), homepage (string, links the title), repo/source (string, → a 'Source' link), docs (string, → a 'Docs' link), website (string, → a 'Website' link). Basecamp module manifests carry NO repo URL, so add repo here to expose source; F-Droid apps already expose sourceCode/webSite and get Source/Website links automatically.",
+    "_comment": "OPTIONAL editorial layer, keyed by module/app name or package, merged OVER the autoloaded manifest. Every fact (title, version, icon, description, signer) is read from index.json automatically — this file only exists for things a manifest can't know. All keys optional; delete this file entirely and the catalog still renders. Supported keys per entry: featured (bool, floats to top), bucket (string, overrides the category grouping), blurb (string, longer copy than the manifest description), homepage (string, links the title), repo/source (string, → a 'Source' link), docs (string, → a 'Docs' link), website (string, → a 'Website' link), title (string, replaces the manifest display_name / F-Droid name), core (bool, true = infrastructure/dependency: hidden behind 'Show core modules' and not counted among apps; false = force-show). Basecamp module manifests carry NO repo URL, so add repo here to expose source; F-Droid apps already expose sourceCode/webSite and get Source/Website links automatically.",
+    "_comment_domains": "WEBSITE LINKS: sites that exist use https://vpavlin.github.io/<repo>/ for now; KYM and WhisperBox have no site yet and point at https://github.com/vpavlin/<repo>. When the <app>.vpavlin.xyz domains are live, run `python3 scripts/switch-domains.py --write` to rewrite every one of them to https://<app>.vpavlin.xyz/ in one go (dry-run without --write).",
+    "ble_mesh": {
+        "repo": "https://github.com/vpavlin/loam-basecamp",
+        "website": "https://vpavlin.github.io/loam/",
+        "blurb": "Bluetooth mesh bearer for Loam, wire-compatible with the Android Loam mesh. Experimental: Bluetooth sync currently works on Android only. Installed automatically with loam_core."
+    },
+    "delivery_module": {
+        "repo": "https://github.com/vpavlin/logos-shared-delivery",
+        "blurb": "Logos Delivery (Waku) node that loam_core and the apps send and receive over. A backend dependency with no UI of its own; installed automatically."
+    },
+    "keycard": {
+        "core": true,
+        "blurb": "Status Keycard smartcard module (PC/SC reader). Infrastructure for hardware identity; Keycard support in the apps is experimental."
+    },
+    "keycard-ui": {
+        "core": true,
+        "blurb": "Keycard debug UI and test harness for the keycard module. A developer tool, not an app."
+    },
     "kith": {
         "repo": "https://github.com/vpavlin/kith",
-        "website": "https://vpavlin.github.io/kith/"
+        "website": "https://vpavlin.github.io/kith/",
+        "title": "Kith Core",
+        "blurb": "Kith's engine: the contact event log and sync over loam_core. Installed automatically with Kith."
     },
     "kith_ui": {
         "featured": true,
         "repo": "https://github.com/vpavlin/kith",
-        "website": "https://vpavlin.github.io/kith/"
+        "website": "https://vpavlin.github.io/kith/",
+        "blurb": "Your people: a local-first, peer-to-peer address book. Rich contacts (phones, emails, messaging handles, notes) that can carry a Loam identity, synced across your devices with no server; vCard import/export. Install this; it pulls in the kith core and loam_core."
     },
-    "xyz.vpavlin.kith": {
+    "kym": {
         "featured": true,
-        "website": "https://vpavlin.github.io/kith/"
+        "repo": "https://github.com/vpavlin/kym",
+        "website": "https://github.com/vpavlin/kym",
+        "title": "KYM"
+    },
+    "kym_core": {
+        "repo": "https://github.com/vpavlin/kym",
+        "website": "https://github.com/vpavlin/kym",
+        "title": "KYM Core"
     },
     "loam_core": {
         "repo": "https://github.com/vpavlin/loam-basecamp",
         "website": "https://vpavlin.github.io/loam/"
     },
-    "xyz.vpavlin.loam": {
-        "repo": "https://github.com/vpavlin/logos-shared-delivery",
-        "website": "https://vpavlin.github.io/loam/"
-    },
-    "kym": {
+    "perun_analytics": {
+        "repo": "https://github.com/vpavlin/perun",
         "featured": true,
-        "repo": "https://github.com/vpavlin/kym"
+        "website": "https://vpavlin.github.io/perun/"
     },
-    "kym_core": {
-        "repo": "https://github.com/vpavlin/kym"
+    "perun_core": {
+        "repo": "https://github.com/vpavlin/perun",
+        "website": "https://vpavlin.github.io/perun/"
     },
     "qaku": {
         "featured": true,
@@ -37,32 +63,17 @@
         "repo": "https://github.com/vpavlin/qaku-logos",
         "website": "https://vpavlin.github.io/qaku-logos/"
     },
-    "delivery_module": {
-        "repo": "https://github.com/vpavlin/logos-shared-delivery",
-        "blurb": "Shared Waku delivery node — our fork with SDS Reliable Channels enabled. A backend dependency (no UI of its own); other modules ride it for sync."
-    },
-    "perun_analytics": {
-        "repo": "https://github.com/vpavlin/perun"
-    },
-    "xyz.vpavlin.kym": {
-        "featured": true
-    },
-    "xyz.vpavlin.qaku": {
-        "featured": true,
-        "website": "https://vpavlin.github.io/qaku-logos/"
-    },
     "scala": {
         "repo": "https://github.com/vpavlin/scala",
-        "website": "https://vpavlin.github.io/scala/"
+        "website": "https://vpavlin.github.io/scala/",
+        "title": "Scala Core",
+        "blurb": "Scala's engine: the signed, end-to-end-encrypted calendar event log, roles (closed, open, collaborative) and sync over loam_core, with attachments on Logos Storage. Installed automatically with Scala."
     },
     "scala_ui": {
         "featured": true,
         "repo": "https://github.com/vpavlin/scala",
-        "website": "https://vpavlin.github.io/scala/"
-    },
-    "xyz.vpavlin.scala": {
-        "featured": true,
-        "website": "https://vpavlin.github.io/scala/"
+        "website": "https://vpavlin.github.io/scala/",
+        "blurb": "Shared calendar, end-to-end encrypted and serverless. Several people edit the same calendar offline and converge with no write lost: recurring events, RSVP, custom fields, attachments, .ics import/export, multiple identities, Keycard support (experimental). Install this; it pulls in the scala core and loam_core."
     },
     "shrooms": {
         "featured": true,
@@ -70,9 +81,53 @@
         "website": "https://shrooms.vpavlin.xyz"
     },
     "shrooms_core": {
-        "repo": "https://github.com/vpavlin/shrooms"
+        "repo": "https://github.com/vpavlin/shrooms",
+        "website": "https://shrooms.vpavlin.xyz"
+    },
+    "storage_module": {
+        "repo": "https://github.com/logos-co/logos-storage-module",
+        "title": "Logos Storage",
+        "blurb": "Logos Storage node: content-addressed, peer-to-peer file storage. Scala keeps sealed event attachments here. A backend dependency with no UI of its own; installed automatically."
+    },
+    "whisperbox": {
+        "featured": true,
+        "repo": "https://github.com/vpavlin/whisperbox-logos",
+        "website": "https://github.com/vpavlin/whisperbox-logos"
+    },
+    "whisperbox_core": {
+        "repo": "https://github.com/vpavlin/whisperbox-logos",
+        "website": "https://github.com/vpavlin/whisperbox-logos"
+    },
+    "xyz.vpavlin.kith": {
+        "featured": true,
+        "website": "https://vpavlin.github.io/kith/"
+    },
+    "xyz.vpavlin.kym": {
+        "featured": true,
+        "website": "https://github.com/vpavlin/kym"
+    },
+    "xyz.vpavlin.loam": {
+        "repo": "https://github.com/vpavlin/logos-shared-delivery",
+        "website": "https://vpavlin.github.io/loam/"
+    },
+    "xyz.vpavlin.perun": {
+        "featured": true,
+        "website": "https://vpavlin.github.io/perun/"
+    },
+    "xyz.vpavlin.qaku": {
+        "featured": true,
+        "website": "https://vpavlin.github.io/qaku-logos/"
+    },
+    "xyz.vpavlin.scala": {
+        "featured": true,
+        "website": "https://vpavlin.github.io/scala/"
     },
     "xyz.vpavlin.shrooms": {
-        "featured": true
+        "featured": true,
+        "website": "https://shrooms.vpavlin.xyz"
+    },
+    "xyz.vpavlin.whisperbox": {
+        "featured": true,
+        "website": "https://github.com/vpavlin/whisperbox-logos"
     }
 }
