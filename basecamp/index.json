@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-04T16:31:55Z",
+  "generatedAt": "2026-10-06T09:38:34Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-10-02T07:13:33Z",
-          "publisherRef": "ble_mesh-v0.1.1",
+          "releasedAt": "2026-10-06T09:38:34Z",
+          "publisherRef": "ble_mesh-v0.1.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
-          "size": 12038393,
-          "sha256": "eeedfc6aa2f57e68fab27194aeb5b555e5ee611c70449540108eddff5ea44d66",
-          "rootHash": "3d01b49ece0541087d67f859b2898f77879b304f44d7166effa835eacf88ce12",
+          "size": 12772887,
+          "sha256": "fdc1b053babde0fd785c666d85476cea3385b9b2a2a89014d101a89fc64c8c3d",
+          "rootHash": "12d5cd43be041bc93fc1281d47ee35af916f28cb42c0a05397f5b37615c959ed",
           "manifest": {
             "author": "",
             "category": "system",
             "dependencies": [],
             "description": "Loam BLE offline-mesh bearer: flood-gossip over Bluetooth, wire-compatible with the Android Loam mesh and loam-transport bearer.ts (same frame format and frameId). Depended on by loam_core (and any app) as a second bearer beside delivery. Portable gossip today, Qt Bluetooth radio in Phase 3. See ADR 0015.",
             "hashes": {
-              "root": "3d01b49ece0541087d67f859b2898f77879b304f44d7166effa835eacf88ce12",
-              "variants": "b11133edb6e69c401d8aeb795bad3f63b67a21f984709983abf9a0a9a79ae5d9",
-              "variants/darwin-arm64": "b1ee41e5df224d572d6bd0f8b5f891d68b5646818ecba3f0a6ef18f8253d4cc6",
-              "variants/linux-amd64": "12adf080f781a90e83ee3315884ce3ff0bda68b1635e3874ae67fd16899c4b71",
-              "variants/linux-arm64": "fdf94637ab469ab80d69a5c5f1a1a2711fb099104698e1654699c5f1133594b1"
+              "root": "12d5cd43be041bc93fc1281d47ee35af916f28cb42c0a05397f5b37615c959ed",
+              "variants": "4385809deb74bc80708b8888a4bf6ce50d4d3fb028d39f4fafa4b427f46bcf87",
+              "variants/darwin-arm64": "84aef09df2c9bd9cb2c7d7ae77c9341531d2d1a26cf9307a70e2efd27efb9ed6",
+              "variants/linux-amd64": "423999d0aae939bd7b245e47cbfded0542996a0c0cf929c0000183d95c906aff",
+              "variants/linux-arm64": "7c1aae3b9a74d33fbd76e8ab9e5a90e1d6af2546b75cc3132e71411fe0581e84"
             },
             "icon": "",
             "main": {
@@ -34,7 +34,7 @@
             "manifestVersion": "0.3.0",
             "name": "ble_mesh",
             "type": "core",
-            "version": "0.1.1"
+            "version": "0.1.2"
           }
         }
       ]
