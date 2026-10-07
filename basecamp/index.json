@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-07T08:05:07Z",
+  "generatedAt": "2026-10-07T10:27:24Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -82,12 +82,12 @@
       "name": "dufs",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "dufs-v0.1.0",
+          "releasedAt": "2026-10-07T10:27:24Z",
+          "publisherRef": "dufs-v0.1.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
-          "size": 44951,
-          "sha256": "359b1ef74890d2ed9a4169ab1c49fef535b4f1f2ea0316e219ae09261d33a355",
-          "rootHash": "738ba032ea75fe26307776994705e09694bb3e99c64a995cee5f843422db1dc9",
+          "size": 66072,
+          "sha256": "cfc1b45f8df7d67f1aadbfe86dcef71e0dc7328e28830536a91b2288ff6896cb",
+          "rootHash": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -98,17 +98,18 @@
             "display_name": "Dufs",
             "hashes": {
               "assets": "d3033b2b5955ef3922bcd4ea84e38c83c68c1ecca1f826bc56ca00e1c21296df",
-              "root": "738ba032ea75fe26307776994705e09694bb3e99c64a995cee5f843422db1dc9",
-              "variants": "36fe9e655dcf19b24c050d23fd5b6c1bf40636f8921bb63121e8ba24fdb8b488",
-              "variants/linux-amd64": "aea6613a403c30c45261eb61d94bfecf1f100057c3652e0b4255b8957aaf9dc8",
-              "variants/linux-arm64": "aea6613a403c30c45261eb61d94bfecf1f100057c3652e0b4255b8957aaf9dc8"
+              "root": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
+              "variants": "f1efc3af8894552702f953daf869efde08a182f9cc3aeb9b1e582cd36578ec0f",
+              "variants/darwin-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
+              "variants/linux-amd64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
+              "variants/linux-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "dufs",
             "type": "ui_qml",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "view": "Main.qml"
           }
         }
@@ -118,12 +119,12 @@
       "name": "dufs_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "dufs_core-v0.1.0",
+          "releasedAt": "2026-10-07T10:27:24Z",
+          "publisherRef": "dufs_core-v0.1.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs_core-module.lgx",
-          "size": 8773725,
-          "sha256": "74d24706fbe0fcf932cb83146d1fa16cab2f0ac29c4b7d8e4f25998822e968fe",
-          "rootHash": "56b1c6e58eb9b290722d50e7acd6d5cf33b015cd8037c4899214898837ba227e",
+          "size": 12458436,
+          "sha256": "54e1a507a5428982fd049f97bddf484b29f340d4e182d8981cfc96a72652b570",
+          "rootHash": "601da13bebb89a87549e8a9041b954a025a8eebbe9c331c353491e50aea7289c",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -131,21 +132,23 @@
             "description": "Talks to dufs file servers over HTTP: list, upload, download, rename, delete, previews",
             "display_name": "Dufs Core",
             "hashes": {
-              "assets": "d3033b2b5955ef3922bcd4ea84e38c83c68c1ecca1f826bc56ca00e1c21296df",
-              "root": "56b1c6e58eb9b290722d50e7acd6d5cf33b015cd8037c4899214898837ba227e",
-              "variants": "2b59bf4d5ddf81e34645996046ebcf853faab1f9ed79bf57d44c4a0224647937",
-              "variants/linux-amd64": "cbec46e9cb67b9160930c288a28a38ed5562e1887b63281a9d8496f308e88cdd",
-              "variants/linux-arm64": "de743552338ef4d6c4cd4417c9790619932cc996048f0ba26d156a3004e164c2"
+              "assets": "d2fee3858bde60a4843f279002c8c0bd98dada9dd02e09711c549c3d0e2aef65",
+              "root": "601da13bebb89a87549e8a9041b954a025a8eebbe9c331c353491e50aea7289c",
+              "variants": "85f5e45838d284378cd90936493464e9538d8ef923f83df1a462c62a84a7a065",
+              "variants/darwin-arm64": "bd6e34b067a7db92894a46033d597e972321917593570ecce3adb0e5103d3cb8",
+              "variants/linux-amd64": "3b93f482c8e860b6fff0ad9e78b9bf7a90bad49bc8b9ba05dcbda145ada457f8",
+              "variants/linux-arm64": "53a0f8ffea3ebfc9d5808ebb65cba4d748c1b2b8a2f0ef5fa917de239fe03e2d"
             },
             "icon": "assets/icon.png",
             "main": {
+              "darwin-arm64": "dufs_core_plugin.dylib",
               "linux-amd64": "dufs_core_plugin.so",
               "linux-arm64": "dufs_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "dufs_core",
             "type": "core",
-            "version": "0.1.0"
+            "version": "0.1.1"
           }
         }
       ]
