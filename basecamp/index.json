@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-07T10:27:24Z",
+  "generatedAt": "2026-10-08T08:13:45Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -82,7 +82,7 @@
       "name": "dufs",
       "versions": [
         {
-          "releasedAt": "2026-10-07T10:27:24Z",
+          "releasedAt": "2026-10-08T08:13:45Z",
           "publisherRef": "dufs-v0.1.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
           "size": 66072,
@@ -119,7 +119,7 @@
       "name": "dufs_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T10:27:24Z",
+          "releasedAt": "2026-10-08T08:13:45Z",
           "publisherRef": "dufs_core-v0.1.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs_core-module.lgx",
           "size": 12458436,
