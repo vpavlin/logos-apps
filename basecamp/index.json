@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-08T18:32:26Z",
+  "generatedAt": "2026-10-08T19:06:16Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -687,6 +687,41 @@
             "name": "shrooms",
             "type": "ui_qml",
             "version": "0.9.2",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shrooms_agents",
+      "versions": [
+        {
+          "releasedAt": "2026-10-08T19:06:16Z",
+          "publisherRef": "shrooms_agents-v0.40.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_agents-module.lgx",
+          "size": 186047,
+          "sha256": "d9e31804ea1f78485acaa150588635a892610caa15b909ff78ebe877015ea285",
+          "rootHash": "1ec98b6d3558b240449c203a800c6df8e312fc4e1f36e834a8e5210b34bfa3ea",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [
+              "shrooms_core"
+            ],
+            "description": "Talk to the Claude Code sessions on your own machines over a Shrooms mesh, and approve what they want to do: streamed replies, permission prompts, files and voice notes, transcribed on the agent's machine. What grows out of the mycelium. Needs shrooms_core, and shrooms-agent on the machines (docs/agents.md).",
+            "display_name": "Shrooms Agents",
+            "hashes": {
+              "root": "1ec98b6d3558b240449c203a800c6df8e312fc4e1f36e834a8e5210b34bfa3ea",
+              "variants": "392ccdcf03bc69cd5fbc7b91e4e0843431ccdfbec34df7feacbf66d516aa8380",
+              "variants/linux-amd64": "00ba953e4a9b7d6b7491ecc144fbaedda94dfbfdb4d16c0647f79c09c19d4be0",
+              "variants/linux-arm64": "00ba953e4a9b7d6b7491ecc144fbaedda94dfbfdb4d16c0647f79c09c19d4be0"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "shrooms_agents",
+            "type": "ui_qml",
+            "version": "0.40.0",
             "view": "Main.qml"
           }
         }
