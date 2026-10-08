@@ -1,0 +1,9 @@
+AuthorName: vpavlin
+Categories:
+  - Development
+Name: Shrooms Agents
+Summary: Your coding agents on your own machines, over the shrooms mesh
+Description: |-
+  Your coding agents on your own machines, over the shrooms mesh
+SourceCode: https://github.com/vpavlin/shrooms
+CurrentVersionCode: 2147483647
