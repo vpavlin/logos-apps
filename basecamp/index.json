@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-09T07:09:39Z",
+  "generatedAt": "2026-10-09T17:02:30Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -805,12 +805,12 @@
       "name": "swamp",
       "versions": [
         {
-          "releasedAt": "2026-10-09T07:09:39Z",
-          "publisherRef": "swamp-v0.5.6",
+          "releasedAt": "2026-10-09T17:02:30Z",
+          "publisherRef": "swamp-v0.5.9",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-swamp-module.lgx",
-          "size": 43607,
-          "sha256": "e58a7d7604a4308babd6ad9f655386dc02434b80181cced598b990f48f49c492",
-          "rootHash": "3915be192bf576e2cf7c8b6b58002b803bfab89006657ee9af864bd0aa155ef0",
+          "size": 43613,
+          "sha256": "a830032306729ab343b3e618336fec10ec2f86369cb5866cc44b7855f015aef3",
+          "rootHash": "b6914f4ec15a33b8831bdf190cf518d2f9982776e16863e8cbac8be5633c1027",
           "manifest": {
             "author": "",
             "category": "social",
@@ -820,18 +820,18 @@
             "description": "A decentralized library of 3D models: browse, download, publish, remix, post makes. Pure-QML view over swamp_core. Built on the Logos tech stack; not affiliated with Logos.",
             "display_name": "Swamp - 3D models",
             "hashes": {
-              "assets": "ccbae60374cc647d948e698caae9c7fa919aee7e7beb650d3aa57e953d47cefd",
-              "root": "3915be192bf576e2cf7c8b6b58002b803bfab89006657ee9af864bd0aa155ef0",
-              "variants": "05277f0f8afef60189a686eb11fc00a47184502f6caeb856099a53cc7f01b098",
-              "variants/linux-amd64": "1528611d9ecf729515ded8c84d20f96f9e776399b819163d98aa4764ff2bae29",
-              "variants/linux-arm64": "1528611d9ecf729515ded8c84d20f96f9e776399b819163d98aa4764ff2bae29"
+              "assets": "ecbfa32d2123c0619781d9523d99adae5c5148601b4d8ac3455112ccc435bcad",
+              "root": "b6914f4ec15a33b8831bdf190cf518d2f9982776e16863e8cbac8be5633c1027",
+              "variants": "fd22a3b312832a4f1edf39322fad6e0844e9926303f81719f63e03d20538d70c",
+              "variants/linux-amd64": "49043670d853fa702329e63cf45fc305f49c8e6aadd59fb7b9f5450c505969e0",
+              "variants/linux-arm64": "49043670d853fa702329e63cf45fc305f49c8e6aadd59fb7b9f5450c505969e0"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "swamp",
             "type": "ui_qml",
-            "version": "0.5.6",
+            "version": "0.5.9",
             "view": "Main.qml"
           }
         }
@@ -841,12 +841,12 @@
       "name": "swamp_core",
       "versions": [
         {
-          "releasedAt": "2026-10-09T07:09:39Z",
-          "publisherRef": "swamp_core-v0.5.6",
+          "releasedAt": "2026-10-09T17:02:30Z",
+          "publisherRef": "swamp_core-v0.5.9",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-swamp_core-module.lgx",
-          "size": 9751096,
-          "sha256": "8006ebeb1db16d811b91ce34914d30787359849991079f321e3a39b4b4fc6506",
-          "rootHash": "7ed1c01cfe595d916ff87354bff1c4b6fc782de3205a4380b7d54a276afe1fd3",
+          "size": 9768252,
+          "sha256": "662de402c242be324b7317fa5a20932d1420eb36bda067613ea3e2d753a223ce",
+          "rootHash": "8a2f392eeb6246eb94339e31fedb56ef506bd1655a8a72f940b19ac0603bd950",
           "manifest": {
             "author": "",
             "category": "social",
@@ -857,11 +857,11 @@
             "description": "Swamp core: a decentralized library of 3D models. Signed public catalogue over loam_core, files in Logos Storage (host-owned node), verified downloads, shape fingerprints at publish, optional pinning hub. Runs headless under logosctl and behind the swamp ui_qml view.",
             "display_name": "Swamp Core",
             "hashes": {
-              "assets": "9129d332b4804302c7398e16bee5f54da52b2e7ac0d00e6d40cd5e310dbf97cc",
-              "root": "7ed1c01cfe595d916ff87354bff1c4b6fc782de3205a4380b7d54a276afe1fd3",
-              "variants": "53e6f2a30a1c8735f61542337de44ec7cba18693cbab61a2ebc82df7ccf6cbea",
-              "variants/linux-amd64": "00486d8f440a69ed7272f666edc69da67ee831614ab85be26f542892a2f955a5",
-              "variants/linux-arm64": "ca95271fcb1222676e26a1dbe5a3ba0c541c7258131db7ac41f84a081e6ad7b9"
+              "assets": "60d5da1eca4fbfd85c1a95cea96c3218328ec8b7da35f981bc6baab715a0cf48",
+              "root": "8a2f392eeb6246eb94339e31fedb56ef506bd1655a8a72f940b19ac0603bd950",
+              "variants": "4c9aefa45f0a67857ac173d92ea8cc02234c1b4e1f0beccfb7b453af380216cd",
+              "variants/linux-amd64": "310a19477321908d26c9f54bda50e5360df306956f9d65698351b4dea5bcf3cb",
+              "variants/linux-arm64": "f2896bf662dde1a2d9e59adcf09870fa971e452782a1cbbaa81dbd2795d1cad0"
             },
             "icon": "",
             "main": {
@@ -871,7 +871,7 @@
             "manifestVersion": "0.6.0",
             "name": "swamp_core",
             "type": "core",
-            "version": "0.5.6"
+            "version": "0.5.9"
           }
         }
       ]
