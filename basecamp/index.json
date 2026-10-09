@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-09T17:02:30Z",
+  "generatedAt": "2026-10-09T19:14:37Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -880,12 +880,12 @@
       "name": "whisperbox",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "whisperbox-v0.3.8",
+          "releasedAt": "2026-10-09T19:14:37Z",
+          "publisherRef": "whisperbox-v0.4.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox-module.lgx",
-          "size": 39142,
-          "sha256": "2b9b1d20a69f8eaeb5e335bc0cf2f8659667bec20dbf9a0edf54b43e28202255",
-          "rootHash": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
+          "size": 109144,
+          "sha256": "3c180a7dfaf25363354466d7fe1ecfc7a2105fef72b697180259401e78b052f4",
+          "rootHash": "86387995bcdf9cfd6e7dda566cf185cbbc497e6e136c7521162a1a04241e3da3",
           "manifest": {
             "author": "",
             "category": "social",
@@ -895,16 +895,18 @@
             "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
             "display_name": "WhisperBox - Encrypted Forms",
             "hashes": {
-              "root": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
-              "variants": "e667fdcd65e9abd7dab6fccf064f5809096c8bbc43b678cf4821aa3f5eadae3e",
-              "variants/linux-amd64": "b4292d86fd3ded4a642b6ba901fa9da906ed4f20b5e908239c3427688fdb325b"
+              "assets": "5e58742e244ecafd5fc558f792eff60961d310e1b13f6a7f308f5f7f64e61352",
+              "root": "86387995bcdf9cfd6e7dda566cf185cbbc497e6e136c7521162a1a04241e3da3",
+              "variants": "5546b8e5dbceaab30e6d630e3777cafec0b1bf6dc91940436ca680e3081fd112",
+              "variants/linux-amd64": "154d89492accb7d59b6c2115c266b6dbb4c55eaecb7d94bedc49c6ec7a189932",
+              "variants/linux-arm64": "154d89492accb7d59b6c2115c266b6dbb4c55eaecb7d94bedc49c6ec7a189932"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "whisperbox",
             "type": "ui_qml",
-            "version": "0.3.8",
+            "version": "0.4.1",
             "view": "Main.qml"
           }
         }
@@ -914,32 +916,35 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "whisperbox_core-v0.3.8",
+          "releasedAt": "2026-10-09T19:14:37Z",
+          "publisherRef": "whisperbox_core-v0.4.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
-          "size": 4384310,
-          "sha256": "10abeace9ac12ec2a41d85799fedbc0a31b3fb75fd2b0acdb3537650c6f32942",
-          "rootHash": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
+          "size": 9524612,
+          "sha256": "e2650d640f83e7659545bf00a3adf0e2aac4968754a451228fd5976174a803be",
+          "rootHash": "3c029f53e3eaeb7adcfb9c8b538a2660e09bd5a70b9c77dda2b8c232e8b8007b",
           "manifest": {
             "author": "",
             "category": "social",
             "dependencies": [
-              "delivery_module"
+              "loam_core"
             ],
-            "description": "WhisperBox privacy-first forms core: append-only event log over one shared delivery topic, secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logoscore and behind the whisperbox ui_qml view.",
+            "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced with loam_core (the Loam transport every Loam app shares), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
             "hashes": {
-              "root": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
-              "variants": "6c273d581f391e40aa1e78df50c4fed60c84d8dcee49101b66af7925cc767ebf",
-              "variants/linux-amd64": "1b0e008fc124d47212f9733f37df44883564366a86620031fcc9bc90a565c7da"
+              "assets": "42b5a7c48bfdd4aa142ea5303887e30761027f54006023a5eba6b7539e3392cc",
+              "root": "3c029f53e3eaeb7adcfb9c8b538a2660e09bd5a70b9c77dda2b8c232e8b8007b",
+              "variants": "d25876dd14f5c0dba5914c953503ee40b56bb7005368bc6e0eab408c88231fb2",
+              "variants/linux-amd64": "7a8be6aceffd034c0b16c30a85c32812064e70fef0c341111fb8c6eb81c3e8e1",
+              "variants/linux-arm64": "4d904d1966ea60ef3dcc77320f6439ba5802c49e3d97ecd38429389737575ac3"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "whisperbox_core_plugin.so"
+              "linux-amd64": "whisperbox_core_plugin.so",
+              "linux-arm64": "whisperbox_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "whisperbox_core",
             "type": "core",
-            "version": "0.3.8"
+            "version": "0.4.1"
           }
         }
       ]
