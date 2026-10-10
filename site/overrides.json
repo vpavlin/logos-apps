@@ -7,11 +7,13 @@
   "kith_ui": {
     "featured": true,
     "repo": "https://github.com/vpavlin/kith",
-    "website": "https://vpavlin.github.io/kith/"
+    "website": "https://vpavlin.github.io/kith/",
+    "docs": "https://github.com/vpavlin/kith/blob/main/docs/demo.md"
   },
   "xyz.vpavlin.kith": {
     "featured": true,
-    "website": "https://vpavlin.github.io/kith/"
+    "website": "https://vpavlin.github.io/kith/",
+    "docs": "https://github.com/vpavlin/kith/blob/main/docs/demo.md"
   },
   "loam_core": {
     "repo": "https://github.com/vpavlin/loam-basecamp",
@@ -23,7 +25,8 @@
   },
   "kym": {
     "featured": true,
-    "repo": "https://github.com/vpavlin/kym"
+    "repo": "https://github.com/vpavlin/kym",
+    "docs": "https://github.com/vpavlin/kym/blob/master/docs/demo.md"
   },
   "kym_core": {
     "repo": "https://github.com/vpavlin/kym"
@@ -31,7 +34,8 @@
   "qaku": {
     "featured": true,
     "repo": "https://github.com/vpavlin/qaku-logos",
-    "website": "https://vpavlin.github.io/qaku-logos/"
+    "website": "https://vpavlin.github.io/qaku-logos/",
+    "docs": "https://github.com/vpavlin/qaku-logos/blob/master/docs/demo.md"
   },
   "qaku_core": {
     "repo": "https://github.com/vpavlin/qaku-logos",
@@ -42,14 +46,17 @@
     "blurb": "Shared Waku delivery node \u2014 our fork with SDS Reliable Channels enabled. A backend dependency (no UI of its own); other modules ride it for sync."
   },
   "perun_analytics": {
-    "repo": "https://github.com/vpavlin/perun"
+    "repo": "https://github.com/vpavlin/perun",
+    "docs": "https://github.com/vpavlin/perun/blob/master/docs/demo.md"
   },
   "xyz.vpavlin.kym": {
-    "featured": true
+    "featured": true,
+    "docs": "https://github.com/vpavlin/kym/blob/master/docs/demo.md"
   },
   "xyz.vpavlin.qaku": {
     "featured": true,
-    "website": "https://vpavlin.github.io/qaku-logos/"
+    "website": "https://vpavlin.github.io/qaku-logos/",
+    "docs": "https://github.com/vpavlin/qaku-logos/blob/master/docs/demo.md"
   },
   "scala": {
     "repo": "https://github.com/vpavlin/scala",
@@ -58,11 +65,13 @@
   "scala_ui": {
     "featured": true,
     "repo": "https://github.com/vpavlin/scala",
-    "website": "https://vpavlin.github.io/scala/"
+    "website": "https://vpavlin.github.io/scala/",
+    "docs": "https://github.com/vpavlin/scala/blob/main/docs/demo.md"
   },
   "xyz.vpavlin.scala": {
     "featured": true,
-    "website": "https://vpavlin.github.io/scala/"
+    "website": "https://vpavlin.github.io/scala/",
+    "docs": "https://github.com/vpavlin/scala/blob/main/docs/demo.md"
   },
   "shrooms": {
     "featured": true,
@@ -84,5 +93,18 @@
   },
   "loam_ui": {
     "repo": "https://github.com/vpavlin/loam-basecamp"
+  },
+  "xyz.vpavlin.perun": {
+    "docs": "https://github.com/vpavlin/perun/blob/master/docs/demo.md",
+    "repo": "https://github.com/vpavlin/perun"
+  },
+  "frequencies_ui": {
+    "docs": "https://github.com/vpavlin/frequencies/blob/main/docs/demo.md",
+    "repo": "https://github.com/vpavlin/frequencies",
+    "website": "https://frequencies.vpavlin.xyz/"
+  },
+  "xyz.vpavlin.frequencies": {
+    "docs": "https://github.com/vpavlin/frequencies/blob/main/docs/demo.md",
+    "repo": "https://github.com/vpavlin/frequencies"
   }
 }
