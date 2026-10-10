@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-10T13:59:38Z",
+  "generatedAt": "2026-10-10T14:12:54Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -916,12 +916,12 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-10-10T13:59:38Z",
+          "releasedAt": "2026-10-10T14:12:54Z",
           "publisherRef": "whisperbox_core-v0.4.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
-          "size": 9256923,
-          "sha256": "4fd76b3dfa743e793f54336b0eca9ecfed091eda71e8eef1bbf25c684b13d8a5",
-          "rootHash": "a799ed97d2fca55cf3b3fe12dc7368b506cf1c63d200d90a2e1a6de30513a67a",
+          "size": 13261384,
+          "sha256": "62c621319836b1825f1fe7e57a34d8b347ee646bbdedb6311f72e1e04e78b020",
+          "rootHash": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
           "manifest": {
             "author": "",
             "category": "social",
@@ -931,13 +931,15 @@
             "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced with loam_core (the Loam transport every Loam app shares), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
             "hashes": {
               "assets": "dcdfc0ad55d096e3dcad061b7bf2ce417c3568a9cd8826da9557b362ee62f77a",
-              "root": "a799ed97d2fca55cf3b3fe12dc7368b506cf1c63d200d90a2e1a6de30513a67a",
-              "variants": "24731ca40604bd90255fb768a46fe1f56416863560359d2ff3ce383c69cf5468",
+              "root": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
+              "variants": "5346473efb7a0abefef5c4210d6b16839a3cb91cfc4e90e3b2e53b6e8e358ef6",
+              "variants/darwin-arm64": "6ba324d5abea485ad9209dc6ad89a32db596a005663abd0c8d9193d7ce2c86d6",
               "variants/linux-amd64": "6acda4068f09947182ccf96b4085d48c7368016f308ec1ee4198c372be7f9973",
               "variants/linux-arm64": "07fe09b7e103bed455c20cc3ee04eb8a0d98988516a0fc7db1978ef3214cdda6"
             },
             "icon": "",
             "main": {
+              "darwin-arm64": "whisperbox_core_plugin.dylib",
               "linux-amd64": "whisperbox_core_plugin.so",
               "linux-arm64": "whisperbox_core_plugin.so"
             },
