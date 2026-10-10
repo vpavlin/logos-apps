@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-10T14:12:54Z",
+  "generatedAt": "2026-10-10T18:28:01Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -154,6 +154,45 @@
       ]
     },
     {
+      "name": "frequencies_ui",
+      "versions": [
+        {
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "frequencies_ui-v0.3.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-frequencies_ui-module.lgx",
+          "size": 80656,
+          "sha256": "724eca4b81cb7201429fda9fb0d764131c051387aa5541218bb7b083a249653f",
+          "rootHash": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
+          "manifest": {
+            "author": "",
+            "category": "general",
+            "dependencies": [
+              "scala",
+              "kith",
+              "whisperbox_core"
+            ],
+            "description": "Frequencies: organise club nights on top of the Scala calendar: venues, status, line-up and fees with artists from Kith, booking/crew/guest-list forms from WhisperBox, comments",
+            "display_name": "Frequencies",
+            "hashes": {
+              "assets": "c7d459a5aefffd4829a54504283c7b292dcc6ea02c1677af42bde5f7f3c77ee6",
+              "root": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
+              "variants": "36a71f9e814ef5ebdc8b05bdbbf2d4986e35fd7768e590b19f7ded256e98747b",
+              "variants/darwin-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
+              "variants/linux-amd64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
+              "variants/linux-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "frequencies_ui",
+            "type": "ui_qml",
+            "version": "0.3.0",
+            "view": "qml/FrequenciesView.qml"
+          }
+        }
+      ]
+    },
+    {
       "name": "keycard",
       "versions": [
         {
@@ -227,12 +266,12 @@
       "name": "kith",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "kith-v0.3.1",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "kith-v0.3.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith-module.lgx",
-          "size": 4496267,
-          "sha256": "c40ec36c2a465912a6225587cf7da24d717c21c8cbbaa03faf90de86eb1e61d1",
-          "rootHash": "c3fed4672246c4c0b47d1de7bc980d6b502d423273ac29587054883b86de4a92",
+          "size": 12969577,
+          "sha256": "45d018fdd3df962ba14f2be6264797c1eeaa14b38167e5fae8bef2adf6d9fad7",
+          "rootHash": "96771dbefb2509679cfdc81d2f38e103fba867c6c7d1224230b43ea43f760b5c",
           "manifest": {
             "author": "",
             "category": "general",
@@ -242,19 +281,23 @@
             "description": "Contacts and address book module for Logos Core",
             "display_name": "Kith Core",
             "hashes": {
-              "assets": "3d92eb5be93c407e952941711d5c958dcd557d16e2ae9a11f485cb9ed10a5778",
-              "root": "c3fed4672246c4c0b47d1de7bc980d6b502d423273ac29587054883b86de4a92",
-              "variants": "c1226f96fba7792475bc604e4694ada98a339cbc55695b17a8a16e8b2b1de8de",
-              "variants/linux-amd64": "659eb7aadb74dc70c2c5fb3730e0c77e24a06fbdbc6c5a6655a1993217f3c82e"
+              "assets": "77cd0bdd34f2e8a41ec5aef9bccd0afb30b32f499c0a027a7bf59d5e216dbc07",
+              "root": "96771dbefb2509679cfdc81d2f38e103fba867c6c7d1224230b43ea43f760b5c",
+              "variants": "dc79e780d233037276e6b596169857d7823a1d1aaf8322b47b1b5867494c5a83",
+              "variants/darwin-arm64": "c33740c3a84dabfbe2e7b96ae6a49daf414a1031aaef677a639272553369a887",
+              "variants/linux-amd64": "848b63f32ffbb5c453a3773ab60d9f3f92a6a83c55a7ba32c472b754d31a9c09",
+              "variants/linux-arm64": "da81f8e206a5ddfb1b072bfa5d852b2040040a1d69604d5e9338177f98ecda49"
             },
             "icon": "assets/icon.png",
             "main": {
-              "linux-amd64": "kith_plugin.so"
+              "darwin-arm64": "kith_plugin.dylib",
+              "linux-amd64": "kith_plugin.so",
+              "linux-arm64": "kith_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "kith",
             "type": "core",
-            "version": "0.3.1"
+            "version": "0.3.2"
           }
         }
       ]
@@ -586,12 +629,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "scala-v0.11.0",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "scala-v0.12.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 9696748,
-          "sha256": "d11b26953f2dd6a9edd90534517a68b2d946d8b5e4fea875c7d4f414f98c11ed",
-          "rootHash": "577475a76197920f769cc252727cb6a28e9ee45f3ad698836ae37379ef1e886b",
+          "size": 13834218,
+          "sha256": "2a004d5c50d43ec564a1ca5bfcb44e47190c9c7fcafe239806988b5bbcc1877b",
+          "rootHash": "c5d97172bcc361edb62a0d62c0b087c49d396307ecebede3c61c2bee48ab2e57",
           "manifest": {
             "author": "",
             "category": "general",
@@ -602,21 +645,23 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "assets": "f2942b3eacebc8bd3f63ba39097991f7fe42ef44fee2e5fd34ccae99ecba1a70",
-              "root": "577475a76197920f769cc252727cb6a28e9ee45f3ad698836ae37379ef1e886b",
-              "variants": "ae0d23ad15022dd94cb02843983e73d3b5d04ad32e6b6e68b4c5181631c4e3d6",
-              "variants/linux-amd64": "96afb2e0715c84762e2e057bc5679d78ca17971865eeca1408fdd14bb1ecd64d",
-              "variants/linux-arm64": "a4382be8390960f2ed8fa08086c3dfe902afb2c54efb29aacdf5a08c026754b9"
+              "assets": "041feb7ec2f4cf338fe73ce8a19e9deffb25f1162c045fb8b70f1d1f570e02e7",
+              "root": "c5d97172bcc361edb62a0d62c0b087c49d396307ecebede3c61c2bee48ab2e57",
+              "variants": "d4cc027b252230d6c738aeb2792c76e7758b3759d774f511f90ba475c128f5fc",
+              "variants/darwin-arm64": "bbc3b2d0a62d9479e3d22030e6ea22da3c2889915b14c1d514d614884032e520",
+              "variants/linux-amd64": "48ef2498ff3c37b5680e2f249d4311346de9f3108c351ca649d42dbc94d165b8",
+              "variants/linux-arm64": "bbfccbcc6d791ce6524281a4097b23dceefef96dc1f140b8ca08f114ca4015fc"
             },
             "icon": "assets/icon.png",
             "main": {
+              "darwin-arm64": "scala_plugin.dylib",
               "linux-amd64": "scala_plugin.so",
               "linux-arm64": "scala_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "scala",
             "type": "core",
-            "version": "0.11.0"
+            "version": "0.12.2"
           }
         }
       ]
@@ -625,12 +670,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "scala_ui-v0.10.0",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "scala_ui-v0.12.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 109016,
-          "sha256": "ff23aee5474fcb4322c235b06b775fd18bb048914f7ace403a27c390ae68e408",
-          "rootHash": "83878a7995899c27e1fd49c9f5ede3de7647cacb7aaa176e03bd542635911a33",
+          "size": 186812,
+          "sha256": "e8c3775d6e7bd7efb2173b15ee224a739856c65360f32ee50ee2c2535c1dff8a",
+          "rootHash": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
           "manifest": {
             "author": "",
             "category": "general",
@@ -642,17 +687,44 @@
             "display_name": "Scala",
             "hashes": {
               "assets": "ec7137e8bc2833d69d7a19de9177aa3e7a903b6b77af4b84e029b9ad9f722236",
-              "root": "83878a7995899c27e1fd49c9f5ede3de7647cacb7aaa176e03bd542635911a33",
-              "variants": "d358018ac81a6138dea67e0cc50e7a7328bc65d660a86acd79b0bc56a3c52b05",
-              "variants/linux-amd64": "420d4239fbdecfbba4df50ec52e1b45e369e376c37f4b1583f4a40641fd8a979",
-              "variants/linux-arm64": "420d4239fbdecfbba4df50ec52e1b45e369e376c37f4b1583f4a40641fd8a979"
+              "root": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
+              "variants": "c811fdb50a3eaff936f12f46db0ac9b94746f2b2aaeeed04a472ced7a512c732",
+              "variants/darwin-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
+              "variants/linux-amd64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
+              "variants/linux-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "scala_ui",
+            "provides": [
+              {
+                "intent": "scala.calendars.list"
+              },
+              {
+                "intent": "scala.events.list"
+              },
+              {
+                "intent": "scala.events.search"
+              },
+              {
+                "intent": "scala.event.create"
+              },
+              {
+                "intent": "scala.calendar.create"
+              },
+              {
+                "intent": "scala.calendar.join"
+              },
+              {
+                "intent": "scala.calendar.share"
+              },
+              {
+                "intent": "scala.calendar.show"
+              }
+            ],
             "type": "ui_qml",
-            "version": "0.10.0",
+            "version": "0.12.1",
             "view": "qml/CalendarView.qml"
           }
         }
