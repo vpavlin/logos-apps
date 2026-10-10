@@ -167,6 +167,27 @@ def _icon_from_lgx(lgx_bytes, icon_name):
     return None
 
 
+# platform -> (chip label, full name for the tooltip)
+PLATFORM_LABELS = {
+    "linux-amd64": ("Linux x64", "Linux on x86-64 (Intel/AMD)"), "linux-arm64": ("Linux ARM64", "Linux on 64-bit ARM"),
+    "darwin-arm64": ("macOS", "macOS on Apple Silicon"), "darwin-amd64": ("macOS Intel", "macOS on Intel"),
+    "windows-amd64": ("Windows", "Windows on x86-64"), "windows-arm64": ("Windows ARM64", "Windows on 64-bit ARM"),
+}
+PLATFORM_ORDER = list(PLATFORM_LABELS)
+
+
+def platforms_of(m):
+    """The platforms a package ships for: one `variants/<platform>` entry per variant in the
+    manifest's hashes (QML-only views have them too); a core's `main` map as a fallback."""
+    hs = m.get("hashes") if isinstance(m.get("hashes"), dict) else {}
+    plats = [k.split("/", 1)[1] for k in hs if k.startswith("variants/") and "/" in k]
+    if not plats and isinstance(m.get("main"), dict):
+        plats = list(m["main"].keys())
+    plats = [p.removesuffix("-dev") for p in plats]
+    rank = {p: i for i, p in enumerate(PLATFORM_ORDER)}
+    return sorted(set(plats), key=lambda p: (rank.get(p, 99), p))
+
+
 def build_module_cards(index, overrides, offline):
     cards = []
     for pkg in index.get("packages", []):
@@ -199,6 +220,7 @@ def build_module_cards(index, overrides, offline):
             "desc": ov.get("blurb") or m.get("description") or "",
             "category": (ov.get("bucket") or m.get("category") or "Other").strip() or "Other",
             "version": m.get("version") or "", "deps": m.get("dependencies") or [],
+            "platforms": platforms_of(m),
             "signer": signer.get("name") or "", "signer_url": signer.get("url") or "",
             "signed": bool(v.get("signature")), "size": v.get("size", 0),
             "url": v.get("url", ""), "install": "lgpd",
@@ -293,6 +315,11 @@ def render_card(c):
     if c["deps"]:
         chips = "".join(f'<span class="dep">{e(d)}</span>' for d in c["deps"])
         deps = f'<div class="deps">needs {chips}</div>'
+    plats = ""
+    if c.get("platforms"):
+        chips = "".join(f'<span class="plat" title="{e(PLATFORM_LABELS.get(p, (p, p))[1])}">{e(PLATFORM_LABELS.get(p, (p, p))[0])}</span>'
+                        for p in c["platforms"])
+        plats = f'<div class="plats">runs on {chips}</div>'
     badge = ""
     if c["kind"] == "module" and c["signed"]:
         who = e(c["signer"] or "unknown")
@@ -333,6 +360,7 @@ def render_card(c):
           <h3>{title}<span class="cat">{e(c['category'])}</span>{core_tag}</h3>
           <p class="desc">{e(c['desc'])}</p>
           {deps}
+          {plats}
           {links_html}
           <div class="foot"><span class="meta">{meta}</span>{badge}{action}</div>
         </div>
@@ -463,6 +491,10 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   .desc {{ margin:0 0 8px; color:var(--mut); font-size:13.5px; }}
   .deps {{ font-size:12px; color:var(--mut); margin-bottom:8px; }}
   .dep {{ background:var(--chip); border-radius:5px; padding:1px 6px; margin-left:4px; }}
+  .plats {{ display:flex; flex-wrap:wrap; align-items:center; gap:4px; font-size:12px;
+    color:var(--mut); margin-bottom:8px; }}
+  .plat {{ font-size:11px; border:1px solid var(--line); border-radius:5px; padding:0 5px;
+    white-space:nowrap; }}
   .links {{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }}
   .lnk {{ display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:600;
     color:var(--mut); background:var(--chip); border:1px solid var(--line);

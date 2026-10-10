@@ -1,40 +1,39 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-04T16:31:55Z",
+  "generatedAt": "2026-10-10T18:28:01Z",
   "packages": [
     {
       "name": "ble_mesh",
       "versions": [
         {
-          "releasedAt": "2026-10-02T07:13:33Z",
-          "publisherRef": "ble_mesh-v0.1.1",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "ble_mesh-v0.2.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ble_mesh-module.lgx",
-          "size": 12038393,
-          "sha256": "eeedfc6aa2f57e68fab27194aeb5b555e5ee611c70449540108eddff5ea44d66",
-          "rootHash": "3d01b49ece0541087d67f859b2898f77879b304f44d7166effa835eacf88ce12",
+          "size": 9866779,
+          "sha256": "222890082f187649640b32ea6116f42c83da1f471d6f12d54083a0dbef8da4da",
+          "rootHash": "de25c7f602fb212e67170ef568035f19a9f61cfdf6a8abf6d54d5ebe7308ee34",
           "manifest": {
             "author": "",
             "category": "system",
             "dependencies": [],
             "description": "Loam BLE offline-mesh bearer: flood-gossip over Bluetooth, wire-compatible with the Android Loam mesh and loam-transport bearer.ts (same frame format and frameId). Depended on by loam_core (and any app) as a second bearer beside delivery. Portable gossip today, Qt Bluetooth radio in Phase 3. See ADR 0015.",
             "hashes": {
-              "root": "3d01b49ece0541087d67f859b2898f77879b304f44d7166effa835eacf88ce12",
-              "variants": "b11133edb6e69c401d8aeb795bad3f63b67a21f984709983abf9a0a9a79ae5d9",
-              "variants/darwin-arm64": "b1ee41e5df224d572d6bd0f8b5f891d68b5646818ecba3f0a6ef18f8253d4cc6",
-              "variants/linux-amd64": "12adf080f781a90e83ee3315884ce3ff0bda68b1635e3874ae67fd16899c4b71",
-              "variants/linux-arm64": "fdf94637ab469ab80d69a5c5f1a1a2711fb099104698e1654699c5f1133594b1"
+              "assets": "9d8e3e7dfe280868044d9eb8b027a50ea45754414ce24cc39fcaeda033ea1e86",
+              "root": "de25c7f602fb212e67170ef568035f19a9f61cfdf6a8abf6d54d5ebe7308ee34",
+              "variants": "91f0aaf333c8f7df1c21192dbb60b5add352ea72b2494de47bf906e273e05fe2",
+              "variants/linux-amd64": "5a7bf156d6d690ad353c7a1af57648f685266c40840bb1373eabdcb53721ff51",
+              "variants/linux-arm64": "cd436f7cfb953f73e85c11cf583245dccfa563803ddf70fae7c2e9cdbed7607b"
             },
             "icon": "",
             "main": {
-              "darwin-arm64": "ble_mesh_plugin.dylib",
               "linux-amd64": "ble_mesh_plugin.so",
               "linux-arm64": "ble_mesh_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "ble_mesh",
             "type": "core",
-            "version": "0.1.1"
+            "version": "0.2.1"
           }
         }
       ]
@@ -43,34 +42,152 @@
       "name": "delivery_module",
       "versions": [
         {
-          "releasedAt": "2026-10-02T15:48:00Z",
-          "publisherRef": "delivery_module-v0.9.0",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "delivery_module-v0.3.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-delivery_module-module.lgx",
-          "size": 62596984,
-          "sha256": "6e22529243d337c582eb1fc07619b2642056dabea235dcf0c694e2551eaec4d2",
-          "rootHash": "befddfc677b696c7f72063c2aaeee9d1691ad2a7a9ab74625c5ed89eeea43ca3",
+          "size": 47962971,
+          "sha256": "4f187787c854a778d978769c1a4d593f1b973da04aeb6bd8e299864e38918f12",
+          "rootHash": "09c5ba337a901d9620d6713cf926307a2735138907b0bcb5e9d13beee296f6f1",
           "manifest": {
             "author": "Logos Core Team",
             "category": "protocol",
             "dependencies": [],
             "description": "Logos Delivery Module - High-level message-delivery API",
+            "display_name": "Delivery Module",
             "hashes": {
-              "root": "befddfc677b696c7f72063c2aaeee9d1691ad2a7a9ab74625c5ed89eeea43ca3",
-              "variants": "3fcf0f876ef7ef0cb1f71ed06bbbe2ab13bbcb3bc6ea006f3ba1988e7fe1d854",
-              "variants/darwin-arm64": "9e5b3887d920ee89a77cf38ce4fff9392352fbc369a75f8ab199874806f3dafb",
-              "variants/linux-amd64": "ae389c1fc5ae2ca45e2bbf329d969e9cd46b5b739e5710bc372e614a58074f40",
-              "variants/linux-arm64": "0868c5316c52ec3a77ebd5e2c7cf3da3f9ef662d3762994c0183a852e8d64341"
+              "assets": "a3602a1565db855547034e5348661ea2f73dd7391768e270a63542bb6ec046bc",
+              "root": "09c5ba337a901d9620d6713cf926307a2735138907b0bcb5e9d13beee296f6f1",
+              "variants": "e65b831be472ee04fa4fb83df0c0ba7de8a94f7c3214eb1ac9518dee574cf93d",
+              "variants/linux-amd64": "6f0d5cb3ba9fdcc327d795432497535f1f0cdd79bf0e9a148d446ccbfe68a9f3",
+              "variants/linux-arm64": "04ea3c4bb4759c1e7596ff5d27ed0de033ffacf94289ce6141bd7c5afce9d0b4"
             },
             "icon": "",
             "main": {
-              "darwin-arm64": "delivery_module_plugin.dylib",
               "linux-amd64": "delivery_module_plugin.so",
               "linux-arm64": "delivery_module_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "delivery_module",
+            "optional_dependencies": [
+              "libp2p_module",
+              "liblogos_rln_module"
+            ],
             "type": "core",
-            "version": "0.9.0"
+            "version": "0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dufs",
+      "versions": [
+        {
+          "releasedAt": "2026-10-08T08:13:45Z",
+          "publisherRef": "dufs-v0.1.1",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
+          "size": 66072,
+          "sha256": "cfc1b45f8df7d67f1aadbfe86dcef71e0dc7328e28830536a91b2288ff6896cb",
+          "rootHash": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [
+              "dufs_core"
+            ],
+            "description": "Browse, preview, upload and download files on your dufs servers - several servers, one switcher",
+            "display_name": "Dufs",
+            "hashes": {
+              "assets": "d3033b2b5955ef3922bcd4ea84e38c83c68c1ecca1f826bc56ca00e1c21296df",
+              "root": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
+              "variants": "f1efc3af8894552702f953daf869efde08a182f9cc3aeb9b1e582cd36578ec0f",
+              "variants/darwin-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
+              "variants/linux-amd64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
+              "variants/linux-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "dufs",
+            "type": "ui_qml",
+            "version": "0.1.1",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dufs_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-08T08:13:45Z",
+          "publisherRef": "dufs_core-v0.1.1",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs_core-module.lgx",
+          "size": 12458436,
+          "sha256": "54e1a507a5428982fd049f97bddf484b29f340d4e182d8981cfc96a72652b570",
+          "rootHash": "601da13bebb89a87549e8a9041b954a025a8eebbe9c331c353491e50aea7289c",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [],
+            "description": "Talks to dufs file servers over HTTP: list, upload, download, rename, delete, previews",
+            "display_name": "Dufs Core",
+            "hashes": {
+              "assets": "d2fee3858bde60a4843f279002c8c0bd98dada9dd02e09711c549c3d0e2aef65",
+              "root": "601da13bebb89a87549e8a9041b954a025a8eebbe9c331c353491e50aea7289c",
+              "variants": "85f5e45838d284378cd90936493464e9538d8ef923f83df1a462c62a84a7a065",
+              "variants/darwin-arm64": "bd6e34b067a7db92894a46033d597e972321917593570ecce3adb0e5103d3cb8",
+              "variants/linux-amd64": "3b93f482c8e860b6fff0ad9e78b9bf7a90bad49bc8b9ba05dcbda145ada457f8",
+              "variants/linux-arm64": "53a0f8ffea3ebfc9d5808ebb65cba4d748c1b2b8a2f0ef5fa917de239fe03e2d"
+            },
+            "icon": "assets/icon.png",
+            "main": {
+              "darwin-arm64": "dufs_core_plugin.dylib",
+              "linux-amd64": "dufs_core_plugin.so",
+              "linux-arm64": "dufs_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "dufs_core",
+            "type": "core",
+            "version": "0.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "frequencies_ui",
+      "versions": [
+        {
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "frequencies_ui-v0.3.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-frequencies_ui-module.lgx",
+          "size": 80656,
+          "sha256": "724eca4b81cb7201429fda9fb0d764131c051387aa5541218bb7b083a249653f",
+          "rootHash": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
+          "manifest": {
+            "author": "",
+            "category": "general",
+            "dependencies": [
+              "scala",
+              "kith",
+              "whisperbox_core"
+            ],
+            "description": "Frequencies: organise club nights on top of the Scala calendar: venues, status, line-up and fees with artists from Kith, booking/crew/guest-list forms from WhisperBox, comments",
+            "display_name": "Frequencies",
+            "hashes": {
+              "assets": "c7d459a5aefffd4829a54504283c7b292dcc6ea02c1677af42bde5f7f3c77ee6",
+              "root": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
+              "variants": "36a71f9e814ef5ebdc8b05bdbbf2d4986e35fd7768e590b19f7ded256e98747b",
+              "variants/darwin-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
+              "variants/linux-amd64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
+              "variants/linux-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "frequencies_ui",
+            "type": "ui_qml",
+            "version": "0.3.0",
+            "view": "qml/FrequenciesView.qml"
           }
         }
       ]
@@ -79,34 +196,33 @@
       "name": "keycard",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "keycard-v1.0.0",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "keycard-v1.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-module.lgx",
-          "size": 12920795,
-          "sha256": "1e7a0c287afb543a75718c51d6c122d5a18f64ccb549a6b82cbacaa9d824f890",
-          "rootHash": "716306acc5915dad8aa3f11333edf3b4a220d79230588eab6eb9b404b57e4bfa",
+          "size": 10045497,
+          "sha256": "d19b562c89ecaba4411f629862d8cb64efb9a526705fbc7e589a2fa337dae96a",
+          "rootHash": "0a0262a179e82af175e798a1a17904a3f12c98a180e2868214b7040dfb78db02",
           "manifest": {
             "author": "",
             "category": "security",
             "dependencies": [],
             "description": "Keycard smartcard authentication module for Logos Basecamp",
             "hashes": {
-              "root": "716306acc5915dad8aa3f11333edf3b4a220d79230588eab6eb9b404b57e4bfa",
-              "variants": "5790534311846e1b874e18d371a9d2ec0c3c6a25ba68364a826843ffe0540b02",
-              "variants/darwin-arm64": "2cd11f12594c0426c5c55eb328f40a7070303b22703d4753aa02fddedf4c9efc",
-              "variants/linux-amd64": "6c11c9f294aa601050382e017e7fc98876b34dfe0146e03e71d4d614325f498c",
-              "variants/linux-arm64": "f5eb7085cad77ca2b743e700013c7dd5e3bc520111ef3e7d9fa96e9535a211ee"
+              "assets": "2cbe525e230e40e709a8fd3ca1f93a92bd630895d78633a2024dd13e1cc7536e",
+              "root": "0a0262a179e82af175e798a1a17904a3f12c98a180e2868214b7040dfb78db02",
+              "variants": "dbedb32942b43826896004ea9dedf56039b0782f0339b6d721e7aec34e01711a",
+              "variants/linux-amd64": "f8680f9631e08a430f0d6dd87ec3b2c2935ad35b706f228db57e42c89143abdc",
+              "variants/linux-arm64": "6c2ddc9fb872c3acef621fbbd0abe2e68ff9095018b418f2475be86838e68ca7"
             },
             "icon": "",
             "main": {
-              "darwin-arm64": "keycard_plugin.dylib",
               "linux-amd64": "keycard_plugin.so",
               "linux-arm64": "keycard_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "keycard",
             "type": "core",
-            "version": "1.0.0"
+            "version": "1.1.0"
           }
         }
       ]
@@ -115,12 +231,12 @@
       "name": "keycard-ui",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "keycard-ui-v1.0.2",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "keycard-ui-v1.1.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-keycard-ui-module.lgx",
-          "size": 57170,
-          "sha256": "96d20b80fdc5ab69aeedb4e666c5124fcfb5ef359a157d617265b6070892c11c",
-          "rootHash": "18fd71dda5a51d1a93e58d98878303c7c1cae45cb1353c17438497811e629e65",
+          "size": 43440,
+          "sha256": "804cb1fb21453549d65916e7035bf52c27fd4e702b0abf371eabab1728b0eedc",
+          "rootHash": "573147debfe6167842d0affaf757be866f5dba854f51e216f27af31245df7264",
           "manifest": {
             "author": "",
             "category": "security",
@@ -129,18 +245,18 @@
             ],
             "description": "Keycard debug UI and test harness",
             "hashes": {
-              "root": "18fd71dda5a51d1a93e58d98878303c7c1cae45cb1353c17438497811e629e65",
-              "variants": "5e9911e55a4b3ad465acdb15e85b22bdcd2244872349f5cb8924055f7b30d2bc",
-              "variants/darwin-arm64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91",
-              "variants/linux-amd64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91",
-              "variants/linux-arm64": "4023153294feca68516ea9b42e8e8fdced1150014952f7cbaee87724b6009b91"
+              "assets": "acd82e7985faf580a81c346f942ead033d7d5bb078dda91919e43f085d70f566",
+              "root": "573147debfe6167842d0affaf757be866f5dba854f51e216f27af31245df7264",
+              "variants": "4007bf420bda468192a5edd3e64398cf74ff29587290223e3cea1875f7d3fc94",
+              "variants/linux-amd64": "1207508e64acfaecc01c795cdc60322f2348f14a7d66c57c4e7c76a1ccc409bf",
+              "variants/linux-arm64": "1207508e64acfaecc01c795cdc60322f2348f14a7d66c57c4e7c76a1ccc409bf"
             },
-            "icon": "keycard.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "keycard-ui",
             "type": "ui_qml",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "view": "qml/Main.qml"
           }
         }
@@ -150,12 +266,12 @@
       "name": "kith",
       "versions": [
         {
-          "releasedAt": "2026-09-30T08:32:35Z",
-          "publisherRef": "kith-v0.2.4",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "kith-v0.3.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith-module.lgx",
-          "size": 4227195,
-          "sha256": "8366fb1a503f2c980be3dd0e8925492fe80bb9c774b1cf5e99f2ba15e7bd43c8",
-          "rootHash": "a956bbda9f10e76a2339e67dda627502f3a24df3ce63d09a059ddac33fe301d0",
+          "size": 12969577,
+          "sha256": "45d018fdd3df962ba14f2be6264797c1eeaa14b38167e5fae8bef2adf6d9fad7",
+          "rootHash": "96771dbefb2509679cfdc81d2f38e103fba867c6c7d1224230b43ea43f760b5c",
           "manifest": {
             "author": "",
             "category": "general",
@@ -165,18 +281,23 @@
             "description": "Contacts and address book module for Logos Core",
             "display_name": "Kith Core",
             "hashes": {
-              "root": "a956bbda9f10e76a2339e67dda627502f3a24df3ce63d09a059ddac33fe301d0",
-              "variants": "f8e686a8b51d57bc83fcbb6071f0e15a7757ab4419e6db99fe5d05b48bb6711c",
-              "variants/linux-amd64": "111e78ea96dd770ca0ab77100307b11e07057997d31579f7749960950e81708c"
+              "assets": "77cd0bdd34f2e8a41ec5aef9bccd0afb30b32f499c0a027a7bf59d5e216dbc07",
+              "root": "96771dbefb2509679cfdc81d2f38e103fba867c6c7d1224230b43ea43f760b5c",
+              "variants": "dc79e780d233037276e6b596169857d7823a1d1aaf8322b47b1b5867494c5a83",
+              "variants/darwin-arm64": "c33740c3a84dabfbe2e7b96ae6a49daf414a1031aaef677a639272553369a887",
+              "variants/linux-amd64": "848b63f32ffbb5c453a3773ab60d9f3f92a6a83c55a7ba32c472b754d31a9c09",
+              "variants/linux-arm64": "da81f8e206a5ddfb1b072bfa5d852b2040040a1d69604d5e9338177f98ecda49"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {
-              "linux-amd64": "kith_plugin.so"
+              "darwin-arm64": "kith_plugin.dylib",
+              "linux-amd64": "kith_plugin.so",
+              "linux-arm64": "kith_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "kith",
             "type": "core",
-            "version": "0.2.4"
+            "version": "0.3.2"
           }
         }
       ]
@@ -185,31 +306,33 @@
       "name": "kith_ui",
       "versions": [
         {
-          "releasedAt": "2026-10-01T06:18:05Z",
-          "publisherRef": "kith_ui-v0.2.5",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "kith_ui-v0.3.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kith_ui-module.lgx",
-          "size": 62006,
-          "sha256": "0a559d928b9d722c2a22199c9fab2a805934d4031b6dd8ccdfd82a28498f899d",
-          "rootHash": "a01a72be667326ab3f0127c8daf5df594a4323e7a46622c1b1ae72e1913fd768",
+          "size": 83138,
+          "sha256": "78db018e889a6d60187ea7133d2c72cac36199ff4c31284bc283a4a886b5f122",
+          "rootHash": "8654fa50198b3807c5d77b3c1209fe49feb2376f3ebd4e529af25d13bded30de",
           "manifest": {
             "author": "",
             "category": "general",
             "dependencies": [
-              "kith"
+              "kith",
+              "loam_core"
             ],
             "description": "Kith address book UI - pure-QML view over the kith core module",
             "display_name": "Kith",
             "hashes": {
-              "root": "a01a72be667326ab3f0127c8daf5df594a4323e7a46622c1b1ae72e1913fd768",
-              "variants": "8b3bcc35b601e81d371ef9f5d221fa57599a4d4ed8d178e849564c44e637bdee",
-              "variants/linux-amd64": "f717a3168d9eccdd1da292302f004fe9cd8242e2d76a77badc0db93b342980d7"
+              "assets": "8bb5435fc5e15ca38bed30c22fe748fee27e2065f59f40d246f5e1f0d0442d57",
+              "root": "8654fa50198b3807c5d77b3c1209fe49feb2376f3ebd4e529af25d13bded30de",
+              "variants": "3987f7bc4681e6ec5555ec06e06a3e4321fd3210165a2965cb4ae95fa248a9e3",
+              "variants/linux-amd64": "6cb75c0a1ca97594fc07d3383400289736db884798cefd8c72715252e203703a"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "kith_ui",
             "type": "ui_qml",
-            "version": "0.2.5",
+            "version": "0.3.0",
             "view": "qml/Main.qml"
           }
         }
@@ -219,12 +342,12 @@
       "name": "kym",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "kym-v0.6.11",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "kym-v0.7.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym-module.lgx",
-          "size": 84299,
-          "sha256": "3e724fab63b522918ca30d33df0df1f2262fc1882deaa8de505e35fd11deea44",
-          "rootHash": "1494e2e622d770d1e5488c025d770f3e93aa23754a5eb0f1bf64f85e81145562",
+          "size": 93931,
+          "sha256": "7e0687afcab2e8e48f9a6226b975bcf9f07e883ab788f553208161c03feb95be",
+          "rootHash": "4824efb9822b1c9e950097296a31d1d8be612e1c080c8b87b2bfb6fb5b896088",
           "manifest": {
             "author": "",
             "category": "finance",
@@ -232,17 +355,19 @@
               "kym_core"
             ],
             "description": "Local-first zero-based budget. Envelope categories, a monthly grid, accounts and credit-card handling - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and peers fold). Pure-QML view over the kym_core module.",
+            "display_name": "KYM - Know Your Money",
             "hashes": {
-              "root": "1494e2e622d770d1e5488c025d770f3e93aa23754a5eb0f1bf64f85e81145562",
-              "variants": "4cd0841561e4cee99c92057e09f34a42991dea1fdf19840778a0ac20d345b39c",
-              "variants/linux-amd64": "a456c73774a4a10cd6ac5e5aef6ead4e646f8d29d39b6814bbb5401ac935c19b"
+              "assets": "250259ae2135ea42226d007bd1519949969c2eb8a71730ff48affec54c52166e",
+              "root": "4824efb9822b1c9e950097296a31d1d8be612e1c080c8b87b2bfb6fb5b896088",
+              "variants": "444f6872a5c152c208cfd8aa8d3e70e3d1ff5080b04fab8bb39271bab1d7e48d",
+              "variants/linux-amd64": "ae863524857c9d8e3de48c1d05651b836a9c559b2c2256e4ef9088edc5ae6954"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.2.0",
+            "manifestVersion": "0.6.0",
             "name": "kym",
             "type": "ui_qml",
-            "version": "0.6.11",
+            "version": "0.7.0",
             "view": "Main.qml"
           }
         }
@@ -252,12 +377,12 @@
       "name": "kym_core",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "kym_core-v0.7.9",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "kym_core-v0.8.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
-          "size": 4210826,
-          "sha256": "fc804fd459d87fe3c5ef49b33180ab9667ec394311c8f8c8e61cbe5796f6edaf",
-          "rootHash": "a850d06994f4b43582ca28878129616e83c37df3b2335c4b357fc701da6525ee",
+          "size": 4505542,
+          "sha256": "059f6c92ea86d20a937c0e1400930d64ec9b90d5fed3f4ffc489bd53fdfdb5c0",
+          "rootHash": "f514f2933608eb793ba078f458d8507a1d932ea43904a8d18d747146894ef08e",
           "manifest": {
             "author": "",
             "category": "finance",
@@ -266,18 +391,19 @@
             ],
             "description": "KYM engine and sync core: the append-only event-log budget engine, household crypto, and Delivery sync. Runs headless (the always-on hub) and behind the kym ui_qml view.",
             "hashes": {
-              "root": "a850d06994f4b43582ca28878129616e83c37df3b2335c4b357fc701da6525ee",
-              "variants": "05e2d28eb32c5a5607d2f7f6fd137d5637a1c9b808eb7d357a46c9b3ac56500e",
-              "variants/linux-amd64": "315e2532134bf12dc76a2c768234c8c28c728cdd37eb5b6fb0bf83afc38e5f84"
+              "assets": "b81d035a4618c0d7c611dc8dcf99f9c9e91d907f79959687ddcaf4a7ac9a2743",
+              "root": "f514f2933608eb793ba078f458d8507a1d932ea43904a8d18d747146894ef08e",
+              "variants": "08c60ac9443a9e8f7f8c44cf4ba120c62dec799a40b0a0dd796017067bec9ddb",
+              "variants/linux-amd64": "153d1f2ed2daffa958574abc8ed0f37d4ce7001ae33d0a176103f18c1ab69166"
             },
             "icon": "",
             "main": {
               "linux-amd64": "kym_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "kym_core",
             "type": "core",
-            "version": "0.7.9"
+            "version": "0.8.0"
           }
         }
       ]
@@ -286,12 +412,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "loam_core-v0.4.17",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "loam_core-v0.6.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 12042070,
-          "sha256": "22bdf496b3a706d55dcab5c14611a4bd014960e4a73e496363a19454349fd30e",
-          "rootHash": "a7506101c340ae00ad491e28d9d21c05730c8573022930cc1949bd82d272edc9",
+          "size": 9259261,
+          "sha256": "06476745a4da9a65b1f0d5ffebe06175cd0f179b2335dad0ddb53bd086ae7624",
+          "rootHash": "54071be47854dc72df2f53d4d7bc2648f149dae73cfc780b257229df8570fcb7",
           "manifest": {
             "author": "",
             "category": "system",
@@ -302,22 +428,56 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "root": "a7506101c340ae00ad491e28d9d21c05730c8573022930cc1949bd82d272edc9",
-              "variants": "69f5a9e6ea1fdc7eeffa3c641c8afa0bc42719554d52173b54b8e75f4d78f084",
-              "variants/darwin-arm64": "398c66d31e1481458cba2735e6c03af794347b56c704b51053cb6c9fc2bfcc73",
-              "variants/linux-amd64": "53caa87a9b608219068b6da2d4775fa78f859dd5f6694ca05fbc0d19e20db452",
-              "variants/linux-arm64": "8bec823009f5a16b0c2e84e33c633b0ff5421c7be6baab9c3a0409ea6318bf8c"
+              "assets": "f0c445a7c7e9f8d26e5247c6b35b35f08a058c7b0659dd59d3138d05f3cc5855",
+              "root": "54071be47854dc72df2f53d4d7bc2648f149dae73cfc780b257229df8570fcb7",
+              "variants": "a528263b7ac322e4daf801a0ac5498bc0abdda96acc994089a554cfacd3945c6",
+              "variants/linux-amd64": "556efff0cd7dfece0a243f082ace6255d242e667771552e73166278239e7e275",
+              "variants/linux-arm64": "79c9aa35ad78108ee22f13d90af59b00a6a451da519643b0c24f89c9676d73ee"
             },
             "icon": "",
             "main": {
-              "darwin-arm64": "loam_core_plugin.dylib",
               "linux-amd64": "loam_core_plugin.so",
               "linux-arm64": "loam_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "loam_core",
             "type": "core",
-            "version": "0.4.17"
+            "version": "0.6.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "loam_ui",
+      "versions": [
+        {
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "loam_ui-v0.3.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_ui-module.lgx",
+          "size": 66843,
+          "sha256": "8b3d0e01eca53a3fa9e2a803ba8055774554da0fd142ce353c19e0ce778ae57b",
+          "rootHash": "d44d619f8446a0d6ca91a92037dcbe475ffd10e12fc2afb4bc3be9a08cefe309",
+          "manifest": {
+            "author": "",
+            "category": "",
+            "dependencies": [
+              "loam_core"
+            ],
+            "description": "Loam control panel: live per-bearer metrics and controls (enable, priority, force-mesh, node mode) over loam_core.",
+            "hashes": {
+              "assets": "eb783640a5a46aa59e5e83c3f488ff6c4ab179594d8a08cf01301be46c37f796",
+              "root": "d44d619f8446a0d6ca91a92037dcbe475ffd10e12fc2afb4bc3be9a08cefe309",
+              "variants": "e4a79569cd012c8790af9150df1c9e27b2e8b660337defbc37bdbcc7f70c50a7",
+              "variants/linux-amd64": "f31977da687ed745abb7764283d56169f5490864d5a90ff29db84990cccba992",
+              "variants/linux-arm64": "f31977da687ed745abb7764283d56169f5490864d5a90ff29db84990cccba992"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "loam_ui",
+            "type": "ui_qml",
+            "version": "0.3.0",
+            "view": "Main.qml"
           }
         }
       ]
@@ -326,12 +486,12 @@
       "name": "perun_analytics",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "perun_analytics-v0.8.3",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "perun_analytics-v0.9.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_analytics-module.lgx",
-          "size": 4044966,
-          "sha256": "4a7250b60510e027784751da121383ed081210da3ecce16c765c4c1ef2a88813",
-          "rootHash": "7073c01b65315c01cc70e2285c6a289a35e5d0d559e994525f934db1261ad23c",
+          "size": 4356516,
+          "sha256": "f79dd636cede0d8bab4a51b9da9fad00172f154a0e5f794e36bbe135d0320b7a",
+          "rootHash": "93c92d7d736b11f866fc6e7586675a5799220f3d26b6a7e4bcc52895c597f9ab",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -341,18 +501,19 @@
             "description": "Detailed running analytics for Perun \u2014 the view over perun_core: splits, elevation, pace, trends, route map, journey annotations and replay.",
             "display_name": "Perun Analytics",
             "hashes": {
-              "root": "7073c01b65315c01cc70e2285c6a289a35e5d0d559e994525f934db1261ad23c",
-              "variants": "56e7b8d0bf5a8ac7fadc5315248bb371868213a0964b1fa3439a745a3eb8b701",
-              "variants/linux-amd64": "bf7f3757a16f322219169d64d8102657ecbd3f0de77ba29f39b067223c22b52c"
+              "assets": "f4c5e304ec5f0a821f6689af22cf829e3dae5a329c09ae681a560c7330ceb65b",
+              "root": "93c92d7d736b11f866fc6e7586675a5799220f3d26b6a7e4bcc52895c597f9ab",
+              "variants": "3ff62ef5d5acafe6b3aabc58b3e6b3c1c46d0151ea6e6af21f6b68460b7c0977",
+              "variants/linux-amd64": "1e67ba8b458786c0f633e8b3ab8392450320726f4049ae18e1e02911f3ca7a7e"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {
               "linux-amd64": "perun_analytics_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "perun_analytics",
             "type": "ui_qml",
-            "version": "0.8.3",
+            "version": "0.9.0",
             "view": "qml/Main.qml"
           }
         }
@@ -362,12 +523,12 @@
       "name": "perun_core",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "perun_core-v0.9.7",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "perun_core-v0.10.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_core-module.lgx",
-          "size": 5011841,
-          "sha256": "b4cd352c0f7d9a9a10d134d72122eeec3d54ab6ac3e2448d79e39fbdc4d1f8f4",
-          "rootHash": "3da55a70d97d24de2257e303e1f75810d67e0d11d4fb02221f1570fe90977c46",
+          "size": 5285574,
+          "sha256": "f335bf5b64959f157d735424fae33bf58d90b278d7d4b8aac1ff1ad207d48bcd",
+          "rootHash": "befa0c41dc1ffded3f9bf84324b422d36f8dd162cada3adfa662ae4413e975bc",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -377,18 +538,19 @@
             "description": "Perun engine + sync core: pairing/identity, the loam_core Delivery transport, the run + annotation event-log fold, the SQLite store and the embedded content-addressed media hub. Runs headless (the always-on hub) and behind the perun_analytics view.",
             "display_name": "Perun Core",
             "hashes": {
-              "root": "3da55a70d97d24de2257e303e1f75810d67e0d11d4fb02221f1570fe90977c46",
-              "variants": "c3dd03ac5c8c6f624fe86eab95e5e6f1538af55b624c3820a7c51620ef91a69a",
-              "variants/linux-amd64": "201706c913fb4beacfb1dfbdde0f9e7f4020e498dd60f87ec8d646dbae924343"
+              "assets": "9fbd4dafd83c265f42ac720c8edb119a444910cc5f0b454e2a8dc5d0ae76c420",
+              "root": "befa0c41dc1ffded3f9bf84324b422d36f8dd162cada3adfa662ae4413e975bc",
+              "variants": "bda3c27a7b1a5745bdd3107144849675b6a57b83b32a528457697e41d1f38c13",
+              "variants/linux-amd64": "cbfd0964ffa986c05a48fa8a09c9a5253277d1fea762fc984fa410ca3274598d"
             },
             "icon": "",
             "main": {
               "linux-amd64": "perun_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "perun_core",
             "type": "core",
-            "version": "0.9.7"
+            "version": "0.10.2"
           }
         }
       ]
@@ -397,12 +559,12 @@
       "name": "qaku",
       "versions": [
         {
-          "releasedAt": "2026-10-01T10:09:22Z",
-          "publisherRef": "qaku-v0.1.28",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "qaku-v0.3.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku-module.lgx",
-          "size": 116140,
-          "sha256": "9fc4eda7378e661feae3e19fe134b6d360a8de5fb3dafb2a2e50cd87da7e8701",
-          "rootHash": "907e9692ccc84ce6b4cc1f04a16e613ffad03800ef1485fe3ee4d71fd2545e89",
+          "size": 55999,
+          "sha256": "9035efb41e6acce33f9e0eb105751e94cd8346dbe7decf3503281ffc1d2ffbcc",
+          "rootHash": "de0f6355c02ef16b69d008beefc0d6a5236a6d5fa794ec46d8802f0d09161f35",
           "manifest": {
             "author": "",
             "category": "social",
@@ -412,18 +574,17 @@
             "description": "Local-first, multi-writer Q&A. Sessions, questions, per-voter upvotes, owner answers and moderation, and polls - all computed by a conflict-free, append-only event-log engine (the same engine the mobile app and hub fold). Pure-QML view over the qaku_core module.",
             "display_name": "QAKU - Q&A",
             "hashes": {
-              "root": "907e9692ccc84ce6b4cc1f04a16e613ffad03800ef1485fe3ee4d71fd2545e89",
-              "variants": "f2ae91b1d55c719f501c219ed7fd82f8f42cd3432767e60e1c3453c729784f1f",
-              "variants/darwin-arm64": "aee33b07ceddd92bd03f4b49963f38f33ea82607640a1f88b706c400ee5718fa",
-              "variants/linux-amd64": "aee33b07ceddd92bd03f4b49963f38f33ea82607640a1f88b706c400ee5718fa",
-              "variants/linux-arm64": "aee33b07ceddd92bd03f4b49963f38f33ea82607640a1f88b706c400ee5718fa"
+              "assets": "2f1c5f2c858edf27c1e88e418d58aeb8e293ab813d3d839d26bdec21d86d6822",
+              "root": "de0f6355c02ef16b69d008beefc0d6a5236a6d5fa794ec46d8802f0d09161f35",
+              "variants": "cbb647a4c17f92d0765ff0672b3291ce72226c20b1f1c0b1f131de87e4080988",
+              "variants/linux-amd64": "e6213aa968a3591b8a122118563b909d64c6712e20be9917e7b5962a06d90380"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "qaku",
             "type": "ui_qml",
-            "version": "0.1.28",
+            "version": "0.3.0",
             "view": "Main.qml"
           }
         }
@@ -433,12 +594,12 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-10-01T10:09:22Z",
-          "publisherRef": "qaku_core-v0.1.22",
+          "releasedAt": "2026-10-07T08:05:07Z",
+          "publisherRef": "qaku_core-v0.3.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
-          "size": 12843813,
-          "sha256": "ce7d487b81e38a7eee8d6a2bf82625e6bd2d3d1abb07ad974f260e6577f79e1b",
-          "rootHash": "1df5d2eef8f2639cec0fae602395927aebf47fe01e1197c311a55d216a2b4085",
+          "size": 4535757,
+          "sha256": "68257cd2b8dfa38b912a47765bb062b14b1fe8be2f1a02e1743cb3f2caf2fe1b",
+          "rootHash": "3f2dfdd3e0b50a0bc4c638276d53514457f5e73f4d09db794e7b3b90bfe4aee9",
           "manifest": {
             "author": "",
             "category": "social",
@@ -447,22 +608,19 @@
             ],
             "description": "QAKU engine and sync core: the append-only event-log Q&A engine (questions, upvotes, answers, moderation, polls), session crypto, and Delivery sync over SDS Reliable Channels. Runs headless as the always-on hub and behind the qaku ui_qml view.",
             "hashes": {
-              "root": "1df5d2eef8f2639cec0fae602395927aebf47fe01e1197c311a55d216a2b4085",
-              "variants": "b562c0c540fd43ff30fba54b9d9f532031a4289c78e490ed482f75ad299b6ccc",
-              "variants/darwin-arm64": "53956ebf8ec9420d074c8db82d0d94ba04c55cf6fe88ef815dad3ca6218631b0",
-              "variants/linux-amd64": "2d39c57a907fad65c751004f4717f4b9d06367026e3ecd6ecc0ccda774da43f3",
-              "variants/linux-arm64": "700a7138533786764f63e9c4e8d902833ddbd4cb3a2a89624613390fb4fae2ce"
+              "assets": "3a866c403862db9727a2b0a4331e64946ca9681c14f8664e9e87dd50711aedf1",
+              "root": "3f2dfdd3e0b50a0bc4c638276d53514457f5e73f4d09db794e7b3b90bfe4aee9",
+              "variants": "419141dfb1ce281daae830b41059de648023e0bff1d851b588b979cf1c7ab0db",
+              "variants/linux-amd64": "0469ecebb0f20efb6c4f6e8e3412e7d71991f1772e68fff29828f9b3ac6d2a54"
             },
             "icon": "",
             "main": {
-              "darwin-arm64": "qaku_core_plugin.dylib",
-              "linux-amd64": "qaku_core_plugin.so",
-              "linux-arm64": "qaku_core_plugin.so"
+              "linux-amd64": "qaku_core_plugin.so"
             },
-            "manifestVersion": "0.4.0",
+            "manifestVersion": "0.6.0",
             "name": "qaku_core",
             "type": "core",
-            "version": "0.1.22"
+            "version": "0.3.0"
           }
         }
       ]
@@ -471,12 +629,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "scala-v0.9.42",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "scala-v0.12.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 12639421,
-          "sha256": "a79007f649754b0668d8a049bfb43455e1077671a7475a4d4de17458adbbe904",
-          "rootHash": "ba5495440c19abdbe5fc126b931be9111d6e781a1b865368cf1cd1bc3495fb87",
+          "size": 13834218,
+          "sha256": "2a004d5c50d43ec564a1ca5bfcb44e47190c9c7fcafe239806988b5bbcc1877b",
+          "rootHash": "c5d97172bcc361edb62a0d62c0b087c49d396307ecebede3c61c2bee48ab2e57",
           "manifest": {
             "author": "",
             "category": "general",
@@ -487,22 +645,23 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "root": "ba5495440c19abdbe5fc126b931be9111d6e781a1b865368cf1cd1bc3495fb87",
-              "variants": "44137cd4b785cd8981a12b90ddcc37a3a4806faaa44ca49eba040d950ef3563a",
-              "variants/darwin-arm64": "91f337c24c51171df610a72110cbc139598b568b64d44503cbeff83e58f8a3be",
-              "variants/linux-amd64": "1182d8bac2d6e933b90da3e560b8250696868785bad20c225e2f0c0738e83ef1",
-              "variants/linux-arm64": "08e5fad08c98973abb95b2d4f80142fe19c1fe438a3c60e33f6f77065de1b9d0"
+              "assets": "041feb7ec2f4cf338fe73ce8a19e9deffb25f1162c045fb8b70f1d1f570e02e7",
+              "root": "c5d97172bcc361edb62a0d62c0b087c49d396307ecebede3c61c2bee48ab2e57",
+              "variants": "d4cc027b252230d6c738aeb2792c76e7758b3759d774f511f90ba475c128f5fc",
+              "variants/darwin-arm64": "bbc3b2d0a62d9479e3d22030e6ea22da3c2889915b14c1d514d614884032e520",
+              "variants/linux-amd64": "48ef2498ff3c37b5680e2f249d4311346de9f3108c351ca649d42dbc94d165b8",
+              "variants/linux-arm64": "bbfccbcc6d791ce6524281a4097b23dceefef96dc1f140b8ca08f114ca4015fc"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {
               "darwin-arm64": "scala_plugin.dylib",
               "linux-amd64": "scala_plugin.so",
               "linux-arm64": "scala_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "scala",
             "type": "core",
-            "version": "0.9.42"
+            "version": "0.12.2"
           }
         }
       ]
@@ -511,33 +670,61 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-10-01T09:48:09Z",
-          "publisherRef": "scala_ui-v0.8.37",
+          "releasedAt": "2026-10-10T18:28:01Z",
+          "publisherRef": "scala_ui-v0.12.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 150334,
-          "sha256": "6aef6c84dbecdbfc504f7face917d7304f49fc8c22e92f5c20146def2fa747d2",
-          "rootHash": "be53117412e72235c8053d26d1fb57e8097e2270709d39c865b77dc1cfd026ff",
+          "size": 186812,
+          "sha256": "e8c3775d6e7bd7efb2173b15ee224a739856c65360f32ee50ee2c2535c1dff8a",
+          "rootHash": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
           "manifest": {
             "author": "",
             "category": "general",
             "dependencies": [
-              "scala"
+              "scala",
+              "loam_core"
             ],
             "description": "Scala Calendar UI - pure-QML view over the scala calendar core module",
             "display_name": "Scala",
             "hashes": {
-              "root": "be53117412e72235c8053d26d1fb57e8097e2270709d39c865b77dc1cfd026ff",
-              "variants": "12a0326c0c148bfa5d7baa56798ba071aca7879682f575bc54297c162df4a76b",
-              "variants/darwin-arm64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906",
-              "variants/linux-amd64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906",
-              "variants/linux-arm64": "39faabe923b7607073decb4cd1c91b54fb4d153a61eb237c4b9fecdb83467906"
+              "assets": "ec7137e8bc2833d69d7a19de9177aa3e7a903b6b77af4b84e029b9ad9f722236",
+              "root": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
+              "variants": "c811fdb50a3eaff936f12f46db0ac9b94746f2b2aaeeed04a472ced7a512c732",
+              "variants/darwin-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
+              "variants/linux-amd64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
+              "variants/linux-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "scala_ui",
+            "provides": [
+              {
+                "intent": "scala.calendars.list"
+              },
+              {
+                "intent": "scala.events.list"
+              },
+              {
+                "intent": "scala.events.search"
+              },
+              {
+                "intent": "scala.event.create"
+              },
+              {
+                "intent": "scala.calendar.create"
+              },
+              {
+                "intent": "scala.calendar.join"
+              },
+              {
+                "intent": "scala.calendar.share"
+              },
+              {
+                "intent": "scala.calendar.show"
+              }
+            ],
             "type": "ui_qml",
-            "version": "0.8.37",
+            "version": "0.12.1",
             "view": "qml/CalendarView.qml"
           }
         }
@@ -547,12 +734,12 @@
       "name": "shrooms",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "shrooms-v0.9.2",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module-v0.9.2.lgx",
-          "size": 85793,
-          "sha256": "37e1874224c2e6479a0607f0701d965a892d0c8b422ac5abc987d8205e51bd55",
-          "rootHash": "4aa9d13f893c61f34a9c4bd5c7614e6e608713249567c8fc33a5485fe7dc3c04",
+          "releasedAt": "2026-10-08T19:07:26Z",
+          "publisherRef": "shrooms-v0.12.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms-module.lgx",
+          "size": 173045,
+          "sha256": "00336df42b8edeb7169527109316889c75c2623ac6994cf825b7fc257b1dde70",
+          "rootHash": "e50ed4034af5fe1e3257827ed8501d325bc2fef0198245e0cf333890b8120777",
           "manifest": {
             "author": "",
             "category": "network",
@@ -562,16 +749,52 @@
             "description": "Watch and run a Shrooms mesh: which peers are reachable, direct or relayed, throughput, what every device offers, when each credential expires, and the daemon's own log. Changes what the daemon can change by itself \u2014 name, node mode, services, meshes on and off, joining and leaving one \u2014 and restarts it to apply them. Never who is admitted: that needs an admin key the daemon has never held.",
             "display_name": "Shrooms",
             "hashes": {
-              "root": "4aa9d13f893c61f34a9c4bd5c7614e6e608713249567c8fc33a5485fe7dc3c04",
-              "variants": "92674275af7487b4881c7274d9d9c981bd6347bb8529262b3bc25b33859b9f7a",
-              "variants/linux-amd64": "7152c54596403c9a030c89f78b48c2c5a479159cc63b2cb150fa10cf3b254086"
+              "root": "e50ed4034af5fe1e3257827ed8501d325bc2fef0198245e0cf333890b8120777",
+              "variants": "c098da6da541a17d4489dfda8a675729fe92270e18777292436ccdd49e6d4536",
+              "variants/linux-amd64": "c6298523963ca7f2d675092fb5d56e2b033444d8e7fa98f44c98fb34bb0c7cd0",
+              "variants/linux-arm64": "c6298523963ca7f2d675092fb5d56e2b033444d8e7fa98f44c98fb34bb0c7cd0"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "shrooms",
             "type": "ui_qml",
-            "version": "0.9.2",
+            "version": "0.12.0",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shrooms_agents",
+      "versions": [
+        {
+          "releasedAt": "2026-10-08T19:06:16Z",
+          "publisherRef": "shrooms_agents-v0.40.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_agents-module.lgx",
+          "size": 186047,
+          "sha256": "d9e31804ea1f78485acaa150588635a892610caa15b909ff78ebe877015ea285",
+          "rootHash": "1ec98b6d3558b240449c203a800c6df8e312fc4e1f36e834a8e5210b34bfa3ea",
+          "manifest": {
+            "author": "",
+            "category": "network",
+            "dependencies": [
+              "shrooms_core"
+            ],
+            "description": "Talk to the Claude Code sessions on your own machines over a Shrooms mesh, and approve what they want to do: streamed replies, permission prompts, files and voice notes, transcribed on the agent's machine. What grows out of the mycelium. Needs shrooms_core, and shrooms-agent on the machines (docs/agents.md).",
+            "display_name": "Shrooms Agents",
+            "hashes": {
+              "root": "1ec98b6d3558b240449c203a800c6df8e312fc4e1f36e834a8e5210b34bfa3ea",
+              "variants": "392ccdcf03bc69cd5fbc7b91e4e0843431ccdfbec34df7feacbf66d516aa8380",
+              "variants/linux-amd64": "00ba953e4a9b7d6b7491ecc144fbaedda94dfbfdb4d16c0647f79c09c19d4be0",
+              "variants/linux-arm64": "00ba953e4a9b7d6b7491ecc144fbaedda94dfbfdb4d16c0647f79c09c19d4be0"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "shrooms_agents",
+            "type": "ui_qml",
+            "version": "0.40.0",
             "view": "Main.qml"
           }
         }
@@ -581,12 +804,12 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-08-20T12:19:27Z",
-          "publisherRef": "shrooms_core-v0.4.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module-v0.4.0.lgx",
-          "size": 4076671,
-          "sha256": "4fa83f61aa55acba7f64fcd80a94bbdfa221e47eef5faba846aa5f438119226e",
-          "rootHash": "aa64a5b122e3338d4e76b579279219a72a39ddabce4ae7ba35e5ea42d34c1753",
+          "releasedAt": "2026-10-08T19:07:26Z",
+          "publisherRef": "shrooms_core-v0.22.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module.lgx",
+          "size": 8662960,
+          "sha256": "6ef7b6c980770e6c1da78e65ba43ac81b58b85619174713b9fa35a46bea553c6",
+          "rootHash": "62b712bf174ea9d258b70da0c832a59baf8dbd974885be7031a93c8363d13c82",
           "manifest": {
             "author": "",
             "category": "network",
@@ -594,18 +817,20 @@
             "description": "Talks to a Shrooms daemon over its unix control socket: reads status and the recent log, and changes what the daemon can change on its own \u2014 name, node mode, published services, announcing them, meshes on and off, joining a mesh with an invite, leaving one, and restarting to apply the settings that need it. Never who is admitted, which needs an admin key the daemon has never held (ADR-025). Exists because a ui_qml app is sandboxed and may not open a socket; this runs in its own process and can.",
             "display_name": "Shrooms Core",
             "hashes": {
-              "root": "aa64a5b122e3338d4e76b579279219a72a39ddabce4ae7ba35e5ea42d34c1753",
-              "variants": "0eaad1cef5b1ecde03dc88044d7750f9780fd87efe8ff358f0ab2fd0a996bfa3",
-              "variants/linux-amd64": "f971f5465ea405a343ae77ee2db566b3c99cfeb56c76ea606ae989365953d290"
+              "root": "62b712bf174ea9d258b70da0c832a59baf8dbd974885be7031a93c8363d13c82",
+              "variants": "55950b59112fa9455a02154d8bd6c8aca693ba9e9637287b40b82f466fc69a65",
+              "variants/linux-amd64": "7c52e915e6c921ba077983ccc5df447da9510b2b2919b99238146a6576f5519a",
+              "variants/linux-arm64": "9e8ab4a86430c7500df6d05fe5d7dc1724f05aa00a200fbc7feb8e2a5db5df58"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "shrooms_core_plugin.so"
+              "linux-amd64": "shrooms_core_plugin.so",
+              "linux-arm64": "shrooms_core_plugin.so"
             },
             "manifestVersion": "0.4.0",
             "name": "shrooms_core",
             "type": "core",
-            "version": "0.4.0"
+            "version": "0.22.0"
           }
         }
       ]
@@ -649,15 +874,90 @@
       ]
     },
     {
+      "name": "swamp",
+      "versions": [
+        {
+          "releasedAt": "2026-10-10T05:58:53Z",
+          "publisherRef": "swamp-v0.5.10",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-swamp-module.lgx",
+          "size": 43608,
+          "sha256": "aeb78bf70f0b342b8120400cb2b9f3d62cec555cd3959c2a7eb79e644188fd27",
+          "rootHash": "35f50bbefc58246b286ebf97ca520f2acf47568f95db56f4bd084832c8f23f05",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "swamp_core"
+            ],
+            "description": "A decentralized library of 3D models: browse, download, publish, remix, post makes. Pure-QML view over swamp_core. Built on the Logos tech stack; not affiliated with Logos.",
+            "display_name": "Swamp - 3D models",
+            "hashes": {
+              "assets": "fc53a969aae5e76b44946da488697df68fface5c7b01a01144097664c16c48b6",
+              "root": "35f50bbefc58246b286ebf97ca520f2acf47568f95db56f4bd084832c8f23f05",
+              "variants": "7419f36b3dea087e9f09323f577917538c524769d38e914f0054d7850403dbd2",
+              "variants/linux-amd64": "1f64a4dfbade85e5ec925ed93886381b73a6176e4ecde5e9d69a8dbd2bd68ce3",
+              "variants/linux-arm64": "1f64a4dfbade85e5ec925ed93886381b73a6176e4ecde5e9d69a8dbd2bd68ce3"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "swamp",
+            "type": "ui_qml",
+            "version": "0.5.10",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "swamp_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-10T05:58:53Z",
+          "publisherRef": "swamp_core-v0.5.10",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-swamp_core-module.lgx",
+          "size": 9768878,
+          "sha256": "c80df03e65c6189ee3e416542730f3a95ff0ccbe821478c796e0a5c9c00b94f2",
+          "rootHash": "7f201e442681927f2e9df7064981cb7b74ed919d60db11ecd68181c2aaf6d6b4",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "loam_core",
+              "storage_module"
+            ],
+            "description": "Swamp core: a decentralized library of 3D models. Signed public catalogue over loam_core, files in Logos Storage (host-owned node), verified downloads, shape fingerprints at publish, optional pinning hub. Runs headless under logosctl and behind the swamp ui_qml view.",
+            "display_name": "Swamp Core",
+            "hashes": {
+              "assets": "63a70126abfbcd4ae8ec221431734e1edb1400af4a47f745637f412bf35255b6",
+              "root": "7f201e442681927f2e9df7064981cb7b74ed919d60db11ecd68181c2aaf6d6b4",
+              "variants": "391b2666ae2a903dd6632a4431fc451b527565fa14185fac8d4b2f4100d3d577",
+              "variants/linux-amd64": "fa9399aff5f2a186703eca5ade75b05997655c5da6b0cbdf07513f943b6e937d",
+              "variants/linux-arm64": "38f313bfb5c5a33f18caa3f88e078abb572bfeb4e1f0cfd07782944346f3e69e"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "swamp_core_plugin.so",
+              "linux-arm64": "swamp_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "swamp_core",
+            "type": "core",
+            "version": "0.5.10"
+          }
+        }
+      ]
+    },
+    {
       "name": "whisperbox",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "whisperbox-v0.3.8",
+          "releasedAt": "2026-10-09T19:14:37Z",
+          "publisherRef": "whisperbox-v0.4.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox-module.lgx",
-          "size": 39142,
-          "sha256": "2b9b1d20a69f8eaeb5e335bc0cf2f8659667bec20dbf9a0edf54b43e28202255",
-          "rootHash": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
+          "size": 109144,
+          "sha256": "3c180a7dfaf25363354466d7fe1ecfc7a2105fef72b697180259401e78b052f4",
+          "rootHash": "86387995bcdf9cfd6e7dda566cf185cbbc497e6e136c7521162a1a04241e3da3",
           "manifest": {
             "author": "",
             "category": "social",
@@ -667,16 +967,18 @@
             "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
             "display_name": "WhisperBox - Encrypted Forms",
             "hashes": {
-              "root": "ac36cb7c7495f82fdb5f4f3352c12a5cf26f49870aa55858fc23e5c2c2189b1e",
-              "variants": "e667fdcd65e9abd7dab6fccf064f5809096c8bbc43b678cf4821aa3f5eadae3e",
-              "variants/linux-amd64": "b4292d86fd3ded4a642b6ba901fa9da906ed4f20b5e908239c3427688fdb325b"
+              "assets": "5e58742e244ecafd5fc558f792eff60961d310e1b13f6a7f308f5f7f64e61352",
+              "root": "86387995bcdf9cfd6e7dda566cf185cbbc497e6e136c7521162a1a04241e3da3",
+              "variants": "5546b8e5dbceaab30e6d630e3777cafec0b1bf6dc91940436ca680e3081fd112",
+              "variants/linux-amd64": "154d89492accb7d59b6c2115c266b6dbb4c55eaecb7d94bedc49c6ec7a189932",
+              "variants/linux-arm64": "154d89492accb7d59b6c2115c266b6dbb4c55eaecb7d94bedc49c6ec7a189932"
             },
-            "icon": "icon.png",
+            "icon": "assets/icon.png",
             "main": {},
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "whisperbox",
             "type": "ui_qml",
-            "version": "0.3.8",
+            "version": "0.4.1",
             "view": "Main.qml"
           }
         }
@@ -686,32 +988,37 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-10-04T16:31:55Z",
-          "publisherRef": "whisperbox_core-v0.3.8",
+          "releasedAt": "2026-10-10T14:12:54Z",
+          "publisherRef": "whisperbox_core-v0.4.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
-          "size": 4384310,
-          "sha256": "10abeace9ac12ec2a41d85799fedbc0a31b3fb75fd2b0acdb3537650c6f32942",
-          "rootHash": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
+          "size": 13261384,
+          "sha256": "62c621319836b1825f1fe7e57a34d8b347ee646bbdedb6311f72e1e04e78b020",
+          "rootHash": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
           "manifest": {
             "author": "",
             "category": "social",
             "dependencies": [
-              "delivery_module"
+              "loam_core"
             ],
-            "description": "WhisperBox privacy-first forms core: append-only event log over one shared delivery topic, secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logoscore and behind the whisperbox ui_qml view.",
+            "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced with loam_core (the Loam transport every Loam app shares), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
             "hashes": {
-              "root": "130795f7f1d9c28e6645d6f7f868a87148bbf58a0e07b87f5750c727a48ac5d7",
-              "variants": "6c273d581f391e40aa1e78df50c4fed60c84d8dcee49101b66af7925cc767ebf",
-              "variants/linux-amd64": "1b0e008fc124d47212f9733f37df44883564366a86620031fcc9bc90a565c7da"
+              "assets": "dcdfc0ad55d096e3dcad061b7bf2ce417c3568a9cd8826da9557b362ee62f77a",
+              "root": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
+              "variants": "5346473efb7a0abefef5c4210d6b16839a3cb91cfc4e90e3b2e53b6e8e358ef6",
+              "variants/darwin-arm64": "6ba324d5abea485ad9209dc6ad89a32db596a005663abd0c8d9193d7ce2c86d6",
+              "variants/linux-amd64": "6acda4068f09947182ccf96b4085d48c7368016f308ec1ee4198c372be7f9973",
+              "variants/linux-arm64": "07fe09b7e103bed455c20cc3ee04eb8a0d98988516a0fc7db1978ef3214cdda6"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "whisperbox_core_plugin.so"
+              "darwin-arm64": "whisperbox_core_plugin.dylib",
+              "linux-amd64": "whisperbox_core_plugin.so",
+              "linux-arm64": "whisperbox_core_plugin.so"
             },
             "manifestVersion": "0.3.0",
             "name": "whisperbox_core",
             "type": "core",
-            "version": "0.3.8"
+            "version": "0.4.2"
           }
         }
       ]
