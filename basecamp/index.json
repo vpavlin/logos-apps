@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-10T05:58:53Z",
+  "generatedAt": "2026-10-10T13:59:38Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -916,12 +916,12 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-10-09T19:14:37Z",
-          "publisherRef": "whisperbox_core-v0.4.1",
+          "releasedAt": "2026-10-10T13:59:38Z",
+          "publisherRef": "whisperbox_core-v0.4.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
-          "size": 9524612,
-          "sha256": "e2650d640f83e7659545bf00a3adf0e2aac4968754a451228fd5976174a803be",
-          "rootHash": "3c029f53e3eaeb7adcfb9c8b538a2660e09bd5a70b9c77dda2b8c232e8b8007b",
+          "size": 9256923,
+          "sha256": "4fd76b3dfa743e793f54336b0eca9ecfed091eda71e8eef1bbf25c684b13d8a5",
+          "rootHash": "a799ed97d2fca55cf3b3fe12dc7368b506cf1c63d200d90a2e1a6de30513a67a",
           "manifest": {
             "author": "",
             "category": "social",
@@ -930,21 +930,21 @@
             ],
             "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced with loam_core (the Loam transport every Loam app shares), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
             "hashes": {
-              "assets": "42b5a7c48bfdd4aa142ea5303887e30761027f54006023a5eba6b7539e3392cc",
-              "root": "3c029f53e3eaeb7adcfb9c8b538a2660e09bd5a70b9c77dda2b8c232e8b8007b",
-              "variants": "d25876dd14f5c0dba5914c953503ee40b56bb7005368bc6e0eab408c88231fb2",
-              "variants/linux-amd64": "7a8be6aceffd034c0b16c30a85c32812064e70fef0c341111fb8c6eb81c3e8e1",
-              "variants/linux-arm64": "4d904d1966ea60ef3dcc77320f6439ba5802c49e3d97ecd38429389737575ac3"
+              "assets": "dcdfc0ad55d096e3dcad061b7bf2ce417c3568a9cd8826da9557b362ee62f77a",
+              "root": "a799ed97d2fca55cf3b3fe12dc7368b506cf1c63d200d90a2e1a6de30513a67a",
+              "variants": "24731ca40604bd90255fb768a46fe1f56416863560359d2ff3ce383c69cf5468",
+              "variants/linux-amd64": "6acda4068f09947182ccf96b4085d48c7368016f308ec1ee4198c372be7f9973",
+              "variants/linux-arm64": "07fe09b7e103bed455c20cc3ee04eb8a0d98988516a0fc7db1978ef3214cdda6"
             },
             "icon": "",
             "main": {
               "linux-amd64": "whisperbox_core_plugin.so",
               "linux-arm64": "whisperbox_core_plugin.so"
             },
-            "manifestVersion": "0.6.0",
+            "manifestVersion": "0.3.0",
             "name": "whisperbox_core",
             "type": "core",
-            "version": "0.4.1"
+            "version": "0.4.2"
           }
         }
       ]
