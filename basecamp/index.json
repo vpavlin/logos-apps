@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-11T06:40:23Z",
+  "generatedAt": "2026-10-12T13:17:50Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -82,12 +82,12 @@
       "name": "dufs",
       "versions": [
         {
-          "releasedAt": "2026-10-08T08:13:45Z",
-          "publisherRef": "dufs-v0.1.1",
+          "releasedAt": "2026-10-12T13:17:50Z",
+          "publisherRef": "dufs-v0.1.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
-          "size": 66072,
-          "sha256": "cfc1b45f8df7d67f1aadbfe86dcef71e0dc7328e28830536a91b2288ff6896cb",
-          "rootHash": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
+          "size": 76606,
+          "sha256": "cdc0293c7c0df8f6f4ae6e4949e9a1fa6c4e5d8df97e39d0954abf11f417f798",
+          "rootHash": "7b1f4d9a9b73e2c4762718a5d1a9ee827f2f7e8e058dade9aa049d6e8be676eb",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -98,18 +98,18 @@
             "display_name": "Dufs",
             "hashes": {
               "assets": "d3033b2b5955ef3922bcd4ea84e38c83c68c1ecca1f826bc56ca00e1c21296df",
-              "root": "a4ddde4c5ce218acec826c7030192b24fdf22e39e8a00d06a73eeb45fb744c82",
-              "variants": "f1efc3af8894552702f953daf869efde08a182f9cc3aeb9b1e582cd36578ec0f",
-              "variants/darwin-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
-              "variants/linux-amd64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9",
-              "variants/linux-arm64": "247a9733452cf1737c450cc1a8429bb824af6e037f94e0c39420a858a03cbbb9"
+              "root": "7b1f4d9a9b73e2c4762718a5d1a9ee827f2f7e8e058dade9aa049d6e8be676eb",
+              "variants": "f48d108d014ee059b3083b2ccd296faf95deef75bcbb7467098a25533ce796e0",
+              "variants/darwin-arm64": "e8d1344e28952dde29f1f24a805b4d466bd72b567b6f0c09419cf5711309edf8",
+              "variants/linux-amd64": "e8d1344e28952dde29f1f24a805b4d466bd72b567b6f0c09419cf5711309edf8",
+              "variants/linux-arm64": "e8d1344e28952dde29f1f24a805b4d466bd72b567b6f0c09419cf5711309edf8"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "dufs",
             "type": "ui_qml",
-            "version": "0.1.1",
+            "version": "0.1.5",
             "view": "Main.qml"
           }
         }
