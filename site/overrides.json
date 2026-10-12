@@ -98,13 +98,13 @@
     "docs": "https://github.com/vpavlin/perun/blob/master/docs/demo.md",
     "repo": "https://github.com/vpavlin/perun"
   },
-  "frequencies_ui": {
-    "docs": "https://github.com/vpavlin/frequencies/blob/main/docs/demo.md",
-    "repo": "https://github.com/vpavlin/frequencies",
-    "website": "https://frequencies.vpavlin.xyz/"
+  "freequencies_ui": {
+    "docs": "https://github.com/vpavlin/freequencies/blob/main/docs/demo.md",
+    "repo": "https://github.com/vpavlin/freequencies",
+    "website": "https://freequencies.vpavlin.xyz/"
   },
-  "xyz.vpavlin.frequencies": {
-    "docs": "https://github.com/vpavlin/frequencies/blob/main/docs/demo.md",
-    "repo": "https://github.com/vpavlin/frequencies"
+  "xyz.vpavlin.freequencies": {
+    "docs": "https://github.com/vpavlin/freequencies/blob/main/docs/demo.md",
+    "repo": "https://github.com/vpavlin/freequencies"
   }
 }

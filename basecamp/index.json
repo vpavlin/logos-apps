@@ -193,45 +193,6 @@
       ]
     },
     {
-      "name": "frequencies_ui",
-      "versions": [
-        {
-          "releasedAt": "2026-10-10T18:28:01Z",
-          "publisherRef": "frequencies_ui-v0.3.0",
-          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-frequencies_ui-module.lgx",
-          "size": 80656,
-          "sha256": "724eca4b81cb7201429fda9fb0d764131c051387aa5541218bb7b083a249653f",
-          "rootHash": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
-          "manifest": {
-            "author": "",
-            "category": "general",
-            "dependencies": [
-              "scala",
-              "kith",
-              "whisperbox_core"
-            ],
-            "description": "Frequencies: organise club nights on top of the Scala calendar: venues, status, line-up and fees with artists from Kith, booking/crew/guest-list forms from WhisperBox, comments",
-            "display_name": "Frequencies",
-            "hashes": {
-              "assets": "c7d459a5aefffd4829a54504283c7b292dcc6ea02c1677af42bde5f7f3c77ee6",
-              "root": "0c7370227a9f9c6f3ed3ea7d355a515d2debf21b316fcf0885e8bc2f3ca66b0f",
-              "variants": "36a71f9e814ef5ebdc8b05bdbbf2d4986e35fd7768e590b19f7ded256e98747b",
-              "variants/darwin-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
-              "variants/linux-amd64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7",
-              "variants/linux-arm64": "93d00b82a34ce4cbc6df743800933c1606a57df9105c2e58f84e5f2c026ec7a7"
-            },
-            "icon": "assets/icon.png",
-            "main": {},
-            "manifestVersion": "0.6.0",
-            "name": "frequencies_ui",
-            "type": "ui_qml",
-            "version": "0.3.0",
-            "view": "qml/FrequenciesView.qml"
-          }
-        }
-      ]
-    },
-    {
       "name": "keycard",
       "versions": [
         {
