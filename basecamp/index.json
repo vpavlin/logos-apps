@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-13T15:05:14Z",
+  "generatedAt": "2026-10-13T16:08:17Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -700,12 +700,12 @@
       "name": "reelcut",
       "versions": [
         {
-          "releasedAt": "2026-10-13T15:05:14Z",
+          "releasedAt": "2026-10-13T16:08:17Z",
           "publisherRef": "reelcut-v0.1.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut-module.lgx",
-          "size": 67971,
-          "sha256": "0f1e0728e0316eed33dc38e1afde9a72d5cca886eb04de23d8b6479c422ae486",
-          "rootHash": "811d7fc292a22e004eefe7098f735f03a9373a8496a7ca94db36ecf0b8035fa8",
+          "size": 69987,
+          "sha256": "0c34ba028907709fa02970d50f0d56ef5b3d99b21e0a24e2da3bad7adbeb5a9b",
+          "rootHash": "e7ecb0849a972dbf68a23a99b202147c6525405649f644d8bc700288ef3d3c60",
           "manifest": {
             "author": "",
             "category": "media",
@@ -716,11 +716,11 @@
             "display_name": "Reelcut",
             "hashes": {
               "assets": "34b61cf0957b1b6ff708426f47986c791cb486e80c3bd50e34096e788ca47a02",
-              "root": "811d7fc292a22e004eefe7098f735f03a9373a8496a7ca94db36ecf0b8035fa8",
-              "variants": "d9ad488dfc7f814b7270c10322a016313afdab5c570ed7508bb6ea1bb2a4ec1e",
-              "variants/darwin-arm64": "79fa990869cd4dd4bb8ed972ef796558dc10cfb510fc9f12dc35c4ab712152f3",
-              "variants/linux-amd64": "79fa990869cd4dd4bb8ed972ef796558dc10cfb510fc9f12dc35c4ab712152f3",
-              "variants/linux-arm64": "79fa990869cd4dd4bb8ed972ef796558dc10cfb510fc9f12dc35c4ab712152f3"
+              "root": "e7ecb0849a972dbf68a23a99b202147c6525405649f644d8bc700288ef3d3c60",
+              "variants": "3018065b269223c32ce36a8844fa258f29dacdf8ff7529a26e76ccf0b187a06e",
+              "variants/darwin-arm64": "a90ab6ac1e1181d9933ecab9470e665e3bbfb8f1d74138d94adfe1bd4053ba11",
+              "variants/linux-amd64": "a90ab6ac1e1181d9933ecab9470e665e3bbfb8f1d74138d94adfe1bd4053ba11",
+              "variants/linux-arm64": "a90ab6ac1e1181d9933ecab9470e665e3bbfb8f1d74138d94adfe1bd4053ba11"
             },
             "icon": "assets/icon.png",
             "main": {},
@@ -737,12 +737,12 @@
       "name": "reelcut_core",
       "versions": [
         {
-          "releasedAt": "2026-10-13T15:05:14Z",
+          "releasedAt": "2026-10-13T16:08:17Z",
           "publisherRef": "reelcut_core-v0.1.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut_core-module.lgx",
-          "size": 12559786,
-          "sha256": "c22430253812b379569778c6bb3e585a6d6a11e114fb96e5412e9df492bf6ca2",
-          "rootHash": "ed1c03ec9629c8adc08917f55437d1cdee650f7dd2ec4a3ba352c0eced3cc67d",
+          "size": 12642598,
+          "sha256": "ad42021e847cabb341f3786de4df1314779ce63b83b3551b385d00c9d945991c",
+          "rootHash": "01db62b2bf726a238920ebef246492706a8c0cb2bb2ecb787a0771a2dadb4cc2",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -751,11 +751,11 @@
             "display_name": "Reelcut Core",
             "hashes": {
               "assets": "34b61cf0957b1b6ff708426f47986c791cb486e80c3bd50e34096e788ca47a02",
-              "root": "ed1c03ec9629c8adc08917f55437d1cdee650f7dd2ec4a3ba352c0eced3cc67d",
-              "variants": "872e5df50c94c6d14f749e476bb4e9d4b3486f45c4ee14a417530b2cf8e4215e",
-              "variants/darwin-arm64": "2b194c169348803e9addabf3b1f7427983c9653f90bd047a72bbf3e8ee1b0e06",
-              "variants/linux-amd64": "fd7d1e1c5328e5bd7a6f4d5f8c73915247d51a6476ae8ab4bf0f9af1387dcba4",
-              "variants/linux-arm64": "e5a1586f01a14f0dc70f8c9f7d4fc1dc22d020daae6fed50fbb5425819da5f3d"
+              "root": "01db62b2bf726a238920ebef246492706a8c0cb2bb2ecb787a0771a2dadb4cc2",
+              "variants": "0eb0dfa4dddeba589ae13a54397970a138e30338b13f807fbc72b46f953eb3a9",
+              "variants/darwin-arm64": "5a07d071b81022c5c5f786e06a40546a3e62d2a5f5cd81837adb78a9b25609dd",
+              "variants/linux-amd64": "2d197c6e080d77305d0c7044332322f85106a4506a9aa37d9c3a239aa30db13d",
+              "variants/linux-arm64": "041c7571b664472493a6ed2f55c371e735f26ebd3c6870548e73755998ef02c5"
             },
             "icon": "assets/icon.png",
             "main": {
