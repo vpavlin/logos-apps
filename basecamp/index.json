@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-12T15:15:21Z",
+  "generatedAt": "2026-10-13T10:50:50Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -149,6 +149,77 @@
             "name": "dufs_core",
             "type": "core",
             "version": "0.1.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "foray",
+      "versions": [
+        {
+          "releasedAt": "2026-10-13T10:50:50Z",
+          "publisherRef": "foray-v0.3.4",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-foray-module.lgx",
+          "size": 85512,
+          "sha256": "c6d0c258206ebecc59a9ef86c857e20aeedace8c2f60f43543adb33bf34d7aff",
+          "rootHash": "7bdf0c17d3d7df501d1e1cf60f21cb32512292209d30b1e012944c93fc22eddd",
+          "manifest": {
+            "author": "",
+            "category": "productivity",
+            "dependencies": [
+              "shrooms_core",
+              "foray_core"
+            ],
+            "description": "The household's todo lists, kept on your own machines and shared by the people on your Shrooms mesh \u2014 with an assistant that can find out, compare, draft and plan when you ask. Needs Shrooms and foray_core.",
+            "display_name": "Foray",
+            "hashes": {
+              "root": "7bdf0c17d3d7df501d1e1cf60f21cb32512292209d30b1e012944c93fc22eddd",
+              "variants": "b679c78d65e6cf1804529c8e3e0b4479f240bce5e4c01c624cf3d3746c139400",
+              "variants/linux-amd64": "bc32036c28b651986001d2bdcfdb7f023c20fbf45648ec3af45dcf448229febf",
+              "variants/linux-arm64": "bc32036c28b651986001d2bdcfdb7f023c20fbf45648ec3af45dcf448229febf"
+            },
+            "icon": "icon.png",
+            "main": {},
+            "manifestVersion": "0.3.0",
+            "name": "foray",
+            "type": "ui_qml",
+            "version": "0.3.4",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "foray_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-13T10:50:50Z",
+          "publisherRef": "foray_core-v0.3.1",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-foray_core-module.lgx",
+          "size": 8317499,
+          "sha256": "e9b8fc6ccf81f705b8feb4f7015620f5fe67537157c64d1029b3a35ec2b385a1",
+          "rootHash": "ec9d43e7c1d087d76109d7eb74e0476f7c728bc070eecea76513dd13f3eb2fc6",
+          "manifest": {
+            "author": "",
+            "category": "productivity",
+            "dependencies": [],
+            "description": "Reaches Foray lists on the machines of your Shrooms meshes, for the Foray view: finds them, reads them, and writes to them. A Basecamp view may not open a connection; this runs in its own process and can.",
+            "display_name": "Foray Core",
+            "hashes": {
+              "root": "ec9d43e7c1d087d76109d7eb74e0476f7c728bc070eecea76513dd13f3eb2fc6",
+              "variants": "c2ae3759b67c263b60f77ac64d726fbeb1d4a49069874ad84cc6ff591c2d13ed",
+              "variants/linux-amd64": "cf2fac2e8fe0d256104410335f32fa26c950f8ef6787ea93d115f25048eb8687",
+              "variants/linux-arm64": "9dfd77d4923e5d766c506f75a874d710f52f8515e4f2ba44dce0c06cf4a05fdd"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "foray_core_plugin.so",
+              "linux-arm64": "foray_core_plugin.so"
+            },
+            "manifestVersion": "0.4.0",
+            "name": "foray_core",
+            "type": "core",
+            "version": "0.3.1"
           }
         }
       ]
@@ -769,12 +840,12 @@
       "name": "shrooms_agents",
       "versions": [
         {
-          "releasedAt": "2026-10-11T06:40:23Z",
-          "publisherRef": "shrooms_agents-v0.47.0",
+          "releasedAt": "2026-10-13T10:50:50Z",
+          "publisherRef": "shrooms_agents-v0.48.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_agents-module.lgx",
-          "size": 219557,
-          "sha256": "460c67d2727f066e40597eb7d264ebce661d1a6539ef92632bbe2c431e0923a0",
-          "rootHash": "aa81dee2ece5c7921dd9ce96ddf6cb47bd9fe3eda818b1cc41a22f035d0662be",
+          "size": 220916,
+          "sha256": "161f9b7761f87a36ebab3c4b139acbeb7b2cf33a15c94a791b39fe6fe1210eea",
+          "rootHash": "726008617727763713aa8b01329fe08be00b3b3995fd5b99743c30ec5fefcd32",
           "manifest": {
             "author": "",
             "category": "network",
@@ -784,17 +855,17 @@
             "description": "Talk to the Claude Code sessions on your own machines over a Shrooms mesh, and approve what they want to do: streamed replies, permission prompts, files and voice notes, transcribed on the agent's machine. What grows out of the mycelium. Needs shrooms_core, and shrooms-agent on the machines (docs/agents.md).",
             "display_name": "Shrooms Agents",
             "hashes": {
-              "root": "aa81dee2ece5c7921dd9ce96ddf6cb47bd9fe3eda818b1cc41a22f035d0662be",
-              "variants": "82923f16a28258daf8cc243ad3b62824ad7180156b3f90555843e75aa9b76606",
-              "variants/linux-amd64": "fad7a2cada5245c5b0046d304ef92005815946bb4cb23f8d0861d5ac61b41528",
-              "variants/linux-arm64": "fad7a2cada5245c5b0046d304ef92005815946bb4cb23f8d0861d5ac61b41528"
+              "root": "726008617727763713aa8b01329fe08be00b3b3995fd5b99743c30ec5fefcd32",
+              "variants": "f12be7889e731535f53b30389295cf154680f0d2e9f68e3e325f242b10c4c3d5",
+              "variants/linux-amd64": "02bff8d70d1ef20cedac6953c06b935bd5131be226d72f0c64b4de825f31ce6d",
+              "variants/linux-arm64": "02bff8d70d1ef20cedac6953c06b935bd5131be226d72f0c64b4de825f31ce6d"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "shrooms_agents",
             "type": "ui_qml",
-            "version": "0.47.0",
+            "version": "0.48.0",
             "view": "Main.qml"
           }
         }
