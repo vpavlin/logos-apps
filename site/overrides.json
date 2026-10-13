@@ -106,5 +106,12 @@
   "xyz.vpavlin.freequencies": {
     "docs": "https://github.com/vpavlin/freequencies/blob/main/docs/demo.md",
     "repo": "https://github.com/vpavlin/freequencies"
+  },
+  "reelcut": {
+    "repo": "https://github.com/vpavlin/reelcut-basecamp",
+    "featured": true
+  },
+  "reelcut_core": {
+    "repo": "https://github.com/vpavlin/reelcut-basecamp"
   }
 }
