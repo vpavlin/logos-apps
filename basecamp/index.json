@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-14T07:58:01Z",
+  "generatedAt": "2026-10-14T09:03:19Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -700,12 +700,12 @@
       "name": "reelcut",
       "versions": [
         {
-          "releasedAt": "2026-10-14T07:58:01Z",
-          "publisherRef": "reelcut-v0.1.4",
+          "releasedAt": "2026-10-14T09:03:19Z",
+          "publisherRef": "reelcut-v0.1.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut-module.lgx",
-          "size": 78509,
-          "sha256": "1af894b784f6da179115bd5883a5ab4cb9ac2d10e3b8a6fb1c5e76b3976291aa",
-          "rootHash": "e20045097224d030ae6ea5f0f99be5336fb02cbb9d5910a35d39f9dd29ba9803",
+          "size": 78673,
+          "sha256": "c4ad40897ade232ecc5236bee538fce5001e9d2722a8fe9a8f9e8034eed1845d",
+          "rootHash": "323f744ac2585eefd33a0a7d45cd720dd734460e21a0618554f24d377d8adaa4",
           "manifest": {
             "author": "",
             "category": "media",
@@ -715,19 +715,19 @@
             "description": "Paste a long video, get short vertical reels with word-by-word captions: transcribed on your computer, clips picked by an agent on your mesh",
             "display_name": "Reelcut",
             "hashes": {
-              "assets": "1688ef6d0da4275c536ae93b708019f0bb77ee5baf7c098e64ca57da15e8c6a2",
-              "root": "e20045097224d030ae6ea5f0f99be5336fb02cbb9d5910a35d39f9dd29ba9803",
-              "variants": "4661e78709295ca4d0f30bf4b08f33e3986a8bd337e92fafb479d32f6bc5df75",
-              "variants/darwin-arm64": "bcd06f258f0d6ca50b587b5eb9d14e535bb3f30b79bcfe1873df848ba3f07ed3",
-              "variants/linux-amd64": "bcd06f258f0d6ca50b587b5eb9d14e535bb3f30b79bcfe1873df848ba3f07ed3",
-              "variants/linux-arm64": "bcd06f258f0d6ca50b587b5eb9d14e535bb3f30b79bcfe1873df848ba3f07ed3"
+              "assets": "366349affe505d37f7ce7c0f5e085cbbce3e364bce08b3be39ceaf3673169cc7",
+              "root": "323f744ac2585eefd33a0a7d45cd720dd734460e21a0618554f24d377d8adaa4",
+              "variants": "2ba2d7122aac6946804fc509a4cc10df8d75a78ef5b3613748d3d98c20397c66",
+              "variants/darwin-arm64": "09882a7ef3ccedd1e1d52275a24913b9c9a0f5d030e5e30d43cccb1cf39dbcb6",
+              "variants/linux-amd64": "09882a7ef3ccedd1e1d52275a24913b9c9a0f5d030e5e30d43cccb1cf39dbcb6",
+              "variants/linux-arm64": "09882a7ef3ccedd1e1d52275a24913b9c9a0f5d030e5e30d43cccb1cf39dbcb6"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "reelcut",
             "type": "ui_qml",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "view": "Main.qml"
           }
         }
@@ -737,12 +737,12 @@
       "name": "reelcut_core",
       "versions": [
         {
-          "releasedAt": "2026-10-14T07:58:01Z",
-          "publisherRef": "reelcut_core-v0.1.4",
+          "releasedAt": "2026-10-14T09:03:19Z",
+          "publisherRef": "reelcut_core-v0.1.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut_core-module.lgx",
-          "size": 12720337,
-          "sha256": "b8ab8345b4b886078bb4a2a8429a068885084575735953b3c34a55f79c498e3d",
-          "rootHash": "978d96c77e300377c4ce4bfdadbc5818aae83b2750f1712e7031ca2a595604c9",
+          "size": 12748298,
+          "sha256": "f255d1b20adc115f5f2e1a5463f12e229d5042cdbe9735221504c39d0c5ca2a5",
+          "rootHash": "e382594684d03d18376b58dc1674bf7698254e2d45c83a0a794835bc29293242",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -750,12 +750,12 @@
             "description": "Turns a long video into captioned vertical reels with reelcut: fetch, transcribe locally, pick clips, cut",
             "display_name": "Reelcut Core",
             "hashes": {
-              "assets": "1688ef6d0da4275c536ae93b708019f0bb77ee5baf7c098e64ca57da15e8c6a2",
-              "root": "978d96c77e300377c4ce4bfdadbc5818aae83b2750f1712e7031ca2a595604c9",
-              "variants": "6fe221f51af59a1d3edbf832dda8a3154d88aaa8d7d3a46df3839b2bc9ea37bf",
-              "variants/darwin-arm64": "e174615887552c9a6e63fc6d1fdbad0782010df6c7ffbf866f2ae98beaafdf0a",
-              "variants/linux-amd64": "164b392e4ce940f76a23b85b2b31583284a9d7d7c5cae47d32b699155d16da9c",
-              "variants/linux-arm64": "b5be0b10e7c748d545ad27b5c0c5ba3e9fa630bed3ed18262d44c289f0e75e06"
+              "assets": "366349affe505d37f7ce7c0f5e085cbbce3e364bce08b3be39ceaf3673169cc7",
+              "root": "e382594684d03d18376b58dc1674bf7698254e2d45c83a0a794835bc29293242",
+              "variants": "a995c7cb1b9b486c8687eeb8fd4a431cc28f06e95a4b58aaca77cc740431a6c5",
+              "variants/darwin-arm64": "badb608b5be82d541f79f955a0bd9c0fd1a9983ae2f93fd408b3045909a49fb5",
+              "variants/linux-amd64": "00c98218bf74bc59d8fe2876709f60d90ec25ffa38f990bb6eed43f827cceab1",
+              "variants/linux-arm64": "9b2551607c2eda5d221693fd85036d19b1fa2685cf46ee4250051dce90fabe61"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -766,7 +766,7 @@
             "manifestVersion": "0.6.0",
             "name": "reelcut_core",
             "type": "core",
-            "version": "0.1.4"
+            "version": "0.1.5"
           }
         }
       ]
