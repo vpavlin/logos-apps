@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-15T08:58:37Z",
+  "generatedAt": "2026-10-15T09:57:51Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -82,12 +82,12 @@
       "name": "dufs",
       "versions": [
         {
-          "releasedAt": "2026-10-14T09:55:27Z",
-          "publisherRef": "dufs-v0.2.3",
+          "releasedAt": "2026-10-15T09:57:51Z",
+          "publisherRef": "dufs-v0.3.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
-          "size": 97319,
-          "sha256": "7d128cfb11b84276024ca828213edc5ae93dc0d162bd43122969f210b039a27e",
-          "rootHash": "42843e66b4e8f8063baba220323b76c6876bec5e0413834c0f1c44ec40fcbd04",
+          "size": 110413,
+          "sha256": "ab2db3e9bf3a1f0f4d9fc9ee7da163ac9b2d76784363193bc7550074df372922",
+          "rootHash": "849e1be8046153338e25156ca0e42fecc8284cefdb905bdb0d1912ea6687cbd1",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -97,12 +97,12 @@
             "description": "Browse, preview, upload and download files on your dufs servers - several servers, one switcher",
             "display_name": "Dufs",
             "hashes": {
-              "assets": "d3033b2b5955ef3922bcd4ea84e38c83c68c1ecca1f826bc56ca00e1c21296df",
-              "root": "42843e66b4e8f8063baba220323b76c6876bec5e0413834c0f1c44ec40fcbd04",
-              "variants": "11b76db4bd766a427d7fd535ec4b7802e6362cec7d819f82f6b493b8a1bae54a",
-              "variants/darwin-arm64": "89a657a2f86cf2468ddfb5ed05a9a5535e0ad5ebe0751f6c05418f5036bc4fb1",
-              "variants/linux-amd64": "89a657a2f86cf2468ddfb5ed05a9a5535e0ad5ebe0751f6c05418f5036bc4fb1",
-              "variants/linux-arm64": "89a657a2f86cf2468ddfb5ed05a9a5535e0ad5ebe0751f6c05418f5036bc4fb1"
+              "assets": "3266ed065f66c71e0b4dc8b8238cbb9d25d3c1cd4736978380ec797e13531751",
+              "root": "849e1be8046153338e25156ca0e42fecc8284cefdb905bdb0d1912ea6687cbd1",
+              "variants": "5b13ebaf730e0e325d7fdb86f19f48f6a353575e2127048c8ffc7eef480484bf",
+              "variants/darwin-arm64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6",
+              "variants/linux-amd64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6",
+              "variants/linux-arm64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6"
             },
             "icon": "assets/icon.png",
             "main": {},
@@ -114,7 +114,7 @@
               }
             ],
             "type": "ui_qml",
-            "version": "0.2.3",
+            "version": "0.3.6",
             "view": "Main.qml"
           }
         }
@@ -124,25 +124,28 @@
       "name": "dufs_core",
       "versions": [
         {
-          "releasedAt": "2026-10-14T09:55:27Z",
-          "publisherRef": "dufs_core-v0.1.3",
+          "releasedAt": "2026-10-15T09:57:51Z",
+          "publisherRef": "dufs_core-v0.2.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs_core-module.lgx",
-          "size": 12520965,
-          "sha256": "e8a7e0e45a39b85c7562b3bb238262a30193514dc5ceee2b73951118b38423fd",
-          "rootHash": "dd526f4d30240d98ce06289e7b606dfaacef8a6a7fc7dcd3335e3449724a3273",
+          "size": 13321782,
+          "sha256": "b594815e27753180050e7681b32ab0c1198ff9e5cee9625684e6a11c1a4efd08",
+          "rootHash": "ef1b356d0f9943762016ad70756b69b2fe5b3093d970431f3fba7daef7b2cda8",
           "manifest": {
             "author": "",
             "category": "tools",
-            "dependencies": [],
-            "description": "Talks to dufs file servers over HTTP: list, upload, download, rename, delete, previews",
+            "dependencies": [
+              "storage_module",
+              "storage_gateway"
+            ],
+            "description": "Talks to dufs file servers over HTTP (list, upload, download, rename, delete, previews) and keeps files in Logos Storage, on this computer or on a node elsewhere",
             "display_name": "Dufs Core",
             "hashes": {
-              "assets": "c4b8f60cc013c08bf6d75e3c51a408706e4e4a094c455af8fcfda7b3a88161a4",
-              "root": "dd526f4d30240d98ce06289e7b606dfaacef8a6a7fc7dcd3335e3449724a3273",
-              "variants": "0e62555c3fcb53011997fc584a09c16f88642d6ec77cca7b68bef892b1ad257d",
-              "variants/darwin-arm64": "89e1545031b3a511a1612e4ee88d8a63087b5df5db81727256d64e37407df2d6",
-              "variants/linux-amd64": "2cf8c41fb81c90af6aadc5fcae9e6476ed1decc2930e1e4bd5b22eda2e77680c",
-              "variants/linux-arm64": "a409faf2324990aeb0b001fd795b9780ae59fd7caf852f6447ad0c25ca2e4bea"
+              "assets": "12e79899deeff2f4c7657f6ab1fd16454386b2c505ea1d4c026f831112da134e",
+              "root": "ef1b356d0f9943762016ad70756b69b2fe5b3093d970431f3fba7daef7b2cda8",
+              "variants": "058c14ad6df643aaca09e78e1e60fc5490cfa1b70de45a6ea38cdb75af8a107e",
+              "variants/darwin-arm64": "f05404aa7f6a73fddbb9ae9b7e312fc701b23476b925cda48c3e400c4175b638",
+              "variants/linux-amd64": "81766360fe8d6c7d5e3485dff3ebd902ad98c651a0a7abe3238984c46482f3a2",
+              "variants/linux-arm64": "1afd1d7526c58f3a16773447c6334307be023ea49afb5f115ec2e29338b65a74"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -153,7 +156,7 @@
             "manifestVersion": "0.6.0",
             "name": "dufs_core",
             "type": "core",
-            "version": "0.1.3"
+            "version": "0.2.6"
           }
         }
       ]
@@ -705,12 +708,12 @@
       "name": "reelcut",
       "versions": [
         {
-          "releasedAt": "2026-10-15T08:58:37Z",
-          "publisherRef": "reelcut-v0.1.8",
+          "releasedAt": "2026-10-15T09:57:51Z",
+          "publisherRef": "reelcut-v0.1.9",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut-module.lgx",
-          "size": 92898,
-          "sha256": "3c6b44afb49cd38adaa445ff3d497887ec5b77e5099a65f525c7bcd0c2818076",
-          "rootHash": "c5e6267f05fc8865f281beecd730553ec8e162aba08155fac15de0bb2bc9ee51",
+          "size": 96808,
+          "sha256": "754d23896599a9269c4683b2702eda3aadedb0a303d656716258c65c3500d958",
+          "rootHash": "dd2f3990021a2428652ff072e84974faf11a11e5b885f5fbfab6e4097b5e0236",
           "manifest": {
             "author": "",
             "category": "media",
@@ -720,19 +723,19 @@
             "description": "Paste a long video, get short vertical reels with word-by-word captions: transcribed on your computer, clips picked by an agent on your mesh",
             "display_name": "Reelcut",
             "hashes": {
-              "assets": "6219e268fcf1bc4f0d587e5c9c02351ad2e9a34542dd96aea4018bae9b84fd70",
-              "root": "c5e6267f05fc8865f281beecd730553ec8e162aba08155fac15de0bb2bc9ee51",
-              "variants": "a63a931dd6a67151afbed305096251531a44dd7929aa9dce62e15e8c30ee6cfe",
-              "variants/darwin-arm64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef",
-              "variants/linux-amd64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef",
-              "variants/linux-arm64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef"
+              "assets": "f52e19dbc0ca0f8876b573a7297c42a6d5676eb81c2936f073ad1ab897b76f91",
+              "root": "dd2f3990021a2428652ff072e84974faf11a11e5b885f5fbfab6e4097b5e0236",
+              "variants": "699a007d71b8201ec7a45c787752564be6cee954664b20680e926d4945e8c75f",
+              "variants/darwin-arm64": "b56bedc016187006f8bd8404fcf4b580e7b6b532414fe30c925a78df7f37e401",
+              "variants/linux-amd64": "b56bedc016187006f8bd8404fcf4b580e7b6b532414fe30c925a78df7f37e401",
+              "variants/linux-arm64": "b56bedc016187006f8bd8404fcf4b580e7b6b532414fe30c925a78df7f37e401"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "reelcut",
             "type": "ui_qml",
-            "version": "0.1.8",
+            "version": "0.1.9",
             "view": "Main.qml"
           }
         }
@@ -742,25 +745,28 @@
       "name": "reelcut_core",
       "versions": [
         {
-          "releasedAt": "2026-10-15T05:03:46Z",
-          "publisherRef": "reelcut_core-v0.1.7",
+          "releasedAt": "2026-10-15T09:57:51Z",
+          "publisherRef": "reelcut_core-v0.1.8",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut_core-module.lgx",
-          "size": 12856827,
-          "sha256": "49be43f32d664e5cef66182596737fcf76ef2e2564cb254ac9788eee68adfc5e",
-          "rootHash": "15495ba8ed37c0e8994051a4b6cb2b652adf65351d5027d53c418dfef1f02109",
+          "size": 13329920,
+          "sha256": "db3c43869dd7ed38ca0d55c895dd37aaa1b4a570c1e65ec932beb6296c2b3160",
+          "rootHash": "4c0a22f858b9d1f671ea5064b4afcd8cb8eeff7941cfaedfb2263f288073f4e3",
           "manifest": {
             "author": "",
             "category": "tools",
-            "dependencies": [],
+            "dependencies": [
+              "storage_module",
+              "storage_gateway"
+            ],
             "description": "Turns a long video into captioned vertical reels with reelcut: fetch, transcribe locally, pick clips, cut",
             "display_name": "Reelcut Core",
             "hashes": {
-              "assets": "6219e268fcf1bc4f0d587e5c9c02351ad2e9a34542dd96aea4018bae9b84fd70",
-              "root": "15495ba8ed37c0e8994051a4b6cb2b652adf65351d5027d53c418dfef1f02109",
-              "variants": "a5b02ab352de3042d4108f0e41cd123b8b50e13ebdaaab4285c5053a21d9e0ea",
-              "variants/darwin-arm64": "9a233abcdbf2607376d4f31768c5e34846408e0f470ebdd4c1cf3f1c309d3c43",
-              "variants/linux-amd64": "3c8cf91a744ed21377f5dc962afd67deca8217257f06c11bcf808df850ced73b",
-              "variants/linux-arm64": "b67fd75ecf9aa056bfe9e03c6f10273780cab17a63284c5be0d0514bb7fea07e"
+              "assets": "5dae9761eda6a8412d618c1cb2eeff401c3984cffd56a236f1f4be4d47712f95",
+              "root": "4c0a22f858b9d1f671ea5064b4afcd8cb8eeff7941cfaedfb2263f288073f4e3",
+              "variants": "c08a01576f5db7e8378b156fa6d0a0ff8420d0e2409e91691508569683303fac",
+              "variants/darwin-arm64": "8df59c1b555504ad6794235ff93236cda8b0592ed5be4c55d395e9cab6b3ae21",
+              "variants/linux-amd64": "d6792d84e785e22f32f98641928110b7309e164c273ce44a8b8cc4a2d860ff4b",
+              "variants/linux-arm64": "df27c306693603bd8d96ef2099a29f8dbfe6a9656b1f92cda48a28a948192414"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -771,7 +777,7 @@
             "manifestVersion": "0.6.0",
             "name": "reelcut_core",
             "type": "core",
-            "version": "0.1.7"
+            "version": "0.1.8"
           }
         }
       ]
@@ -982,6 +988,44 @@
             "name": "shrooms_core",
             "type": "core",
             "version": "0.24.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "storage_gateway",
+      "versions": [
+        {
+          "releasedAt": "2026-10-15T09:57:51Z",
+          "publisherRef": "storage_gateway-v0.1.1",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-storage_gateway-module.lgx",
+          "size": 13209040,
+          "sha256": "5c020764f0bdcb6e30e1fb687fc370c9c9f152c9de15e99295b07387be9f35b6",
+          "rootHash": "27bd7ec6134aeddafe14fe91f49a42ac4a1821e970de005f1cc7bd9fe1001698",
+          "manifest": {
+            "author": "",
+            "category": "protocol",
+            "dependencies": [],
+            "description": "The storage_module API, served by a Logos Storage node elsewhere (its REST API, e.g. over a mesh or VPN)",
+            "display_name": "Storage Gateway",
+            "hashes": {
+              "assets": "8fe625311934c9bb38bbc00ccfdc4d1d2fde24a64265b60a22f5a343fa24f246",
+              "root": "27bd7ec6134aeddafe14fe91f49a42ac4a1821e970de005f1cc7bd9fe1001698",
+              "variants": "75f5180ca692b3c13e59037fb181a26ff5f9f2ff87c58f42ebbe1334293a98d7",
+              "variants/darwin-arm64": "b5b3b32902c496ef6d3e52286cbe127c8119e1b145d593f2a504407ff3fd9e95",
+              "variants/linux-amd64": "736800ff95ac43a58affb0ce75d34569d8b694ddfe87747b5758538718846eb1",
+              "variants/linux-arm64": "0e9ee020747277c5e507f2618dc03a84b62a873aa53dbe1b681b28a87c884add"
+            },
+            "icon": "assets/icon.png",
+            "main": {
+              "darwin-arm64": "storage_gateway_plugin.dylib",
+              "linux-amd64": "storage_gateway_plugin.so",
+              "linux-arm64": "storage_gateway_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "storage_gateway",
+            "type": "core",
+            "version": "0.1.1"
           }
         }
       ]
