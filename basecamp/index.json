@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-15T05:03:46Z",
+  "generatedAt": "2026-10-15T08:58:37Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -705,12 +705,12 @@
       "name": "reelcut",
       "versions": [
         {
-          "releasedAt": "2026-10-15T05:03:46Z",
-          "publisherRef": "reelcut-v0.1.7",
+          "releasedAt": "2026-10-15T08:58:37Z",
+          "publisherRef": "reelcut-v0.1.8",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reelcut-module.lgx",
-          "size": 92318,
-          "sha256": "ab2d78c228f8498e12c60d4b9814b0faa9232ca589725abbb8422507634b74d4",
-          "rootHash": "cadf7d63a7d730618c63658f6e6789b93398020ec9f47d3646512e4e164d856b",
+          "size": 92898,
+          "sha256": "3c6b44afb49cd38adaa445ff3d497887ec5b77e5099a65f525c7bcd0c2818076",
+          "rootHash": "c5e6267f05fc8865f281beecd730553ec8e162aba08155fac15de0bb2bc9ee51",
           "manifest": {
             "author": "",
             "category": "media",
@@ -721,18 +721,18 @@
             "display_name": "Reelcut",
             "hashes": {
               "assets": "6219e268fcf1bc4f0d587e5c9c02351ad2e9a34542dd96aea4018bae9b84fd70",
-              "root": "cadf7d63a7d730618c63658f6e6789b93398020ec9f47d3646512e4e164d856b",
-              "variants": "68cfd48dccbf4253d0cd5ebc9df8c05f19baf4a3a16f0735328dcb2a1bf268a6",
-              "variants/darwin-arm64": "e65acf359aee664a692379951e0d7c6009930857ef8de1f560058e5a89fe87be",
-              "variants/linux-amd64": "e65acf359aee664a692379951e0d7c6009930857ef8de1f560058e5a89fe87be",
-              "variants/linux-arm64": "e65acf359aee664a692379951e0d7c6009930857ef8de1f560058e5a89fe87be"
+              "root": "c5e6267f05fc8865f281beecd730553ec8e162aba08155fac15de0bb2bc9ee51",
+              "variants": "a63a931dd6a67151afbed305096251531a44dd7929aa9dce62e15e8c30ee6cfe",
+              "variants/darwin-arm64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef",
+              "variants/linux-amd64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef",
+              "variants/linux-arm64": "11d3e7ea02a78f7d31a124ef9a63cb5882d7f788d022a4f4c64a3e468e3cdeef"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "reelcut",
             "type": "ui_qml",
-            "version": "0.1.7",
+            "version": "0.1.8",
             "view": "Main.qml"
           }
         }
