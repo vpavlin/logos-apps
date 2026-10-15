@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-15T19:23:52Z",
+  "generatedAt": "2026-10-15T19:24:33Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -926,12 +926,12 @@
       "name": "shrooms_agents",
       "versions": [
         {
-          "releasedAt": "2026-10-15T11:53:40Z",
-          "publisherRef": "shrooms_agents-v0.50.0",
+          "releasedAt": "2026-10-15T19:24:33Z",
+          "publisherRef": "shrooms_agents-v0.52.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_agents-module.lgx",
-          "size": 223981,
-          "sha256": "b3cfc6109aac7703f31ad6f3d85c6c48cf1661e5a371241323bed160ea878c95",
-          "rootHash": "11257b92afe2cd980e784b8f531028f41af25a5f7b0b6996bf45b7af08fdd34f",
+          "size": 228735,
+          "sha256": "875abe774a21ec5b8e82a8bc7ac10c5a50e0f0dd9529326a5d25e38273f26e09",
+          "rootHash": "f6d1fd7d39de61f9a457fcdabafb36c8590b2c8a21376c9368d6ba04a1fb8dca",
           "manifest": {
             "author": "",
             "category": "network",
@@ -941,17 +941,17 @@
             "description": "Talk to the Claude Code sessions on this machine, and over a Shrooms mesh on your others, and approve what they want to do: streamed replies, permission prompts, files and voice notes, transcribed on the agent's machine. What grows out of the mycelium. Needs shrooms_core and shrooms-agent; a mesh only for more than one machine (docs/agents.md).",
             "display_name": "Shrooms Agents",
             "hashes": {
-              "root": "11257b92afe2cd980e784b8f531028f41af25a5f7b0b6996bf45b7af08fdd34f",
-              "variants": "11141c1e7ac4e54e2c2ab7526d3b903e77a19308a67f39cf22de6c275843b9f1",
-              "variants/linux-amd64": "175b62fc05657a271c0aa31f9e0322b61a0afbd494aa9711b1c5922aadacb3ee",
-              "variants/linux-arm64": "175b62fc05657a271c0aa31f9e0322b61a0afbd494aa9711b1c5922aadacb3ee"
+              "root": "f6d1fd7d39de61f9a457fcdabafb36c8590b2c8a21376c9368d6ba04a1fb8dca",
+              "variants": "f024fa067ac770a2c547609998a11637151c605d13f6ba456a72bb27dc0a03b7",
+              "variants/linux-amd64": "82b33daa178a61fd2c68f2479ad9cd2e48153242bed08bb47acca4a7cd5a030c",
+              "variants/linux-arm64": "82b33daa178a61fd2c68f2479ad9cd2e48153242bed08bb47acca4a7cd5a030c"
             },
             "icon": "icon.png",
             "main": {},
             "manifestVersion": "0.3.0",
             "name": "shrooms_agents",
             "type": "ui_qml",
-            "version": "0.50.0",
+            "version": "0.52.0",
             "view": "Main.qml"
           }
         }
@@ -961,12 +961,12 @@
       "name": "shrooms_core",
       "versions": [
         {
-          "releasedAt": "2026-10-15T11:53:40Z",
-          "publisherRef": "shrooms_core-v0.25.0",
+          "releasedAt": "2026-10-15T19:24:33Z",
+          "publisherRef": "shrooms_core-v0.26.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-shrooms_core-module.lgx",
-          "size": 8729025,
-          "sha256": "08bf531a9d73371cda4c3e4f84f746dec6b270e93431fb48fe708bda2fbc9b50",
-          "rootHash": "59a2928b956ad36a0e061ffa4dd6b6f8cb20ce6e480c98741119a7d63807e90f",
+          "size": 8734754,
+          "sha256": "b4b4fc05250eb4b5b63fbfb16f1a7bbea6d9ae00472185b2e8a30b045b4a7166",
+          "rootHash": "8c0e822b546a893d535ca9e826605aef8568cbc32f97a18139b3943c6b024e7a",
           "manifest": {
             "author": "",
             "category": "network",
@@ -974,10 +974,10 @@
             "description": "Talks to a Shrooms daemon over its unix control socket: reads status and the recent log, and changes what the daemon can change on its own \u2014 name, node mode, published services per mesh, announcing them, blind relays, the domain names answer under, repeating revocations, meshes on and off, joining a mesh with an invite (on a thread of its own, since it waits for the other device), leaving one, and restarting to apply the settings that need it. Carries an invite whose credential a Keycard signs elsewhere (ADR-050); never signs, and never holds an admin key (ADR-025). Exists because a ui_qml app is sandboxed and may not open a socket; this runs in its own process and can.",
             "display_name": "Shrooms Core",
             "hashes": {
-              "root": "59a2928b956ad36a0e061ffa4dd6b6f8cb20ce6e480c98741119a7d63807e90f",
-              "variants": "e3e7408aa40f56eaeb6b43c5aa76c09df692101d34636a5391b917fb2dbf985c",
-              "variants/linux-amd64": "c9a58df0b4d38ff7afb523d08b0672481e44aa602e4bd81a73683cdecb85abe4",
-              "variants/linux-arm64": "32c93f7e294fe9b05d3eb437ac5be77e938c05e517c53f13e39da55487e37d2b"
+              "root": "8c0e822b546a893d535ca9e826605aef8568cbc32f97a18139b3943c6b024e7a",
+              "variants": "4f64e901b1b62e63d0ea135455759aaeb3c9dde565d2661e1cb91d7f4d0633e9",
+              "variants/linux-amd64": "4322e3b26f929f86c5369cc327ff210b0ea010129b1a9de81a7f74452885a0ab",
+              "variants/linux-arm64": "e0a17eba007310613778504ffd59ad2a66b72b138cd52d4f579e99c164a608ad"
             },
             "icon": "",
             "main": {
@@ -987,7 +987,7 @@
             "manifestVersion": "0.4.0",
             "name": "shrooms_core",
             "type": "core",
-            "version": "0.25.0"
+            "version": "0.26.0"
           }
         }
       ]
