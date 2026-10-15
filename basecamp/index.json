@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-15T11:53:40Z",
+  "generatedAt": "2026-10-15T19:23:52Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -1072,12 +1072,12 @@
       "name": "swamp",
       "versions": [
         {
-          "releasedAt": "2026-10-13T13:54:56Z",
-          "publisherRef": "swamp-v0.5.11",
+          "releasedAt": "2026-10-15T19:23:52Z",
+          "publisherRef": "swamp-v0.5.12",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-swamp-module.lgx",
-          "size": 43610,
-          "sha256": "9246de4b2e40c08a8acfdc890210e6f7c0b11e7efba6a9ce264fc680d02aa8a4",
-          "rootHash": "78c234134e862801928536095ce9571c71926e8a776d41bb1a15b292ab5909ee",
+          "size": 43740,
+          "sha256": "4c6233a7058f3b1f4a2d1ff22e66ca576623856fcd435b89f50fcc64a230d7e1",
+          "rootHash": "2ef32c44152ce0c9d3f50c15bdc74989728f1acd8e3e618ed407cfd189f7b38a",
           "manifest": {
             "author": "",
             "category": "social",
@@ -1088,17 +1088,17 @@
             "display_name": "Swamp - 3D models",
             "hashes": {
               "assets": "5d0d3a8f5c8fcb10c4aaf49a3edb7785955df694d348b081fec26dd73eaf4b9d",
-              "root": "78c234134e862801928536095ce9571c71926e8a776d41bb1a15b292ab5909ee",
-              "variants": "ed6529c656518e5655a758a4e2aa06ecf498de5c7c9fa9d891deb17ec56d635c",
-              "variants/linux-amd64": "a0cb7c7f88a52a9cbbda974d2b67b87a70630a4777abe080a27aaf0e0e841477",
-              "variants/linux-arm64": "a0cb7c7f88a52a9cbbda974d2b67b87a70630a4777abe080a27aaf0e0e841477"
+              "root": "2ef32c44152ce0c9d3f50c15bdc74989728f1acd8e3e618ed407cfd189f7b38a",
+              "variants": "1979e4cdf9f868140e664b1745676fc835aa27925cb301d53b232984f0e9be5a",
+              "variants/linux-amd64": "c004e265b7998e1f7548c7a44dfd034bc2ddf3bbc4cc7ce2e755102ad93391b3",
+              "variants/linux-arm64": "c004e265b7998e1f7548c7a44dfd034bc2ddf3bbc4cc7ce2e755102ad93391b3"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "swamp",
             "type": "ui_qml",
-            "version": "0.5.11",
+            "version": "0.5.12",
             "view": "Main.qml"
           }
         }
