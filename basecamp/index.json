@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-19T13:24:45Z",
+  "generatedAt": "2026-10-19T13:35:03Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -787,12 +787,12 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-10-12T15:15:21Z",
-          "publisherRef": "scala-v0.12.4",
+          "releasedAt": "2026-10-19T13:35:03Z",
+          "publisherRef": "scala-v0.12.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 13844580,
-          "sha256": "cd755b4eb6fb2b721177999ddd208f80691c3779627e5f78bc40d945efe6fbdc",
-          "rootHash": "713b8cf0a11901dcf4b44b827e870b8d704767c5a3c86e03c2c44dfd19f98e82",
+          "size": 13890431,
+          "sha256": "14ef8457cf2d4614274d80a4f8f352113caf2d9122259d8583be8b047efa7820",
+          "rootHash": "9fb9034a64bd6b5151e45a0a73bed22b8e82cef89b2a00747e0694398a25b860",
           "manifest": {
             "author": "",
             "category": "general",
@@ -803,12 +803,12 @@
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "assets": "645b7e569ddee5133d16e73904c0ff8c5db519e2239d80cb5cc8e49009df0163",
-              "root": "713b8cf0a11901dcf4b44b827e870b8d704767c5a3c86e03c2c44dfd19f98e82",
-              "variants": "520301222f1a8ad0a47980e33ba446791a2b22d8b5de0a8a74dd59f000072117",
-              "variants/darwin-arm64": "f87631d6f62f16b384f6eb9c8c258011357d828e903716390913ca7806c0bad8",
-              "variants/linux-amd64": "f7d857f72034225b61c740717a9735dc5c5f3346a40356ac9462ff76103b07d9",
-              "variants/linux-arm64": "749332377dfd2581f212630cf45e75c9a160e1ee9e2cbb6121c1d1705a472be0"
+              "assets": "880728a4bb8d87e50867140e67cbcf44e3218c38f9abcb0df0ee0a44a1711c42",
+              "root": "9fb9034a64bd6b5151e45a0a73bed22b8e82cef89b2a00747e0694398a25b860",
+              "variants": "c63aa944eed502ecb0e8770c4cbb2d24806f1415848726760248ab3cca81a921",
+              "variants/darwin-arm64": "9809a0ac72c089feb98358401bc734e9bc2c7f343fdaab3a9ff2bed8057c5d16",
+              "variants/linux-amd64": "e62b397c9b1f9cd1eee0a4401791649d9d52cdef42459878c3d61ef06bdb561a",
+              "variants/linux-arm64": "630a323705a731ab63402309c131012ca8bbbf7b03fa9550f22839e8713d841e"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -819,7 +819,7 @@
             "manifestVersion": "0.6.0",
             "name": "scala",
             "type": "core",
-            "version": "0.12.4"
+            "version": "0.12.5"
           }
         }
       ]
