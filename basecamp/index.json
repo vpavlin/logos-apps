@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-19T13:35:03Z",
+  "generatedAt": "2026-10-20T13:16:24Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -491,37 +491,42 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "loam_core-v0.6.1",
+          "releasedAt": "2026-10-20T13:16:24Z",
+          "publisherRef": "loam_core-v0.7.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 9259261,
-          "sha256": "06476745a4da9a65b1f0d5ffebe06175cd0f179b2335dad0ddb53bd086ae7624",
-          "rootHash": "54071be47854dc72df2f53d4d7bc2648f149dae73cfc780b257229df8570fcb7",
+          "size": 13211060,
+          "sha256": "1dd1f77edf4064ab4b63da83e7255da9d081ade3b94e67d028d743bf58fcba57",
+          "rootHash": "412beb68aab9370de0d8624b0747ef1d87498ed8a84884e27e4d0479efa3604a",
           "manifest": {
             "author": "",
             "category": "system",
             "dependencies": [
-              "delivery_module",
-              "ble_mesh",
-              "keycard"
+              "ble_mesh"
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "assets": "f0c445a7c7e9f8d26e5247c6b35b35f08a058c7b0659dd59d3138d05f3cc5855",
-              "root": "54071be47854dc72df2f53d4d7bc2648f149dae73cfc780b257229df8570fcb7",
-              "variants": "a528263b7ac322e4daf801a0ac5498bc0abdda96acc994089a554cfacd3945c6",
-              "variants/linux-amd64": "556efff0cd7dfece0a243f082ace6255d242e667771552e73166278239e7e275",
-              "variants/linux-arm64": "79c9aa35ad78108ee22f13d90af59b00a6a451da519643b0c24f89c9676d73ee"
+              "assets": "7e34e0e609e7864c9eb7f270a7662dc56c9cf86b43ea4ee2000d1bacf48ba7ed",
+              "root": "412beb68aab9370de0d8624b0747ef1d87498ed8a84884e27e4d0479efa3604a",
+              "variants": "5c45fa7930fd0af77fb2dca3d05f82422d2d3526b1c8bc36ce5600f028e12577",
+              "variants/darwin-arm64": "ae370d6c7636e42d45979b61c5cddc3968c8e8245baeaedc66c063a2d0d21156",
+              "variants/linux-amd64": "24a474240341f44f5bcf54387db5c6a11f6ac4bc62b03bf914b8e3afac4c03a8",
+              "variants/linux-arm64": "f5533eb527d8af7eadb4a8ac75194bf01665aecaf54a3bdccee4c773f07f2322"
             },
             "icon": "",
             "main": {
+              "darwin-arm64": "loam_core_plugin.dylib",
               "linux-amd64": "loam_core_plugin.so",
               "linux-arm64": "loam_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "loam_core",
+            "optional_dependencies": [
+              "keycard",
+              "delivery_module",
+              "shrooms_mesh"
+            ],
             "type": "core",
-            "version": "0.6.1"
+            "version": "0.7.1"
           }
         }
       ]
@@ -787,28 +792,27 @@
       "name": "scala",
       "versions": [
         {
-          "releasedAt": "2026-10-19T13:35:03Z",
-          "publisherRef": "scala-v0.12.5",
+          "releasedAt": "2026-10-20T13:16:24Z",
+          "publisherRef": "scala-v0.12.7",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala-module.lgx",
-          "size": 13890431,
-          "sha256": "14ef8457cf2d4614274d80a4f8f352113caf2d9122259d8583be8b047efa7820",
-          "rootHash": "9fb9034a64bd6b5151e45a0a73bed22b8e82cef89b2a00747e0694398a25b860",
+          "size": 13899796,
+          "sha256": "fe0f467e0001ee602a09b2d9f053ba375986f6e39582918aa226ae99b58fa58f",
+          "rootHash": "50a21831eb0bb5f6b01e801e83adb5d11bed805ed5b975caef5b857acc5c1b87",
           "manifest": {
             "author": "",
             "category": "general",
             "dependencies": [
-              "loam_core",
-              "storage_module"
+              "loam_core"
             ],
             "description": "Secure Calendar App \u2014 privacy-first shared calendar module for Logos Core",
             "display_name": "Scala Core",
             "hashes": {
-              "assets": "880728a4bb8d87e50867140e67cbcf44e3218c38f9abcb0df0ee0a44a1711c42",
-              "root": "9fb9034a64bd6b5151e45a0a73bed22b8e82cef89b2a00747e0694398a25b860",
-              "variants": "c63aa944eed502ecb0e8770c4cbb2d24806f1415848726760248ab3cca81a921",
-              "variants/darwin-arm64": "9809a0ac72c089feb98358401bc734e9bc2c7f343fdaab3a9ff2bed8057c5d16",
-              "variants/linux-amd64": "e62b397c9b1f9cd1eee0a4401791649d9d52cdef42459878c3d61ef06bdb561a",
-              "variants/linux-arm64": "630a323705a731ab63402309c131012ca8bbbf7b03fa9550f22839e8713d841e"
+              "assets": "9b45769e10e30a67589236487c0799439f1e09304220713dfa77206ec093b3f1",
+              "root": "50a21831eb0bb5f6b01e801e83adb5d11bed805ed5b975caef5b857acc5c1b87",
+              "variants": "7853a3d5c6bd46e3fdac237d83f042b7628d7390811fb0bc733130980a76399c",
+              "variants/darwin-arm64": "3d36daefeadcbaaba5b1e52418f9ff18b153119af47bdbba401573976e602728",
+              "variants/linux-amd64": "77723fb2986c6c58398e8d109c89617d0f39911bdfa698e8a7ae7e3daf7c7b69",
+              "variants/linux-arm64": "5c546bb3bf03e19e2dc91ec7eb630915494a0f719ab4f6b9f8be315d5fcaabb5"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -818,8 +822,11 @@
             },
             "manifestVersion": "0.6.0",
             "name": "scala",
+            "optional_dependencies": [
+              "storage_module"
+            ],
             "type": "core",
-            "version": "0.12.5"
+            "version": "0.12.7"
           }
         }
       ]
