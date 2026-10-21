@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-20T13:16:24Z",
+  "generatedAt": "2026-10-21T08:34:42Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -82,12 +82,12 @@
       "name": "dufs",
       "versions": [
         {
-          "releasedAt": "2026-10-15T09:57:51Z",
-          "publisherRef": "dufs-v0.3.6",
+          "releasedAt": "2026-10-21T08:34:42Z",
+          "publisherRef": "dufs-v0.3.7",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs-module.lgx",
-          "size": 110413,
-          "sha256": "ab2db3e9bf3a1f0f4d9fc9ee7da163ac9b2d76784363193bc7550074df372922",
-          "rootHash": "849e1be8046153338e25156ca0e42fecc8284cefdb905bdb0d1912ea6687cbd1",
+          "size": 112921,
+          "sha256": "1caaa6654f67e217edca93863bd00dcfd5e638b5ab589637bb83410a463dde2a",
+          "rootHash": "6f41253590f064f056bc45fb7faecf007069442c1ec2079f7bfcee90f6d0ff78",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -97,12 +97,12 @@
             "description": "Browse, preview, upload and download files on your dufs servers - several servers, one switcher",
             "display_name": "Dufs",
             "hashes": {
-              "assets": "3266ed065f66c71e0b4dc8b8238cbb9d25d3c1cd4736978380ec797e13531751",
-              "root": "849e1be8046153338e25156ca0e42fecc8284cefdb905bdb0d1912ea6687cbd1",
-              "variants": "5b13ebaf730e0e325d7fdb86f19f48f6a353575e2127048c8ffc7eef480484bf",
-              "variants/darwin-arm64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6",
-              "variants/linux-amd64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6",
-              "variants/linux-arm64": "741591a79fa95c911015146daf29c15ef0af4a7837b961998dc5186dcce8e5e6"
+              "assets": "f8bc32c1b06db030fefdef56e7a1d3b3e1064ddf4c8bdb2459736f03bfc4d5d5",
+              "root": "6f41253590f064f056bc45fb7faecf007069442c1ec2079f7bfcee90f6d0ff78",
+              "variants": "79ca3ac2735ea836ac9c5d96add30b2ada2e64ceffd2bd6dd6777cfb87f406b5",
+              "variants/darwin-arm64": "579c07237ac419b1d9fdc8f91826efbc91a94e5852e3bbcaf683323398822736",
+              "variants/linux-amd64": "579c07237ac419b1d9fdc8f91826efbc91a94e5852e3bbcaf683323398822736",
+              "variants/linux-arm64": "579c07237ac419b1d9fdc8f91826efbc91a94e5852e3bbcaf683323398822736"
             },
             "icon": "assets/icon.png",
             "main": {},
@@ -114,7 +114,7 @@
               }
             ],
             "type": "ui_qml",
-            "version": "0.3.6",
+            "version": "0.3.7",
             "view": "Main.qml"
           }
         }
@@ -124,12 +124,12 @@
       "name": "dufs_core",
       "versions": [
         {
-          "releasedAt": "2026-10-15T09:57:51Z",
-          "publisherRef": "dufs_core-v0.2.6",
+          "releasedAt": "2026-10-21T08:34:42Z",
+          "publisherRef": "dufs_core-v0.2.7",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-dufs_core-module.lgx",
-          "size": 13321782,
-          "sha256": "b594815e27753180050e7681b32ab0c1198ff9e5cee9625684e6a11c1a4efd08",
-          "rootHash": "ef1b356d0f9943762016ad70756b69b2fe5b3093d970431f3fba7daef7b2cda8",
+          "size": 13322750,
+          "sha256": "ae24ea6749cba2b618e5bdecffae08bd58c030355e1691e6f93459836b2e495a",
+          "rootHash": "a0f197e18cfc6d626cb9916c4a68b3295632bb28c67710df788e3f4662fe604e",
           "manifest": {
             "author": "",
             "category": "tools",
@@ -140,12 +140,12 @@
             "description": "Talks to dufs file servers over HTTP (list, upload, download, rename, delete, previews) and keeps files in Logos Storage, on this computer or on a node elsewhere",
             "display_name": "Dufs Core",
             "hashes": {
-              "assets": "12e79899deeff2f4c7657f6ab1fd16454386b2c505ea1d4c026f831112da134e",
-              "root": "ef1b356d0f9943762016ad70756b69b2fe5b3093d970431f3fba7daef7b2cda8",
-              "variants": "058c14ad6df643aaca09e78e1e60fc5490cfa1b70de45a6ea38cdb75af8a107e",
-              "variants/darwin-arm64": "f05404aa7f6a73fddbb9ae9b7e312fc701b23476b925cda48c3e400c4175b638",
-              "variants/linux-amd64": "81766360fe8d6c7d5e3485dff3ebd902ad98c651a0a7abe3238984c46482f3a2",
-              "variants/linux-arm64": "1afd1d7526c58f3a16773447c6334307be023ea49afb5f115ec2e29338b65a74"
+              "assets": "2270178e602540783c9239042ed7f2c10f2228725634e85cfdd8e96c5f865e29",
+              "root": "a0f197e18cfc6d626cb9916c4a68b3295632bb28c67710df788e3f4662fe604e",
+              "variants": "aee021420722e51edc17e5424ebfecc233458fd7c544a3771911204b1e7ebb1b",
+              "variants/darwin-arm64": "8b5a4a52fc6d8c9d4e94ff880fbcdba4d551c838d578ae72401669ab8525a7d6",
+              "variants/linux-amd64": "56658a2d17ac00f664324af9eb5fcbbbef2155687e236c23ec676470d46c6885",
+              "variants/linux-arm64": "401c12a58b3de703d9adf436e337a5a90fbe53dfcd6ee6ca45b685b2bcd84aa0"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -156,7 +156,7 @@
             "manifestVersion": "0.6.0",
             "name": "dufs_core",
             "type": "core",
-            "version": "0.2.6"
+            "version": "0.2.7"
           }
         }
       ]
@@ -491,12 +491,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-10-20T13:16:24Z",
-          "publisherRef": "loam_core-v0.7.1",
+          "releasedAt": "2026-10-21T08:34:42Z",
+          "publisherRef": "loam_core-v0.7.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 13211060,
-          "sha256": "1dd1f77edf4064ab4b63da83e7255da9d081ade3b94e67d028d743bf58fcba57",
-          "rootHash": "412beb68aab9370de0d8624b0747ef1d87498ed8a84884e27e4d0479efa3604a",
+          "size": 13215331,
+          "sha256": "e95310e21bb5b9588a0662338d4a4ec3dd55025671266b8103f3b7a687ceaf16",
+          "rootHash": "45cb5bca1add6d72ebc76e436253ba23b488403b2360223863c32218b1017e0e",
           "manifest": {
             "author": "",
             "category": "system",
@@ -505,12 +505,12 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "assets": "7e34e0e609e7864c9eb7f270a7662dc56c9cf86b43ea4ee2000d1bacf48ba7ed",
-              "root": "412beb68aab9370de0d8624b0747ef1d87498ed8a84884e27e4d0479efa3604a",
-              "variants": "5c45fa7930fd0af77fb2dca3d05f82422d2d3526b1c8bc36ce5600f028e12577",
-              "variants/darwin-arm64": "ae370d6c7636e42d45979b61c5cddc3968c8e8245baeaedc66c063a2d0d21156",
-              "variants/linux-amd64": "24a474240341f44f5bcf54387db5c6a11f6ac4bc62b03bf914b8e3afac4c03a8",
-              "variants/linux-arm64": "f5533eb527d8af7eadb4a8ac75194bf01665aecaf54a3bdccee4c773f07f2322"
+              "assets": "02d0264f40c4502737dc0e4b0b74d828016e4a7cbde71a3aa0550c0577e1a481",
+              "root": "45cb5bca1add6d72ebc76e436253ba23b488403b2360223863c32218b1017e0e",
+              "variants": "153cef867fc7fd7b0c05900a20bfc180cf8ded091d2cd75a8787f231b0119580",
+              "variants/darwin-arm64": "0bd0bb15c5ccfc8e4e03c4f7235f05c2c824d00812a34ce8a27c9765d909c121",
+              "variants/linux-amd64": "3299e6060edd808bf82acda883c1f7b75cdf6c9790fcba92c050632188d311d8",
+              "variants/linux-arm64": "4a5a18fed87c0e6109d0401188916e249a4b2c9536648d7b2187bd6f9298322a"
             },
             "icon": "",
             "main": {
@@ -526,7 +526,7 @@
               "shrooms_mesh"
             ],
             "type": "core",
-            "version": "0.7.1"
+            "version": "0.7.2"
           }
         }
       ]
