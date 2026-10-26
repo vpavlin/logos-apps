@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-21T18:17:59Z",
+  "generatedAt": "2026-10-26T15:41:26Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -162,6 +162,95 @@
       ]
     },
     {
+      "name": "fileverse_core",
+      "versions": [
+        {
+          "releasedAt": "2026-10-26T15:41:26Z",
+          "publisherRef": "fileverse_core-v0.7.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_core-module.lgx",
+          "size": 20327797,
+          "sha256": "288effe90b22271748f41f9272a7db77779ab1630486026c2a8e45bff5d39ae1",
+          "rootHash": "07d5dbf8848cc1cb8f69ca1c7ae0bbb3a52463ab25e9ace4e96ab787a1449ecb",
+          "manifest": {
+            "author": "vpavlin",
+            "category": "productivity",
+            "dependencies": [
+              {
+                "name": "eth_rpc_module",
+                "version": "~0.1.0"
+              }
+            ],
+            "description": "Fileverse dDocs/dSheets in Logos Basecamp without Fileverse servers: share links and your own files (backup key) read from Gnosis via eth_rpc_module and hash-checked IPFS blocks, copies kept on your IPFS node (ipfs_module) and Logos Storage, Markdown drafts published to both.",
+            "display_name": "Fileverse Viewer Core",
+            "hashes": {
+              "root": "07d5dbf8848cc1cb8f69ca1c7ae0bbb3a52463ab25e9ace4e96ab787a1449ecb",
+              "variants": "f8962e42f20b4598941070022888b4554a8634dc14023e212dde51e49bf49451",
+              "variants/linux-amd64": "89661777b63426990189b3ba64e9eb192cf50cb39f7e6443f5cb12b04c9bdbc7",
+              "variants/linux-arm64": "8e5b9f848b7a486e10f904b623d7f23da87db21a52a468da627db8710e369ba0"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "fileverse_core_plugin.so",
+              "linux-arm64": "fileverse_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "fileverse_core",
+            "optional_dependencies": [
+              {
+                "name": "ipfs_module",
+                "version": "~0.1.0"
+              },
+              {
+                "name": "storage_module",
+                "version": "~3.0.0"
+              }
+            ],
+            "type": "core",
+            "version": "0.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fileverse_ui",
+      "versions": [
+        {
+          "releasedAt": "2026-10-26T15:41:26Z",
+          "publisherRef": "fileverse_ui-v0.7.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_ui-module.lgx",
+          "size": 43083,
+          "sha256": "29a8e513e5d318084a1e8698fff856ca7c223643789d5c798e1da71151d636d9",
+          "rootHash": "078c7b920aeae07aa7035592177be51a5fa86587dab6cedd85cec5ac33949e54",
+          "manifest": {
+            "author": "vpavlin",
+            "category": "productivity",
+            "dependencies": [
+              {
+                "name": "fileverse_core",
+                "version": "~0.7.0"
+              }
+            ],
+            "description": "Fileverse dDocs and dSheets in Basecamp without Fileverse servers: read share links and your own files, present docs as slides, keep copies on IPFS and Logos Storage, write and publish documents.",
+            "display_name": "Fileverse",
+            "hashes": {
+              "assets": "4b1eb7cbd7fac8797ce98475ef0f887cb778a142e75bc77053c70c82f45277e3",
+              "root": "078c7b920aeae07aa7035592177be51a5fa86587dab6cedd85cec5ac33949e54",
+              "variants": "6737be578870063db00e4a03b19c84c91c477b458f649fdcd8b3be4bd42eaa33",
+              "variants/linux-amd64": "4764b68222806b958656b7ba4f2a24fda550be26ced30c488bfee520026e8cf5",
+              "variants/linux-arm64": "4764b68222806b958656b7ba4f2a24fda550be26ced30c488bfee520026e8cf5"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "fileverse_ui",
+            "type": "ui_qml",
+            "version": "0.7.0",
+            "view": "Main.qml"
+          }
+        }
+      ]
+    },
+    {
       "name": "foray",
       "versions": [
         {
@@ -267,6 +356,41 @@
             "type": "ui_qml",
             "version": "0.5.0",
             "view": "qml/FreequenciesView.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ipfs_module",
+      "versions": [
+        {
+          "releasedAt": "2026-10-26T15:41:26Z",
+          "publisherRef": "ipfs_module-v0.1.2",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ipfs_module-module.lgx",
+          "size": 67166795,
+          "sha256": "08505cfc8789d299d38a26c73d34c1c84ab3969ceb74ace3f360291464d194f2",
+          "rootHash": "e85819c73384508520c96fb79a08f64f10c59da035520c33387d4dcd29aab4b9",
+          "manifest": {
+            "author": "vpavlin",
+            "category": "protocol",
+            "dependencies": [],
+            "description": "An IPFS node for every Logos app on this device: runs a bundled Kubo on loopback ports and exposes its RPC API and gateway. Apps pin, fetch and provide content-addressed data without a third-party gateway.",
+            "display_name": "IPFS Node",
+            "hashes": {
+              "root": "e85819c73384508520c96fb79a08f64f10c59da035520c33387d4dcd29aab4b9",
+              "variants": "ae61620f364b63873a00576cc4a72f7b474301ed7cd4aa77718c78667364fced",
+              "variants/linux-amd64": "1ecb4a883d375bf2a48d1215ad3ad397f97b6b2e288321c5dac7d4ecf4f5772f",
+              "variants/linux-arm64": "12c0a7c5ce2c3f264185454d124fa4771f04bb78b3b3d6795119a005f71ba705"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "ipfs_module_plugin.so",
+              "linux-arm64": "ipfs_module_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "ipfs_module",
+            "type": "core",
+            "version": "0.1.2"
           }
         }
       ]
