@@ -1,0 +1,9 @@
+AuthorName: vpavlin
+Categories:
+  - Office
+Name: Backpack
+Summary: App store for apps on Logos Storage
+Description: |-
+  App store for apps on Logos Storage
+License: MIT/Apache-2.0
+SourceCode: https://github.com/vpavlin/backpack
