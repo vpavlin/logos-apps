@@ -36,6 +36,14 @@ CACHE_DIR = os.path.expanduser("~/.cache/logos-catalog-icons")
 
 # --------------------------------------------------------------- shared helpers
 
+
+def dep_name(d):
+    """A manifest dependency is a name ("delivery_module") or, in newer manifests, an object
+    ({"name": "eth_rpc_module", "version": "~0.1.0"}): show the name."""
+    if isinstance(d, dict):
+        return str(d.get("name") or "")
+    return str(d)
+
 def _read(path=None, url=None):
     if path:
         with open(path) as f:
@@ -216,7 +224,7 @@ def build_module_cards(index, overrides, offline):
             "kind": "module", "key": name, "title": title,
             "desc": ov.get("blurb") or m.get("description") or "",
             "category": (ov.get("bucket") or m.get("category") or "Other").strip() or "Other",
-            "version": m.get("version") or "", "deps": m.get("dependencies") or [],
+            "version": m.get("version") or "", "deps": [dep_name(d) for d in (m.get("dependencies") or [])],
             "platforms": platforms_of(m),
             "signer": signer.get("name") or "", "signer_url": signer.get("url") or "",
             "signed": bool(v.get("signature")), "size": v.get("size", 0),
