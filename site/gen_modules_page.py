@@ -366,7 +366,39 @@ def render_grid(cards):
         '      <p class="empty">Nothing here yet.</p>'
 
 
-def render_page(apps, modules, fdroid_repo_url, generated_at):
+def render_backpack(bp, apps):
+    """The Backpack band: the way we recommend to get the Android apps. Backpack's own APK comes
+    from the F-Droid repo (its newest version); the repo link and QR come from site/backpack.json."""
+    if not bp or not bp.get("link"):
+        return ""
+    e = html.escape
+    card = next((a for a in apps if a.get("package") == "xyz.vpavlin.backpack"), None)
+    apk = card["url"] if card else ""
+    icon = card["icon"] if card else ""
+    ver = f' {e(card["version"])}' if card and card.get("version") else ""
+    qr = (f'<figure class="bp-qr"><img src="{e(bp["qr"])}" alt="QR code: add {e(bp.get("name", ""))} in Backpack"/>'
+          f'<figcaption>On a computer? Install Backpack, tap <b>+ Repo</b> and scan.</figcaption></figure>'
+          if bp.get("qr") else "")
+    dl = f'<a class="bp-btn" href="{e(apk)}"><b>1</b> Download Backpack{ver}</a>' if apk else ""
+    return f"""<section class="bp">
+  <div class="bp-body">
+    <h2>{f'<img src="{icon}" alt=""/>' if icon else ''}Get the Android apps with Backpack</h2>
+    <p>Backpack is an app store whose apps live on <b>Logos Storage</b>: every app list is signed,
+    every APK is fetched by its content hash and checked against a pinned signing key. No Google Play
+    or F-Droid needed, and updates arrive over Logos Delivery.</p>
+    <div class="bp-steps">
+      {dl}
+      <a class="bp-btn alt" href="{e(bp["link"])}"><b>2</b> Add &ldquo;{e(bp.get("name", "the repo"))}&rdquo;</a>
+    </div>
+    <p class="bp-note">Tap 2 on the phone after installing Backpack. Then install <b>Loam</b> first: it runs
+    the shared Logos node the other apps use. Prefer F-Droid? The same apps are in the
+    <a href="#android">Android tab</a>.</p>
+  </div>
+  {qr}
+</section>"""
+
+
+def render_page(apps, modules, fdroid_repo_url, generated_at, bp=None):
     e = html.escape
     default = "modules" if modules else "apps"        # Basecamp first
     a_on = "on" if default == "apps" else ""
@@ -408,8 +440,10 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
         add_line = ('<li>Tap <b>+ Add F-Droid repo</b> above'
                     + (f' (or add {copyable(fbase)} fingerprint <code>{e(fp)}</code>)'
                        if fp else '') + '.</li>')
+    bp_line = ('<p>Easiest: <b>Backpack</b>, see the box at the top of the page. Or with F-Droid:</p>'
+               if bp and bp.get("link") else '')
     apps_help = (
-        '<details class="help"><summary>How to install</summary><ol>'
+        '<details class="help"><summary>How to install</summary>' + bp_line + '<ol>'
         f'<li>Install the <a href="{e(FDROID_INSTALL_URL)}">F-Droid</a> app.</li>'
         f'{add_line}'
         '<li>Open the app in F-Droid and tap <b>Install</b>.</li>'
@@ -506,6 +540,26 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
     background:none; font-family:inherit; cursor:pointer; }}
   .addrepo:hover {{ background:var(--accent); color:#fff; }}
   .ptop-actions {{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }}
+  .bp {{ max-width:1032px; margin:20px auto 0; padding:20px 22px; display:flex; gap:22px;
+    align-items:center; background:var(--card); border:1px solid var(--line);
+    border-left:4px solid var(--accent); border-radius:14px; }}
+  .bp h2 {{ margin:0 0 6px; font-size:21px; display:flex; align-items:center; gap:10px; }}
+  .bp h2 img {{ width:36px; height:36px; border-radius:9px; }}
+  .bp p {{ margin:0 0 12px; color:var(--mut); max-width:640px; }}
+  .bp-steps {{ display:flex; gap:10px; flex-wrap:wrap; margin-bottom:10px; }}
+  .bp-btn {{ display:inline-flex; align-items:center; gap:8px; padding:10px 16px; border-radius:10px;
+    background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }}
+  .bp-btn b {{ display:inline-grid; place-items:center; width:22px; height:22px; border-radius:50%;
+    background:rgba(255,255,255,.25); font-size:13px; }}
+  .bp-btn.alt {{ background:none; color:var(--accent); border:1px solid var(--accent); }}
+  .bp-btn.alt b {{ background:var(--chip); }}
+  .bp-note {{ font-size:13px; margin:0 !important; }}
+  .bp-note a {{ color:var(--accent); }}
+  .bp-qr {{ margin:0; text-align:center; flex:none; width:180px; }}
+  .bp-qr img {{ width:170px; height:170px; background:#fff; padding:6px; border-radius:10px; }}
+  .bp-qr figcaption {{ font-size:11.5px; color:var(--mut); margin-top:4px; }}
+  @media (max-width:700px) {{ .bp {{ margin:16px 16px 0; flex-direction:column; align-items:stretch; }}
+    .bp-qr {{ display:none; }} }}
   footer {{ max-width:1080px; margin:0 auto; padding:36px 24px 50px; color:var(--mut);
     font-size:12.5px; }}
   footer code {{ background:var(--chip); padding:1px 6px; border-radius:5px; }}
@@ -517,6 +571,7 @@ def render_page(apps, modules, fdroid_repo_url, generated_at):
   <h1>{e(CATALOG_TITLE)}</h1>
   <p>Local-first apps for Android and Basecamp, on Logos.</p>
 </header>
+{render_backpack(bp, apps)}
 <div class="tabs">
   <button class="tab {m_on}" data-panel="modules">Basecamp <span>{len(modules)}</span></button>
   <button class="tab {a_on}" data-panel="apps">Android <span>{len(apps)}</span></button>
@@ -598,6 +653,7 @@ def main():
     ap.add_argument("--fdroid-index", help="path or URL of an F-Droid index-v2.json")
     ap.add_argument("--fdroid-base", help="public URL prefix for APK/icon links")
     ap.add_argument("--fdroid-repo-url", help="F-Droid 'add repo' link for the button")
+    ap.add_argument("--backpack", help="JSON with the public Backpack repo: {name, link, qr}")
     ap.add_argument("--out", default="dist/index.html")
     ap.add_argument("--overrides")
     ap.add_argument("--offline", action="store_true",
@@ -623,7 +679,8 @@ def main():
 
     print(f"building catalog: {len(apps)} apps + {len(modules)} modules"
           f"{' (offline)' if args.offline else ''}", file=sys.stderr)
-    page = render_page(apps, modules, args.fdroid_repo_url, index.get("generatedAt", ""))
+    bp = json.load(open(args.backpack)) if args.backpack and os.path.exists(args.backpack) else None
+    page = render_page(apps, modules, args.fdroid_repo_url, index.get("generatedAt", ""), bp)
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     open(args.out, "w").write(page)
