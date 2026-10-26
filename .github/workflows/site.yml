@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - "fdroid/repo/index-v2.json"
+      - "fdroid/repo/entry.json"
       - "site/**"
       - "logos-repo.json"
       - ".github/workflows/site.yml"
@@ -59,12 +60,14 @@ jobs:
           [ -d basecamp ] && cp -r basecamp dist/basecamp || true
           [ -f fdroid-qr.png ] && cp fdroid-qr.png dist/ || true
           cp logos-repo.json dist/logos-repo.json        # Basecamp "Add repository" URL
+          cp site/backpack-qr.png dist/backpack-qr.png   # Backpack "Add repo" QR (site/backpack.json)
           python3 site/gen_modules_page.py \
             --index /tmp/lgpd-index.json \
             --fdroid-index fdroid/repo/index-v2.json \
             --fdroid-base  https://apps.vpavlin.xyz/fdroid/repo \
             --fdroid-repo-url "https://apps.vpavlin.xyz/fdroid/repo?fingerprint=$FP" \
             --overrides site/overrides.json \
+            --backpack site/backpack.json \
             --out dist/index.html
           echo "apps.vpavlin.xyz" > dist/CNAME
 
