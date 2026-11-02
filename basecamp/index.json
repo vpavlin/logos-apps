@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-10-27T09:37:04Z",
+  "generatedAt": "2026-11-02T11:21:59Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -580,12 +580,12 @@
       "name": "kym_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "kym_core-v0.8.0",
+          "releasedAt": "2026-11-02T11:21:59Z",
+          "publisherRef": "kym_core-v0.8.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-kym_core-module.lgx",
-          "size": 4505542,
-          "sha256": "059f6c92ea86d20a937c0e1400930d64ec9b90d5fed3f4ffc489bd53fdfdb5c0",
-          "rootHash": "f514f2933608eb793ba078f458d8507a1d932ea43904a8d18d747146894ef08e",
+          "size": 13108860,
+          "sha256": "6d4d3cdb9b898945919083e5c20cd7b2b27628e7d3b5d934a4adfcfc051816d9",
+          "rootHash": "682ae8f4216a276323fda81daf4cc6b8e57a4f150820bf37f21cb6c5b314c93c",
           "manifest": {
             "author": "",
             "category": "finance",
@@ -594,19 +594,23 @@
             ],
             "description": "KYM engine and sync core: the append-only event-log budget engine, household crypto, and Delivery sync. Runs headless (the always-on hub) and behind the kym ui_qml view.",
             "hashes": {
-              "assets": "b81d035a4618c0d7c611dc8dcf99f9c9e91d907f79959687ddcaf4a7ac9a2743",
-              "root": "f514f2933608eb793ba078f458d8507a1d932ea43904a8d18d747146894ef08e",
-              "variants": "08c60ac9443a9e8f7f8c44cf4ba120c62dec799a40b0a0dd796017067bec9ddb",
-              "variants/linux-amd64": "153d1f2ed2daffa958574abc8ed0f37d4ce7001ae33d0a176103f18c1ab69166"
+              "assets": "b1b839bad17d324677ee322c1b5a468337839e4ddbe905b71f7475e89ad1b5a9",
+              "root": "682ae8f4216a276323fda81daf4cc6b8e57a4f150820bf37f21cb6c5b314c93c",
+              "variants": "ddef6baeeeb5f484e89f6d27f02bef0734444c2e793c0d887e9276e5a880f967",
+              "variants/darwin-arm64": "ee3fc4da6eec1ae025c63ea076aa277ce96a62db1fab38f6ba8afe24415f0478",
+              "variants/linux-amd64": "0908d64f6dd0b0b39034e3513965e11c529cf402fb38eca3fb5c3a5bb5f9f582",
+              "variants/linux-arm64": "d548a0eff9c402d14d241448511e0e246d09f45e4d7eb9d74c9f534208e321d6"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "kym_core_plugin.so"
+              "darwin-arm64": "kym_core_plugin.dylib",
+              "linux-amd64": "kym_core_plugin.so",
+              "linux-arm64": "kym_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "kym_core",
             "type": "core",
-            "version": "0.8.0"
+            "version": "0.8.1"
           }
         }
       ]
@@ -731,12 +735,12 @@
       "name": "perun_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "perun_core-v0.10.2",
+          "releasedAt": "2026-11-02T11:21:59Z",
+          "publisherRef": "perun_core-v0.10.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-perun_core-module.lgx",
-          "size": 5285574,
-          "sha256": "f335bf5b64959f157d735424fae33bf58d90b278d7d4b8aac1ff1ad207d48bcd",
-          "rootHash": "befa0c41dc1ffded3f9bf84324b422d36f8dd162cada3adfa662ae4413e975bc",
+          "size": 18130677,
+          "sha256": "2dcc57a588e5bc78d9e0225817f53055187e55fe3786cb607f33ecf8b319e6e5",
+          "rootHash": "da91d7ea6ceac13ed78f217c4b72e206e14848f2e11e76dcc4ded766d82fc416",
           "manifest": {
             "author": "",
             "category": "fitness",
@@ -746,19 +750,23 @@
             "description": "Perun engine + sync core: pairing/identity, the loam_core Delivery transport, the run + annotation event-log fold, the SQLite store and the embedded content-addressed media hub. Runs headless (the always-on hub) and behind the perun_analytics view.",
             "display_name": "Perun Core",
             "hashes": {
-              "assets": "9fbd4dafd83c265f42ac720c8edb119a444910cc5f0b454e2a8dc5d0ae76c420",
-              "root": "befa0c41dc1ffded3f9bf84324b422d36f8dd162cada3adfa662ae4413e975bc",
-              "variants": "bda3c27a7b1a5745bdd3107144849675b6a57b83b32a528457697e41d1f38c13",
-              "variants/linux-amd64": "cbfd0964ffa986c05a48fa8a09c9a5253277d1fea762fc984fa410ca3274598d"
+              "assets": "1c2b23097591609f3739fb1133e5a0be5271ed74e7179c473abe1ef58567c781",
+              "root": "da91d7ea6ceac13ed78f217c4b72e206e14848f2e11e76dcc4ded766d82fc416",
+              "variants": "2293f831fe6852ebde1d3280d1d3479f59f870d2322c510d7378e5be83c15f43",
+              "variants/darwin-arm64": "9f9c2cd6949158fba9dbdbc5c588838ab9466f5f4e28214b14a2d26dd0bab914",
+              "variants/linux-amd64": "2790da93c56c3c9641edf837462ef31410d39edec54cf2c08d451917c6db40e3",
+              "variants/linux-arm64": "9faf1ae2d7ff8f3566251c8a6cc891660e5b1b03c7f358209b043d79f61c8876"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "perun_core_plugin.so"
+              "darwin-arm64": "perun_core_plugin.dylib",
+              "linux-amd64": "perun_core_plugin.so",
+              "linux-arm64": "perun_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "perun_core",
             "type": "core",
-            "version": "0.10.2"
+            "version": "0.10.4"
           }
         }
       ]
