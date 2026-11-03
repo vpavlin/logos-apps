@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-03T09:05:43Z",
+  "generatedAt": "2026-11-03T09:42:59Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -165,12 +165,12 @@
       "name": "fileverse_core",
       "versions": [
         {
-          "releasedAt": "2026-11-03T09:05:43Z",
+          "releasedAt": "2026-11-03T09:42:59Z",
           "publisherRef": "fileverse_core-v0.8.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_core-module.lgx",
-          "size": 10123254,
-          "sha256": "facfca60bcf7daf19f2a8267d82bebc564a8fb306fed0ee701a530b1c2bdbbe3",
-          "rootHash": "b1f4051b7c4285df108a96b8c06ddb29615765f578f56721bc277cbf41af3c43",
+          "size": 20367940,
+          "sha256": "492fd8eb2c3438eca55a072bb702628fdd51ecdd3eea27a9a20ecbf4094f5006",
+          "rootHash": "63f8e99f687463d8f4058324bcb6e49c126a7672accfd48f113d3af4bc57b75b",
           "manifest": {
             "author": "vpavlin",
             "category": "productivity",
@@ -183,13 +183,15 @@
             "description": "Fileverse dDocs/dSheets in Logos Basecamp without Fileverse servers: share links and your own files (backup key) read from Gnosis via eth_rpc_module and hash-checked IPFS blocks, copies kept on your IPFS node (ipfs_module) and Logos Storage, Markdown drafts published to both.",
             "display_name": "Fileverse Core",
             "hashes": {
-              "root": "b1f4051b7c4285df108a96b8c06ddb29615765f578f56721bc277cbf41af3c43",
-              "variants": "bc4ef5f597b13996c94553ed48758a7c10be4ea7c01028bd00f060b5836ae223",
-              "variants/linux-amd64": "fa55e362e8993bcb59706fb030c2299cc8997551c1df8dc751d5024c250ce49f"
+              "root": "63f8e99f687463d8f4058324bcb6e49c126a7672accfd48f113d3af4bc57b75b",
+              "variants": "b3fa7294b461b3d53d7175ac29bbbd3319b26810e7ff77458df2de9ce9811127",
+              "variants/linux-amd64": "fa55e362e8993bcb59706fb030c2299cc8997551c1df8dc751d5024c250ce49f",
+              "variants/linux-arm64": "953cf13695af11d7a0145f4401882b4903b8079284d9892660353ae97ee5778a"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "fileverse_core_plugin.so"
+              "linux-amd64": "fileverse_core_plugin.so",
+              "linux-arm64": "fileverse_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "fileverse_core",
@@ -213,12 +215,12 @@
       "name": "fileverse_ui",
       "versions": [
         {
-          "releasedAt": "2026-11-03T09:05:43Z",
+          "releasedAt": "2026-11-03T09:42:59Z",
           "publisherRef": "fileverse_ui-v0.8.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_ui-module.lgx",
-          "size": 25587,
-          "sha256": "05a6af3ca8e08bf60a6840d5792f58b912c41e6d7c128634b09a9b9a5c93f8fc",
-          "rootHash": "e7c66761cc5a104f6d1043b2f5222d86a4e7e0318eed23c782fe0d116d5db3c6",
+          "size": 49361,
+          "sha256": "f41e5c1e3824ca0fbefffc580a9c132d4a473cbe9bc18a5ba35b7cc891aacce7",
+          "rootHash": "8f6564330ae773cdee737824250485d4e15ca13bc2eb71f6e78980fa49e80740",
           "manifest": {
             "author": "vpavlin",
             "category": "productivity",
@@ -232,9 +234,10 @@
             "display_name": "Fileverse",
             "hashes": {
               "assets": "4b1eb7cbd7fac8797ce98475ef0f887cb778a142e75bc77053c70c82f45277e3",
-              "root": "e7c66761cc5a104f6d1043b2f5222d86a4e7e0318eed23c782fe0d116d5db3c6",
-              "variants": "c11419995285cf7d2daeeee3f6aa9de289023d97862b92efec10088d1b25e1d7",
-              "variants/linux-amd64": "fea8c1457fe6181d19346d04953b26b370eeace3b886e54204981042726635cb"
+              "root": "8f6564330ae773cdee737824250485d4e15ca13bc2eb71f6e78980fa49e80740",
+              "variants": "99a9441134f7e1fab5aaea1da4b76016dc07bf6859bb6abf0635dd5b1a847480",
+              "variants/linux-amd64": "fea8c1457fe6181d19346d04953b26b370eeace3b886e54204981042726635cb",
+              "variants/linux-arm64": "fea8c1457fe6181d19346d04953b26b370eeace3b886e54204981042726635cb"
             },
             "icon": "assets/icon.png",
             "main": {},
