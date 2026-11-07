@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-04T13:15:10Z",
+  "generatedAt": "2026-11-07T08:27:57Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -967,12 +967,12 @@
       "name": "scala_ui",
       "versions": [
         {
-          "releasedAt": "2026-10-10T18:28:01Z",
-          "publisherRef": "scala_ui-v0.12.1",
+          "releasedAt": "2026-11-07T08:27:57Z",
+          "publisherRef": "scala_ui-v0.12.2",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-scala_ui-module.lgx",
-          "size": 186812,
-          "sha256": "e8c3775d6e7bd7efb2173b15ee224a739856c65360f32ee50ee2c2535c1dff8a",
-          "rootHash": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
+          "size": 187311,
+          "sha256": "2fe6041529439dcdea1e7eec3538cdeeaf42f6a528e01974d3e4cf32090f039c",
+          "rootHash": "976557159c74f0c78213d5b3053880e0a1fed6fe0ee519f6531516d6029c2525",
           "manifest": {
             "author": "",
             "category": "general",
@@ -984,11 +984,11 @@
             "display_name": "Scala",
             "hashes": {
               "assets": "ec7137e8bc2833d69d7a19de9177aa3e7a903b6b77af4b84e029b9ad9f722236",
-              "root": "7e500a670579c8bd89f4f813bc4bb14a1dd95bad55da78cc726235cb7824d5e7",
-              "variants": "c811fdb50a3eaff936f12f46db0ac9b94746f2b2aaeeed04a472ced7a512c732",
-              "variants/darwin-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
-              "variants/linux-amd64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50",
-              "variants/linux-arm64": "62f057daf78e36bf532179d3f17be585e41ea12a6093745027c952d435064f50"
+              "root": "976557159c74f0c78213d5b3053880e0a1fed6fe0ee519f6531516d6029c2525",
+              "variants": "f022bc1cd1ad43fe48c617df99a0335c48c56c42a6db37f3e5c7d99477339eb2",
+              "variants/darwin-arm64": "4d72c1207e14b7e140db53da547f0344265b1213c0c6185a3bd6790b08831529",
+              "variants/linux-amd64": "4d72c1207e14b7e140db53da547f0344265b1213c0c6185a3bd6790b08831529",
+              "variants/linux-arm64": "4d72c1207e14b7e140db53da547f0344265b1213c0c6185a3bd6790b08831529"
             },
             "icon": "assets/icon.png",
             "main": {},
@@ -1021,7 +1021,7 @@
               }
             ],
             "type": "ui_qml",
-            "version": "0.12.1",
+            "version": "0.12.2",
             "view": "qml/CalendarView.qml"
           }
         }
