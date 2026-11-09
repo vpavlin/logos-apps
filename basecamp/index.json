@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-08T14:33:02Z",
+  "generatedAt": "2026-11-09T10:41:10Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -619,12 +619,12 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-10-21T08:34:42Z",
-          "publisherRef": "loam_core-v0.7.2",
+          "releasedAt": "2026-11-09T10:41:10Z",
+          "publisherRef": "loam_core-v0.7.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 13215331,
-          "sha256": "e95310e21bb5b9588a0662338d4a4ec3dd55025671266b8103f3b7a687ceaf16",
-          "rootHash": "45cb5bca1add6d72ebc76e436253ba23b488403b2360223863c32218b1017e0e",
+          "size": 13215343,
+          "sha256": "89f4b034a55d3932c09484c9c08802b9586b78b84b526d4d0aefbb5a5a308c0e",
+          "rootHash": "6c0ce5edf63d0eb83b6feeea038951f2fc9ff8ced0a2d4245d2a9ed17065b509",
           "manifest": {
             "author": "",
             "category": "system",
@@ -633,12 +633,12 @@
             ],
             "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "assets": "02d0264f40c4502737dc0e4b0b74d828016e4a7cbde71a3aa0550c0577e1a481",
-              "root": "45cb5bca1add6d72ebc76e436253ba23b488403b2360223863c32218b1017e0e",
-              "variants": "153cef867fc7fd7b0c05900a20bfc180cf8ded091d2cd75a8787f231b0119580",
-              "variants/darwin-arm64": "0bd0bb15c5ccfc8e4e03c4f7235f05c2c824d00812a34ce8a27c9765d909c121",
-              "variants/linux-amd64": "3299e6060edd808bf82acda883c1f7b75cdf6c9790fcba92c050632188d311d8",
-              "variants/linux-arm64": "4a5a18fed87c0e6109d0401188916e249a4b2c9536648d7b2187bd6f9298322a"
+              "assets": "28c712c22202fb92b25e5c38932aadcdd73a5cd779800dd8074a6aea16ddc742",
+              "root": "6c0ce5edf63d0eb83b6feeea038951f2fc9ff8ced0a2d4245d2a9ed17065b509",
+              "variants": "3187ef437bceb942328b7548b14d12dcc8bcea83f6b8c6c8c47df26ecf206fbb",
+              "variants/darwin-arm64": "84bcf8a224f36ae69ea6c3e6c7f90c0bb4e5f8d96d9acabe94eb8010d5c486e2",
+              "variants/linux-amd64": "2d14bbdfbba979a9c13ebe391011dda809a2a07baeb8fd91fcff2e005fddd82d",
+              "variants/linux-arm64": "b77cae23fb91ed1c114f7178f1c0d09835aba96091819d7c044ebbdd4b7dc557"
             },
             "icon": "",
             "main": {
@@ -654,7 +654,7 @@
               "shrooms_mesh"
             ],
             "type": "core",
-            "version": "0.7.2"
+            "version": "0.7.3"
           }
         }
       ]
