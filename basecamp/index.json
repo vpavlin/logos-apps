@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-09T10:41:10Z",
+  "generatedAt": "2026-11-09T11:49:58Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -165,12 +165,12 @@
       "name": "fileverse_core",
       "versions": [
         {
-          "releasedAt": "2026-11-04T13:15:10Z",
-          "publisherRef": "fileverse_core-v0.11.0",
+          "releasedAt": "2026-11-09T11:49:58Z",
+          "publisherRef": "fileverse_core-v0.12.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_core-module.lgx",
-          "size": 26376281,
-          "sha256": "e7f692a432b4b8741d4d2379d31a3571a8e37a0386152cfafaee03d99da13941",
-          "rootHash": "36b801b94ba1ffbaf19caed91a13f4bc07302cd214e04a98cba8e566c27c17cc",
+          "size": 28000888,
+          "sha256": "64df89877bb23869c122e9d9daeefee041bbe4330c02a9a36fa3800c64d6e992",
+          "rootHash": "7e03cca3623a307433500962e7ce367b11fdacbb88c8afa04cad6ba5d65efcaa",
           "manifest": {
             "author": "vpavlin",
             "category": "productivity",
@@ -183,10 +183,10 @@
             "description": "Fileverse dDocs/dSheets in Logos Basecamp without Fileverse servers: share links and your own files (backup key) read from Gnosis via eth_rpc_module and hash-checked IPFS blocks, copies kept on your IPFS node (ipfs_module) and Logos Storage, Markdown drafts published to both.",
             "display_name": "Fileverse Core",
             "hashes": {
-              "root": "36b801b94ba1ffbaf19caed91a13f4bc07302cd214e04a98cba8e566c27c17cc",
-              "variants": "011b0eb1d44a051492b8e8b73c8063ed01f81adac6d877b3becd0f0520feeb74",
-              "variants/linux-amd64": "163baaffdd45be38fe8b10dc9da386449b434828ee364e1dfd334e29c50f37c3",
-              "variants/linux-arm64": "e1b64bf9592d74981f9c022b1d9246739784025793fb87294b02a7eaf842b613"
+              "root": "7e03cca3623a307433500962e7ce367b11fdacbb88c8afa04cad6ba5d65efcaa",
+              "variants": "43c928e91a6a2f4d350d3f0cccfe125a80cb3acad88e1cb298dc1bc57118bc72",
+              "variants/linux-amd64": "d55a738faf305ce069129295155f95fcd489e09e04202a69239fca860e1e2bd9",
+              "variants/linux-arm64": "96dada65dfd433529b6104e9cfb25749149574a4bc93c09e543a1504097a5254"
             },
             "icon": "",
             "main": {
@@ -203,10 +203,14 @@
               {
                 "name": "storage_module",
                 "version": "~3.0.0"
+              },
+              {
+                "name": "loam_core",
+                "version": "~0.7.3"
               }
             ],
             "type": "core",
-            "version": "0.11.0"
+            "version": "0.12.0"
           }
         }
       ]
@@ -215,36 +219,36 @@
       "name": "fileverse_ui",
       "versions": [
         {
-          "releasedAt": "2026-11-04T13:15:10Z",
-          "publisherRef": "fileverse_ui-v0.11.0",
+          "releasedAt": "2026-11-09T11:49:58Z",
+          "publisherRef": "fileverse_ui-v0.12.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_ui-module.lgx",
-          "size": 58361,
-          "sha256": "c4e87fc8ab442347272287f0d4c24be35906de35ca23a8e1a9bb3301958d77a7",
-          "rootHash": "8392b7e632c6c59783a1e74b7e402368cf4b939bf18e71421398e1d3a5bcf8bd",
+          "size": 64156,
+          "sha256": "e65ddabf92ffb8fdeae6534d88d5b82d0850dfe0fa3f6eb48ff5e27b15dd7c00",
+          "rootHash": "e6482feae9ae5c1147dc7e2bad5c4d639ef395cc93225b21afd1878a7e32ce71",
           "manifest": {
             "author": "vpavlin",
             "category": "productivity",
             "dependencies": [
               {
                 "name": "fileverse_core",
-                "version": "~0.11.0"
+                "version": "~0.12.0"
               }
             ],
             "description": "Fileverse dDocs and dSheets in Basecamp without Fileverse servers: read share links and your own files, present docs as slides, keep copies on IPFS and Logos Storage, write and publish documents.",
             "display_name": "Fileverse",
             "hashes": {
               "assets": "4b1eb7cbd7fac8797ce98475ef0f887cb778a142e75bc77053c70c82f45277e3",
-              "root": "8392b7e632c6c59783a1e74b7e402368cf4b939bf18e71421398e1d3a5bcf8bd",
-              "variants": "f232e32adcce73478d9cd04e3febdff67b7a93a343f861875be400b81f05bfee",
-              "variants/linux-amd64": "a0c6ca5f9a3e8e72c2e7bd3151d7bb6228c68675d8987bba41eeef8672346538",
-              "variants/linux-arm64": "a0c6ca5f9a3e8e72c2e7bd3151d7bb6228c68675d8987bba41eeef8672346538"
+              "root": "e6482feae9ae5c1147dc7e2bad5c4d639ef395cc93225b21afd1878a7e32ce71",
+              "variants": "b7fda67bf7d543d5c9cd4bc3a4da94b9b6e5dea624f70228a60245a6454e4c06",
+              "variants/linux-amd64": "8fb4539ca101810104e510495468a6e573f67dd9f1f0105b0e8ba8a66a46020d",
+              "variants/linux-arm64": "8fb4539ca101810104e510495468a6e573f67dd9f1f0105b0e8ba8a66a46020d"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "fileverse_ui",
             "type": "ui_qml",
-            "version": "0.11.0",
+            "version": "0.12.0",
             "view": "Main.qml"
           }
         }
