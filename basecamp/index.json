@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-09T14:19:18Z",
+  "generatedAt": "2026-11-10T11:19:47Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -738,12 +738,12 @@
       "name": "p2panda_core",
       "versions": [
         {
-          "releasedAt": "2026-11-08T14:33:02Z",
-          "publisherRef": "p2panda_core-v0.1.0",
+          "releasedAt": "2026-11-10T11:19:47Z",
+          "publisherRef": "p2panda_core-v0.2.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-p2panda_core-module.lgx",
-          "size": 48461840,
-          "sha256": "4e144262228f0f97d67f20cb5997f0aa08ea0ed81eeacefa821e05ccd6b94080",
-          "rootHash": "636528d2caf163e68972930c1354526ef9af4cfdb9287e77ed1dfbafdae08170",
+          "size": 48473272,
+          "sha256": "574ade30022f318b2b7d77a6bb2128918032262d1d841e4cce11ae7ce5f2650d",
+          "rootHash": "49f82bd3941277f6ba50d9612047f4c682aafbfa1d2af86941781fbaeee514e4",
           "manifest": {
             "author": "",
             "category": "network",
@@ -753,11 +753,11 @@
             "description": "A shared p2panda node for Basecamp apps (one per app network), with an opt-in bridge of chosen topics to Logos Delivery through loam_core. See docs/adr/0001-p2panda-core-module.md.",
             "display_name": "p2panda Core",
             "hashes": {
-              "assets": "c30c78984cc905ee840126a13cfb9e14a6a62c298f322d82890ea7ff3e67d66f",
-              "root": "636528d2caf163e68972930c1354526ef9af4cfdb9287e77ed1dfbafdae08170",
-              "variants": "bc15978340b14cf4046046400468b85bf662ae4dcfc8cdf4d611e97fb445e9d2",
-              "variants/linux-amd64": "832665743680e53018da7d2695d298f87c8eb6d5c6e9f166a62c3a0bb2137c28",
-              "variants/linux-arm64": "3395e548885bd061c94c33e4473e19d98b6fff3f34f4536eb1ae74960d720a9f"
+              "assets": "2033de6000a2b889b56c5feae5e88cde8ea3074dd74838d792b34a5956c5eab5",
+              "root": "49f82bd3941277f6ba50d9612047f4c682aafbfa1d2af86941781fbaeee514e4",
+              "variants": "e1d9096f64bf46f5916b3bf04bb49b2512a1fcaede6b85742ab788c1cee48f55",
+              "variants/linux-amd64": "bafbc2ae36ebe72f437fc7f7e578e63dbb760bdc108e86639d5a661f57216a0d",
+              "variants/linux-arm64": "04fd95dfb05a5fe7240d2dbbf064f7d290c5404cb01bfc72bf7b47040f08b62c"
             },
             "icon": "",
             "main": {
@@ -767,7 +767,7 @@
             "manifestVersion": "0.6.0",
             "name": "p2panda_core",
             "type": "core",
-            "version": "0.1.0"
+            "version": "0.2.0"
           }
         }
       ]
@@ -1002,33 +1002,33 @@
       "name": "reflection",
       "versions": [
         {
-          "releasedAt": "2026-11-08T14:33:02Z",
-          "publisherRef": "reflection-v0.5.0",
+          "releasedAt": "2026-11-10T11:19:47Z",
+          "publisherRef": "reflection-v0.6.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reflection-module.lgx",
-          "size": 53974,
-          "sha256": "b8e0dfa6cacc276f88a0d804cad3f0c68bc31e2d110b19bda6d64134f928b51b",
-          "rootHash": "12b742da5178d065cbf3aa0fba4248b24ceced56486a6592abc1d1d02a5fa634",
+          "size": 53689,
+          "sha256": "d9c3e28adf31507733a8373a697abd21c70771221cf03bf6fad1422d2c1e707c",
+          "rootHash": "276d50fb0e26c2a92f1dfe2d9180c468e1aca8ed50123b144f9bfc9b0ded990d",
           "manifest": {
             "author": "",
             "category": "productivity",
             "dependencies": [
               "reflection_core"
             ],
-            "description": "Collaborative notes: p2panda Reflection on Logos Delivery. Share a note's id and edit it together. Needs reflection_core and loam_core.",
+            "description": "Collaborative notes: p2panda Reflection on Logos Delivery, p2panda or both. Share a note's id and edit it together. Needs reflection_core.",
             "display_name": "Reflection",
             "hashes": {
-              "assets": "c159587dc721c9ae9abad2d5e00bf1292fa218bf1f5c72b1a2ee76730c983402",
-              "root": "12b742da5178d065cbf3aa0fba4248b24ceced56486a6592abc1d1d02a5fa634",
-              "variants": "cd3a3468d14599ef9e3f5db367e060a49f3f6f4020811a32eaa533911d6e9b86",
-              "variants/linux-amd64": "3b2acae976862d98e096fbc9b69529a6bb8181cdceaa34e54f5dc2835e0db03c",
-              "variants/linux-arm64": "3b2acae976862d98e096fbc9b69529a6bb8181cdceaa34e54f5dc2835e0db03c"
+              "assets": "854517a849f242500716b434c4eae4a675e5e57a40cdad5ba98ed385e6f4ddd5",
+              "root": "276d50fb0e26c2a92f1dfe2d9180c468e1aca8ed50123b144f9bfc9b0ded990d",
+              "variants": "a2a82a86b08e6f543357cc3146dcb386a259355b09d8d356e3d638b267c770e8",
+              "variants/linux-amd64": "2d234f8dfa02c2f7d911bdc29aaf83c4aef1fe9b75dd585c1ae86fbb1bfa1ee3",
+              "variants/linux-arm64": "2d234f8dfa02c2f7d911bdc29aaf83c4aef1fe9b75dd585c1ae86fbb1bfa1ee3"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "reflection",
             "type": "ui_qml",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "view": "Main.qml"
           }
         }
@@ -1038,12 +1038,12 @@
       "name": "reflection_core",
       "versions": [
         {
-          "releasedAt": "2026-11-08T14:33:02Z",
-          "publisherRef": "reflection_core-v0.5.0",
+          "releasedAt": "2026-11-10T11:19:47Z",
+          "publisherRef": "reflection_core-v0.6.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reflection_core-module.lgx",
-          "size": 56104820,
-          "sha256": "7c1a2ad79703e5494e1bc09b07a1be07b38080797fbb2c4965ae9c0370be6521",
-          "rootHash": "2402895b020e4bfb65b0a043840aa6bcea298934f85655855597683a3dd7f9c0",
+          "size": 56289991,
+          "sha256": "c920a49811b9213daef31e196423cacdee5e1dc268c6464e488427c6d75c2f40",
+          "rootHash": "8bd9a2211090896be01cd68d4428d3c3d808f965f0394aa04ead288d18720244",
           "manifest": {
             "author": "",
             "category": "productivity",
@@ -1051,14 +1051,14 @@
               "loam_core",
               "p2panda_core"
             ],
-            "description": "Engine of Reflection notes for Basecamp: p2panda Reflection documents (Loro text) synced over Logos Delivery through loam_core, or over p2panda through p2panda_core (bridged to Logos per note).",
+            "description": "Engine of Reflection notes for Basecamp: p2panda Reflection documents (Loro text) synced over Logos Delivery (loam_core), p2panda (p2panda_core) or both.",
             "display_name": "Reflection Core",
             "hashes": {
-              "assets": "8fb85fe644c3d4bb3e1b03f8248ad83b71e511a78714b2fea31a6cb295f4684d",
-              "root": "2402895b020e4bfb65b0a043840aa6bcea298934f85655855597683a3dd7f9c0",
-              "variants": "a8adcf6e1c8e739e5b42618b2183a431d3593d2970b41bbf186e9531e098aa5d",
-              "variants/linux-amd64": "edf48f626520473529be45f1ebf31d67a4cf54f0c9a29cba939365047155347b",
-              "variants/linux-arm64": "640751827df21d56221dda3e8d1373ca23c47575c29a70ce0e100367a8e4b789"
+              "assets": "aa7cda46873062c1f99b48388441fb8453899931d24adbda6de24ad4a6c7646b",
+              "root": "8bd9a2211090896be01cd68d4428d3c3d808f965f0394aa04ead288d18720244",
+              "variants": "56ff474222ce6de750bafaf06b40c410584a724e2062efadbf8b857e432358d8",
+              "variants/linux-amd64": "ecc1cda47b5751eaa8c45395b6a10047c6525f0b1132cabc018a95d8f0d6581b",
+              "variants/linux-arm64": "033e3e18f860324ed85f4c3451db401e5dfdd9715fbe28cfbd0b78769f810592"
             },
             "icon": "",
             "main": {
@@ -1068,7 +1068,7 @@
             "manifestVersion": "0.6.0",
             "name": "reflection_core",
             "type": "core",
-            "version": "0.5.0"
+            "version": "0.6.0"
           }
         }
       ]
