@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-23T12:13:30Z",
+  "generatedAt": "2026-11-23T14:16:06Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -1444,12 +1444,12 @@
       "name": "whisperbox",
       "versions": [
         {
-          "releasedAt": "2026-10-11T06:24:38Z",
-          "publisherRef": "whisperbox-v0.4.2",
+          "releasedAt": "2026-11-23T14:16:06Z",
+          "publisherRef": "whisperbox-v1.1.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox-module.lgx",
-          "size": 157585,
-          "sha256": "3af983ad5af0dfe02026d012e6c0241b1f8d49de4e018dd4eb6be0fcf6a20253",
-          "rootHash": "b69efe905439756cc938d2b7a1a2f7b98eac07f678574204eca5eb5a1c6118d2",
+          "size": 165386,
+          "sha256": "2fa8dc5939fcd03f2dcd64cbf258e7ada55987ea13a6e7ad220a4e73708329d7",
+          "rootHash": "81dfc40a828c5e2650297c05201c2d1e2f7a8770e472f010ce4312de4e016931",
           "manifest": {
             "author": "",
             "category": "social",
@@ -1459,20 +1459,20 @@
             "description": "Privacy-first encrypted forms over Waku. Create forms, share a URI/QR, respondents answer end-to-end sealed to the creator only; the creator decrypts, confirms and exports CSV. Pure-QML view over the whisperbox_core module.",
             "display_name": "WhisperBox - Encrypted Forms",
             "hashes": {
-              "assets": "fe96a7b2f644ba732e235628f0e885e07ae609929b1b8c1375524ce97823d45c",
-              "root": "b69efe905439756cc938d2b7a1a2f7b98eac07f678574204eca5eb5a1c6118d2",
-              "variants": "2b7a00f48f5887e557a18de3428c2313dcc2c98ff8b6dbd457cf05deafb21531",
-              "variants/darwin-arm64": "174a78c2c3ea730e38f2d547f8db510377744c86eb9564546a0e6ccdf1704eb9",
-              "variants/linux-amd64": "174a78c2c3ea730e38f2d547f8db510377744c86eb9564546a0e6ccdf1704eb9",
-              "variants/linux-arm64": "174a78c2c3ea730e38f2d547f8db510377744c86eb9564546a0e6ccdf1704eb9"
+              "assets": "5fe55aaed452f5fa3f5d2a751bd4c0b542b8baea04098c8002fd6dce449693cb",
+              "root": "81dfc40a828c5e2650297c05201c2d1e2f7a8770e472f010ce4312de4e016931",
+              "variants": "d2887e277df877a4989ba52f5b4e5bd1bdd8d1cd9cd8940059fb2b1b91b0e771",
+              "variants/darwin-arm64": "4460ec0eef4e8877ac02dace232969437be512e4d414fc27aba16d642204e867",
+              "variants/linux-amd64": "4460ec0eef4e8877ac02dace232969437be512e4d414fc27aba16d642204e867",
+              "variants/linux-arm64": "4460ec0eef4e8877ac02dace232969437be512e4d414fc27aba16d642204e867"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "whisperbox",
             "type": "ui_qml",
-            "version": "0.4.2",
-            "view": "Main.qml"
+            "version": "1.1.6",
+            "view": "qml/Main.qml"
           }
         }
       ]
@@ -1481,26 +1481,26 @@
       "name": "whisperbox_core",
       "versions": [
         {
-          "releasedAt": "2026-10-10T14:12:54Z",
-          "publisherRef": "whisperbox_core-v0.4.2",
+          "releasedAt": "2026-11-23T14:16:06Z",
+          "publisherRef": "whisperbox_core-v1.1.6",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_core-module.lgx",
-          "size": 13261384,
-          "sha256": "62c621319836b1825f1fe7e57a34d8b347ee646bbdedb6311f72e1e04e78b020",
-          "rootHash": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
+          "size": 14776120,
+          "sha256": "e9787d0a0b1393e1298b6b4a704a49d1c10ba4b4dffae5b44039ee7fbef9048a",
+          "rootHash": "7a0cc5e4d4ccbc110f2754468e3a7481172609202ed2091b992e23e685f9b47a",
           "manifest": {
             "author": "",
             "category": "social",
             "dependencies": [
-              "loam_core"
+              "delivery_module"
             ],
-            "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced with loam_core (the Loam transport every Loam app shares), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
+            "description": "WhisperBox privacy-first forms core: append-only event log over one shared topic synced over Logos Delivery: through loam_core when it is installed (the Loam transport every Loam app shares), else delivery_module directly on the same wire (ADR 0021), secp256k1 identity + ECIES response sealing to form creators, HLC-ordered CRDT merge with creator-view decryption. Runs headless under logosctl and behind the whisperbox ui_qml view (Basecamp 0.3).",
             "hashes": {
-              "assets": "dcdfc0ad55d096e3dcad061b7bf2ce417c3568a9cd8826da9557b362ee62f77a",
-              "root": "88152f553f9cc2bf0e9718dd13c6dff83a61cc4325c09a55b2ec7c54158292a9",
-              "variants": "5346473efb7a0abefef5c4210d6b16839a3cb91cfc4e90e3b2e53b6e8e358ef6",
-              "variants/darwin-arm64": "6ba324d5abea485ad9209dc6ad89a32db596a005663abd0c8d9193d7ce2c86d6",
-              "variants/linux-amd64": "6acda4068f09947182ccf96b4085d48c7368016f308ec1ee4198c372be7f9973",
-              "variants/linux-arm64": "07fe09b7e103bed455c20cc3ee04eb8a0d98988516a0fc7db1978ef3214cdda6"
+              "assets": "9bfb8828f6c3d3e2980e7d66d8eca3d099002c2d0164c17f11b9f4252446b98a",
+              "root": "7a0cc5e4d4ccbc110f2754468e3a7481172609202ed2091b992e23e685f9b47a",
+              "variants": "54c6273b715eb8d1e63cdb6d2d2601f5a6626de348f54af609991a06a17c9fff",
+              "variants/darwin-arm64": "00c6951b7d92cc6b4f147988165a26f7f3c1599596dad883e9fba4a4afa4f372",
+              "variants/linux-amd64": "a65157f82e7ed3234074507e644c104cf284245d55257e735609003c9455c6d8",
+              "variants/linux-arm64": "e5ebe52ec5742edca34e21343b8cfa4fb8282002a9190888702f14cb23c2e19d"
             },
             "icon": "",
             "main": {
@@ -1508,10 +1508,55 @@
               "linux-amd64": "whisperbox_core_plugin.so",
               "linux-arm64": "whisperbox_core_plugin.so"
             },
-            "manifestVersion": "0.3.0",
+            "manifestVersion": "0.6.0",
             "name": "whisperbox_core",
+            "optional_dependencies": [
+              "loam_core"
+            ],
             "type": "core",
-            "version": "0.4.2"
+            "version": "1.1.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "whisperbox_respond",
+      "versions": [
+        {
+          "releasedAt": "2026-11-23T14:16:06Z",
+          "publisherRef": "whisperbox_respond-v1.1.6",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-whisperbox_respond-module.lgx",
+          "size": 85575,
+          "sha256": "54b874f9dcbb68eda551aaeb5cafe4a1f43fabf23cf6a06566b1ada64011df15",
+          "rootHash": "b5da8ea9a5af3674999c95c7efb66ead2db6b49c4ac078131e9dcb9ba7b10af2",
+          "manifest": {
+            "author": "",
+            "category": "social",
+            "dependencies": [
+              "whisperbox_core"
+            ],
+            "description": "Answer one WhisperBox form, opened from a link or by another app (intent whisperbox.respond, with a link or a form file the app ships; the reply says whether an answer was sent). Answers are sealed end to end: only the form's creators can read them. Uses the whisperbox_core engine; making and managing forms is the WhisperBox studio.",
+            "display_name": "WhisperBox - Answer a Form",
+            "hashes": {
+              "assets": "5fe55aaed452f5fa3f5d2a751bd4c0b542b8baea04098c8002fd6dce449693cb",
+              "root": "b5da8ea9a5af3674999c95c7efb66ead2db6b49c4ac078131e9dcb9ba7b10af2",
+              "variants": "f8652ef74fdcaa2437a3ad8b05b448c06ce4e3a43c06bfef41e730e9e7ee6c48",
+              "variants/darwin-arm64": "f017d2681cd1ac7a95e3579ea116e4523ed5dc83bd1d81cd3c360766ecd5b957",
+              "variants/linux-amd64": "f017d2681cd1ac7a95e3579ea116e4523ed5dc83bd1d81cd3c360766ecd5b957",
+              "variants/linux-arm64": "f017d2681cd1ac7a95e3579ea116e4523ed5dc83bd1d81cd3c360766ecd5b957"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "whisperbox_respond",
+            "provides": [
+              {
+                "intent": "whisperbox.respond"
+              }
+            ],
+            "type": "ui_qml",
+            "version": "1.1.6",
+            "view": "qml/Main.qml"
           }
         }
       ]
