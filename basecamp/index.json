@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-12T13:38:25Z",
+  "generatedAt": "2026-11-23T12:13:30Z",
   "packages": [
     {
       "name": "ble_mesh",
@@ -888,12 +888,12 @@
       "name": "qaku_core",
       "versions": [
         {
-          "releasedAt": "2026-10-07T08:05:07Z",
-          "publisherRef": "qaku_core-v0.3.0",
+          "releasedAt": "2026-11-23T12:13:30Z",
+          "publisherRef": "qaku_core-v0.3.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-qaku_core-module.lgx",
-          "size": 4535757,
-          "sha256": "68257cd2b8dfa38b912a47765bb062b14b1fe8be2f1a02e1743cb3f2caf2fe1b",
-          "rootHash": "3f2dfdd3e0b50a0bc4c638276d53514457f5e73f4d09db794e7b3b90bfe4aee9",
+          "size": 13191107,
+          "sha256": "bde979d8e7afa6f29054c423f79970d25ab37927a4c74bf2645ce5a900ec7c00",
+          "rootHash": "9c6eb5ff158a5a58bef1c5e7524e2122ee085b9cf7a49826bfc79ce34e400cb2",
           "manifest": {
             "author": "",
             "category": "social",
@@ -902,19 +902,23 @@
             ],
             "description": "QAKU engine and sync core: the append-only event-log Q&A engine (questions, upvotes, answers, moderation, polls), session crypto, and Delivery sync over SDS Reliable Channels. Runs headless as the always-on hub and behind the qaku ui_qml view.",
             "hashes": {
-              "assets": "3a866c403862db9727a2b0a4331e64946ca9681c14f8664e9e87dd50711aedf1",
-              "root": "3f2dfdd3e0b50a0bc4c638276d53514457f5e73f4d09db794e7b3b90bfe4aee9",
-              "variants": "419141dfb1ce281daae830b41059de648023e0bff1d851b588b979cf1c7ab0db",
-              "variants/linux-amd64": "0469ecebb0f20efb6c4f6e8e3412e7d71991f1772e68fff29828f9b3ac6d2a54"
+              "assets": "8b2df97a6297f12c5c6d72a4b70f6fb839ca1e25ebfe694f16e07eaaeea1b5eb",
+              "root": "9c6eb5ff158a5a58bef1c5e7524e2122ee085b9cf7a49826bfc79ce34e400cb2",
+              "variants": "4976b51cc798162c98aabc378a35457837e076ec8de3a2d9503644e2ff85f522",
+              "variants/darwin-arm64": "c01b7f2d7e2191197c27e4d637fc70310e36db52c5cb194f7872e7b2bb1ca0b2",
+              "variants/linux-amd64": "dd159ecde957ca300ce08453e04ad363bd958d96f3c52521a71b9a4d0d57a589",
+              "variants/linux-arm64": "320382405484f917c89d8fd8d442f3a335308ab5552dbc88a721f2612e146292"
             },
             "icon": "",
             "main": {
-              "linux-amd64": "qaku_core_plugin.so"
+              "darwin-arm64": "qaku_core_plugin.dylib",
+              "linux-amd64": "qaku_core_plugin.so",
+              "linux-arm64": "qaku_core_plugin.so"
             },
             "manifestVersion": "0.6.0",
             "name": "qaku_core",
             "type": "core",
-            "version": "0.3.0"
+            "version": "0.3.1"
           }
         }
       ]
