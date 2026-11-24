@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-24T09:53:56Z",
+  "generatedAt": "2026-11-24T10:04:09Z",
   "packages": [
     {
       "name": "ai_gateway",
@@ -120,6 +120,85 @@
             "name": "ble_mesh",
             "type": "core",
             "version": "0.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bubble",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T10:04:09Z",
+          "publisherRef": "bubble-v0.3.6",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble-module.lgx",
+          "size": 34157,
+          "sha256": "a3ef8c4d3c6d84bc9477ec35479233363835942eef37c7f9c1152697fcb2229e",
+          "rootHash": "aeacbb3065706742f9bd41dfd4eef172c2a567458583a272cebc94fd03d649b1",
+          "manifest": {
+            "author": "",
+            "category": "games",
+            "dependencies": [
+              "bubble_core",
+              "membership_allocation_client_module",
+              "rln_gifter_module"
+            ],
+            "description": "Grow from a small bubble by eating smaller ones; digest with proof of work; reach the goal to claim an RLN membership for Logos Messaging",
+            "display_name": "Bubble",
+            "hashes": {
+              "assets": "1040faa1b4f00ca1fbeba1d687357f982fe2db03637ee5e5e0635571f093c2c1",
+              "root": "aeacbb3065706742f9bd41dfd4eef172c2a567458583a272cebc94fd03d649b1",
+              "variants": "edabeb61a82fa205fa7d7b49ced961a6635df509d9279ba4e8d145fee2fa1f8e",
+              "variants/darwin-arm64": "1f58f8bfce113d7767df931e4c6ff049c86b21a48b25fcd378eb0537f8c68f35",
+              "variants/linux-amd64": "1f58f8bfce113d7767df931e4c6ff049c86b21a48b25fcd378eb0537f8c68f35",
+              "variants/linux-arm64": "1f58f8bfce113d7767df931e4c6ff049c86b21a48b25fcd378eb0537f8c68f35"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "bubble",
+            "type": "ui_qml",
+            "version": "0.3.6",
+            "view": "qml/Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bubble_core",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T10:04:09Z",
+          "publisherRef": "bubble_core-v0.3.6",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble_core-module.lgx",
+          "size": 25688715,
+          "sha256": "4113cfd5dc03d71bf200856172adacaa98fd0d8229366fe57dfad14b452861b6",
+          "rootHash": "f7ff95f3575d21b5215c73366c1230de1771f5bf8c6496342b1d81acf205353c",
+          "manifest": {
+            "author": "",
+            "category": "games",
+            "dependencies": [
+              "liblogos_lez_rln_module"
+            ],
+            "description": "Grow your bubble, digest with proof of work, and claim an RLN membership: the game itself (rules, loop, record), the digestion workers and the check of a finished game",
+            "display_name": "Bubble Core",
+            "hashes": {
+              "assets": "bbd8f7850a721ade0f9ab2190b0c822899f7aff6b3200c8d2e234c460e0cbd86",
+              "root": "f7ff95f3575d21b5215c73366c1230de1771f5bf8c6496342b1d81acf205353c",
+              "variants": "dd1ad36d64d818ac09ee90619bb6cd3ec4f0efac8d6ff411f49f1fb1ae8bff99",
+              "variants/darwin-arm64": "9833abb481c6d4a4b36e32f4bfcb0f0d939010ea04c663ecb6ccb7e4e94a815f",
+              "variants/linux-amd64": "604401623230bf88267dd93517dcf4bbd92f7597cc85cd8e16664e0021beab84",
+              "variants/linux-arm64": "e09581fc0bd1b3c6e45cc176b32bc16cc5dc8ddfd0f2d0c4a9f6288effd82db0"
+            },
+            "icon": "assets/icon.png",
+            "main": {
+              "darwin-arm64": "bubble_core_plugin.dylib",
+              "linux-amd64": "bubble_core_plugin.so",
+              "linux-arm64": "bubble_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "bubble_core",
+            "type": "core",
+            "version": "0.3.6"
           }
         }
       ]
@@ -785,6 +864,45 @@
       ]
     },
     {
+      "name": "membership_allocation_client_module",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T10:04:09Z",
+          "publisherRef": "membership_allocation_client_module-v0.1.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-membership_allocation_client_module-module.lgx",
+          "size": 15388501,
+          "sha256": "10ad5010cbc11bbde7b6380791bda4761f05ef7657707b91c4da76269b8940c4",
+          "rootHash": "9e3efec969815c535b6abf7f9b0ae4c9d375dece128ebe8c1be7a76754ba967c",
+          "manifest": {
+            "author": "Logos",
+            "category": "blockchain",
+            "dependencies": [
+              "libp2p_module"
+            ],
+            "description": "RLN membership allocation client: requests a membership from an allocator over libp2p, with auth produced by pluggable auth_vector modules",
+            "hashes": {
+              "assets": "f62053ad6e7c538466c744512c3caa74c7eb1e00ba8628029ebaf8d93d341a60",
+              "root": "9e3efec969815c535b6abf7f9b0ae4c9d375dece128ebe8c1be7a76754ba967c",
+              "variants": "c8502b64c0d26a1b18e62982356d88b31cb727f98b3a3dc948fc967a86df1ca6",
+              "variants/darwin-arm64": "509ecccbc5807b45699f12aacb69dbc5d82f159ad7cd67cdeeadbbeea9079c09",
+              "variants/linux-amd64": "837402462e4762d71ba2b75b6c829711a8bd177563d402c90b09227a7d81fe11",
+              "variants/linux-arm64": "fed6fa568fb8e3a689df676a15073fef0a17135d19621f1c6ff237ad9e2e4ab3"
+            },
+            "icon": "",
+            "main": {
+              "darwin-arm64": "membership_allocation_client_module_plugin.dylib",
+              "linux-amd64": "membership_allocation_client_module_plugin.so",
+              "linux-arm64": "membership_allocation_client_module_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "membership_allocation_client_module",
+            "type": "core",
+            "version": "0.1.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "p2panda",
       "versions": [
         {
@@ -1159,6 +1277,45 @@
             "name": "reflection_core",
             "type": "core",
             "version": "0.6.4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rln_gifter_module",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T10:04:09Z",
+          "publisherRef": "rln_gifter_module-v0.4.0",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-rln_gifter_module-module.lgx",
+          "size": 15410533,
+          "sha256": "43f2bdaedb7189ce79f8fefeb4cc7c3297ee7448fb2edb8a0b73f77cb48f7515",
+          "rootHash": "3af99351fa5327b111a93424e4a6a4248dc6411dc98a7d294021ceebcf28dbf4",
+          "manifest": {
+            "author": "Logos",
+            "category": "blockchain",
+            "dependencies": [
+              "libp2p_module"
+            ],
+            "description": "Bridge for liblogos_rln_module delegated registration: answers its rln_gifter_module.request (gifterPeerId/gifterMultiaddr) through the membership allocation protocol (/logos/paymaster/rln-membership/1.0.0), with auth produced by pluggable auth provider modules",
+            "hashes": {
+              "assets": "009c853381ec93f79ee9df6b1de48594c002d190b504c8eed84fed55d52d438b",
+              "root": "3af99351fa5327b111a93424e4a6a4248dc6411dc98a7d294021ceebcf28dbf4",
+              "variants": "aed4fc14ca67c5095e67c5374e4dd9ff5852ab0c692fdf4d6fbc1b9b5840a305",
+              "variants/darwin-arm64": "a4dd738afec3f13f350d55c54e1d5929ec1f88a446d642480c13cdb416666fdc",
+              "variants/linux-amd64": "c73b443ca1edaa3823af566209ab480f5b45e901b65ac506c0aa9d2d02ee8286",
+              "variants/linux-arm64": "b12d615212cc3cb5cdb961f30f8629e16440970c4fbd7334af697193b873987b"
+            },
+            "icon": "",
+            "main": {
+              "darwin-arm64": "rln_gifter_module_plugin.dylib",
+              "linux-amd64": "rln_gifter_module_plugin.so",
+              "linux-arm64": "rln_gifter_module_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "rln_gifter_module",
+            "type": "core",
+            "version": "0.4.0"
           }
         }
       ]
