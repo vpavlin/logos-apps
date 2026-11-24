@@ -1,8 +1,94 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-23T14:16:06Z",
+  "generatedAt": "2026-11-24T09:53:56Z",
   "packages": [
+    {
+      "name": "ai_gateway",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T09:53:56Z",
+          "publisherRef": "ai_gateway-v0.1.6",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ai_gateway-module.lgx",
+          "size": 75448,
+          "sha256": "6b753dc2aa20d0abc2af3f582d430c8d56bba6edb7322ad5b3a20892a5414c60",
+          "rootHash": "b88e9c3c935155a35be3a8456bc016d2733918258919b01babb13a48d72dfd86",
+          "manifest": {
+            "author": "",
+            "category": "productivity",
+            "dependencies": [
+              "ai_gateway_core"
+            ],
+            "description": "AI for every Logos app, local or private first. Set up local models (Ollama, llama.cpp, LM Studio) and private or decentralised providers (Venice, NEAR AI, Nillion nilAI, Morpheus, AkashML) with guided onboarding, chat with them, and let other apps ask AI through the ai.ask and ai.chat intents: you see who asks and exactly what is sent, choose the model and its privacy, and the answer goes back to the app. A view over the ai_gateway_core module.",
+            "display_name": "AI Gateway",
+            "hashes": {
+              "assets": "853654d1f680e43e104ba5da817127a3570acd24206aff2abfe0553231bf047e",
+              "root": "b88e9c3c935155a35be3a8456bc016d2733918258919b01babb13a48d72dfd86",
+              "variants": "045fea53a27589f37e166244dc9468ee22c88a60c2c1da605348c5342e8ead88",
+              "variants/darwin-arm64": "d84672efb1dd785111fb17e7c21ba50de1636e3782421e45d6c23029bc36b8a5",
+              "variants/linux-amd64": "d84672efb1dd785111fb17e7c21ba50de1636e3782421e45d6c23029bc36b8a5",
+              "variants/linux-arm64": "d84672efb1dd785111fb17e7c21ba50de1636e3782421e45d6c23029bc36b8a5"
+            },
+            "icon": "assets/icon.png",
+            "main": {},
+            "manifestVersion": "0.6.0",
+            "name": "ai_gateway",
+            "provides": [
+              {
+                "intent": "ai.ask"
+              },
+              {
+                "intent": "ai.chat"
+              },
+              {
+                "intent": "ai.session"
+              }
+            ],
+            "type": "ui_qml",
+            "version": "0.1.6",
+            "view": "qml/Main.qml"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ai_gateway_core",
+      "versions": [
+        {
+          "releasedAt": "2026-11-24T09:53:56Z",
+          "publisherRef": "ai_gateway_core-v0.1.4",
+          "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ai_gateway_core-module.lgx",
+          "size": 12642011,
+          "sha256": "af036b1c1f91e437d70e1d50a9190d30c3e1fa65cf5329feafa2a9d9af250dca",
+          "rootHash": "c7aa347770ae0aa5a6948feed978b7cb110b9e0b62f411bb4ea5a8800736f6ae",
+          "manifest": {
+            "author": "",
+            "category": "productivity",
+            "dependencies": [],
+            "description": "AI Gateway core: one OpenAI-compatible way in to AI for every Logos app. Connectors to local runtimes (Ollama, llama.cpp, LM Studio) and private or decentralised providers (Venice, NEAR AI, Nillion nilAI, Morpheus, AkashML, any OpenAI-compatible endpoint), routing that never goes below the privacy a caller asks for, streaming jobs, per-app usage, keys in a private file, and an optional local OpenAI endpoint on 127.0.0.1.",
+            "display_name": "AI Gateway (core)",
+            "hashes": {
+              "assets": "7c44b6300d1867d288b3c3c2d90ee01d5ba60038bbe1f45179f653d384afb227",
+              "root": "c7aa347770ae0aa5a6948feed978b7cb110b9e0b62f411bb4ea5a8800736f6ae",
+              "variants": "f61b312f52c9a8af05fbdf198f0ebf7090a7e6448400ec4a7d7e7a97d96fae37",
+              "variants/darwin-arm64": "f766a455417e79acb50a3aaeaa5dadd77b9fba9e94ce99df1e1e5147856dfea4",
+              "variants/linux-amd64": "b9dd1a29a8b9689eda648c808690fe86f81f98398a7eae4e7c4744199abae20d",
+              "variants/linux-arm64": "6842293505b5ec0a318e5843bf9a72ca7f61adeb5e228e6dddd7ec26a07b8ebe"
+            },
+            "icon": "",
+            "main": {
+              "darwin-arm64": "ai_gateway_core_plugin.dylib",
+              "linux-amd64": "ai_gateway_core_plugin.so",
+              "linux-arm64": "ai_gateway_core_plugin.so"
+            },
+            "manifestVersion": "0.6.0",
+            "name": "ai_gateway_core",
+            "type": "core",
+            "version": "0.1.4"
+          }
+        }
+      ]
+    },
     {
       "name": "ble_mesh",
       "versions": [
