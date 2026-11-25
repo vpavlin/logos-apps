@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-25T13:41:11Z",
+  "generatedAt": "2026-11-25T16:42:01Z",
   "packages": [
     {
       "name": "ai_gateway",
@@ -793,26 +793,24 @@
       "name": "loam_core",
       "versions": [
         {
-          "releasedAt": "2026-11-11T12:56:42Z",
-          "publisherRef": "loam_core-v0.7.4",
+          "releasedAt": "2026-11-25T16:42:01Z",
+          "publisherRef": "loam_core-v0.7.5",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-loam_core-module.lgx",
-          "size": 13243282,
-          "sha256": "13a94db22728b544e42937d800af8a228da052844738e9a3004eacd9d1a3ee99",
-          "rootHash": "12d474195c5f07d451765946d5cd3a26cc6ce9d00dd0da0028c0fbc3368eee8d",
+          "size": 13216857,
+          "sha256": "f18bbfedf7a8d1eab757d2d7f65c78523143d95bfc45e4b3fa2379fe27369114",
+          "rootHash": "e23d711724b9ad1496b5e6abaaa54b72799c1d10edc2681f2f74dc3d27f84f38",
           "manifest": {
             "author": "",
             "category": "system",
-            "dependencies": [
-              "ble_mesh"
-            ],
-            "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node (and later ble_mesh or lora). Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
+            "dependencies": [],
+            "description": "Loam transport facade: one stable, bearer-agnostic API over the Logos delivery node. Apps depend on loam_core and call start/join/sendSealed/received while loam_core fans out to every bearer and dedups. See ADR 0015.",
             "hashes": {
-              "assets": "69f6d218943731aa088532d6048b94fad54842b8263ca5e0edac83bd657532d8",
-              "root": "12d474195c5f07d451765946d5cd3a26cc6ce9d00dd0da0028c0fbc3368eee8d",
-              "variants": "0716d0be47f8c818a9caf09eda635da0bf6b7522ae79c2a7f7b273476940c9ab",
-              "variants/darwin-arm64": "a60b230204e081c4c32f890b2086be81688d9b9e28eac900796998f2caf2879f",
-              "variants/linux-amd64": "3902d71e8c7b986e8ef74ec65cd47771ab927a26796b7e312a11cd6001dcc9f8",
-              "variants/linux-arm64": "f5a430bdbc0740c5972d1100d53541b31dc1c787c60cbb61e89df94bd4b2da2d"
+              "assets": "b1c62f6dc7f1663311f82ae5253e136b27149db5c4982a40561cbd70a8917d1f",
+              "root": "e23d711724b9ad1496b5e6abaaa54b72799c1d10edc2681f2f74dc3d27f84f38",
+              "variants": "ae6fd73f5aaf37f845bfbc1ed72c7e122e904669b1893c985fadb7507ef0c44c",
+              "variants/darwin-arm64": "c345ccd61f8fb9df5bfa83acfc50a6b5aececf5b20d673be75bff4d253f7ef4e",
+              "variants/linux-amd64": "78a93064d67c82c19741f6d426b8f747ace52f5a4931e06d075790c22daffa3d",
+              "variants/linux-arm64": "f939d2a7babbfc510aab5571475ccd7da061f83bd622a641486865ec253e6a19"
             },
             "icon": "",
             "main": {
@@ -828,7 +826,7 @@
               "shrooms_mesh"
             ],
             "type": "core",
-            "version": "0.7.4"
+            "version": "0.7.5"
           }
         }
       ]
@@ -947,12 +945,12 @@
       "name": "p2panda_core",
       "versions": [
         {
-          "releasedAt": "2026-11-10T11:19:47Z",
+          "releasedAt": "2026-11-25T16:42:01Z",
           "publisherRef": "p2panda_core-v0.2.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-p2panda_core-module.lgx",
-          "size": 48473272,
-          "sha256": "574ade30022f318b2b7d77a6bb2128918032262d1d841e4cce11ae7ce5f2650d",
-          "rootHash": "49f82bd3941277f6ba50d9612047f4c682aafbfa1d2af86941781fbaeee514e4",
+          "size": 68247815,
+          "sha256": "5bd55a01657bf95329e4ba389e8965fc01b1bc8a5f4cd59c215722946f168488",
+          "rootHash": "77f70a00e394d2dc2ab871b915443be8931af99b51132a454e2e00063a82a683",
           "manifest": {
             "author": "",
             "category": "network",
@@ -963,13 +961,15 @@
             "display_name": "p2panda Core",
             "hashes": {
               "assets": "2033de6000a2b889b56c5feae5e88cde8ea3074dd74838d792b34a5956c5eab5",
-              "root": "49f82bd3941277f6ba50d9612047f4c682aafbfa1d2af86941781fbaeee514e4",
-              "variants": "e1d9096f64bf46f5916b3bf04bb49b2512a1fcaede6b85742ab788c1cee48f55",
+              "root": "77f70a00e394d2dc2ab871b915443be8931af99b51132a454e2e00063a82a683",
+              "variants": "e0b5e09e27e8aee3e8e4c878df5411837a2c2eefea487ad5ea35be6f39498333",
+              "variants/darwin-arm64": "c80ac5e4711e558990247a879610a10cec38cb1f57f9022fcce1ea7b38432b23",
               "variants/linux-amd64": "bafbc2ae36ebe72f437fc7f7e578e63dbb760bdc108e86639d5a661f57216a0d",
               "variants/linux-arm64": "04fd95dfb05a5fe7240d2dbbf064f7d290c5404cb01bfc72bf7b47040f08b62c"
             },
             "icon": "",
             "main": {
+              "darwin-arm64": "p2panda_core_plugin.dylib",
               "linux-amd64": "p2panda_core_plugin.so",
               "linux-arm64": "p2panda_core_plugin.so"
             },
@@ -1215,12 +1215,12 @@
       "name": "reflection",
       "versions": [
         {
-          "releasedAt": "2026-11-10T11:19:47Z",
+          "releasedAt": "2026-11-25T16:42:01Z",
           "publisherRef": "reflection-v0.6.0",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reflection-module.lgx",
-          "size": 53689,
-          "sha256": "d9c3e28adf31507733a8373a697abd21c70771221cf03bf6fad1422d2c1e707c",
-          "rootHash": "276d50fb0e26c2a92f1dfe2d9180c468e1aca8ed50123b144f9bfc9b0ded990d",
+          "size": 75240,
+          "sha256": "e878a34503217aa84c6c3162fe3de8b47b9a37b8ac2f4738ab3a1781c945d2be",
+          "rootHash": "82444c79db8382f94524d656967a99e0176957a4ab0502df391ee25dbc93871d",
           "manifest": {
             "author": "",
             "category": "productivity",
@@ -1231,8 +1231,9 @@
             "display_name": "Reflection",
             "hashes": {
               "assets": "854517a849f242500716b434c4eae4a675e5e57a40cdad5ba98ed385e6f4ddd5",
-              "root": "276d50fb0e26c2a92f1dfe2d9180c468e1aca8ed50123b144f9bfc9b0ded990d",
-              "variants": "a2a82a86b08e6f543357cc3146dcb386a259355b09d8d356e3d638b267c770e8",
+              "root": "82444c79db8382f94524d656967a99e0176957a4ab0502df391ee25dbc93871d",
+              "variants": "cd46b78e275a52c6d343b715e4b0484040eb91a2d68de8c7b6bed2ab34cf7928",
+              "variants/darwin-arm64": "2d234f8dfa02c2f7d911bdc29aaf83c4aef1fe9b75dd585c1ae86fbb1bfa1ee3",
               "variants/linux-amd64": "2d234f8dfa02c2f7d911bdc29aaf83c4aef1fe9b75dd585c1ae86fbb1bfa1ee3",
               "variants/linux-arm64": "2d234f8dfa02c2f7d911bdc29aaf83c4aef1fe9b75dd585c1ae86fbb1bfa1ee3"
             },
@@ -1251,12 +1252,12 @@
       "name": "reflection_core",
       "versions": [
         {
-          "releasedAt": "2026-11-11T18:23:25Z",
+          "releasedAt": "2026-11-25T16:42:01Z",
           "publisherRef": "reflection_core-v0.6.4",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-reflection_core-module.lgx",
-          "size": 56416934,
-          "sha256": "5bcef94b9e52087e94ab4e0d85cdd133eca267319b2aa2dd80ce7a248c8837e3",
-          "rootHash": "ca0694c0ebcaab42aa3192617acdf6d4e31e834156143ac11f79449ab54bf852",
+          "size": 79414098,
+          "sha256": "651e7924d10d09a703094890b631ca8b07dd97103f36539e633f40b019407153",
+          "rootHash": "f45f94db305f6c67809370f73f3ca77a804474312adea5317ffc788ffcf26b0f",
           "manifest": {
             "author": "",
             "category": "productivity",
@@ -1268,13 +1269,15 @@
             "display_name": "Reflection Core",
             "hashes": {
               "assets": "ce6a264f6faa304bc390e6344ffef6cd1574ec67a5e221100efd1c3fe5908d11",
-              "root": "ca0694c0ebcaab42aa3192617acdf6d4e31e834156143ac11f79449ab54bf852",
-              "variants": "e54b79311d425db77679e124d26aa24598eb69a710741114f934a59eb6aa5739",
+              "root": "f45f94db305f6c67809370f73f3ca77a804474312adea5317ffc788ffcf26b0f",
+              "variants": "d9add612573c163611200056590e826a16a864b00580163b632c8009e82b2a5a",
+              "variants/darwin-arm64": "0658edb502c46d8f0499840399037d7043a8ea813bec5caf25385be0fe5a5188",
               "variants/linux-amd64": "8f97ef6a9e0576823c3f93093a3f411fbf360ca87cc5e79e7663d76b87ac30ab",
               "variants/linux-arm64": "763094d4c078213bec08b15f4222c396c498e4f652aaac63f0883229b16416b7"
             },
             "icon": "",
             "main": {
+              "darwin-arm64": "reflection_core_plugin.dylib",
               "linux-amd64": "reflection_core_plugin.so",
               "linux-arm64": "reflection_core_plugin.so"
             },
