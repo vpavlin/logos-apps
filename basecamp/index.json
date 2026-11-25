@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-25T16:48:27Z",
+  "generatedAt": "2026-11-25T19:14:49Z",
   "packages": [
     {
       "name": "ai_gateway",
@@ -128,12 +128,12 @@
       "name": "bubble",
       "versions": [
         {
-          "releasedAt": "2026-11-25T07:31:04Z",
-          "publisherRef": "bubble-v0.3.7",
+          "releasedAt": "2026-11-25T19:14:49Z",
+          "publisherRef": "bubble-v0.3.8",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble-module.lgx",
-          "size": 34165,
-          "sha256": "0eede1e7958571db15f50e6afdd9e857f25f54c370e7ce833f29e05597e38b7d",
-          "rootHash": "92ef03b3a15eccde997a3d5f356b5fc83d497d604e342b8a2dc3a45f5e8450ee",
+          "size": 34168,
+          "sha256": "3314e8c6d57859ac3124c4cac2a055601188f8c4a5d06ba86e9524df798c90d4",
+          "rootHash": "3d44c919b017b02909e55eab5890dec19dcadfe70f04642ffcaa5ad52a78ba06",
           "manifest": {
             "author": "",
             "category": "games",
@@ -145,19 +145,19 @@
             "description": "Grow from a small bubble by eating smaller ones; digest with proof of work; reach the goal to claim an RLN membership for Logos Messaging",
             "display_name": "Bubble",
             "hashes": {
-              "assets": "7ef28916838d2c0a99ee1d2355d8ebfcca4f095f2293da24c18f299e2fa028bd",
-              "root": "92ef03b3a15eccde997a3d5f356b5fc83d497d604e342b8a2dc3a45f5e8450ee",
-              "variants": "0bb9116c503ab05bfdcc5611c80c0e60d602b22e3a4cc9bd4c6f6543b9fb36c3",
-              "variants/darwin-arm64": "17ea1baaf2246e0e2bb9c2d683f9e4179f4ddc372db994e41c31e5a59cd3c45a",
-              "variants/linux-amd64": "17ea1baaf2246e0e2bb9c2d683f9e4179f4ddc372db994e41c31e5a59cd3c45a",
-              "variants/linux-arm64": "17ea1baaf2246e0e2bb9c2d683f9e4179f4ddc372db994e41c31e5a59cd3c45a"
+              "assets": "01cdfbc13709f587898724ab33ec3134a4be07431b730d40efdf303de79546da",
+              "root": "3d44c919b017b02909e55eab5890dec19dcadfe70f04642ffcaa5ad52a78ba06",
+              "variants": "c2ebaa60b3bfa8e024a1e1a30274b74f08651aad214ea3a17f404aaf98306744",
+              "variants/darwin-arm64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3",
+              "variants/linux-amd64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3",
+              "variants/linux-arm64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "bubble",
             "type": "ui_qml",
-            "version": "0.3.7",
+            "version": "0.3.8",
             "view": "qml/Main.qml"
           }
         }
@@ -167,12 +167,12 @@
       "name": "bubble_core",
       "versions": [
         {
-          "releasedAt": "2026-11-25T07:31:04Z",
-          "publisherRef": "bubble_core-v0.3.7",
+          "releasedAt": "2026-11-25T19:14:49Z",
+          "publisherRef": "bubble_core-v0.3.8",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble_core-module.lgx",
-          "size": 25794689,
-          "sha256": "be87add2dcc10e8b8cae65588f8bd88fe6d3186b0871325c87d75e105e0d1cfa",
-          "rootHash": "25a9df7d3b7f1a6b9b83b4688bd79f6ccdb6abe9b4236392790de9aebc522873",
+          "size": 25798566,
+          "sha256": "dfca4b4f42a38a0d88b11b5723831adfb1aeef45e92bc17e93242b5d79a0a7c2",
+          "rootHash": "f0846f92f327505b00024cde258888d0d8894a4895c80a1d6235552b550a2b15",
           "manifest": {
             "author": "",
             "category": "games",
@@ -183,12 +183,12 @@
             "description": "Grow your bubble, digest with proof of work, and claim an RLN membership: the game itself (rules, loop, record), the digestion workers and the check of a finished game",
             "display_name": "Bubble Core",
             "hashes": {
-              "assets": "87b68f8e292b71eb8acd9e5eaa0522f78a35d3d5ba6bd9d11b153f80e3ac903c",
-              "root": "25a9df7d3b7f1a6b9b83b4688bd79f6ccdb6abe9b4236392790de9aebc522873",
-              "variants": "a183cb6c0876f7acc5d397acac1e0209babd3f2b293c88e6d5b1348c8b440968",
-              "variants/darwin-arm64": "f735e98752f2dff1bf476fd1551fac30a7bfe219c87004f5947807a25288b614",
-              "variants/linux-amd64": "513c80fe3c3df6f3f7c0990067bff3ed69f159e73f682e797afc9c8ea62ef305",
-              "variants/linux-arm64": "eda78b5e90a77aa81bc0979bd6742f93baedcf1141c821f6d61a6a0dd78344c9"
+              "assets": "0e64a09dcd8b2d0a2cb85015970c95255b1e910e8500d09aee16bab313f28eb9",
+              "root": "f0846f92f327505b00024cde258888d0d8894a4895c80a1d6235552b550a2b15",
+              "variants": "8ccf928a9a063c08b6299bb03da07fd0c36c183751ebf34645d2c47a387ba23a",
+              "variants/darwin-arm64": "8396fcb6f6dbb5243cfd4de8c7a6164ca3f11f27deca416d6b51696c5aea6327",
+              "variants/linux-amd64": "6fb5e7dcbd8aae15bdea43461c8e08a7f394582bd6274862a03e75d5f5a729ba",
+              "variants/linux-arm64": "ff7aef6d140bd5e69024932e11028e91c1eaf0d8d1a5186af6f7299ae453d08d"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -199,7 +199,7 @@
             "manifestVersion": "0.6.0",
             "name": "bubble_core",
             "type": "core",
-            "version": "0.3.7"
+            "version": "0.3.8"
           }
         }
       ]
