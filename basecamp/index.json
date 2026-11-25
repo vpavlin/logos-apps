@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-25T07:31:04Z",
+  "generatedAt": "2026-11-25T07:31:36Z",
   "packages": [
     {
       "name": "ai_gateway",
       "versions": [
         {
-          "releasedAt": "2026-11-25T06:49:36Z",
-          "publisherRef": "ai_gateway-v0.1.9",
+          "releasedAt": "2026-11-25T07:31:36Z",
+          "publisherRef": "ai_gateway-v0.1.10",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ai_gateway-module.lgx",
-          "size": 78763,
-          "sha256": "219cd861bef76436eb316ea2d0e4e9680a72c1453580a007bbf4fe02cba8fb31",
-          "rootHash": "39b79363b3444389d93113fff666451576c42a6c4302ee90c6985d6a9a2e4cb9",
+          "size": 80792,
+          "sha256": "505710ba668aea68a0657fd825acb3bf6e2eaffd2b8e850bc7afd1a1b3aecdb0",
+          "rootHash": "692f0681786989b87efd4c75ee10b3d8d21a93431dd0dbe100d075e42f4968ef",
           "manifest": {
             "author": "",
             "category": "productivity",
@@ -22,12 +22,12 @@
             "description": "AI for every Logos app, local or private first. Set up local models (Ollama, llama.cpp, LM Studio) and private or decentralised providers (Venice, NEAR AI, Nillion nilAI, Morpheus, AkashML) with guided onboarding, chat with them, and let other apps ask AI through the ai.ask and ai.chat intents: you see who asks and exactly what is sent, choose the model and its privacy, and the answer goes back to the app. A view over the ai_gateway_core module.",
             "display_name": "AI Gateway",
             "hashes": {
-              "assets": "9783d6ad672e3d390a25dbf0ff9f17f9a4c48db50675c37f3cd2deb56b0e4832",
-              "root": "39b79363b3444389d93113fff666451576c42a6c4302ee90c6985d6a9a2e4cb9",
-              "variants": "ee8d7cde45d35b549eb1a0dfe503f749046b6ba4cdf0a7ad61368a5248554156",
-              "variants/darwin-arm64": "f82d3c2279d77eaf82b9a56bc4bd0425738de61ec7dc782c2246434b15428cbd",
-              "variants/linux-amd64": "f82d3c2279d77eaf82b9a56bc4bd0425738de61ec7dc782c2246434b15428cbd",
-              "variants/linux-arm64": "f82d3c2279d77eaf82b9a56bc4bd0425738de61ec7dc782c2246434b15428cbd"
+              "assets": "1571155a77d03e01f04852ff26f798ff7f3b6088c277cfc324117129ec5bdc86",
+              "root": "692f0681786989b87efd4c75ee10b3d8d21a93431dd0dbe100d075e42f4968ef",
+              "variants": "2e293cbe50d9cc411f1914034179938ee145ba56ae3785a24e64f23025ef55e7",
+              "variants/darwin-arm64": "6a2d48cc9c22217d4a4f549d84bc919621f09b7e1710ee177a28086db5d43e9c",
+              "variants/linux-amd64": "6a2d48cc9c22217d4a4f549d84bc919621f09b7e1710ee177a28086db5d43e9c",
+              "variants/linux-arm64": "6a2d48cc9c22217d4a4f549d84bc919621f09b7e1710ee177a28086db5d43e9c"
             },
             "icon": "assets/icon.png",
             "main": {},
@@ -45,7 +45,7 @@
               }
             ],
             "type": "ui_qml",
-            "version": "0.1.9",
+            "version": "0.1.10",
             "view": "qml/Main.qml"
           }
         }
@@ -55,12 +55,12 @@
       "name": "ai_gateway_core",
       "versions": [
         {
-          "releasedAt": "2026-11-25T06:49:36Z",
-          "publisherRef": "ai_gateway_core-v0.1.6",
+          "releasedAt": "2026-11-25T07:31:36Z",
+          "publisherRef": "ai_gateway_core-v0.1.8",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-ai_gateway_core-module.lgx",
-          "size": 12668884,
-          "sha256": "9991204c63f11764573eb499ebddbf4928381701e078a44f2cf165545e081db4",
-          "rootHash": "cfb66473d964dde6b586fe10c0ea263c9fdf5d07b45705b8d0b1d8ad3042d0c3",
+          "size": 12683891,
+          "sha256": "a3b801ccde836b6a7779e782dd31d963a736f2b82c8be8388b11ce47e3b04b21",
+          "rootHash": "e8aa09ee7858907cb6ed9d7d78b04b0029595f011828691716983e0906268421",
           "manifest": {
             "author": "",
             "category": "productivity",
@@ -68,12 +68,12 @@
             "description": "AI Gateway core: one OpenAI-compatible way in to AI for every Logos app. Connectors to local runtimes (Ollama, llama.cpp, LM Studio) and private or decentralised providers (Venice, NEAR AI, Nillion nilAI, Morpheus, AkashML, any OpenAI-compatible endpoint), routing that never goes below the privacy a caller asks for, streaming jobs, per-app usage, keys in a private file, and an optional local OpenAI endpoint on 127.0.0.1.",
             "display_name": "AI Gateway (core)",
             "hashes": {
-              "assets": "aa52317fe0b842d2c55a443068db63922af4de6826b41eb1cd0877a1e9a61f6d",
-              "root": "cfb66473d964dde6b586fe10c0ea263c9fdf5d07b45705b8d0b1d8ad3042d0c3",
-              "variants": "f1b87a72accf526351b68b1b9927c712fecb9d7d8f78300894ab058ce242167a",
-              "variants/darwin-arm64": "d746bb8fcf0231e05b9699f55e83891b9d30baf7e89beca68c1c0ee34de51707",
-              "variants/linux-amd64": "c91a584581a1cddee5e08a7731c26c13c8fbb48e1c0c6b1dc3b5ede86cfffec9",
-              "variants/linux-arm64": "d9ec08a935483f0c4fdf20cf525ebb14282312731382b4a75b9bf487f030b0cf"
+              "assets": "96ab10fd143e33e2554e7202f983f232cea8bf6bcbc3c78101bf5ec107bf511e",
+              "root": "e8aa09ee7858907cb6ed9d7d78b04b0029595f011828691716983e0906268421",
+              "variants": "26b9eed35cda026c29cf4370b7bc99c167f24e3dff2cb2e71deba2581f636394",
+              "variants/darwin-arm64": "913a25d4436c995fffdf631ee8ad67bb6f2655fd976d531edc777d3244157131",
+              "variants/linux-amd64": "3a559936a4b176c17a8327b44cbbdbadc20179309aee2344fa7c9e996c201e25",
+              "variants/linux-arm64": "4c88a03b380a6465329ce3ba9a56233f1e60bcbee268cb76189413ae54a2bbdf"
             },
             "icon": "",
             "main": {
@@ -84,7 +84,7 @@
             "manifestVersion": "0.6.0",
             "name": "ai_gateway_core",
             "type": "core",
-            "version": "0.1.6"
+            "version": "0.1.8"
           }
         }
       ]
