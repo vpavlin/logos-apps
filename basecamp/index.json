@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-25T19:14:49Z",
+  "generatedAt": "2026-11-26T08:10:02Z",
   "packages": [
     {
       "name": "ai_gateway",
@@ -387,12 +387,12 @@
       "name": "fileverse_ui",
       "versions": [
         {
-          "releasedAt": "2026-11-25T16:48:27Z",
-          "publisherRef": "fileverse_ui-v0.22.0",
+          "releasedAt": "2026-11-26T08:10:02Z",
+          "publisherRef": "fileverse_ui-v0.22.1",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-fileverse_ui-module.lgx",
-          "size": 197216,
-          "sha256": "7857becab083d119505c6dad2ca357f2d64e0545a7dc814f2c7ccfab1cda4482",
-          "rootHash": "b3d282b5987dcc4bf498ff1fe344ea2e89d2873fb4a4db6686f6427143819f94",
+          "size": 197299,
+          "sha256": "7af1552b842a963a96613922feccc7ec294ffe1f04c8d3f2bc5f610f623ca236",
+          "rootHash": "766a4f4acb9eae670cf46c603defe9ca4c8f670566481686782cfa71a206db99",
           "manifest": {
             "author": "vpavlin",
             "category": "productivity",
@@ -406,18 +406,18 @@
             "display_name": "Fileverse",
             "hashes": {
               "assets": "4b1eb7cbd7fac8797ce98475ef0f887cb778a142e75bc77053c70c82f45277e3",
-              "root": "b3d282b5987dcc4bf498ff1fe344ea2e89d2873fb4a4db6686f6427143819f94",
-              "variants": "7ed8b3180aacfab91a53279ac53c8768e875f6c0f7ce65fdb050d09fc15322d5",
-              "variants/darwin-arm64": "178cfb48da981d2de5d8943b4f7d3c020a3fc277c74d1e2968b1adb5b3bc72d8",
-              "variants/linux-amd64": "178cfb48da981d2de5d8943b4f7d3c020a3fc277c74d1e2968b1adb5b3bc72d8",
-              "variants/linux-arm64": "178cfb48da981d2de5d8943b4f7d3c020a3fc277c74d1e2968b1adb5b3bc72d8"
+              "root": "766a4f4acb9eae670cf46c603defe9ca4c8f670566481686782cfa71a206db99",
+              "variants": "810978fde7e4d9e9469e98e812b23425cd30da9ef5ada71235671abc8375aa6d",
+              "variants/darwin-arm64": "bb65fceba109399d7fdab11341ed276cdb7f8637c19a4387c8f06d26397fa75b",
+              "variants/linux-amd64": "bb65fceba109399d7fdab11341ed276cdb7f8637c19a4387c8f06d26397fa75b",
+              "variants/linux-arm64": "bb65fceba109399d7fdab11341ed276cdb7f8637c19a4387c8f06d26397fa75b"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "fileverse_ui",
             "type": "ui_qml",
-            "version": "0.22.0",
+            "version": "0.22.1",
             "view": "Main.qml"
           }
         }
