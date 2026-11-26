@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "repositoryName": "logos-apps",
-  "generatedAt": "2026-11-26T08:10:02Z",
+  "generatedAt": "2026-11-26T10:35:56Z",
   "packages": [
     {
       "name": "ai_gateway",
@@ -128,12 +128,12 @@
       "name": "bubble",
       "versions": [
         {
-          "releasedAt": "2026-11-25T19:14:49Z",
-          "publisherRef": "bubble-v0.3.8",
+          "releasedAt": "2026-11-26T10:35:56Z",
+          "publisherRef": "bubble-v0.4.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble-module.lgx",
-          "size": 34168,
-          "sha256": "3314e8c6d57859ac3124c4cac2a055601188f8c4a5d06ba86e9524df798c90d4",
-          "rootHash": "3d44c919b017b02909e55eab5890dec19dcadfe70f04642ffcaa5ad52a78ba06",
+          "size": 43420,
+          "sha256": "f4c08cadb80bc19e6c4017b04084d73b52f49e84340533cb243af6c996200b5d",
+          "rootHash": "e05f3ad46f471a944a57eacdb302269bdf89b478e98463f79614b933c9ad8cb1",
           "manifest": {
             "author": "",
             "category": "games",
@@ -145,19 +145,19 @@
             "description": "Grow from a small bubble by eating smaller ones; digest with proof of work; reach the goal to claim an RLN membership for Logos Messaging",
             "display_name": "Bubble",
             "hashes": {
-              "assets": "01cdfbc13709f587898724ab33ec3134a4be07431b730d40efdf303de79546da",
-              "root": "3d44c919b017b02909e55eab5890dec19dcadfe70f04642ffcaa5ad52a78ba06",
-              "variants": "c2ebaa60b3bfa8e024a1e1a30274b74f08651aad214ea3a17f404aaf98306744",
-              "variants/darwin-arm64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3",
-              "variants/linux-amd64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3",
-              "variants/linux-arm64": "5f81be8cf044302c4cfb91540c3365ac5aeac8aa0d5352cb2d5c860a62f974b3"
+              "assets": "13f60404ba97e69ec6dc9c783e930a92a0651bf06bbd7f2f22e486a8e732a1d5",
+              "root": "e05f3ad46f471a944a57eacdb302269bdf89b478e98463f79614b933c9ad8cb1",
+              "variants": "d7e7d9464a239ac37e2ed28cb4bdf272e15fe55bfdb4593cf62a51233a919111",
+              "variants/darwin-arm64": "e5b9c252472d0613579a2edc68e0b34ab60a9b0c3c002e613ee94aa25ca0acdf",
+              "variants/linux-amd64": "e5b9c252472d0613579a2edc68e0b34ab60a9b0c3c002e613ee94aa25ca0acdf",
+              "variants/linux-arm64": "e5b9c252472d0613579a2edc68e0b34ab60a9b0c3c002e613ee94aa25ca0acdf"
             },
             "icon": "assets/icon.png",
             "main": {},
             "manifestVersion": "0.6.0",
             "name": "bubble",
             "type": "ui_qml",
-            "version": "0.3.8",
+            "version": "0.4.3",
             "view": "qml/Main.qml"
           }
         }
@@ -167,28 +167,29 @@
       "name": "bubble_core",
       "versions": [
         {
-          "releasedAt": "2026-11-25T19:14:49Z",
-          "publisherRef": "bubble_core-v0.3.8",
+          "releasedAt": "2026-11-26T10:35:56Z",
+          "publisherRef": "bubble_core-v0.4.3",
           "url": "https://raw.githubusercontent.com/vpavlin/logos-apps/refs/heads/main/basecamp/logos-bubble_core-module.lgx",
-          "size": 25798566,
-          "sha256": "dfca4b4f42a38a0d88b11b5723831adfb1aeef45e92bc17e93242b5d79a0a7c2",
-          "rootHash": "f0846f92f327505b00024cde258888d0d8894a4895c80a1d6235552b550a2b15",
+          "size": 26218209,
+          "sha256": "37ad5908f1b3a587695770c8e95c13651cde6938f335f40ed99ee998c6348525",
+          "rootHash": "96ef2f336a01f03022f89bda70203756bd60292302d1e4a2989d25ce4173ad58",
           "manifest": {
             "author": "",
             "category": "games",
             "dependencies": [
               "liblogos_lez_rln_module",
-              "liblogos_rln_module"
+              "liblogos_rln_module",
+              "delivery_module"
             ],
-            "description": "Grow your bubble, digest with proof of work, and claim an RLN membership: the game itself (rules, loop, record), the digestion workers and the check of a finished game",
+            "description": "Grow your bubble, digest with proof of work, claim an RLN membership, then play endless games for a leaderboard posted on Logos Delivery: the game itself (rules, loop, record), the digestion workers, the check of a finished game and the score checks",
             "display_name": "Bubble Core",
             "hashes": {
-              "assets": "0e64a09dcd8b2d0a2cb85015970c95255b1e910e8500d09aee16bab313f28eb9",
-              "root": "f0846f92f327505b00024cde258888d0d8894a4895c80a1d6235552b550a2b15",
-              "variants": "8ccf928a9a063c08b6299bb03da07fd0c36c183751ebf34645d2c47a387ba23a",
-              "variants/darwin-arm64": "8396fcb6f6dbb5243cfd4de8c7a6164ca3f11f27deca416d6b51696c5aea6327",
-              "variants/linux-amd64": "6fb5e7dcbd8aae15bdea43461c8e08a7f394582bd6274862a03e75d5f5a729ba",
-              "variants/linux-arm64": "ff7aef6d140bd5e69024932e11028e91c1eaf0d8d1a5186af6f7299ae453d08d"
+              "assets": "7bd7f78fd710ed69dc232d373eb475f771db668c52b19be27d0b6fd9c8404fa8",
+              "root": "96ef2f336a01f03022f89bda70203756bd60292302d1e4a2989d25ce4173ad58",
+              "variants": "2c08c8984eea2b354e04665630d68e277d483489cf39a7d8dbe65d30e8178184",
+              "variants/darwin-arm64": "d34c69398ae362213f9e6ad3ee4552effeda8f5ce93459aa18feba8637253096",
+              "variants/linux-amd64": "b9922a744aeeaa8bb59d401f6d0594e245e20b5d5c383568c108b751c4d7953b",
+              "variants/linux-arm64": "3b10d1bd530dfaa60df31eae6e9cb9dee75e638bb75fb9257bfba4edc602dbce"
             },
             "icon": "assets/icon.png",
             "main": {
@@ -199,7 +200,7 @@
             "manifestVersion": "0.6.0",
             "name": "bubble_core",
             "type": "core",
-            "version": "0.3.8"
+            "version": "0.4.3"
           }
         }
       ]
